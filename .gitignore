@@ -56,12 +56,12 @@ coverage.xml
 *.pot
 
 # Environments
- sdmx
- .idea
+sdmx
+.idea
 
 
 # Documentation
 /docs/_build/
 
-# Sistema de información completo
-/iecasdmx/sistema_informacion/
+
+
