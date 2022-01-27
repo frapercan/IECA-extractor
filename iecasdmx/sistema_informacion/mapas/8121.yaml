@@ -1,0 +1,69 @@
+jerarquias:
+  - D_TERRITORIO_0_d21_j81:
+      id:
+        - '21'
+        - '2240'
+        - '3143'
+        - '2352'
+        - '2402'
+        - '2482'
+        - '2713'
+        - '2797'
+        - '2911'
+        - '3023'
+        - '3142'
+        - '3144'
+      label:
+        - () España/Andalucía/Provincias Andalucía
+        - (108) España :
+        - (C01) Andalucía
+        - (04) Almería
+        - (11) Cádiz
+        - (14) Córdoba
+        - (18) Granada
+        - (21) Huelva
+        - (23) Jaén
+        - (29) Málaga
+        - (41) Sevilla
+        - (C01NC) Provincia sin especificar
+  - D_ECOICOP_0_d2548_j4313:
+      id:
+        - '2548'
+        - '215474'
+        - '215340'
+        - '215347'
+        - '215353'
+        - '215372'
+        - '215387'
+        - '215396'
+        - '215411'
+        - '215416'
+        - '215437'
+        - '215448'
+        - '215454'
+        - '215473'
+      label:
+        - () ECOICOP (2dígitos)
+        - (00) Índice general
+        - (01) Grupo 1. Alimentos y bebidas no alcohólicas
+        - (02) Grupo 2. Bebidas alcohólicas y tabaco
+        - (03) Grupo 3. Vestido y calzado
+        - (04) Grupo 4. Viviendas, agua, electricidad gas y otros combustibles
+        - (05) Grupo 5. Muebles, artículos del hogar y artículos para el mantenimiento
+          corriente del hogar
+        - (06) Grupo 6. Sanidad
+        - (07) Grupo 7. Transporte
+        - (08) Grupo 8. Comunicaciones
+        - (09) Grupo 9. Ocio y cultura
+        - (10) Grupo 10. Enseñanza
+        - (11) Grupo 11. Restaurantes y hoteles
+        - (12) Grupo 12. Otros bienes y servicios
+medidas:
+  - des: Índice
+    id: 36388
+  - des: Variación mensual
+    id: 36389
+  - des: Variación en lo que va de año
+    id: 36391
+  - des: Variación anual
+    id: 36390

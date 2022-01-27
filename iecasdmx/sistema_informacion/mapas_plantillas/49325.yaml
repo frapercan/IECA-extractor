@@ -1,0 +1,2393 @@
+jerarquias:
+- D_TERRITORIO_0_d21_j286:
+    id:
+    - '21'
+    - '2240'
+    - '3143'
+    - '3160'
+    - '3165'
+    - '3170'
+    - '3179'
+    - '3184'
+    - '3205'
+    - '3242'
+    - '3259'
+    - '3272'
+    - '3281'
+    - '3298'
+    - '3303'
+    - '3308'
+    - '3313'
+    - '3326'
+    - '3331'
+    - '3340'
+    - '3341'
+    - '2352'
+    - '2402'
+    - '2482'
+    - '2713'
+    - '2797'
+    - '2911'
+    - '3023'
+    - '3142'
+    - '3144'
+    - '2241'
+    - '2242'
+    - '2243'
+    - '2244'
+    - '2245'
+    - '2246'
+    - '2247'
+    - '2248'
+    - '2249'
+    - '2250'
+    - '2251'
+    - '2252'
+    - '2253'
+    - '2254'
+    - '2255'
+    - '2256'
+    - '2257'
+    - '2258'
+    - '2259'
+    - '9563'
+    - '2260'
+    - '2261'
+    - '2262'
+    - '2263'
+    - '2264'
+    - '2265'
+    - '2266'
+    - '2267'
+    - '2268'
+    - '2269'
+    - '2270'
+    - '2271'
+    - '2272'
+    - '2273'
+    - '2274'
+    - '2276'
+    - '2275'
+    - '2277'
+    - '2278'
+    - '2279'
+    - '2281'
+    - '2282'
+    - '2283'
+    - '2284'
+    - '2285'
+    - '2286'
+    - '2287'
+    - '2288'
+    - '2289'
+    - '2290'
+    - '2291'
+    - '2292'
+    - '2293'
+    - '2294'
+    - '2295'
+    - '2296'
+    - '2297'
+    - '2298'
+    - '2299'
+    - '2300'
+    - '2301'
+    - '2302'
+    - '2303'
+    - '2304'
+    - '2280'
+    - '2305'
+    - '2306'
+    - '2307'
+    - '2308'
+    - '2309'
+    - '2310'
+    - '2311'
+    - '2312'
+    - '2313'
+    - '2314'
+    - '2315'
+    - '2316'
+    - '2317'
+    - '2318'
+    - '2319'
+    - '2320'
+    - '2321'
+    - '2322'
+    - '2323'
+    - '2324'
+    - '2325'
+    - '2326'
+    - '2327'
+    - '2328'
+    - '2329'
+    - '2330'
+    - '2331'
+    - '2332'
+    - '2333'
+    - '2334'
+    - '2335'
+    - '2336'
+    - '2337'
+    - '2338'
+    - '2339'
+    - '2340'
+    - '2341'
+    - '2342'
+    - '2343'
+    - '2344'
+    - '2345'
+    - '2346'
+    - '2347'
+    - '2348'
+    - '2349'
+    - '2353'
+    - '2354'
+    - '2355'
+    - '2356'
+    - '2357'
+    - '2358'
+    - '2359'
+    - '2360'
+    - '2361'
+    - '2362'
+    - '2363'
+    - '2364'
+    - '2365'
+    - '2366'
+    - '2367'
+    - '2368'
+    - '2369'
+    - '2370'
+    - '2371'
+    - '2372'
+    - '2373'
+    - '2374'
+    - '2375'
+    - '2376'
+    - '2397'
+    - '2396'
+    - '2377'
+    - '2378'
+    - '2379'
+    - '2380'
+    - '2381'
+    - '2382'
+    - '2383'
+    - '2384'
+    - '280346'
+    - '2386'
+    - '2385'
+    - '2387'
+    - '2388'
+    - '2389'
+    - '2390'
+    - '2391'
+    - '2392'
+    - '2393'
+    - '2394'
+    - '2395'
+    - '2398'
+    - '2399'
+    - '2403'
+    - '2404'
+    - '2405'
+    - '2406'
+    - '2407'
+    - '2408'
+    - '2409'
+    - '2410'
+    - '2411'
+    - '2412'
+    - '2413'
+    - '2414'
+    - '2415'
+    - '2416'
+    - '2417'
+    - '2419'
+    - '2420'
+    - '2421'
+    - '2422'
+    - '2423'
+    - '2424'
+    - '2425'
+    - '2426'
+    - '2427'
+    - '2428'
+    - '2429'
+    - '280347'
+    - '2430'
+    - '2431'
+    - '2432'
+    - '2433'
+    - '2434'
+    - '2435'
+    - '280348'
+    - '2436'
+    - '2437'
+    - '2438'
+    - '2439'
+    - '2440'
+    - '2441'
+    - '2442'
+    - '2443'
+    - '2444'
+    - '2445'
+    - '2446'
+    - '2447'
+    - '2448'
+    - '2449'
+    - '2450'
+    - '2451'
+    - '2452'
+    - '2453'
+    - '2454'
+    - '2455'
+    - '2456'
+    - '2457'
+    - '2458'
+    - '2459'
+    - '2460'
+    - '2461'
+    - '2462'
+    - '2463'
+    - '2464'
+    - '2465'
+    - '2466'
+    - '2467'
+    - '2468'
+    - '2469'
+    - '2470'
+    - '2471'
+    - '2472'
+    - '2473'
+    - '2474'
+    - '2475'
+    - '2476'
+    - '2477'
+    - '2478'
+    - '2418'
+    - '2479'
+    - '2483'
+    - '2484'
+    - '2485'
+    - '2486'
+    - '2487'
+    - '2488'
+    - '2489'
+    - '2491'
+    - '2490'
+    - '2492'
+    - '2493'
+    - '2494'
+    - '2495'
+    - '2496'
+    - '2497'
+    - '2498'
+    - '2499'
+    - '2500'
+    - '2501'
+    - '2502'
+    - '2503'
+    - '2504'
+    - '2505'
+    - '2507'
+    - '2508'
+    - '2509'
+    - '2510'
+    - '2511'
+    - '2506'
+    - '2512'
+    - '2513'
+    - '2514'
+    - '2515'
+    - '2516'
+    - '2517'
+    - '2518'
+    - '2519'
+    - '2520'
+    - '2521'
+    - '2522'
+    - '2523'
+    - '2524'
+    - '2525'
+    - '2526'
+    - '2527'
+    - '2528'
+    - '2529'
+    - '2530'
+    - '2531'
+    - '2532'
+    - '2533'
+    - '2534'
+    - '2535'
+    - '2536'
+    - '2537'
+    - '2538'
+    - '2539'
+    - '2540'
+    - '2541'
+    - '2542'
+    - '2543'
+    - '2544'
+    - '2545'
+    - '2546'
+    - '2548'
+    - '2547'
+    - '2549'
+    - '2550'
+    - '2553'
+    - '2554'
+    - '2555'
+    - '2556'
+    - '9565'
+    - '2557'
+    - '2558'
+    - '2559'
+    - '2560'
+    - '2561'
+    - '2562'
+    - '2563'
+    - '2564'
+    - '280349'
+    - '2565'
+    - '2566'
+    - '2567'
+    - '2568'
+    - '2569'
+    - '2570'
+    - '2571'
+    - '2572'
+    - '2573'
+    - '2574'
+    - '2575'
+    - '2576'
+    - '2580'
+    - '2581'
+    - '2582'
+    - '2577'
+    - '2578'
+    - '2579'
+    - '2583'
+    - '2584'
+    - '2585'
+    - '2586'
+    - '2587'
+    - '2588'
+    - '2589'
+    - '2590'
+    - '2591'
+    - '2592'
+    - '2593'
+    - '2594'
+    - '2595'
+    - '2614'
+    - '2615'
+    - '9564'
+    - '2596'
+    - '2597'
+    - '2598'
+    - '2599'
+    - '2600'
+    - '2602'
+    - '2601'
+    - '2603'
+    - '2604'
+    - '2605'
+    - '2606'
+    - '2607'
+    - '2608'
+    - '2609'
+    - '2610'
+    - '2611'
+    - '2612'
+    - '2613'
+    - '2616'
+    - '2617'
+    - '2618'
+    - '2619'
+    - '2620'
+    - '2621'
+    - '2622'
+    - '2623'
+    - '2624'
+    - '2625'
+    - '2626'
+    - '2627'
+    - '2628'
+    - '2629'
+    - '2630'
+    - '2631'
+    - '2632'
+    - '2633'
+    - '2634'
+    - '2635'
+    - '2636'
+    - '2637'
+    - '2638'
+    - '2639'
+    - '2640'
+    - '2641'
+    - '2642'
+    - '2643'
+    - '2644'
+    - '2645'
+    - '2646'
+    - '2648'
+    - '2649'
+    - '2650'
+    - '2651'
+    - '2652'
+    - '2653'
+    - '2654'
+    - '2655'
+    - '2656'
+    - '2657'
+    - '2658'
+    - '2659'
+    - '2660'
+    - '2661'
+    - '2662'
+    - '2663'
+    - '2664'
+    - '2665'
+    - '2666'
+    - '2667'
+    - '280350'
+    - '2668'
+    - '2669'
+    - '2670'
+    - '2671'
+    - '2672'
+    - '2673'
+    - '2674'
+    - '2675'
+    - '2676'
+    - '2677'
+    - '2678'
+    - '2679'
+    - '2680'
+    - '2681'
+    - '2682'
+    - '2683'
+    - '2684'
+    - '2685'
+    - '2686'
+    - '2687'
+    - '2688'
+    - '2690'
+    - '2689'
+    - '2691'
+    - '2692'
+    - '2693'
+    - '2694'
+    - '2695'
+    - '2696'
+    - '2697'
+    - '2698'
+    - '2699'
+    - '2700'
+    - '2701'
+    - '2702'
+    - '2703'
+    - '2704'
+    - '2705'
+    - '2706'
+    - '2707'
+    - '2708'
+    - '2709'
+    - '2647'
+    - '2551'
+    - '2552'
+    - '2710'
+    - '2714'
+    - '2715'
+    - '2716'
+    - '2717'
+    - '2718'
+    - '2719'
+    - '2720'
+    - '2721'
+    - '2722'
+    - '2723'
+    - '2724'
+    - '2725'
+    - '2726'
+    - '2727'
+    - '2728'
+    - '2729'
+    - '2730'
+    - '2731'
+    - '2732'
+    - '2733'
+    - '2734'
+    - '2736'
+    - '2737'
+    - '2738'
+    - '2739'
+    - '2740'
+    - '2741'
+    - '2742'
+    - '2743'
+    - '2744'
+    - '2745'
+    - '2746'
+    - '2747'
+    - '2748'
+    - '2749'
+    - '2750'
+    - '2751'
+    - '2752'
+    - '2753'
+    - '2754'
+    - '2755'
+    - '2756'
+    - '2757'
+    - '2758'
+    - '2759'
+    - '2760'
+    - '2761'
+    - '2762'
+    - '2763'
+    - '2764'
+    - '2765'
+    - '2766'
+    - '2767'
+    - '2768'
+    - '2769'
+    - '2770'
+    - '2771'
+    - '2772'
+    - '2773'
+    - '2775'
+    - '2774'
+    - '2735'
+    - '2776'
+    - '2777'
+    - '2778'
+    - '2779'
+    - '2780'
+    - '2781'
+    - '2782'
+    - '2783'
+    - '2784'
+    - '2785'
+    - '2786'
+    - '2787'
+    - '2788'
+    - '2789'
+    - '2790'
+    - '2791'
+    - '2792'
+    - '280351'
+    - '2793'
+    - '2794'
+    - '2798'
+    - '2799'
+    - '2800'
+    - '2801'
+    - '2802'
+    - '2803'
+    - '2804'
+    - '2805'
+    - '2806'
+    - '2807'
+    - '2808'
+    - '2809'
+    - '2810'
+    - '2811'
+    - '2812'
+    - '2813'
+    - '2814'
+    - '2815'
+    - '2816'
+    - '2817'
+    - '2818'
+    - '2819'
+    - '2820'
+    - '2821'
+    - '2822'
+    - '2823'
+    - '2824'
+    - '2825'
+    - '2826'
+    - '2827'
+    - '2828'
+    - '2829'
+    - '2830'
+    - '2831'
+    - '2832'
+    - '2833'
+    - '2834'
+    - '2835'
+    - '2836'
+    - '2837'
+    - '2838'
+    - '2839'
+    - '2840'
+    - '2841'
+    - '2842'
+    - '2843'
+    - '2844'
+    - '2845'
+    - '2846'
+    - '2847'
+    - '2848'
+    - '2849'
+    - '2850'
+    - '2851'
+    - '2852'
+    - '2853'
+    - '2854'
+    - '2855'
+    - '2856'
+    - '2857'
+    - '2858'
+    - '2859'
+    - '2860'
+    - '2861'
+    - '2862'
+    - '2863'
+    - '2864'
+    - '2865'
+    - '2866'
+    - '2867'
+    - '2868'
+    - '2869'
+    - '2870'
+    - '2871'
+    - '2872'
+    - '2873'
+    - '2874'
+    - '2875'
+    - '2876'
+    - '2877'
+    - '2878'
+    - '2879'
+    - '2880'
+    - '2881'
+    - '2882'
+    - '2883'
+    - '2884'
+    - '2885'
+    - '2888'
+    - '2889'
+    - '2890'
+    - '2891'
+    - '2892'
+    - '2893'
+    - '2894'
+    - '2895'
+    - '2896'
+    - '2897'
+    - '2898'
+    - '2899'
+    - '2900'
+    - '2901'
+    - '2902'
+    - '2903'
+    - '2904'
+    - '2905'
+    - '2906'
+    - '2907'
+    - '2886'
+    - '2887'
+    - '2908'
+    - '2912'
+    - '2913'
+    - '2914'
+    - '2915'
+    - '2916'
+    - '2917'
+    - '2918'
+    - '2919'
+    - '2920'
+    - '2921'
+    - '2922'
+    - '2923'
+    - '2924'
+    - '2925'
+    - '2926'
+    - '2927'
+    - '2928'
+    - '2929'
+    - '2930'
+    - '2931'
+    - '2932'
+    - '2933'
+    - '2934'
+    - '2935'
+    - '2936'
+    - '2937'
+    - '2938'
+    - '2939'
+    - '2940'
+    - '2941'
+    - '2942'
+    - '2943'
+    - '2944'
+    - '2945'
+    - '2946'
+    - '2947'
+    - '2948'
+    - '2949'
+    - '2950'
+    - '2951'
+    - '2952'
+    - '2953'
+    - '2954'
+    - '2955'
+    - '2956'
+    - '2957'
+    - '2958'
+    - '2959'
+    - '2960'
+    - '2961'
+    - '2962'
+    - '2963'
+    - '2964'
+    - '2965'
+    - '2966'
+    - '2967'
+    - '2968'
+    - '2969'
+    - '2970'
+    - '2971'
+    - '2972'
+    - '2973'
+    - '2974'
+    - '2975'
+    - '2976'
+    - '2977'
+    - '2978'
+    - '2979'
+    - '2980'
+    - '2981'
+    - '2982'
+    - '2983'
+    - '2984'
+    - '2985'
+    - '2986'
+    - '2987'
+    - '2988'
+    - '2989'
+    - '2990'
+    - '2991'
+    - '2992'
+    - '2994'
+    - '2993'
+    - '2995'
+    - '2996'
+    - '2997'
+    - '2998'
+    - '2999'
+    - '3000'
+    - '3001'
+    - '3002'
+    - '3003'
+    - '3004'
+    - '3005'
+    - '3006'
+    - '3007'
+    - '3008'
+    - '3009'
+    - '3010'
+    - '3011'
+    - '3012'
+    - '3013'
+    - '3014'
+    - '3015'
+    - '3016'
+    - '3017'
+    - '3018'
+    - '3019'
+    - '3020'
+    - '3024'
+    - '3025'
+    - '3026'
+    - '3028'
+    - '3027'
+    - '3029'
+    - '3030'
+    - '3031'
+    - '3032'
+    - '3033'
+    - '3034'
+    - '3035'
+    - '3036'
+    - '3037'
+    - '3038'
+    - '3039'
+    - '3040'
+    - '3041'
+    - '3042'
+    - '3043'
+    - '3044'
+    - '3045'
+    - '3046'
+    - '3047'
+    - '3048'
+    - '3049'
+    - '3050'
+    - '3051'
+    - '3052'
+    - '3053'
+    - '3054'
+    - '3055'
+    - '3056'
+    - '3057'
+    - '3058'
+    - '3059'
+    - '3060'
+    - '3061'
+    - '3062'
+    - '3063'
+    - '3064'
+    - '3065'
+    - '3066'
+    - '3067'
+    - '3068'
+    - '3069'
+    - '3070'
+    - '3071'
+    - '3072'
+    - '3073'
+    - '3074'
+    - '3075'
+    - '3076'
+    - '3077'
+    - '3080'
+    - '3081'
+    - '3082'
+    - '3083'
+    - '3084'
+    - '3085'
+    - '3086'
+    - '3087'
+    - '3088'
+    - '3089'
+    - '3090'
+    - '3091'
+    - '3092'
+    - '3093'
+    - '3094'
+    - '3095'
+    - '3096'
+    - '280352'
+    - '3097'
+    - '3098'
+    - '3099'
+    - '3100'
+    - '3101'
+    - '3102'
+    - '3103'
+    - '3104'
+    - '3105'
+    - '3108'
+    - '3106'
+    - '3107'
+    - '3109'
+    - '3110'
+    - '3111'
+    - '3112'
+    - '3113'
+    - '3114'
+    - '3115'
+    - '3116'
+    - '3117'
+    - '3118'
+    - '3119'
+    - '3120'
+    - '3121'
+    - '3122'
+    - '3123'
+    - '3124'
+    - '3126'
+    - '3125'
+    - '3127'
+    - '3128'
+    - '3129'
+    - '3130'
+    - '3131'
+    - '3132'
+    - '3133'
+    - '3134'
+    - '3135'
+    - '3136'
+    - '3137'
+    - '3138'
+    - '3078'
+    - '3079'
+    - '3139'
+    - '3147'
+    - '3151'
+    - '3155'
+    - '3159'
+    - '3149'
+    - '3153'
+    - '3157'
+    - '3164'
+    - '3162'
+    - '3169'
+    - '3167'
+    - '3174'
+    - '3178'
+    - '3172'
+    - '3176'
+    - '3183'
+    - '3181'
+    - '3188'
+    - '3192'
+    - '3196'
+    - '3200'
+    - '3204'
+    - '3186'
+    - '3190'
+    - '3194'
+    - '3198'
+    - '3202'
+    - '3209'
+    - '3213'
+    - '3217'
+    - '3221'
+    - '3225'
+    - '3229'
+    - '3233'
+    - '3237'
+    - '3241'
+    - '3207'
+    - '3211'
+    - '3215'
+    - '3219'
+    - '3223'
+    - '3227'
+    - '3231'
+    - '3235'
+    - '3239'
+    - '3246'
+    - '3250'
+    - '3254'
+    - '3258'
+    - '3244'
+    - '3248'
+    - '3252'
+    - '3256'
+    - '3263'
+    - '3267'
+    - '3271'
+    - '3261'
+    - '3265'
+    - '3269'
+    - '3276'
+    - '3280'
+    - '3274'
+    - '3278'
+    - '3285'
+    - '3289'
+    - '3293'
+    - '3297'
+    - '3283'
+    - '3287'
+    - '3291'
+    - '3295'
+    - '3302'
+    - '3300'
+    - '3307'
+    - '3305'
+    - '3312'
+    - '3310'
+    - '3317'
+    - '3321'
+    - '3325'
+    - '3315'
+    - '3319'
+    - '3323'
+    - '3330'
+    - '3328'
+    - '3335'
+    - '3339'
+    - '3333'
+    - '3337'
+    - '3342'
+    - '3345'
+    label:
+    - () España/CCAA/Provincias España/Municipios de Andalucía
+    - (108) España
+    - (C01) Andalucía
+    - (C02) Aragón
+    - (C03) Principado de Asturias
+    - (C04) Islas Baleares/Illes Balears
+    - (C05) Canarias
+    - (C06) Cantabria
+    - (C07) Castilla-La Mancha
+    - (C08) Castilla y León
+    - (C09) Cataluña/Catalunya
+    - (C10) Comunidad Valenciana/Comunitat Valenciana
+    - (C11) Extremadura
+    - (C12) Galicia
+    - (C13) Comunidad de Madrid
+    - (C14) Región de Murcia
+    - (C15) Comunidad Foral de Navarra
+    - (C16) País Vasco/Euskadi
+    - (C17) La Rioja
+    - (C18) Ciudades Autónomas de Ceuta y Melilla
+    - (RE00) Resto de España
+    - (04) Almería
+    - (11) Cádiz
+    - (14) Córdoba
+    - (18) Granada
+    - (21) Huelva
+    - (23) Jaén
+    - (29) Málaga
+    - (41) Sevilla
+    - (C01NC) Provincia sin especificar
+    - (04001) Abla
+    - (04002) Abrucena
+    - (04003) Adra
+    - (04004) Albanchez
+    - (04005) Alboloduy
+    - (04006) Albox
+    - (04007) Alcolea
+    - (04008) Alcóntar
+    - (04009) Alcudia de Monteagud
+    - (04010) Alhabia
+    - (04011) Alhama de Almería
+    - (04012) Alicún
+    - (04013) Almería (capital)
+    - (04014) Almócita
+    - (04015) Alsodux
+    - (04016) Antas
+    - (04017) Arboleas
+    - (04018) Armuña de Almanzora
+    - (04019) Bacares
+    - (04904) Balanegra
+    - (04020) Bayárcal
+    - (04021) Bayarque
+    - (04022) Bédar
+    - (04023) Beires
+    - (04024) Benahadux
+    - (04025) Benínar
+    - (04026) Benitagla
+    - (04027) Benizalón
+    - (04028) Bentarique
+    - (04029) Berja
+    - (04030) Canjáyar
+    - (04031) Cantoria
+    - (04032) Carboneras
+    - (04033) Castro de Filabres
+    - (04034) Cóbdar
+    - (04035) Cuevas de Vera
+    - (04035) Cuevas del Almanzora
+    - (04036) Chercos
+    - (04037) Chirivel
+    - (04038) Dalías
+    - (04040) Doña María Ocaña
+    - (04041) Enix
+    - (04042) Escúllar
+    - (04043) Felix
+    - (04044) Fines
+    - (04045) Fiñana
+    - (04046) Fondón
+    - (04047) Gádor
+    - (04048) Gallardos (Los)
+    - (04049) Garrucha
+    - (04050) Gérgal
+    - (04051) Huécija
+    - (04052) Huércal de Almería
+    - (04053) Huércal-Overa
+    - (04054) Íllar
+    - (04055) Instinción
+    - (04056) Laroya
+    - (04057) Láujar de Andarax
+    - (04058) Líjar
+    - (04059) Lubrín
+    - (04060) Lucainena de las Torres
+    - (04061) Lúcar
+    - (04062) Macael
+    - (04063) María
+    - (04039) Darrical
+    - (04064) Mojácar
+    - (04065) Nacimiento
+    - (04066) Níjar
+    - (04067) Ohanes
+    - (04068) Olula de Castro
+    - (04069) Olula del Río
+    - (04070) Oria
+    - (04071) Padules
+    - (04072) Partaloa
+    - (04073) Paterna del Río
+    - (04074) Pechina
+    - (04075) Pulpí
+    - (04076) Purchena
+    - (04077) Rágol
+    - (04078) Rioja
+    - (04079) Roquetas de Mar
+    - (04080) Santa Cruz de Marchena
+    - (04081) Santa Fe de Mondújar
+    - (04082) Senés
+    - (04083) Serón
+    - (04084) Sierro
+    - (04085) Somontín
+    - (04086) Sorbas
+    - (04087) Suflí
+    - (04088) Tabernas
+    - (04089) Taberno
+    - (04090) Tahal
+    - (04091) Terque
+    - (04092) Tíjola
+    - (04093) Turre
+    - (04094) Turrillas
+    - (04095) Uleila del Campo
+    - (04096) Urrácal
+    - (04097) Velefique
+    - (04098) Vélez-Blanco
+    - (04099) Vélez-Rubio
+    - (04100) Vera
+    - (04101) Viator
+    - (04102) Vícar
+    - (04103) Zurgena
+    - (04504) Ocaña
+    - (04901) Tres Villas (Las)
+    - (04902) Ejido (El)
+    - (04903) Mojonera (La)
+    - (04NC) Municipio de Almería sin especificar
+    - (11001) Alcalá de los Gazules
+    - (11002) Alcalá del Valle
+    - (11003) Algar
+    - (11004) Algeciras
+    - (11005) Algodonales
+    - (11006) Arcos de la Frontera
+    - (11007) Barbate de Franco
+    - (11007) Barbate
+    - (11008) Barrios (Los)
+    - (11009) Benaocaz
+    - (11010) Bornos
+    - (11011) Bosque (El)
+    - (11012) Cádiz (capital)
+    - (11013) Castellar de la Frontera
+    - (11014) Conil de la Frontera
+    - (11015) Chiclana de la Frontera
+    - (11016) Chipiona
+    - (11017) Espera
+    - (11018) Gastor (El)
+    - (11019) Grazalema
+    - (11020) Jerez de la Frontera
+    - (11021) Jimena de la Frontera
+    - (11022) Línea de la Concepción (La)
+    - (11023) Medina Sidonia
+    - (11901) Benalup
+    - (11901) Benalup-Casas Viejas
+    - (11024) Olvera
+    - (11025) Paterna de Rivera
+    - (11026) Prado del Rey
+    - (11027) Puerto de Santa María (El)
+    - (11028) Puerto Real
+    - (11029) Puerto Serrano
+    - (11030) Rota
+    - (11031) San Fernando
+    - (11903) San Martín del Tesorillo
+    - (11033) San Roque
+    - (11032) Sanlúcar de Barrameda
+    - (11034) Setenil de las Bodegas
+    - (11035) Tarifa
+    - (11036) Torre Alháquime
+    - (11037) Trebujena
+    - (11038) Ubrique
+    - (11039) Vejer de la Frontera
+    - (11040) Villaluenga del Rosario
+    - (11041) Villamartín
+    - (11042) Zahara
+    - (11902) San José del Valle
+    - (11NC) Municipio de Cádiz sin especificar
+    - (14001) Adamuz
+    - (14002) Aguilar de la Frontera
+    - (14003) Alcaracejos
+    - (14004) Almedinilla
+    - (14005) Almodóvar del Río
+    - (14006) Añora
+    - (14007) Baena
+    - (14008) Belalcázar
+    - (14009) Belmez
+    - (14010) Benamejí
+    - (14011) Blázquez (Los)
+    - (14012) Bujalance
+    - (14013) Cabra
+    - (14014) Cañete de las Torres
+    - (14015) Carcabuey
+    - (14017) Carlota (La)
+    - (14018) Carpio (El)
+    - (14019) Castro del Río
+    - (14020) Conquista
+    - (14021) Córdoba (capital)
+    - (14022) Doña Mencía
+    - (14023) Dos Torres
+    - (14024) Encinas Reales
+    - (14025) Espejo
+    - (14026) Espiel
+    - (14027) Fernán-Núñez
+    - (14901) Fuente Carreteros
+    - (14028) Fuente la Lancha
+    - (14029) Fuente Obejuna
+    - (14030) Fuente Palmera
+    - (14031) Fuente-Tójar
+    - (14032) Granjuela (La)
+    - (14033) Guadalcázar
+    - (14902) Guijarrosa (La)
+    - (14034) Guijo (El)
+    - (14035) Hinojosa del Duque
+    - (14036) Hornachuelos
+    - (14037) Iznájar
+    - (14038) Lucena
+    - (14039) Luque
+    - (14040) Montalbán de Córdoba
+    - (14041) Montemayor
+    - (14042) Montilla
+    - (14043) Montoro
+    - (14044) Monturque
+    - (14045) Moriles
+    - (14046) Nueva Carteya
+    - (14047) Obejo
+    - (14048) Palenciana
+    - (14049) Palma del Río
+    - (14050) Pedro Abad
+    - (14051) Pedroche
+    - (14052) Peñarroya-Pueblonuevo
+    - (14053) Posadas
+    - (14054) Pozoblanco
+    - (14055) Priego de Córdoba
+    - (14056) Puente Genil
+    - (14057) Rambla (La)
+    - (14058) Rute
+    - (14059) San Sebastián de los Ballesteros
+    - (14060) Santaella
+    - (14061) Santa Eufemia
+    - (14062) Torrecampo
+    - (14063) Valenzuela
+    - (14064) Valsequillo
+    - (14065) Victoria (La)
+    - (14066) Villa del Río
+    - (14067) Villafranca de Córdoba
+    - (14068) Villaharta
+    - (14069) Villanueva de Córdoba
+    - (14070) Villanueva del Duque
+    - (14071) Villanueva del Rey
+    - (14072) Villaralto
+    - (14073) Villaviciosa de Córdoba
+    - (14074) Viso (El)
+    - (14075) Zuheros
+    - (14502) Pueblonuevo del Torrible
+    - (14016) Cardeña
+    - (14NC) Municipio de Córdoba sin especificar
+    - (18001) Agrón
+    - (18002) Alamedilla
+    - (18003) Albolote
+    - (18004) Albondón
+    - (18005) Albuñán
+    - (18006) Albuñol
+    - (18007) Albuñuelas
+    - (18008) Alcázar y Bargis
+    - (18008) Alcázar y Fregenite
+    - (18009) Alcudia de Guadix
+    - (18010) Aldeire
+    - (18011) Alfacar
+    - (18012) Algarinejo
+    - (18013) Alhama de Granada
+    - (18014) Alhendín
+    - (18015) Alicún de Ortega
+    - (18016) Almegíjar
+    - (18017) Almuñécar
+    - (18018) Alquife
+    - (18019) Ambroz
+    - (18020) Arenas del Rey
+    - (18021) Armilla
+    - (18022) Atarfe
+    - (18024) Beas de Granada
+    - (18025) Beas de Guadix
+    - (18026) Belicena
+    - (18027) Benalúa de Guadix
+    - (18027) Benalúa
+    - (18023) Baza
+    - (18028) Benalúa de las Villas
+    - (18029) Benamaurel
+    - (18030) Bérchules
+    - (18031) Béznar
+    - (18032) Bubión
+    - (18033) Busquístar
+    - (18034) Cacín
+    - (18035) Cádiar
+    - (18036) Cájar
+    - (18037) Calicasas
+    - (18038) Campotéjar
+    - (18039) Caniles
+    - (18040) Cáñar
+    - (18041) Caparacena
+    - (18042) Capileira
+    - (18043) Carataunas
+    - (18044) Cástaras
+    - (18045) Castilléjar
+    - (18046) Castril
+    - (18047) Cenes de la Vega
+    - (18048) Cijuela
+    - (18049) Cogollos de Guadix
+    - (18050) Cogollos de la Vega
+    - (18051) Colomera
+    - (18052) Cónchar
+    - (18053) Cortes de Baza
+    - (18054) Cortes y Graena
+    - (18055) Cozvíjar
+    - (18056) Cúllar-Baza
+    - (18056) Cúllar
+    - (18057) Cúllar Vega
+    - (18058) Charches
+    - (18059) Chauchina
+    - (18060) Cherín
+    - (18061) Chimeneas
+    - (18062) Churriana
+    - (18062) Churriana de la Vega
+    - (18063) Darro
+    - (18064) Dehesas de Guadix
+    - (18066) Deifontes
+    - (18067) Diezma
+    - (18068) Dílar
+    - (18069) Dólar
+    - (18915) Domingo Pérez de Granada
+    - (18070) Dúdar
+    - (18071) Dúrcal
+    - (18072) Escúzar
+    - (18073) Esfiliana
+    - (18074) Ferreira
+    - (18075) Ferreirola
+    - (18076) Fonelas
+    - (18077) Fornes
+    - (18077) Fornes
+    - (18078) Freila
+    - (18079) Fuente Vaqueros
+    - (18080) Gabia la Chica
+    - (18081) Gabia la Grande
+    - (18082) Galera
+    - (18083) Gobernador
+    - (18084) Gójar
+    - (18085) Gor
+    - (18086) Gorafe
+    - (18087) Granada (capital)
+    - (18088) Guadahortuna
+    - (18089) Guadix
+    - (18093) Gualchos
+    - (18094) Güéjar Sierra
+    - (18095) Güevéjar
+    - (18090) Guájar Alto
+    - (18091) Guájar Faragüit
+    - (18092) Guájar Fondón
+    - (18096) Huélago
+    - (18097) Huéneja
+    - (18098) Huéscar
+    - (18099) Huétor de Santillán
+    - (18100) Huétor Tájar
+    - (18101) Huétor Vega
+    - (18102) Íllora
+    - (18103) Ítrabo
+    - (18104) Izbor
+    - (18105) Iznalloz
+    - (18106) Játar
+    - (18107) Jayena
+    - (18108) Jérez del Marquesado
+    - (18126) Malá (La)
+    - (18126) Malahá (La)
+    - (18106) Játar
+    - (18109) Jete
+    - (18110) Jorairátar
+    - (18111) Jun
+    - (18112) Juviles
+    - (18113) Laborcillas
+    - (18114) Calahora (La)
+    - (18114) Calahorra (La)
+    - (18115) Láchar
+    - (18116) Lanjarón
+    - (18117) Lanteira
+    - (18118) Laroles
+    - (18119) Lecrín
+    - (18120) Lentegí
+    - (18121) Lobras
+    - (18122) Loja
+    - (18123) Lugros
+    - (18124) Lújar
+    - (18125) Mairena
+    - (18127) Maracena
+    - (18128) Marchal
+    - (18129) Mecina-Bombarón
+    - (18130) Mecina-Fondales
+    - (18131) Melegís
+    - (18132) Moclín
+    - (18133) Molvízar
+    - (18134) Monachil
+    - (18135) Montefrío
+    - (18136) Montejícar
+    - (18137) Montillana
+    - (18138) Moraleda de Zafayona
+    - (18139) Moreda
+    - (18140) Motril
+    - (18141) Murtas
+    - (18142) Narila
+    - (18143) Nigüelas
+    - (18144) Nívar
+    - (18145) Ogíjares
+    - (18146) Orce
+    - (18147) Órgiva
+    - (18148) Otívar
+    - (18149) Villa de Otura
+    - (18150) Padul
+    - (18151) Pampaneira
+    - (18152) Pedro Martínez
+    - (18153) Peligros
+    - (18154) Peza (La)
+    - (18155) Picena
+    - (18156) Pinos del Valle
+    - (18157) Pinos Genil
+    - (18159) Píñar
+    - (18160) Pitres
+    - (18161) Polícar
+    - (18162) Polopos
+    - (18163) Pórtugos
+    - (18164) Puebla de Don Fadrique
+    - (18165) Pulianas
+    - (18166) Purchil
+    - (18167) Purullena
+    - (18168) Quéntar
+    - (18169) Restábal
+    - (18170) Rubite
+    - (18171) Salar
+    - (18172) Saleres
+    - (18173) Salobreña
+    - (18174) Santa Cruz del Comercio
+    - (18175) Santa Fe
+    - (18176) Soportújar
+    - (18177) Sorvilán
+    - (18178) Torre-Cardela
+    - (18916) Torrenueva Costa
+    - (18179) Torvizcón
+    - (18180) Trevélez
+    - (18181) Turón
+    - (18182) Ugíjar
+    - (18183) Válor
+    - (18184) Vélez de Benaudalla
+    - (18185) Ventas de Huelma
+    - (18186) Ventas de Zafarraya
+    - (18187) Villanueva de las Torres
+    - (18188) Villanueva Mesía
+    - (18189) Víznar
+    - (18190) Yátor
+    - (18191) Yegen
+    - (18192) Zafarraya
+    - (18193) Zubia (La)
+    - (18194) Zújar
+    - (18500) Acequias
+    - (18502) Bayacas
+    - (18504) Cojáyar
+    - (18505) Chite y Talará
+    - (18506) Fregenite
+    - (18508) Mecina-Tedel
+    - (18507) Mecina-Alfahar
+    - (18509) Mondújar
+    - (18510) Murchas
+    - (18511) Nechite
+    - (18512) Pulianillas
+    - (18513) Trujillos
+    - (18901) Taha (La)
+    - (18902) Valle (El)
+    - (18903) Nevada
+    - (18904) Alpujarra de la Sierra
+    - (18905) Gabias (Las)
+    - (18906) Guájares (Los)
+    - (18907) Valle del Zalabí
+    - (18908) Villamena
+    - (18909) Morelábor
+    - (18910) Pinar (El)
+    - (18911) Vegas del Genil
+    - (18912) Cuevas del Campo
+    - (18913) Zagra
+    - (18914) Valderrubio
+    - (18158) Pinos Puente
+    - (18065) Dehesas Viejas
+    - (18065) Dehesas Viejas
+    - (18NC) Municipio de Granada sin especificar
+    - (21001) Alájar
+    - (21002) Aljaraque
+    - (21003) Almendro (El)
+    - (21004) Almonaster la Real
+    - (21005) Almonte
+    - (21006) Alosno
+    - (21007) Aracena
+    - (21008) Aroche
+    - (21009) Arroyomolinos de León
+    - (21010) Ayamonte
+    - (21011) Beas
+    - (21012) Berrocal
+    - (21013) Bollullos Par del Condado
+    - (21014) Bonares
+    - (21015) Cabezas Rubias
+    - (21016) Cala
+    - (21017) Calañas
+    - (21018) Campillo (El)
+    - (21019) Campofrío
+    - (21020) Cañaveral de León
+    - (21021) Cartaya
+    - (21023) Cerro de Andévalo (El)
+    - (21024) Corteconcepción
+    - (21025) Cortegana
+    - (21026) Cortelazor
+    - (21027) Cumbres de Enmedio
+    - (21028) Cumbres de San Bartolomé
+    - (21029) Cumbres Mayores
+    - (21030) Chucena
+    - (21031) Encinasola
+    - (21032) Escacena del Campo
+    - (21033) Fuenteheridos
+    - (21034) Galaroza
+    - (21035) Gibraleón
+    - (21036) Granada de Río-Tinto (La)
+    - (21037) Granado (El)
+    - (21038) Higuera de la Sierra
+    - (21039) Hinojales
+    - (21040) Hinojos
+    - (21041) Huelva (capital)
+    - (21042) Isla Cristina
+    - (21043) Jabugo
+    - (21044) Lepe
+    - (21045) Linares de la Sierra
+    - (21046) Lucena del Puerto
+    - (21047) Manzanilla
+    - (21048) Marines (Los)
+    - (21049) Minas de Riotinto
+    - (21050) Moguer
+    - (21051) Nava (La)
+    - (21052) Nerva
+    - (21053) Niebla
+    - (21054) Palma del Condado (La)
+    - (21055) Palos de la Frontera
+    - (21056) Paterna del Campo
+    - (21057) Paymogo
+    - (21058) Puebla de Guzmán
+    - (21059) Puerto Moral
+    - (21060) Punta Umbría
+    - (21061) Rociana
+    - (21061) Rociana del Condado
+    - (21022) Castaño del Robledo
+    - (21062) Rosal de la Frontera
+    - (21063) San Bartolomé de la Torre
+    - (21064) San Juan del Puerto
+    - (21065) Sanlúcar de Guadiana
+    - (21066) San Silvestre de Guzmán
+    - (21067) Santa Ana la Real
+    - (21068) Santa Bárbara de Casa
+    - (21069) Santa Olalla del Cala
+    - (21070) Trigueros
+    - (21071) Valdelarco
+    - (21072) Valverde del Camino
+    - (21073) Villablanca
+    - (21074) Villalba del Alcor
+    - (21075) Villanueva de las Cruces
+    - (21076) Villanueva de los Castillejos
+    - (21077) Villarrasa
+    - (21078) Zalamea la Real
+    - (21902) Zarza-Perrunal (La)
+    - (21079) Zufre
+    - (21NC) Municipio de Huelva sin especificar
+    - (23001) Albanchez de Úbeda
+    - (23001) Albanchez de Mágina
+    - (23002) Alcalá la Real
+    - (23003) Alcaudete
+    - (23004) Aldeaquemada
+    - (23005) Andújar
+    - (23006) Arjona
+    - (23007) Arjonilla
+    - (23008) Arquillos
+    - (23009) Baeza
+    - (23010) Bailén
+    - (23011) Baños de la Encina
+    - (23012) Beas de Segura
+    - (23013) Bedmar
+    - (23014) Begíjar
+    - (23015) Bélmez de la Moraleda
+    - (23016) Benatae
+    - (23017) Cabra del Santo Cristo
+    - (23018) Cambil
+    - (23019) Campillo de Arenas
+    - (23020) Canena
+    - (23021) Carboneros
+    - (23022) Cárchel
+    - (23023) Carchelejo
+    - (23024) Carolina (La)
+    - (23025) Castellar de Santisteban
+    - (23025) Castellar
+    - (23026) Castillo de Locubín
+    - (23027) Cazalilla
+    - (23028) Cazorla
+    - (23029) Chiclana de Segura
+    - (23030) Chilluévar
+    - (23031) Escañuela
+    - (23032) Espeluy
+    - (23033) Frailes
+    - (23034) Fuensanta de Martos
+    - (23035) Fuerte del Rey
+    - (23036) Garciéz
+    - (23037) Génave
+    - (23038) Guardia de Jaén (La)
+    - (23039) Guarromán
+    - (23040) Higuera de Arjona
+    - (23040) Lahiguera
+    - (23041) Higuera de Calatrava
+    - (23042) Hinojares
+    - (23043) Hornos
+    - (23044) Huelma
+    - (23045) Huesa
+    - (23046) Ibros
+    - (23047) Iruela (La)
+    - (23048) Iznatoraf
+    - (23049) Jabalquinto
+    - (23050) Jaén (capital)
+    - (23051) Jamilena
+    - (23052) Jimena
+    - (23053) Jódar
+    - (23054) Larva
+    - (23055) Linares
+    - (23056) Lopera
+    - (23057) Lupión
+    - (23058) Mancha Real
+    - (23059) Marmolejo
+    - (23060) Martos
+    - (23061) Mengíbar
+    - (23062) Montizón
+    - (23063) Navas de San Juan
+    - (23064) Noalejo
+    - (23065) Orcera
+    - (23066) Peal de Becerro
+    - (23067) Pegalajar
+    - (23068) Pontones
+    - (23069) Porcuna
+    - (23070) Pozo Alcón
+    - (23071) Puente de Génave
+    - (23072) Puerta de Segura (La)
+    - (23073) Quesada
+    - (23074) Rus
+    - (23075) Sabiote
+    - (23076) Santa Elena
+    - (23077) Santiago de Calatrava
+    - (23078) Santiago de la Espada
+    - (23079) Santisteban del Puerto
+    - (23080) Santo Tomé
+    - (23081) Segura de la Sierra
+    - (23082) Siles
+    - (23083) Solera
+    - (23084) Sorihuela del Guadalimar
+    - (23085) Torreblascopedro
+    - (23087) Torredonjimeno
+    - (23088) Torreperogil
+    - (23089) Torrequebradilla
+    - (23090) Torres
+    - (23091) Torres de Albánchez
+    - (23092) Úbeda
+    - (23093) Valdepeñas de Jaén
+    - (23094) Vilches
+    - (23095) Villacarrillo
+    - (23096) Villanueva de la Reina
+    - (23097) Villanueva del Arzobispo
+    - (23098) Villardompardo
+    - (23099) Villares (Los)
+    - (23100) Villargordo
+    - (23101) Villarrodrigo
+    - (23901) Cárcheles
+    - (23902) Bedmar y Garcíez
+    - (23903) Villatorres
+    - (23904) Santiago-Pontones
+    - (23905) Arroyo del Ojanco
+    - (23086) Torre del Campo
+    - (23086) Torredelcampo
+    - (23NC) Municipio de Jaén sin especificar
+    - (29001) Alameda
+    - (29002) Alcaucín
+    - (29003) Alfarnate
+    - (29004) Alfarnatejo
+    - (29005) Algarrobo
+    - (29006) Algatocín
+    - (29007) Alhaurín de la Torre
+    - (29008) Alhaurín el Grande
+    - (29009) Almáchar
+    - (29010) Almargen
+    - (29011) Almogía
+    - (29012) Álora
+    - (29013) Alozaina
+    - (29014) Alpandeire
+    - (29015) Antequera
+    - (29016) Árchez
+    - (29017) Archidona
+    - (29018) Ardales
+    - (29019) Arenas
+    - (29020) Arriate
+    - (29021) Atajate
+    - (29022) Benadalid
+    - (29023) Benahavís
+    - (29024) Benalauría
+    - (29025) Benalmádena
+    - (29026) Benamargosa
+    - (29027) Benamocarra
+    - (29028) Benaoján
+    - (29029) Benarrabá
+    - (29030) Borge (El)
+    - (29031) Burgo (El)
+    - (29032) Campillos
+    - (29033) Canillas de Aceituno
+    - (29034) Canillas de Albaida
+    - (29035) Cañete la Real
+    - (29036) Carratraca
+    - (29037) Cartajima
+    - (29038) Cártama
+    - (29039) Casabermeja
+    - (29040) Casarabonela
+    - (29041) Casares
+    - (29042) Coín
+    - (29043) Colmenar
+    - (29044) Comares
+    - (29045) Cómpeta
+    - (29046) Cortes de la Frontera
+    - (29047) Cuevas Bajas
+    - (29048) Cuevas del Becerro
+    - (29049) Cuevas de San Marcos
+    - (29050) Cútar
+    - (29051) Estepona
+    - (29052) Faraján
+    - (29053) Frigiliana
+    - (29054) Fuengirola
+    - (29055) Fuente de Piedra
+    - (29056) Gaucín
+    - (29057) Genalguacil
+    - (29058) Guaro
+    - (29059) Humilladero
+    - (29060) Igualeja
+    - (29061) Istán
+    - (29062) Iznate
+    - (29063) Jimera de Líbar
+    - (29064) Jubrique
+    - (29065) Júzcar
+    - (29066) Macharaviaya
+    - (29067) Málaga (capital)
+    - (29068) Manilva
+    - (29069) Marbella
+    - (29070) Mijas
+    - (29071) Moclinejo
+    - (29072) Mollina
+    - (29073) Monda
+    - (29074) Montejaque
+    - (29075) Nerja
+    - (29076) Ojén
+    - (29077) Parauta
+    - (29078) Peñarrubia
+    - (29079) Periana
+    - (29080) Pizarra
+    - (29081) Pujerra
+    - (29082) Benagalbón
+    - (29082) Rincón de la Victoria
+    - (29083) Riogordo
+    - (29084) Ronda
+    - (29085) Salares
+    - (29086) Sayalonga
+    - (29087) Sedella
+    - (29088) Sierra de Yeguas
+    - (29089) Teba
+    - (29090) Tolox
+    - (29091) Torrox
+    - (29092) Totalán
+    - (29093) Valle de Abdalajís
+    - (29094) Vélez-Málaga
+    - (29095) Villanueva de Algaidas
+    - (29096) Villanueva del Rosario
+    - (29097) Villanueva del Trabuco
+    - (29098) Villanueva de Tapia
+    - (29099) Viñuela
+    - (29100) Yunquera
+    - (29502) Churriana
+    - (29505) Olías
+    - (29901) Torremolinos
+    - (29901) Torremolinos
+    - (29902) Villanueva de la Concepción
+    - (29903) Montecorto
+    - (29904) Serrato
+    - (29NC) Municipio de Málaga sin especificar
+    - (41001) Aguadulce
+    - (41002) Alanís
+    - (41003) Albaida del Aljarafe
+    - (41004) Alcalá de Guadaira
+    - (41004) Alcalá de Guadaíra
+    - (41005) Alcalá del Río
+    - (41006) Alcolea del Río
+    - (41007) Algaba (La)
+    - (41008) Algámitas
+    - (41009) Almadén de la Plata
+    - (41010) Almensilla
+    - (41011) Arahal (El)
+    - (41011) Arahal
+    - (41012) Aznalcázar
+    - (41013) Aznalcóllar
+    - (41014) Badolatosa
+    - (41015) Benacazón
+    - (41016) Bollullos de la Mitación
+    - (41017) Bormujos
+    - (41018) Brenes
+    - (41019) Burguillos
+    - (41020) Cabezas de San Juan (Las)
+    - (41021) Camas
+    - (41022) Campana (La)
+    - (41023) Cantillana
+    - (41024) Carmona
+    - (41025) Carrión de los Céspedes
+    - (41026) Casariche
+    - (41027) Castilblanco de los Arroyos
+    - (41028) Castilleja de Guzmán
+    - (41029) Castilleja de la Cuesta
+    - (41030) Castilleja del Campo
+    - (41031) Castillo de las Guardas (El)
+    - (41032) Cazalla de la Sierra
+    - (41033) Constantina
+    - (41034) Coria del Río
+    - (41035) Coripe
+    - (41036) Coronil (El)
+    - (41037) Corrales (Los)
+    - (41038) Dos Hermanas
+    - (41039) Écija
+    - (41040) Espartinas
+    - (41041) Estepa
+    - (41042) Fuentes de Andalucía
+    - (41043) Garrobo (El)
+    - (41044) Gelves
+    - (41045) Gerena
+    - (41046) Gilena
+    - (41047) Gines
+    - (41048) Guadalcanal
+    - (41049) Guillena
+    - (41050) Herrera
+    - (41051) Huévar
+    - (41051) Huévar del Aljarafe
+    - (41053) Lebrija
+    - (41054) Lora de Estepa
+    - (41055) Lora del Río
+    - (41056) Luisiana (La)
+    - (41057) Madroño (El)
+    - (41058) Mairena del Alcor
+    - (41059) Mairena del Aljarafe
+    - (41060) Marchena
+    - (41061) Marinaleda
+    - (41062) Martín de la Jara
+    - (41063) Molares (Los)
+    - (41064) Montellano
+    - (41065) Morón de la Frontera
+    - (41066) Navas de la Concepción (Las)
+    - (41067) Olivares
+    - (41068) Osuna
+    - (41069) Palacios y Villafranca (Los)
+    - (41904) Palmar de Troya (El)
+    - (41070) Palomares del Río
+    - (41071) Paradas
+    - (41072) Pedrera
+    - (41073) Pedroso (El)
+    - (41074) Peñaflor
+    - (41075) Pilas
+    - (41076) Pruna
+    - (41077) Puebla de Cazalla (La)
+    - (41078) Puebla de los Infantes (La)
+    - (41079) Puebla
+    - (41079) Puebla del Río
+    - (41079) Puebla del Río (La)
+    - (41080) Real de la Jara (El)
+    - (41081) Rinconada (La)
+    - (41082) Roda de Andalucía (La)
+    - (41083) Ronquillo (El)
+    - (41084) Rubio (El)
+    - (41085) Salteras
+    - (41086) San Juan de Aznalfarache
+    - (41087) Sanlúcar la Mayor
+    - (41088) San Nicolás del Puerto
+    - (41089) Santiponce
+    - (41090) Saucejo (El)
+    - (41091) Sevilla (capital)
+    - (41092) Tocina
+    - (41093) Tomares
+    - (41094) Umbrete
+    - (41095) Utrera
+    - (41096) Valencina del Alcor
+    - (41096) Valencina de la Concepción
+    - (41097) Villamanrique de la Condesa
+    - (41098) Villanueva del Ariscal
+    - (41099) Villanueva del Río y Minas
+    - (41100) Villanueva de San Juan
+    - (41101) Villaverde del Río
+    - (41102) Viso del Alcor (El)
+    - (41901) Cañada Rosal
+    - (41902) Villafranco del Guadalquivir
+    - (41902) Villafranco del Guadalquivir
+    - (41902) Isla Mayor
+    - (41903) Cuervo (El)
+    - (41903) Cuervo de Sevilla (El)
+    - (41052) Lantejuela (La)
+    - (41052) Lantejuela
+    - (41NC) Municipio de Sevilla sin especificar
+    - (C01NC000) Provincia sin especificar
+    - (22) Huesca
+    - (44) Teruel
+    - (50) Zaragoza
+    - (P22) Huesca
+    - (P44) Teruel
+    - (P50) Zaragoza
+    - (33) Asturias
+    - (P33) Asturias
+    - (07) Islas Baleares/Illes Balears
+    - (P07) Islas Baleares/Illes Balears
+    - (35) Las Palmas
+    - (38) Santa Cruz de Tenerife
+    - (P35) Las Palmas
+    - (P38) Santa Cruz de Tenerife
+    - (39) Cantabria
+    - (P39) Cantabria
+    - (02) Albacete
+    - (13) Ciudad Real
+    - (16) Cuenca
+    - (19) Guadalajara
+    - (45) Toledo
+    - (P02) Albacete
+    - (P13) Ciudad Real
+    - (P16) Cuenca
+    - (P19) Guadalajara
+    - (P45) Toledo
+    - (05) Ávila
+    - (09) Burgos
+    - (24) León
+    - (34) Palencia
+    - (37) Salamanca
+    - (40) Segovia
+    - (42) Soria
+    - (47) Valladolid
+    - (49) Zamora
+    - (P05) Ávila
+    - (P09) Burgos
+    - (P24) León
+    - (P34) Palencia
+    - (P37) Salamanca
+    - (P40) Segovia
+    - (P42) Soria
+    - (P47) Valladolid
+    - (P49) Zamora
+    - (08) Barcelona
+    - (17) Gerona/Girona
+    - (25) Lérida/Lleida
+    - (43) Tarragona
+    - (P08) Barcelona
+    - (P17) Gerona/Girona
+    - (P25) Lérida/Lleida
+    - (P43) Tarragona
+    - (03) Alicante/Alacant
+    - (12) Castellón/Castelló
+    - (46) Valencia/València
+    - (P03) Alicante/Alacant
+    - (P12) Castellón/Castelló
+    - (P46) Valencia/València
+    - (06) Badajoz
+    - (10) Cáceres
+    - (P06) Badajoz
+    - (P10) Cáceres
+    - (15) La Coruña/A Coruña
+    - (27) Lugo
+    - (32) Orense/Ourense
+    - (36) Pontevedra
+    - (P15) La Coruña/A Coruña
+    - (P27) Lugo
+    - (P32) Orense/Ourense
+    - (P36) Pontevedra
+    - (28) Madrid
+    - (P28) Madrid
+    - (30) Murcia
+    - (P30) Murcia
+    - (31) Navarra
+    - (P31) Navarra
+    - (01) Álava/Araba
+    - (20) Guipúzcoa/Gipuzkoa
+    - (48) Vizcaya/Bizkaia
+    - (P01) Álava/Araba
+    - (P20) Guipúzcoa/Gipuzkoa
+    - (P48) Vizcaya/Bizkaia
+    - (26) La Rioja
+    - (P26) La Rioja
+    - (51) Ceuta
+    - (52) Melilla
+    - (P51) Ceuta
+    - (P52) Melilla
+    - (RE0) Resto de España
+    - (RE) Resto de España
+- D_SEXO_0_d22_j22:
+    id:
+    - '22'
+    - '3691'
+    - '3689'
+    - '3690'
+    - '3693'
+    - '3692'
+    label:
+    - () Sexo
+    - (00) Ambos sexos
+    - (01) Hombres
+    - (06) Mujeres
+    - (NP) No procede
+    - (NC) No consta
+- D_TEMPORAL_0_d1_j2:
+    id:
+    - '1'
+    - '181106'
+    - '181087'
+    - '181068'
+    - '181049'
+    - '181030'
+    - '181011'
+    - '180992'
+    - '180973'
+    - '180954'
+    - '180935'
+    - '180916'
+    - '180897'
+    - '180878'
+    - '180859'
+    - '180840'
+    - '180821'
+    - '180802'
+    - '180783'
+    - '180764'
+    - '180745'
+    - '180726'
+    - '180707'
+    - '180688'
+    - '180669'
+    - '180650'
+    - '180631'
+    - '180612'
+    - '180593'
+    - '180574'
+    - '180555'
+    - '180536'
+    - '180517'
+    - '180498'
+    - '180479'
+    - '180460'
+    - '180441'
+    - '180422'
+    - '180403'
+    - '180384'
+    - '180365'
+    - '180346'
+    - '180327'
+    - '180308'
+    - '180289'
+    - '180270'
+    - '180251'
+    - '180232'
+    - '180213'
+    - '180194'
+    - '180175'
+    - '180156'
+    - '55536'
+    - '55517'
+    - '55498'
+    - '2239'
+    - '2204'
+    - '2185'
+    - '2166'
+    - '2147'
+    - '2128'
+    - '2109'
+    - '2090'
+    - '2071'
+    - '2052'
+    - '2033'
+    - '2014'
+    - '1995'
+    - '1976'
+    - '1957'
+    - '1938'
+    - '1919'
+    - '1900'
+    - '1881'
+    - '1862'
+    - '1843'
+    - '1824'
+    - '1805'
+    - '1786'
+    - '1767'
+    - '1748'
+    - '1729'
+    - '1710'
+    - '1691'
+    - '1672'
+    - '1653'
+    - '1634'
+    - '1615'
+    - '1596'
+    - '1577'
+    - '1558'
+    - '1539'
+    - '1520'
+    - '1501'
+    - '1482'
+    - '1463'
+    - '1444'
+    - '1425'
+    - '1406'
+    - '1387'
+    - '1368'
+    - '1349'
+    - '1330'
+    - '1311'
+    - '1292'
+    - '1273'
+    - '1254'
+    - '1235'
+    - '1216'
+    - '1197'
+    - '1178'
+    - '1159'
+    - '1140'
+    - '1121'
+    - '1102'
+    - '1083'
+    - '1064'
+    - '1045'
+    - '1026'
+    - '1007'
+    - '988'
+    - '969'
+    - '950'
+    - '931'
+    - '912'
+    - '893'
+    - '874'
+    - '855'
+    - '836'
+    - '817'
+    - '798'
+    - '779'
+    - '760'
+    - '741'
+    - '722'
+    - '703'
+    - '684'
+    - '665'
+    - '646'
+    - '627'
+    - '608'
+    - '589'
+    - '570'
+    - '551'
+    - '532'
+    - '513'
+    - '494'
+    - '475'
+    - '456'
+    - '437'
+    - '418'
+    - '399'
+    - '380'
+    - '361'
+    - '342'
+    - '323'
+    - '304'
+    - '285'
+    - '266'
+    - '247'
+    - '228'
+    - '209'
+    - '190'
+    - '171'
+    - '152'
+    - '133'
+    - '114'
+    - '95'
+    - '76'
+    - '57'
+    - '38'
+    - '19'
+    label:
+    - () Anual
+    - (2070) 2070
+    - (2069) 2069
+    - (2068) 2068
+    - (2067) 2067
+    - (2066) 2066
+    - (2065) 2065
+    - (2064) 2064
+    - (2063) 2063
+    - (2062) 2062
+    - (2061) 2061
+    - (2060) 2060
+    - (2059) 2059
+    - (2058) 2058
+    - (2057) 2057
+    - (2056) 2056
+    - (2055) 2055
+    - (2054) 2054
+    - (2053) 2053
+    - (2052) 2052
+    - (2051) 2051
+    - (2050) 2050
+    - (2049) 2049
+    - (2048) 2048
+    - (2047) 2047
+    - (2046) 2046
+    - (2045) 2045
+    - (2044) 2044
+    - (2043) 2043
+    - (2042) 2042
+    - (2041) 2041
+    - (2040) 2040
+    - (2039) 2039
+    - (2038) 2038
+    - (2037) 2037
+    - (2036) 2036
+    - (2035) 2035
+    - (2034) 2034
+    - (2033) 2033
+    - (2032) 2032
+    - (2031) 2031
+    - (2030) 2030
+    - (2029) 2029
+    - (2028) 2028
+    - (2027) 2027
+    - (2026) 2026
+    - (2025) 2025
+    - (2024) 2024
+    - (2023) 2023
+    - (2022) 2022
+    - (2021) 2021
+    - (2020) 2020
+    - (2019) 2019
+    - (2018) 2018
+    - (2017) 2017
+    - (2016) 2016
+    - (2015) 2015
+    - (2014) 2014
+    - (2013) 2013
+    - (2012) 2012
+    - (2011) 2011
+    - (2010) 2010
+    - (2009) 2009
+    - (2008) 2008
+    - (2007) 2007
+    - (2006) 2006
+    - (2005) 2005
+    - (2004) 2004
+    - (2003) 2003
+    - (2002) 2002
+    - (2001) 2001
+    - (2000) 2000
+    - (1999) 1999
+    - (1998) 1998
+    - (1997) 1997
+    - (1996) 1996
+    - (1995) 1995
+    - (1994) 1994
+    - (1993) 1993
+    - (1992) 1992
+    - (1991) 1991
+    - (1990) 1990
+    - (1989) 1989
+    - (1988) 1988
+    - (1987) 1987
+    - (1986) 1986
+    - (1985) 1985
+    - (1984) 1984
+    - (1983) 1983
+    - (1982) 1982
+    - (1981) 1981
+    - (1980) 1980
+    - (1979) 1979
+    - (1978) 1978
+    - (1977) 1977
+    - (1976) 1976
+    - (1975) 1975
+    - (1974) 1974
+    - (1973) 1973
+    - (1972) 1972
+    - (1971) 1971
+    - (1970) 1970
+    - (1969) 1969
+    - (1968) 1968
+    - (1967) 1967
+    - (1966) 1966
+    - (1965) 1965
+    - (1964) 1964
+    - (1963) 1963
+    - (1962) 1962
+    - (1961) 1961
+    - (1960) 1960
+    - (1959) 1959
+    - (1958) 1958
+    - (1957) 1957
+    - (1956) 1956
+    - (1955) 1955
+    - (1954) 1954
+    - (1953) 1953
+    - (1952) 1952
+    - (1951) 1951
+    - (1950) 1950
+    - (1949) 1949
+    - (1948) 1948
+    - (1947) 1947
+    - (1946) 1946
+    - (1945) 1945
+    - (1944) 1944
+    - (1943) 1943
+    - (1942) 1942
+    - (1941) 1941
+    - (1940) 1940
+    - (1939) 1939
+    - (1938) 1938
+    - (1937) 1937
+    - (1936) 1936
+    - (1935) 1935
+    - (1934) 1934
+    - (1933) 1933
+    - (1932) 1932
+    - (1931) 1931
+    - (1930) 1930
+    - (1929) 1929
+    - (1928) 1928
+    - (1927) 1927
+    - (1926) 1926
+    - (1925) 1925
+    - (1924) 1924
+    - (1923) 1923
+    - (1922) 1922
+    - (1921) 1921
+    - (1920) 1920
+    - (1919) 1919
+    - (1918) 1918
+    - (1917) 1917
+    - (1916) 1916
+    - (1915) 1915
+    - (1914) 1914
+    - (1913) 1913
+    - (1912) 1912
+    - (1911) 1911
+    - (1910) 1910
+    - (1909) 1909
+    - (1908) 1908
+    - (1907) 1907
+    - (1906) 1906
+    - (1905) 1905
+    - (1904) 1904
+    - (1903) 1903
+    - (1902) 1902
+    - (1901) 1901
+    - (1900) 1900
+medidas:
+- des: Población a 1-1-2021
+  id: 282438
+- des: Población a 1-1-2020
+  id: 282439
+- des: Variación absoluta
+  id: 282440
+- des: Variación relativa
+  id: 282441

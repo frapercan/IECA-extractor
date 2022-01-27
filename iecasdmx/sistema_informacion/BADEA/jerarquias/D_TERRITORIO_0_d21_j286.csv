@@ -1,0 +1,1010 @@
+,id,label,des,parentId
+0,21,() España/CCAA/Provincias España/Municipios de Andalucía,España/CCAA/Provincias España/Municipios de Andalucía,null
+1,2240,(108) España,España,null
+2,3143,(C01) Andalucía,Andalucía,2240
+3,3160,(C02) Aragón,Aragón,2240
+4,3165,(C03) Principado de Asturias,Principado de Asturias,2240
+5,3170,(C04) Islas Baleares/Illes Balears,Islas Baleares/Illes Balears,2240
+6,3179,(C05) Canarias,Canarias,2240
+7,3184,(C06) Cantabria,Cantabria,2240
+8,3205,(C07) Castilla-La Mancha,Castilla-La Mancha,2240
+9,3242,(C08) Castilla y León,Castilla y León,2240
+10,3259,(C09) Cataluña/Catalunya,Cataluña/Catalunya,2240
+11,3272,(C10) Comunidad Valenciana/Comunitat Valenciana,Comunidad Valenciana/Comunitat Valenciana,2240
+12,3281,(C11) Extremadura,Extremadura,2240
+13,3298,(C12) Galicia,Galicia,2240
+14,3303,(C13) Comunidad de Madrid,Comunidad de Madrid,2240
+15,3308,(C14) Región de Murcia,Región de Murcia,2240
+16,3313,(C15) Comunidad Foral de Navarra,Comunidad Foral de Navarra,2240
+17,3326,(C16) País Vasco/Euskadi,País Vasco/Euskadi,2240
+18,3331,(C17) La Rioja,La Rioja,2240
+19,3340,(C18) Ciudades Autónomas de Ceuta y Melilla,Ciudades Autónomas de Ceuta y Melilla,2240
+20,3341,(RE00) Resto de España,Resto de España,2240
+21,2352,(04) Almería,Almería,3143
+22,2402,(11) Cádiz,Cádiz,3143
+23,2482,(14) Córdoba,Córdoba,3143
+24,2713,(18) Granada,Granada,3143
+25,2797,(21) Huelva,Huelva,3143
+26,2911,(23) Jaén,Jaén,3143
+27,3023,(29) Málaga,Málaga,3143
+28,3142,(41) Sevilla,Sevilla,3143
+29,3144,(C01NC) Provincia sin especificar,Provincia sin especificar,3143
+30,2241,(04001) Abla,Abla,2352
+31,2242,(04002) Abrucena,Abrucena,2352
+32,2243,(04003) Adra,Adra,2352
+33,2244,(04004) Albanchez,Albanchez,2352
+34,2245,(04005) Alboloduy,Alboloduy,2352
+35,2246,(04006) Albox,Albox,2352
+36,2247,(04007) Alcolea,Alcolea,2352
+37,2248,(04008) Alcóntar,Alcóntar,2352
+38,2249,(04009) Alcudia de Monteagud,Alcudia de Monteagud,2352
+39,2250,(04010) Alhabia,Alhabia,2352
+40,2251,(04011) Alhama de Almería,Alhama de Almería,2352
+41,2252,(04012) Alicún,Alicún,2352
+42,2253,(04013) Almería (capital),Almería (capital),2352
+43,2254,(04014) Almócita,Almócita,2352
+44,2255,(04015) Alsodux,Alsodux,2352
+45,2256,(04016) Antas,Antas,2352
+46,2257,(04017) Arboleas,Arboleas,2352
+47,2258,(04018) Armuña de Almanzora,Armuña de Almanzora,2352
+48,2259,(04019) Bacares,Bacares,2352
+49,9563,(04904) Balanegra,Balanegra,2352
+50,2260,(04020) Bayárcal,Bayárcal,2352
+51,2261,(04021) Bayarque,Bayarque,2352
+52,2262,(04022) Bédar,Bédar,2352
+53,2263,(04023) Beires,Beires,2352
+54,2264,(04024) Benahadux,Benahadux,2352
+55,2265,(04025) Benínar,Benínar,2352
+56,2266,(04026) Benitagla,Benitagla,2352
+57,2267,(04027) Benizalón,Benizalón,2352
+58,2268,(04028) Bentarique,Bentarique,2352
+59,2269,(04029) Berja,Berja,2352
+60,2270,(04030) Canjáyar,Canjáyar,2352
+61,2271,(04031) Cantoria,Cantoria,2352
+62,2272,(04032) Carboneras,Carboneras,2352
+63,2273,(04033) Castro de Filabres,Castro de Filabres,2352
+64,2274,(04034) Cóbdar,Cóbdar,2352
+65,2276,(04035) Cuevas de Vera,Cuevas de Vera,2352
+66,2275,(04035) Cuevas del Almanzora,Cuevas del Almanzora,2352
+67,2277,(04036) Chercos,Chercos,2352
+68,2278,(04037) Chirivel,Chirivel,2352
+69,2279,(04038) Dalías,Dalías,2352
+70,2281,(04040) Doña María Ocaña,Doña María Ocaña,2352
+71,2282,(04041) Enix,Enix,2352
+72,2283,(04042) Escúllar,Escúllar,2352
+73,2284,(04043) Felix,Felix,2352
+74,2285,(04044) Fines,Fines,2352
+75,2286,(04045) Fiñana,Fiñana,2352
+76,2287,(04046) Fondón,Fondón,2352
+77,2288,(04047) Gádor,Gádor,2352
+78,2289,(04048) Gallardos (Los),Gallardos (Los),2352
+79,2290,(04049) Garrucha,Garrucha,2352
+80,2291,(04050) Gérgal,Gérgal,2352
+81,2292,(04051) Huécija,Huécija,2352
+82,2293,(04052) Huércal de Almería,Huércal de Almería,2352
+83,2294,(04053) Huércal-Overa,Huércal-Overa,2352
+84,2295,(04054) Íllar,Íllar,2352
+85,2296,(04055) Instinción,Instinción,2352
+86,2297,(04056) Laroya,Laroya,2352
+87,2298,(04057) Láujar de Andarax,Láujar de Andarax,2352
+88,2299,(04058) Líjar,Líjar,2352
+89,2300,(04059) Lubrín,Lubrín,2352
+90,2301,(04060) Lucainena de las Torres,Lucainena de las Torres,2352
+91,2302,(04061) Lúcar,Lúcar,2352
+92,2303,(04062) Macael,Macael,2352
+93,2304,(04063) María,María,2352
+94,2280,(04039) Darrical,Darrical,2352
+95,2305,(04064) Mojácar,Mojácar,2352
+96,2306,(04065) Nacimiento,Nacimiento,2352
+97,2307,(04066) Níjar,Níjar,2352
+98,2308,(04067) Ohanes,Ohanes,2352
+99,2309,(04068) Olula de Castro,Olula de Castro,2352
+100,2310,(04069) Olula del Río,Olula del Río,2352
+101,2311,(04070) Oria,Oria,2352
+102,2312,(04071) Padules,Padules,2352
+103,2313,(04072) Partaloa,Partaloa,2352
+104,2314,(04073) Paterna del Río,Paterna del Río,2352
+105,2315,(04074) Pechina,Pechina,2352
+106,2316,(04075) Pulpí,Pulpí,2352
+107,2317,(04076) Purchena,Purchena,2352
+108,2318,(04077) Rágol,Rágol,2352
+109,2319,(04078) Rioja,Rioja,2352
+110,2320,(04079) Roquetas de Mar,Roquetas de Mar,2352
+111,2321,(04080) Santa Cruz de Marchena,Santa Cruz de Marchena,2352
+112,2322,(04081) Santa Fe de Mondújar,Santa Fe de Mondújar,2352
+113,2323,(04082) Senés,Senés,2352
+114,2324,(04083) Serón,Serón,2352
+115,2325,(04084) Sierro,Sierro,2352
+116,2326,(04085) Somontín,Somontín,2352
+117,2327,(04086) Sorbas,Sorbas,2352
+118,2328,(04087) Suflí,Suflí,2352
+119,2329,(04088) Tabernas,Tabernas,2352
+120,2330,(04089) Taberno,Taberno,2352
+121,2331,(04090) Tahal,Tahal,2352
+122,2332,(04091) Terque,Terque,2352
+123,2333,(04092) Tíjola,Tíjola,2352
+124,2334,(04093) Turre,Turre,2352
+125,2335,(04094) Turrillas,Turrillas,2352
+126,2336,(04095) Uleila del Campo,Uleila del Campo,2352
+127,2337,(04096) Urrácal,Urrácal,2352
+128,2338,(04097) Velefique,Velefique,2352
+129,2339,(04098) Vélez-Blanco,Vélez-Blanco,2352
+130,2340,(04099) Vélez-Rubio,Vélez-Rubio,2352
+131,2341,(04100) Vera,Vera,2352
+132,2342,(04101) Viator,Viator,2352
+133,2343,(04102) Vícar,Vícar,2352
+134,2344,(04103) Zurgena,Zurgena,2352
+135,2345,(04504) Ocaña,Ocaña,2352
+136,2346,(04901) Tres Villas (Las),Tres Villas (Las),2352
+137,2347,(04902) Ejido (El),Ejido (El),2352
+138,2348,(04903) Mojonera (La),Mojonera (La),2352
+139,2349,(04NC) Municipio de Almería sin especificar,Municipio de Almería sin especificar,2352
+140,2353,(11001) Alcalá de los Gazules,Alcalá de los Gazules,2402
+141,2354,(11002) Alcalá del Valle,Alcalá del Valle,2402
+142,2355,(11003) Algar,Algar,2402
+143,2356,(11004) Algeciras,Algeciras,2402
+144,2357,(11005) Algodonales,Algodonales,2402
+145,2358,(11006) Arcos de la Frontera,Arcos de la Frontera,2402
+146,2359,(11007) Barbate de Franco,Barbate de Franco,2402
+147,2360,(11007) Barbate,Barbate,2402
+148,2361,(11008) Barrios (Los),Barrios (Los),2402
+149,2362,(11009) Benaocaz,Benaocaz,2402
+150,2363,(11010) Bornos,Bornos,2402
+151,2364,(11011) Bosque (El),Bosque (El),2402
+152,2365,(11012) Cádiz (capital),Cádiz (capital),2402
+153,2366,(11013) Castellar de la Frontera,Castellar de la Frontera,2402
+154,2367,(11014) Conil de la Frontera,Conil de la Frontera,2402
+155,2368,(11015) Chiclana de la Frontera,Chiclana de la Frontera,2402
+156,2369,(11016) Chipiona,Chipiona,2402
+157,2370,(11017) Espera,Espera,2402
+158,2371,(11018) Gastor (El),Gastor (El),2402
+159,2372,(11019) Grazalema,Grazalema,2402
+160,2373,(11020) Jerez de la Frontera,Jerez de la Frontera,2402
+161,2374,(11021) Jimena de la Frontera,Jimena de la Frontera,2402
+162,2375,(11022) Línea de la Concepción (La),Línea de la Concepción (La),2402
+163,2376,(11023) Medina Sidonia,Medina Sidonia,2402
+164,2397,(11901) Benalup,Benalup,2402
+165,2396,(11901) Benalup-Casas Viejas,Benalup-Casas Viejas,2402
+166,2377,(11024) Olvera,Olvera,2402
+167,2378,(11025) Paterna de Rivera,Paterna de Rivera,2402
+168,2379,(11026) Prado del Rey,Prado del Rey,2402
+169,2380,(11027) Puerto de Santa María (El),Puerto de Santa María (El),2402
+170,2381,(11028) Puerto Real,Puerto Real,2402
+171,2382,(11029) Puerto Serrano,Puerto Serrano,2402
+172,2383,(11030) Rota,Rota,2402
+173,2384,(11031) San Fernando,San Fernando,2402
+174,280346,(11903) San Martín del Tesorillo,San Martín del Tesorillo,2402
+175,2386,(11033) San Roque,San Roque,2402
+176,2385,(11032) Sanlúcar de Barrameda,Sanlúcar de Barrameda,2402
+177,2387,(11034) Setenil de las Bodegas,Setenil de las Bodegas,2402
+178,2388,(11035) Tarifa,Tarifa,2402
+179,2389,(11036) Torre Alháquime,Torre Alháquime,2402
+180,2390,(11037) Trebujena,Trebujena,2402
+181,2391,(11038) Ubrique,Ubrique,2402
+182,2392,(11039) Vejer de la Frontera,Vejer de la Frontera,2402
+183,2393,(11040) Villaluenga del Rosario,Villaluenga del Rosario,2402
+184,2394,(11041) Villamartín,Villamartín,2402
+185,2395,(11042) Zahara,Zahara,2402
+186,2398,(11902) San José del Valle,San José del Valle,2402
+187,2399,(11NC) Municipio de Cádiz sin especificar,Municipio de Cádiz sin especificar,2402
+188,2403,(14001) Adamuz,Adamuz,2482
+189,2404,(14002) Aguilar de la Frontera,Aguilar de la Frontera,2482
+190,2405,(14003) Alcaracejos,Alcaracejos,2482
+191,2406,(14004) Almedinilla,Almedinilla,2482
+192,2407,(14005) Almodóvar del Río,Almodóvar del Río,2482
+193,2408,(14006) Añora,Añora,2482
+194,2409,(14007) Baena,Baena,2482
+195,2410,(14008) Belalcázar,Belalcázar,2482
+196,2411,(14009) Belmez,Belmez,2482
+197,2412,(14010) Benamejí,Benamejí,2482
+198,2413,(14011) Blázquez (Los),Blázquez (Los),2482
+199,2414,(14012) Bujalance,Bujalance,2482
+200,2415,(14013) Cabra,Cabra,2482
+201,2416,(14014) Cañete de las Torres,Cañete de las Torres,2482
+202,2417,(14015) Carcabuey,Carcabuey,2482
+203,2419,(14017) Carlota (La),Carlota (La),2482
+204,2420,(14018) Carpio (El),Carpio (El),2482
+205,2421,(14019) Castro del Río,Castro del Río,2482
+206,2422,(14020) Conquista,Conquista,2482
+207,2423,(14021) Córdoba (capital),Córdoba (capital),2482
+208,2424,(14022) Doña Mencía,Doña Mencía,2482
+209,2425,(14023) Dos Torres,Dos Torres,2482
+210,2426,(14024) Encinas Reales,Encinas Reales,2482
+211,2427,(14025) Espejo,Espejo,2482
+212,2428,(14026) Espiel,Espiel,2482
+213,2429,(14027) Fernán-Núñez,Fernán-Núñez,2482
+214,280347,(14901) Fuente Carreteros,Fuente Carreteros,2482
+215,2430,(14028) Fuente la Lancha,Fuente la Lancha,2482
+216,2431,(14029) Fuente Obejuna,Fuente Obejuna,2482
+217,2432,(14030) Fuente Palmera,Fuente Palmera,2482
+218,2433,(14031) Fuente-Tójar,Fuente-Tójar,2482
+219,2434,(14032) Granjuela (La),Granjuela (La),2482
+220,2435,(14033) Guadalcázar,Guadalcázar,2482
+221,280348,(14902) Guijarrosa (La),Guijarrosa (La),2482
+222,2436,(14034) Guijo (El),Guijo (El),2482
+223,2437,(14035) Hinojosa del Duque,Hinojosa del Duque,2482
+224,2438,(14036) Hornachuelos,Hornachuelos,2482
+225,2439,(14037) Iznájar,Iznájar,2482
+226,2440,(14038) Lucena,Lucena,2482
+227,2441,(14039) Luque,Luque,2482
+228,2442,(14040) Montalbán de Córdoba,Montalbán de Córdoba,2482
+229,2443,(14041) Montemayor,Montemayor,2482
+230,2444,(14042) Montilla,Montilla,2482
+231,2445,(14043) Montoro,Montoro,2482
+232,2446,(14044) Monturque,Monturque,2482
+233,2447,(14045) Moriles,Moriles,2482
+234,2448,(14046) Nueva Carteya,Nueva Carteya,2482
+235,2449,(14047) Obejo,Obejo,2482
+236,2450,(14048) Palenciana,Palenciana,2482
+237,2451,(14049) Palma del Río,Palma del Río,2482
+238,2452,(14050) Pedro Abad,Pedro Abad,2482
+239,2453,(14051) Pedroche,Pedroche,2482
+240,2454,(14052) Peñarroya-Pueblonuevo,Peñarroya-Pueblonuevo,2482
+241,2455,(14053) Posadas,Posadas,2482
+242,2456,(14054) Pozoblanco,Pozoblanco,2482
+243,2457,(14055) Priego de Córdoba,Priego de Córdoba,2482
+244,2458,(14056) Puente Genil,Puente Genil,2482
+245,2459,(14057) Rambla (La),Rambla (La),2482
+246,2460,(14058) Rute,Rute,2482
+247,2461,(14059) San Sebastián de los Ballesteros,San Sebastián de los Ballesteros,2482
+248,2462,(14060) Santaella,Santaella,2482
+249,2463,(14061) Santa Eufemia,Santa Eufemia,2482
+250,2464,(14062) Torrecampo,Torrecampo,2482
+251,2465,(14063) Valenzuela,Valenzuela,2482
+252,2466,(14064) Valsequillo,Valsequillo,2482
+253,2467,(14065) Victoria (La),Victoria (La),2482
+254,2468,(14066) Villa del Río,Villa del Río,2482
+255,2469,(14067) Villafranca de Córdoba,Villafranca de Córdoba,2482
+256,2470,(14068) Villaharta,Villaharta,2482
+257,2471,(14069) Villanueva de Córdoba,Villanueva de Córdoba,2482
+258,2472,(14070) Villanueva del Duque,Villanueva del Duque,2482
+259,2473,(14071) Villanueva del Rey,Villanueva del Rey,2482
+260,2474,(14072) Villaralto,Villaralto,2482
+261,2475,(14073) Villaviciosa de Córdoba,Villaviciosa de Córdoba,2482
+262,2476,(14074) Viso (El),Viso (El),2482
+263,2477,(14075) Zuheros,Zuheros,2482
+264,2478,(14502) Pueblonuevo del Torrible,Pueblonuevo del Torrible,2482
+265,2418,(14016) Cardeña,Cardeña,2482
+266,2479,(14NC) Municipio de Córdoba sin especificar,Municipio de Córdoba sin especificar,2482
+267,2483,(18001) Agrón,Agrón,2713
+268,2484,(18002) Alamedilla,Alamedilla,2713
+269,2485,(18003) Albolote,Albolote,2713
+270,2486,(18004) Albondón,Albondón,2713
+271,2487,(18005) Albuñán,Albuñán,2713
+272,2488,(18006) Albuñol,Albuñol,2713
+273,2489,(18007) Albuñuelas,Albuñuelas,2713
+274,2491,(18008) Alcázar y Bargis,Alcázar y Bargis,2713
+275,2490,(18008) Alcázar y Fregenite,Alcázar y Fregenite,2713
+276,2492,(18009) Alcudia de Guadix,Alcudia de Guadix,2713
+277,2493,(18010) Aldeire,Aldeire,2713
+278,2494,(18011) Alfacar,Alfacar,2713
+279,2495,(18012) Algarinejo,Algarinejo,2713
+280,2496,(18013) Alhama de Granada,Alhama de Granada,2713
+281,2497,(18014) Alhendín,Alhendín,2713
+282,2498,(18015) Alicún de Ortega,Alicún de Ortega,2713
+283,2499,(18016) Almegíjar,Almegíjar,2713
+284,2500,(18017) Almuñécar,Almuñécar,2713
+285,2501,(18018) Alquife,Alquife,2713
+286,2502,(18019) Ambroz,Ambroz,2713
+287,2503,(18020) Arenas del Rey,Arenas del Rey,2713
+288,2504,(18021) Armilla,Armilla,2713
+289,2505,(18022) Atarfe,Atarfe,2713
+290,2507,(18024) Beas de Granada,Beas de Granada,2713
+291,2508,(18025) Beas de Guadix,Beas de Guadix,2713
+292,2509,(18026) Belicena,Belicena,2713
+293,2510,(18027) Benalúa de Guadix,Benalúa de Guadix,2713
+294,2511,(18027) Benalúa,Benalúa,2713
+295,2506,(18023) Baza,Baza,2713
+296,2512,(18028) Benalúa de las Villas,Benalúa de las Villas,2713
+297,2513,(18029) Benamaurel,Benamaurel,2713
+298,2514,(18030) Bérchules,Bérchules,2713
+299,2515,(18031) Béznar,Béznar,2713
+300,2516,(18032) Bubión,Bubión,2713
+301,2517,(18033) Busquístar,Busquístar,2713
+302,2518,(18034) Cacín,Cacín,2713
+303,2519,(18035) Cádiar,Cádiar,2713
+304,2520,(18036) Cájar,Cájar,2713
+305,2521,(18037) Calicasas,Calicasas,2713
+306,2522,(18038) Campotéjar,Campotéjar,2713
+307,2523,(18039) Caniles,Caniles,2713
+308,2524,(18040) Cáñar,Cáñar,2713
+309,2525,(18041) Caparacena,Caparacena,2713
+310,2526,(18042) Capileira,Capileira,2713
+311,2527,(18043) Carataunas,Carataunas,2713
+312,2528,(18044) Cástaras,Cástaras,2713
+313,2529,(18045) Castilléjar,Castilléjar,2713
+314,2530,(18046) Castril,Castril,2713
+315,2531,(18047) Cenes de la Vega,Cenes de la Vega,2713
+316,2532,(18048) Cijuela,Cijuela,2713
+317,2533,(18049) Cogollos de Guadix,Cogollos de Guadix,2713
+318,2534,(18050) Cogollos de la Vega,Cogollos de la Vega,2713
+319,2535,(18051) Colomera,Colomera,2713
+320,2536,(18052) Cónchar,Cónchar,2713
+321,2537,(18053) Cortes de Baza,Cortes de Baza,2713
+322,2538,(18054) Cortes y Graena,Cortes y Graena,2713
+323,2539,(18055) Cozvíjar,Cozvíjar,2713
+324,2540,(18056) Cúllar-Baza,Cúllar-Baza,2713
+325,2541,(18056) Cúllar,Cúllar,2713
+326,2542,(18057) Cúllar Vega,Cúllar Vega,2713
+327,2543,(18058) Charches,Charches,2713
+328,2544,(18059) Chauchina,Chauchina,2713
+329,2545,(18060) Cherín,Cherín,2713
+330,2546,(18061) Chimeneas,Chimeneas,2713
+331,2548,(18062) Churriana,Churriana,2713
+332,2547,(18062) Churriana de la Vega,Churriana de la Vega,2713
+333,2549,(18063) Darro,Darro,2713
+334,2550,(18064) Dehesas de Guadix,Dehesas de Guadix,2713
+335,2553,(18066) Deifontes,Deifontes,2713
+336,2554,(18067) Diezma,Diezma,2713
+337,2555,(18068) Dílar,Dílar,2713
+338,2556,(18069) Dólar,Dólar,2713
+339,9565,(18915) Domingo Pérez de Granada,Domingo Pérez de Granada,2713
+340,2557,(18070) Dúdar,Dúdar,2713
+341,2558,(18071) Dúrcal,Dúrcal,2713
+342,2559,(18072) Escúzar,Escúzar,2713
+343,2560,(18073) Esfiliana,Esfiliana,2713
+344,2561,(18074) Ferreira,Ferreira,2713
+345,2562,(18075) Ferreirola,Ferreirola,2713
+346,2563,(18076) Fonelas,Fonelas,2713
+347,2564,(18077) Fornes,Fornes,2713
+348,280349,(18077) Fornes,Fornes,2713
+349,2565,(18078) Freila,Freila,2713
+350,2566,(18079) Fuente Vaqueros,Fuente Vaqueros,2713
+351,2567,(18080) Gabia la Chica,Gabia la Chica,2713
+352,2568,(18081) Gabia la Grande,Gabia la Grande,2713
+353,2569,(18082) Galera,Galera,2713
+354,2570,(18083) Gobernador,Gobernador,2713
+355,2571,(18084) Gójar,Gójar,2713
+356,2572,(18085) Gor,Gor,2713
+357,2573,(18086) Gorafe,Gorafe,2713
+358,2574,(18087) Granada (capital),Granada (capital),2713
+359,2575,(18088) Guadahortuna,Guadahortuna,2713
+360,2576,(18089) Guadix,Guadix,2713
+361,2580,(18093) Gualchos,Gualchos,2713
+362,2581,(18094) Güéjar Sierra,Güéjar Sierra,2713
+363,2582,(18095) Güevéjar,Güevéjar,2713
+364,2577,(18090) Guájar Alto,Guájar Alto,2713
+365,2578,(18091) Guájar Faragüit,Guájar Faragüit,2713
+366,2579,(18092) Guájar Fondón,Guájar Fondón,2713
+367,2583,(18096) Huélago,Huélago,2713
+368,2584,(18097) Huéneja,Huéneja,2713
+369,2585,(18098) Huéscar,Huéscar,2713
+370,2586,(18099) Huétor de Santillán,Huétor de Santillán,2713
+371,2587,(18100) Huétor Tájar,Huétor Tájar,2713
+372,2588,(18101) Huétor Vega,Huétor Vega,2713
+373,2589,(18102) Íllora,Íllora,2713
+374,2590,(18103) Ítrabo,Ítrabo,2713
+375,2591,(18104) Izbor,Izbor,2713
+376,2592,(18105) Iznalloz,Iznalloz,2713
+377,2593,(18106) Játar,Játar,2713
+378,2594,(18107) Jayena,Jayena,2713
+379,2595,(18108) Jérez del Marquesado,Jérez del Marquesado,2713
+380,2614,(18126) Malá (La),Malá (La),2713
+381,2615,(18126) Malahá (La),Malahá (La),2713
+382,9564,(18106) Játar,Játar,2713
+383,2596,(18109) Jete,Jete,2713
+384,2597,(18110) Jorairátar,Jorairátar,2713
+385,2598,(18111) Jun,Jun,2713
+386,2599,(18112) Juviles,Juviles,2713
+387,2600,(18113) Laborcillas,Laborcillas,2713
+388,2602,(18114) Calahora (La),Calahora (La),2713
+389,2601,(18114) Calahorra (La),Calahorra (La),2713
+390,2603,(18115) Láchar,Láchar,2713
+391,2604,(18116) Lanjarón,Lanjarón,2713
+392,2605,(18117) Lanteira,Lanteira,2713
+393,2606,(18118) Laroles,Laroles,2713
+394,2607,(18119) Lecrín,Lecrín,2713
+395,2608,(18120) Lentegí,Lentegí,2713
+396,2609,(18121) Lobras,Lobras,2713
+397,2610,(18122) Loja,Loja,2713
+398,2611,(18123) Lugros,Lugros,2713
+399,2612,(18124) Lújar,Lújar,2713
+400,2613,(18125) Mairena,Mairena,2713
+401,2616,(18127) Maracena,Maracena,2713
+402,2617,(18128) Marchal,Marchal,2713
+403,2618,(18129) Mecina-Bombarón,Mecina-Bombarón,2713
+404,2619,(18130) Mecina-Fondales,Mecina-Fondales,2713
+405,2620,(18131) Melegís,Melegís,2713
+406,2621,(18132) Moclín,Moclín,2713
+407,2622,(18133) Molvízar,Molvízar,2713
+408,2623,(18134) Monachil,Monachil,2713
+409,2624,(18135) Montefrío,Montefrío,2713
+410,2625,(18136) Montejícar,Montejícar,2713
+411,2626,(18137) Montillana,Montillana,2713
+412,2627,(18138) Moraleda de Zafayona,Moraleda de Zafayona,2713
+413,2628,(18139) Moreda,Moreda,2713
+414,2629,(18140) Motril,Motril,2713
+415,2630,(18141) Murtas,Murtas,2713
+416,2631,(18142) Narila,Narila,2713
+417,2632,(18143) Nigüelas,Nigüelas,2713
+418,2633,(18144) Nívar,Nívar,2713
+419,2634,(18145) Ogíjares,Ogíjares,2713
+420,2635,(18146) Orce,Orce,2713
+421,2636,(18147) Órgiva,Órgiva,2713
+422,2637,(18148) Otívar,Otívar,2713
+423,2638,(18149) Villa de Otura,Villa de Otura,2713
+424,2639,(18150) Padul,Padul,2713
+425,2640,(18151) Pampaneira,Pampaneira,2713
+426,2641,(18152) Pedro Martínez,Pedro Martínez,2713
+427,2642,(18153) Peligros,Peligros,2713
+428,2643,(18154) Peza (La),Peza (La),2713
+429,2644,(18155) Picena,Picena,2713
+430,2645,(18156) Pinos del Valle,Pinos del Valle,2713
+431,2646,(18157) Pinos Genil,Pinos Genil,2713
+432,2648,(18159) Píñar,Píñar,2713
+433,2649,(18160) Pitres,Pitres,2713
+434,2650,(18161) Polícar,Polícar,2713
+435,2651,(18162) Polopos,Polopos,2713
+436,2652,(18163) Pórtugos,Pórtugos,2713
+437,2653,(18164) Puebla de Don Fadrique,Puebla de Don Fadrique,2713
+438,2654,(18165) Pulianas,Pulianas,2713
+439,2655,(18166) Purchil,Purchil,2713
+440,2656,(18167) Purullena,Purullena,2713
+441,2657,(18168) Quéntar,Quéntar,2713
+442,2658,(18169) Restábal,Restábal,2713
+443,2659,(18170) Rubite,Rubite,2713
+444,2660,(18171) Salar,Salar,2713
+445,2661,(18172) Saleres,Saleres,2713
+446,2662,(18173) Salobreña,Salobreña,2713
+447,2663,(18174) Santa Cruz del Comercio,Santa Cruz del Comercio,2713
+448,2664,(18175) Santa Fe,Santa Fe,2713
+449,2665,(18176) Soportújar,Soportújar,2713
+450,2666,(18177) Sorvilán,Sorvilán,2713
+451,2667,(18178) Torre-Cardela,Torre-Cardela,2713
+452,280350,(18916) Torrenueva Costa,Torrenueva Costa,2713
+453,2668,(18179) Torvizcón,Torvizcón,2713
+454,2669,(18180) Trevélez,Trevélez,2713
+455,2670,(18181) Turón,Turón,2713
+456,2671,(18182) Ugíjar,Ugíjar,2713
+457,2672,(18183) Válor,Válor,2713
+458,2673,(18184) Vélez de Benaudalla,Vélez de Benaudalla,2713
+459,2674,(18185) Ventas de Huelma,Ventas de Huelma,2713
+460,2675,(18186) Ventas de Zafarraya,Ventas de Zafarraya,2713
+461,2676,(18187) Villanueva de las Torres,Villanueva de las Torres,2713
+462,2677,(18188) Villanueva Mesía,Villanueva Mesía,2713
+463,2678,(18189) Víznar,Víznar,2713
+464,2679,(18190) Yátor,Yátor,2713
+465,2680,(18191) Yegen,Yegen,2713
+466,2681,(18192) Zafarraya,Zafarraya,2713
+467,2682,(18193) Zubia (La),Zubia (La),2713
+468,2683,(18194) Zújar,Zújar,2713
+469,2684,(18500) Acequias,Acequias,2713
+470,2685,(18502) Bayacas,Bayacas,2713
+471,2686,(18504) Cojáyar,Cojáyar,2713
+472,2687,(18505) Chite y Talará,Chite y Talará,2713
+473,2688,(18506) Fregenite,Fregenite,2713
+474,2690,(18508) Mecina-Tedel,Mecina-Tedel,2713
+475,2689,(18507) Mecina-Alfahar,Mecina-Alfahar,2713
+476,2691,(18509) Mondújar,Mondújar,2713
+477,2692,(18510) Murchas,Murchas,2713
+478,2693,(18511) Nechite,Nechite,2713
+479,2694,(18512) Pulianillas,Pulianillas,2713
+480,2695,(18513) Trujillos,Trujillos,2713
+481,2696,(18901) Taha (La),Taha (La),2713
+482,2697,(18902) Valle (El),Valle (El),2713
+483,2698,(18903) Nevada,Nevada,2713
+484,2699,(18904) Alpujarra de la Sierra,Alpujarra de la Sierra,2713
+485,2700,(18905) Gabias (Las),Gabias (Las),2713
+486,2701,(18906) Guájares (Los),Guájares (Los),2713
+487,2702,(18907) Valle del Zalabí,Valle del Zalabí,2713
+488,2703,(18908) Villamena,Villamena,2713
+489,2704,(18909) Morelábor,Morelábor,2713
+490,2705,(18910) Pinar (El),Pinar (El),2713
+491,2706,(18911) Vegas del Genil,Vegas del Genil,2713
+492,2707,(18912) Cuevas del Campo,Cuevas del Campo,2713
+493,2708,(18913) Zagra,Zagra,2713
+494,2709,(18914) Valderrubio,Valderrubio,2713
+495,2647,(18158) Pinos Puente,Pinos Puente,2713
+496,2551,(18065) Dehesas Viejas,Dehesas Viejas,2713
+497,2552,(18065) Dehesas Viejas,Dehesas Viejas,2713
+498,2710,(18NC) Municipio de Granada sin especificar,Municipio de Granada sin especificar,2713
+499,2714,(21001) Alájar,Alájar,2797
+500,2715,(21002) Aljaraque,Aljaraque,2797
+501,2716,(21003) Almendro (El),Almendro (El),2797
+502,2717,(21004) Almonaster la Real,Almonaster la Real,2797
+503,2718,(21005) Almonte,Almonte,2797
+504,2719,(21006) Alosno,Alosno,2797
+505,2720,(21007) Aracena,Aracena,2797
+506,2721,(21008) Aroche,Aroche,2797
+507,2722,(21009) Arroyomolinos de León,Arroyomolinos de León,2797
+508,2723,(21010) Ayamonte,Ayamonte,2797
+509,2724,(21011) Beas,Beas,2797
+510,2725,(21012) Berrocal,Berrocal,2797
+511,2726,(21013) Bollullos Par del Condado,Bollullos Par del Condado,2797
+512,2727,(21014) Bonares,Bonares,2797
+513,2728,(21015) Cabezas Rubias,Cabezas Rubias,2797
+514,2729,(21016) Cala,Cala,2797
+515,2730,(21017) Calañas,Calañas,2797
+516,2731,(21018) Campillo (El),Campillo (El),2797
+517,2732,(21019) Campofrío,Campofrío,2797
+518,2733,(21020) Cañaveral de León,Cañaveral de León,2797
+519,2734,(21021) Cartaya,Cartaya,2797
+520,2736,(21023) Cerro de Andévalo (El),Cerro de Andévalo (El),2797
+521,2737,(21024) Corteconcepción,Corteconcepción,2797
+522,2738,(21025) Cortegana,Cortegana,2797
+523,2739,(21026) Cortelazor,Cortelazor,2797
+524,2740,(21027) Cumbres de Enmedio,Cumbres de Enmedio,2797
+525,2741,(21028) Cumbres de San Bartolomé,Cumbres de San Bartolomé,2797
+526,2742,(21029) Cumbres Mayores,Cumbres Mayores,2797
+527,2743,(21030) Chucena,Chucena,2797
+528,2744,(21031) Encinasola,Encinasola,2797
+529,2745,(21032) Escacena del Campo,Escacena del Campo,2797
+530,2746,(21033) Fuenteheridos,Fuenteheridos,2797
+531,2747,(21034) Galaroza,Galaroza,2797
+532,2748,(21035) Gibraleón,Gibraleón,2797
+533,2749,(21036) Granada de Río-Tinto (La),Granada de Río-Tinto (La),2797
+534,2750,(21037) Granado (El),Granado (El),2797
+535,2751,(21038) Higuera de la Sierra,Higuera de la Sierra,2797
+536,2752,(21039) Hinojales,Hinojales,2797
+537,2753,(21040) Hinojos,Hinojos,2797
+538,2754,(21041) Huelva (capital),Huelva (capital),2797
+539,2755,(21042) Isla Cristina,Isla Cristina,2797
+540,2756,(21043) Jabugo,Jabugo,2797
+541,2757,(21044) Lepe,Lepe,2797
+542,2758,(21045) Linares de la Sierra,Linares de la Sierra,2797
+543,2759,(21046) Lucena del Puerto,Lucena del Puerto,2797
+544,2760,(21047) Manzanilla,Manzanilla,2797
+545,2761,(21048) Marines (Los),Marines (Los),2797
+546,2762,(21049) Minas de Riotinto,Minas de Riotinto,2797
+547,2763,(21050) Moguer,Moguer,2797
+548,2764,(21051) Nava (La),Nava (La),2797
+549,2765,(21052) Nerva,Nerva,2797
+550,2766,(21053) Niebla,Niebla,2797
+551,2767,(21054) Palma del Condado (La),Palma del Condado (La),2797
+552,2768,(21055) Palos de la Frontera,Palos de la Frontera,2797
+553,2769,(21056) Paterna del Campo,Paterna del Campo,2797
+554,2770,(21057) Paymogo,Paymogo,2797
+555,2771,(21058) Puebla de Guzmán,Puebla de Guzmán,2797
+556,2772,(21059) Puerto Moral,Puerto Moral,2797
+557,2773,(21060) Punta Umbría,Punta Umbría,2797
+558,2775,(21061) Rociana,Rociana,2797
+559,2774,(21061) Rociana del Condado,Rociana del Condado,2797
+560,2735,(21022) Castaño del Robledo,Castaño del Robledo,2797
+561,2776,(21062) Rosal de la Frontera,Rosal de la Frontera,2797
+562,2777,(21063) San Bartolomé de la Torre,San Bartolomé de la Torre,2797
+563,2778,(21064) San Juan del Puerto,San Juan del Puerto,2797
+564,2779,(21065) Sanlúcar de Guadiana,Sanlúcar de Guadiana,2797
+565,2780,(21066) San Silvestre de Guzmán,San Silvestre de Guzmán,2797
+566,2781,(21067) Santa Ana la Real,Santa Ana la Real,2797
+567,2782,(21068) Santa Bárbara de Casa,Santa Bárbara de Casa,2797
+568,2783,(21069) Santa Olalla del Cala,Santa Olalla del Cala,2797
+569,2784,(21070) Trigueros,Trigueros,2797
+570,2785,(21071) Valdelarco,Valdelarco,2797
+571,2786,(21072) Valverde del Camino,Valverde del Camino,2797
+572,2787,(21073) Villablanca,Villablanca,2797
+573,2788,(21074) Villalba del Alcor,Villalba del Alcor,2797
+574,2789,(21075) Villanueva de las Cruces,Villanueva de las Cruces,2797
+575,2790,(21076) Villanueva de los Castillejos,Villanueva de los Castillejos,2797
+576,2791,(21077) Villarrasa,Villarrasa,2797
+577,2792,(21078) Zalamea la Real,Zalamea la Real,2797
+578,280351,(21902) Zarza-Perrunal (La),Zarza-Perrunal (La),2797
+579,2793,(21079) Zufre,Zufre,2797
+580,2794,(21NC) Municipio de Huelva sin especificar,Municipio de Huelva sin especificar,2797
+581,2798,(23001) Albanchez de Úbeda,Albanchez de Úbeda,2911
+582,2799,(23001) Albanchez de Mágina,Albanchez de Mágina,2911
+583,2800,(23002) Alcalá la Real,Alcalá la Real,2911
+584,2801,(23003) Alcaudete,Alcaudete,2911
+585,2802,(23004) Aldeaquemada,Aldeaquemada,2911
+586,2803,(23005) Andújar,Andújar,2911
+587,2804,(23006) Arjona,Arjona,2911
+588,2805,(23007) Arjonilla,Arjonilla,2911
+589,2806,(23008) Arquillos,Arquillos,2911
+590,2807,(23009) Baeza,Baeza,2911
+591,2808,(23010) Bailén,Bailén,2911
+592,2809,(23011) Baños de la Encina,Baños de la Encina,2911
+593,2810,(23012) Beas de Segura,Beas de Segura,2911
+594,2811,(23013) Bedmar,Bedmar,2911
+595,2812,(23014) Begíjar,Begíjar,2911
+596,2813,(23015) Bélmez de la Moraleda,Bélmez de la Moraleda,2911
+597,2814,(23016) Benatae,Benatae,2911
+598,2815,(23017) Cabra del Santo Cristo,Cabra del Santo Cristo,2911
+599,2816,(23018) Cambil,Cambil,2911
+600,2817,(23019) Campillo de Arenas,Campillo de Arenas,2911
+601,2818,(23020) Canena,Canena,2911
+602,2819,(23021) Carboneros,Carboneros,2911
+603,2820,(23022) Cárchel,Cárchel,2911
+604,2821,(23023) Carchelejo,Carchelejo,2911
+605,2822,(23024) Carolina (La),Carolina (La),2911
+606,2823,(23025) Castellar de Santisteban,Castellar de Santisteban,2911
+607,2824,(23025) Castellar,Castellar,2911
+608,2825,(23026) Castillo de Locubín,Castillo de Locubín,2911
+609,2826,(23027) Cazalilla,Cazalilla,2911
+610,2827,(23028) Cazorla,Cazorla,2911
+611,2828,(23029) Chiclana de Segura,Chiclana de Segura,2911
+612,2829,(23030) Chilluévar,Chilluévar,2911
+613,2830,(23031) Escañuela,Escañuela,2911
+614,2831,(23032) Espeluy,Espeluy,2911
+615,2832,(23033) Frailes,Frailes,2911
+616,2833,(23034) Fuensanta de Martos,Fuensanta de Martos,2911
+617,2834,(23035) Fuerte del Rey,Fuerte del Rey,2911
+618,2835,(23036) Garciéz,Garciéz,2911
+619,2836,(23037) Génave,Génave,2911
+620,2837,(23038) Guardia de Jaén (La),Guardia de Jaén (La),2911
+621,2838,(23039) Guarromán,Guarromán,2911
+622,2839,(23040) Higuera de Arjona,Higuera de Arjona,2911
+623,2840,(23040) Lahiguera,Lahiguera,2911
+624,2841,(23041) Higuera de Calatrava,Higuera de Calatrava,2911
+625,2842,(23042) Hinojares,Hinojares,2911
+626,2843,(23043) Hornos,Hornos,2911
+627,2844,(23044) Huelma,Huelma,2911
+628,2845,(23045) Huesa,Huesa,2911
+629,2846,(23046) Ibros,Ibros,2911
+630,2847,(23047) Iruela (La),Iruela (La),2911
+631,2848,(23048) Iznatoraf,Iznatoraf,2911
+632,2849,(23049) Jabalquinto,Jabalquinto,2911
+633,2850,(23050) Jaén (capital),Jaén (capital),2911
+634,2851,(23051) Jamilena,Jamilena,2911
+635,2852,(23052) Jimena,Jimena,2911
+636,2853,(23053) Jódar,Jódar,2911
+637,2854,(23054) Larva,Larva,2911
+638,2855,(23055) Linares,Linares,2911
+639,2856,(23056) Lopera,Lopera,2911
+640,2857,(23057) Lupión,Lupión,2911
+641,2858,(23058) Mancha Real,Mancha Real,2911
+642,2859,(23059) Marmolejo,Marmolejo,2911
+643,2860,(23060) Martos,Martos,2911
+644,2861,(23061) Mengíbar,Mengíbar,2911
+645,2862,(23062) Montizón,Montizón,2911
+646,2863,(23063) Navas de San Juan,Navas de San Juan,2911
+647,2864,(23064) Noalejo,Noalejo,2911
+648,2865,(23065) Orcera,Orcera,2911
+649,2866,(23066) Peal de Becerro,Peal de Becerro,2911
+650,2867,(23067) Pegalajar,Pegalajar,2911
+651,2868,(23068) Pontones,Pontones,2911
+652,2869,(23069) Porcuna,Porcuna,2911
+653,2870,(23070) Pozo Alcón,Pozo Alcón,2911
+654,2871,(23071) Puente de Génave,Puente de Génave,2911
+655,2872,(23072) Puerta de Segura (La),Puerta de Segura (La),2911
+656,2873,(23073) Quesada,Quesada,2911
+657,2874,(23074) Rus,Rus,2911
+658,2875,(23075) Sabiote,Sabiote,2911
+659,2876,(23076) Santa Elena,Santa Elena,2911
+660,2877,(23077) Santiago de Calatrava,Santiago de Calatrava,2911
+661,2878,(23078) Santiago de la Espada,Santiago de la Espada,2911
+662,2879,(23079) Santisteban del Puerto,Santisteban del Puerto,2911
+663,2880,(23080) Santo Tomé,Santo Tomé,2911
+664,2881,(23081) Segura de la Sierra,Segura de la Sierra,2911
+665,2882,(23082) Siles,Siles,2911
+666,2883,(23083) Solera,Solera,2911
+667,2884,(23084) Sorihuela del Guadalimar,Sorihuela del Guadalimar,2911
+668,2885,(23085) Torreblascopedro,Torreblascopedro,2911
+669,2888,(23087) Torredonjimeno,Torredonjimeno,2911
+670,2889,(23088) Torreperogil,Torreperogil,2911
+671,2890,(23089) Torrequebradilla,Torrequebradilla,2911
+672,2891,(23090) Torres,Torres,2911
+673,2892,(23091) Torres de Albánchez,Torres de Albánchez,2911
+674,2893,(23092) Úbeda,Úbeda,2911
+675,2894,(23093) Valdepeñas de Jaén,Valdepeñas de Jaén,2911
+676,2895,(23094) Vilches,Vilches,2911
+677,2896,(23095) Villacarrillo,Villacarrillo,2911
+678,2897,(23096) Villanueva de la Reina,Villanueva de la Reina,2911
+679,2898,(23097) Villanueva del Arzobispo,Villanueva del Arzobispo,2911
+680,2899,(23098) Villardompardo,Villardompardo,2911
+681,2900,(23099) Villares (Los),Villares (Los),2911
+682,2901,(23100) Villargordo,Villargordo,2911
+683,2902,(23101) Villarrodrigo,Villarrodrigo,2911
+684,2903,(23901) Cárcheles,Cárcheles,2911
+685,2904,(23902) Bedmar y Garcíez,Bedmar y Garcíez,2911
+686,2905,(23903) Villatorres,Villatorres,2911
+687,2906,(23904) Santiago-Pontones,Santiago-Pontones,2911
+688,2907,(23905) Arroyo del Ojanco,Arroyo del Ojanco,2911
+689,2886,(23086) Torre del Campo,Torre del Campo,2911
+690,2887,(23086) Torredelcampo,Torredelcampo,2911
+691,2908,(23NC) Municipio de Jaén sin especificar,Municipio de Jaén sin especificar,2911
+692,2912,(29001) Alameda,Alameda,3023
+693,2913,(29002) Alcaucín,Alcaucín,3023
+694,2914,(29003) Alfarnate,Alfarnate,3023
+695,2915,(29004) Alfarnatejo,Alfarnatejo,3023
+696,2916,(29005) Algarrobo,Algarrobo,3023
+697,2917,(29006) Algatocín,Algatocín,3023
+698,2918,(29007) Alhaurín de la Torre,Alhaurín de la Torre,3023
+699,2919,(29008) Alhaurín el Grande,Alhaurín el Grande,3023
+700,2920,(29009) Almáchar,Almáchar,3023
+701,2921,(29010) Almargen,Almargen,3023
+702,2922,(29011) Almogía,Almogía,3023
+703,2923,(29012) Álora,Álora,3023
+704,2924,(29013) Alozaina,Alozaina,3023
+705,2925,(29014) Alpandeire,Alpandeire,3023
+706,2926,(29015) Antequera,Antequera,3023
+707,2927,(29016) Árchez,Árchez,3023
+708,2928,(29017) Archidona,Archidona,3023
+709,2929,(29018) Ardales,Ardales,3023
+710,2930,(29019) Arenas,Arenas,3023
+711,2931,(29020) Arriate,Arriate,3023
+712,2932,(29021) Atajate,Atajate,3023
+713,2933,(29022) Benadalid,Benadalid,3023
+714,2934,(29023) Benahavís,Benahavís,3023
+715,2935,(29024) Benalauría,Benalauría,3023
+716,2936,(29025) Benalmádena,Benalmádena,3023
+717,2937,(29026) Benamargosa,Benamargosa,3023
+718,2938,(29027) Benamocarra,Benamocarra,3023
+719,2939,(29028) Benaoján,Benaoján,3023
+720,2940,(29029) Benarrabá,Benarrabá,3023
+721,2941,(29030) Borge (El),Borge (El),3023
+722,2942,(29031) Burgo (El),Burgo (El),3023
+723,2943,(29032) Campillos,Campillos,3023
+724,2944,(29033) Canillas de Aceituno,Canillas de Aceituno,3023
+725,2945,(29034) Canillas de Albaida,Canillas de Albaida,3023
+726,2946,(29035) Cañete la Real,Cañete la Real,3023
+727,2947,(29036) Carratraca,Carratraca,3023
+728,2948,(29037) Cartajima,Cartajima,3023
+729,2949,(29038) Cártama,Cártama,3023
+730,2950,(29039) Casabermeja,Casabermeja,3023
+731,2951,(29040) Casarabonela,Casarabonela,3023
+732,2952,(29041) Casares,Casares,3023
+733,2953,(29042) Coín,Coín,3023
+734,2954,(29043) Colmenar,Colmenar,3023
+735,2955,(29044) Comares,Comares,3023
+736,2956,(29045) Cómpeta,Cómpeta,3023
+737,2957,(29046) Cortes de la Frontera,Cortes de la Frontera,3023
+738,2958,(29047) Cuevas Bajas,Cuevas Bajas,3023
+739,2959,(29048) Cuevas del Becerro,Cuevas del Becerro,3023
+740,2960,(29049) Cuevas de San Marcos,Cuevas de San Marcos,3023
+741,2961,(29050) Cútar,Cútar,3023
+742,2962,(29051) Estepona,Estepona,3023
+743,2963,(29052) Faraján,Faraján,3023
+744,2964,(29053) Frigiliana,Frigiliana,3023
+745,2965,(29054) Fuengirola,Fuengirola,3023
+746,2966,(29055) Fuente de Piedra,Fuente de Piedra,3023
+747,2967,(29056) Gaucín,Gaucín,3023
+748,2968,(29057) Genalguacil,Genalguacil,3023
+749,2969,(29058) Guaro,Guaro,3023
+750,2970,(29059) Humilladero,Humilladero,3023
+751,2971,(29060) Igualeja,Igualeja,3023
+752,2972,(29061) Istán,Istán,3023
+753,2973,(29062) Iznate,Iznate,3023
+754,2974,(29063) Jimera de Líbar,Jimera de Líbar,3023
+755,2975,(29064) Jubrique,Jubrique,3023
+756,2976,(29065) Júzcar,Júzcar,3023
+757,2977,(29066) Macharaviaya,Macharaviaya,3023
+758,2978,(29067) Málaga (capital),Málaga (capital),3023
+759,2979,(29068) Manilva,Manilva,3023
+760,2980,(29069) Marbella,Marbella,3023
+761,2981,(29070) Mijas,Mijas,3023
+762,2982,(29071) Moclinejo,Moclinejo,3023
+763,2983,(29072) Mollina,Mollina,3023
+764,2984,(29073) Monda,Monda,3023
+765,2985,(29074) Montejaque,Montejaque,3023
+766,2986,(29075) Nerja,Nerja,3023
+767,2987,(29076) Ojén,Ojén,3023
+768,2988,(29077) Parauta,Parauta,3023
+769,2989,(29078) Peñarrubia,Peñarrubia,3023
+770,2990,(29079) Periana,Periana,3023
+771,2991,(29080) Pizarra,Pizarra,3023
+772,2992,(29081) Pujerra,Pujerra,3023
+773,2994,(29082) Benagalbón,Benagalbón,3023
+774,2993,(29082) Rincón de la Victoria,Rincón de la Victoria,3023
+775,2995,(29083) Riogordo,Riogordo,3023
+776,2996,(29084) Ronda,Ronda,3023
+777,2997,(29085) Salares,Salares,3023
+778,2998,(29086) Sayalonga,Sayalonga,3023
+779,2999,(29087) Sedella,Sedella,3023
+780,3000,(29088) Sierra de Yeguas,Sierra de Yeguas,3023
+781,3001,(29089) Teba,Teba,3023
+782,3002,(29090) Tolox,Tolox,3023
+783,3003,(29091) Torrox,Torrox,3023
+784,3004,(29092) Totalán,Totalán,3023
+785,3005,(29093) Valle de Abdalajís,Valle de Abdalajís,3023
+786,3006,(29094) Vélez-Málaga,Vélez-Málaga,3023
+787,3007,(29095) Villanueva de Algaidas,Villanueva de Algaidas,3023
+788,3008,(29096) Villanueva del Rosario,Villanueva del Rosario,3023
+789,3009,(29097) Villanueva del Trabuco,Villanueva del Trabuco,3023
+790,3010,(29098) Villanueva de Tapia,Villanueva de Tapia,3023
+791,3011,(29099) Viñuela,Viñuela,3023
+792,3012,(29100) Yunquera,Yunquera,3023
+793,3013,(29502) Churriana,Churriana,3023
+794,3014,(29505) Olías,Olías,3023
+795,3015,(29901) Torremolinos,Torremolinos,3023
+796,3016,(29901) Torremolinos,Torremolinos,3023
+797,3017,(29902) Villanueva de la Concepción,Villanueva de la Concepción,3023
+798,3018,(29903) Montecorto,Montecorto,3023
+799,3019,(29904) Serrato,Serrato,3023
+800,3020,(29NC) Municipio de Málaga sin especificar,Municipio de Málaga sin especificar,3023
+801,3024,(41001) Aguadulce,Aguadulce,3142
+802,3025,(41002) Alanís,Alanís,3142
+803,3026,(41003) Albaida del Aljarafe,Albaida del Aljarafe,3142
+804,3028,(41004) Alcalá de Guadaira,Alcalá de Guadaira,3142
+805,3027,(41004) Alcalá de Guadaíra,Alcalá de Guadaíra,3142
+806,3029,(41005) Alcalá del Río,Alcalá del Río,3142
+807,3030,(41006) Alcolea del Río,Alcolea del Río,3142
+808,3031,(41007) Algaba (La),Algaba (La),3142
+809,3032,(41008) Algámitas,Algámitas,3142
+810,3033,(41009) Almadén de la Plata,Almadén de la Plata,3142
+811,3034,(41010) Almensilla,Almensilla,3142
+812,3035,(41011) Arahal (El),Arahal (El),3142
+813,3036,(41011) Arahal,Arahal,3142
+814,3037,(41012) Aznalcázar,Aznalcázar,3142
+815,3038,(41013) Aznalcóllar,Aznalcóllar,3142
+816,3039,(41014) Badolatosa,Badolatosa,3142
+817,3040,(41015) Benacazón,Benacazón,3142
+818,3041,(41016) Bollullos de la Mitación,Bollullos de la Mitación,3142
+819,3042,(41017) Bormujos,Bormujos,3142
+820,3043,(41018) Brenes,Brenes,3142
+821,3044,(41019) Burguillos,Burguillos,3142
+822,3045,(41020) Cabezas de San Juan (Las),Cabezas de San Juan (Las),3142
+823,3046,(41021) Camas,Camas,3142
+824,3047,(41022) Campana (La),Campana (La),3142
+825,3048,(41023) Cantillana,Cantillana,3142
+826,3049,(41024) Carmona,Carmona,3142
+827,3050,(41025) Carrión de los Céspedes,Carrión de los Céspedes,3142
+828,3051,(41026) Casariche,Casariche,3142
+829,3052,(41027) Castilblanco de los Arroyos,Castilblanco de los Arroyos,3142
+830,3053,(41028) Castilleja de Guzmán,Castilleja de Guzmán,3142
+831,3054,(41029) Castilleja de la Cuesta,Castilleja de la Cuesta,3142
+832,3055,(41030) Castilleja del Campo,Castilleja del Campo,3142
+833,3056,(41031) Castillo de las Guardas (El),Castillo de las Guardas (El),3142
+834,3057,(41032) Cazalla de la Sierra,Cazalla de la Sierra,3142
+835,3058,(41033) Constantina,Constantina,3142
+836,3059,(41034) Coria del Río,Coria del Río,3142
+837,3060,(41035) Coripe,Coripe,3142
+838,3061,(41036) Coronil (El),Coronil (El),3142
+839,3062,(41037) Corrales (Los),Corrales (Los),3142
+840,3063,(41038) Dos Hermanas,Dos Hermanas,3142
+841,3064,(41039) Écija,Écija,3142
+842,3065,(41040) Espartinas,Espartinas,3142
+843,3066,(41041) Estepa,Estepa,3142
+844,3067,(41042) Fuentes de Andalucía,Fuentes de Andalucía,3142
+845,3068,(41043) Garrobo (El),Garrobo (El),3142
+846,3069,(41044) Gelves,Gelves,3142
+847,3070,(41045) Gerena,Gerena,3142
+848,3071,(41046) Gilena,Gilena,3142
+849,3072,(41047) Gines,Gines,3142
+850,3073,(41048) Guadalcanal,Guadalcanal,3142
+851,3074,(41049) Guillena,Guillena,3142
+852,3075,(41050) Herrera,Herrera,3142
+853,3076,(41051) Huévar,Huévar,3142
+854,3077,(41051) Huévar del Aljarafe,Huévar del Aljarafe,3142
+855,3080,(41053) Lebrija,Lebrija,3142
+856,3081,(41054) Lora de Estepa,Lora de Estepa,3142
+857,3082,(41055) Lora del Río,Lora del Río,3142
+858,3083,(41056) Luisiana (La),Luisiana (La),3142
+859,3084,(41057) Madroño (El),Madroño (El),3142
+860,3085,(41058) Mairena del Alcor,Mairena del Alcor,3142
+861,3086,(41059) Mairena del Aljarafe,Mairena del Aljarafe,3142
+862,3087,(41060) Marchena,Marchena,3142
+863,3088,(41061) Marinaleda,Marinaleda,3142
+864,3089,(41062) Martín de la Jara,Martín de la Jara,3142
+865,3090,(41063) Molares (Los),Molares (Los),3142
+866,3091,(41064) Montellano,Montellano,3142
+867,3092,(41065) Morón de la Frontera,Morón de la Frontera,3142
+868,3093,(41066) Navas de la Concepción (Las),Navas de la Concepción (Las),3142
+869,3094,(41067) Olivares,Olivares,3142
+870,3095,(41068) Osuna,Osuna,3142
+871,3096,(41069) Palacios y Villafranca (Los),Palacios y Villafranca (Los),3142
+872,280352,(41904) Palmar de Troya (El),Palmar de Troya (El),3142
+873,3097,(41070) Palomares del Río,Palomares del Río,3142
+874,3098,(41071) Paradas,Paradas,3142
+875,3099,(41072) Pedrera,Pedrera,3142
+876,3100,(41073) Pedroso (El),Pedroso (El),3142
+877,3101,(41074) Peñaflor,Peñaflor,3142
+878,3102,(41075) Pilas,Pilas,3142
+879,3103,(41076) Pruna,Pruna,3142
+880,3104,(41077) Puebla de Cazalla (La),Puebla de Cazalla (La),3142
+881,3105,(41078) Puebla de los Infantes (La),Puebla de los Infantes (La),3142
+882,3108,(41079) Puebla,Puebla,3142
+883,3106,(41079) Puebla del Río,Puebla del Río,3142
+884,3107,(41079) Puebla del Río (La),Puebla del Río (La),3142
+885,3109,(41080) Real de la Jara (El),Real de la Jara (El),3142
+886,3110,(41081) Rinconada (La),Rinconada (La),3142
+887,3111,(41082) Roda de Andalucía (La),Roda de Andalucía (La),3142
+888,3112,(41083) Ronquillo (El),Ronquillo (El),3142
+889,3113,(41084) Rubio (El),Rubio (El),3142
+890,3114,(41085) Salteras,Salteras,3142
+891,3115,(41086) San Juan de Aznalfarache,San Juan de Aznalfarache,3142
+892,3116,(41087) Sanlúcar la Mayor,Sanlúcar la Mayor,3142
+893,3117,(41088) San Nicolás del Puerto,San Nicolás del Puerto,3142
+894,3118,(41089) Santiponce,Santiponce,3142
+895,3119,(41090) Saucejo (El),Saucejo (El),3142
+896,3120,(41091) Sevilla (capital),Sevilla (capital),3142
+897,3121,(41092) Tocina,Tocina,3142
+898,3122,(41093) Tomares,Tomares,3142
+899,3123,(41094) Umbrete,Umbrete,3142
+900,3124,(41095) Utrera,Utrera,3142
+901,3126,(41096) Valencina del Alcor,Valencina del Alcor,3142
+902,3125,(41096) Valencina de la Concepción,Valencina de la Concepción,3142
+903,3127,(41097) Villamanrique de la Condesa,Villamanrique de la Condesa,3142
+904,3128,(41098) Villanueva del Ariscal,Villanueva del Ariscal,3142
+905,3129,(41099) Villanueva del Río y Minas,Villanueva del Río y Minas,3142
+906,3130,(41100) Villanueva de San Juan,Villanueva de San Juan,3142
+907,3131,(41101) Villaverde del Río,Villaverde del Río,3142
+908,3132,(41102) Viso del Alcor (El),Viso del Alcor (El),3142
+909,3133,(41901) Cañada Rosal,Cañada Rosal,3142
+910,3134,(41902) Villafranco del Guadalquivir,Villafranco del Guadalquivir,3142
+911,3135,(41902) Villafranco del Guadalquivir,Villafranco del Guadalquivir,3142
+912,3136,(41902) Isla Mayor,Isla Mayor,3142
+913,3137,(41903) Cuervo (El),Cuervo (El),3142
+914,3138,(41903) Cuervo de Sevilla (El),Cuervo de Sevilla (El),3142
+915,3078,(41052) Lantejuela (La),Lantejuela (La),3142
+916,3079,(41052) Lantejuela,Lantejuela,3142
+917,3139,(41NC) Municipio de Sevilla sin especificar,Municipio de Sevilla sin especificar,3142
+918,3147,(C01NC000) Provincia sin especificar,Provincia sin especificar,3144
+919,3151,(22) Huesca,Huesca,3160
+920,3155,(44) Teruel,Teruel,3160
+921,3159,(50) Zaragoza,Zaragoza,3160
+922,3149,(P22) Huesca,Huesca,3151
+923,3153,(P44) Teruel,Teruel,3155
+924,3157,(P50) Zaragoza,Zaragoza,3159
+925,3164,(33) Asturias,Asturias,3165
+926,3162,(P33) Asturias,Asturias,3164
+927,3169,(07) Islas Baleares/Illes Balears,Islas Baleares/Illes Balears,3170
+928,3167,(P07) Islas Baleares/Illes Balears,Islas Baleares/Illes Balears,3169
+929,3174,(35) Las Palmas,Las Palmas,3179
+930,3178,(38) Santa Cruz de Tenerife,Santa Cruz de Tenerife,3179
+931,3172,(P35) Las Palmas,Las Palmas,3174
+932,3176,(P38) Santa Cruz de Tenerife,Santa Cruz de Tenerife,3178
+933,3183,(39) Cantabria,Cantabria,3184
+934,3181,(P39) Cantabria,Cantabria,3183
+935,3188,(02) Albacete,Albacete,3205
+936,3192,(13) Ciudad Real,Ciudad Real,3205
+937,3196,(16) Cuenca,Cuenca,3205
+938,3200,(19) Guadalajara,Guadalajara,3205
+939,3204,(45) Toledo,Toledo,3205
+940,3186,(P02) Albacete,Albacete,3188
+941,3190,(P13) Ciudad Real,Ciudad Real,3192
+942,3194,(P16) Cuenca,Cuenca,3196
+943,3198,(P19) Guadalajara,Guadalajara,3200
+944,3202,(P45) Toledo,Toledo,3204
+945,3209,(05) Ávila,Ávila,3242
+946,3213,(09) Burgos,Burgos,3242
+947,3217,(24) León,León,3242
+948,3221,(34) Palencia,Palencia,3242
+949,3225,(37) Salamanca,Salamanca,3242
+950,3229,(40) Segovia,Segovia,3242
+951,3233,(42) Soria,Soria,3242
+952,3237,(47) Valladolid,Valladolid,3242
+953,3241,(49) Zamora,Zamora,3242
+954,3207,(P05) Ávila,Ávila,3209
+955,3211,(P09) Burgos,Burgos,3213
+956,3215,(P24) León,León,3217
+957,3219,(P34) Palencia,Palencia,3221
+958,3223,(P37) Salamanca,Salamanca,3225
+959,3227,(P40) Segovia,Segovia,3229
+960,3231,(P42) Soria,Soria,3233
+961,3235,(P47) Valladolid,Valladolid,3237
+962,3239,(P49) Zamora,Zamora,3241
+963,3246,(08) Barcelona,Barcelona,3259
+964,3250,(17) Gerona/Girona,Gerona/Girona,3259
+965,3254,(25) Lérida/Lleida,Lérida/Lleida,3259
+966,3258,(43) Tarragona,Tarragona,3259
+967,3244,(P08) Barcelona,Barcelona,3246
+968,3248,(P17) Gerona/Girona,Gerona/Girona,3250
+969,3252,(P25) Lérida/Lleida,Lérida/Lleida,3254
+970,3256,(P43) Tarragona,Tarragona,3258
+971,3263,(03) Alicante/Alacant,Alicante/Alacant,3272
+972,3267,(12) Castellón/Castelló,Castellón/Castelló,3272
+973,3271,(46) Valencia/València,Valencia/València,3272
+974,3261,(P03) Alicante/Alacant,Alicante/Alacant,3263
+975,3265,(P12) Castellón/Castelló,Castellón/Castelló,3267
+976,3269,(P46) Valencia/València,Valencia/València,3271
+977,3276,(06) Badajoz,Badajoz,3281
+978,3280,(10) Cáceres,Cáceres,3281
+979,3274,(P06) Badajoz,Badajoz,3276
+980,3278,(P10) Cáceres,Cáceres,3280
+981,3285,(15) La Coruña/A Coruña,La Coruña/A Coruña,3298
+982,3289,(27) Lugo,Lugo,3298
+983,3293,(32) Orense/Ourense,Orense/Ourense,3298
+984,3297,(36) Pontevedra,Pontevedra,3298
+985,3283,(P15) La Coruña/A Coruña,La Coruña/A Coruña,3285
+986,3287,(P27) Lugo,Lugo,3289
+987,3291,(P32) Orense/Ourense,Orense/Ourense,3293
+988,3295,(P36) Pontevedra,Pontevedra,3297
+989,3302,(28) Madrid,Madrid,3303
+990,3300,(P28) Madrid,Madrid,3302
+991,3307,(30) Murcia,Murcia,3308
+992,3305,(P30) Murcia,Murcia,3307
+993,3312,(31) Navarra,Navarra,3313
+994,3310,(P31) Navarra,Navarra,3312
+995,3317,(01) Álava/Araba,Álava/Araba,3326
+996,3321,(20) Guipúzcoa/Gipuzkoa,Guipúzcoa/Gipuzkoa,3326
+997,3325,(48) Vizcaya/Bizkaia,Vizcaya/Bizkaia,3326
+998,3315,(P01) Álava/Araba,Álava/Araba,3317
+999,3319,(P20) Guipúzcoa/Gipuzkoa,Guipúzcoa/Gipuzkoa,3321
+1000,3323,(P48) Vizcaya/Bizkaia,Vizcaya/Bizkaia,3325
+1001,3330,(26) La Rioja,La Rioja,3331
+1002,3328,(P26) La Rioja,La Rioja,3330
+1003,3335,(51) Ceuta,Ceuta,3340
+1004,3339,(52) Melilla,Melilla,3340
+1005,3333,(P51) Ceuta,Ceuta,3335
+1006,3337,(P52) Melilla,Melilla,3339
+1007,3342,(RE0) Resto de España,Resto de España,3341
+1008,3345,(RE) Resto de España,Resto de España,3342
