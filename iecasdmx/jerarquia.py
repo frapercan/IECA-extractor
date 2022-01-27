@@ -56,4 +56,6 @@ class Jerarquia:
 
 
     def guardar_datos(self,directorio= 'iecasdmx/sistema_informacion/BADEA/jerarquias/'):
+        if not os.path.exists(directorio):
+            os.makedirs(directorio)
         self.datos.to_csv(f'{os.path.join(directorio,self.id_jerarquia)}.csv')

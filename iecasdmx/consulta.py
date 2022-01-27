@@ -42,7 +42,7 @@ class Consulta:
                               jerarquia in self.jerarquias]
 
         mapa["medidas"] = [{'id': medida['id'], 'des': medida['des']} for medida in self.medidas]
-        with open(f'iecasdmx/sistema_informacion/mapas_plantillas/{self.id_consulta}.yaml', 'w',
+        with open(f'iecasdmx/sistema_informacion/mapas_plantillas/{self.id_consulta}.yaml', 'w+',
                   encoding='utf-8') as fichero:
             yaml.dump(mapa, fichero, encoding='utf-8', allow_unicode=True)
 
