@@ -1,5 +1,12 @@
 directorio_sistema_informacion: iecasdmx/sistema_informacion/
 
-dimensiones_temporales:
-  - D_TEMPORAL_0_d1_j5
+dimensiones_temporales: D_TEMPORAL_0
+
+
+indicadores_a_borrar: Variación en lo que va de año
+dimensiones_a_mapear:
+  - INDICATOR
+  - D_ECOICOP_0
+  - D_TERRITORIO_0
+
 

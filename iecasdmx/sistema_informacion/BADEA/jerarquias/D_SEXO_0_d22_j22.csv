@@ -1,7 +1,0 @@
-,id,label,des,parentId
-0,22,() Sexo,Sexo,null
-1,3691,(00) Ambos sexos,Ambos sexos,null
-2,3689,(01) Hombres,Hombres,3691
-3,3690,(06) Mujeres,Mujeres,3691
-4,3693,(NP) No procede,No procede,3691
-5,3692,(NC) No consta,No consta,3691

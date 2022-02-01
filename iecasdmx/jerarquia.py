@@ -1,9 +1,15 @@
 import os
+import sys
 
 import requests
 import pandas as pd
 import itertools
 import numpy as np
+
+import logging
+
+fmt = '[%(asctime)-15s] [%(levelname)s] %(name)s: %(message)s'
+logging.basicConfig(format=fmt, level=logging.INFO, stream=sys.stdout)
 
 
 class Jerarquia:
@@ -16,16 +22,20 @@ class Jerarquia:
         """
 
     def __init__(self, jerarquia):
+        self.id_jerarquia = f'{jerarquia["alias"]}-{jerarquia["cod"]}'
 
-        self.id_jerarquia = f'{jerarquia["alias"]}_{jerarquia["cod"]}'
+        self.logger = logging.getLogger(self.__class__.__name__)
+        self.logger.info('Extrayendo listas de código - %s', self.id_jerarquia)
+
+        self.logger.info('Petición API')
         self.jerarquia_completa = requests.get(jerarquia['url']).json()
+        self.logger.info('Petición API Finalizada')
 
         self.datos = self.obtener_dataframe()
 
         self.metadatos = jerarquia
-        self.guardar_datos()
 
-    def obtener_dataframe(self, propiedades=('id', 'label', 'des', 'parentId')):
+    def obtener_dataframe(self, propiedades=('id', 'label', 'des', 'parentId','order')):
         """Transforma el arbol de la jerarquia hacia un formato tabular,
           extrayendo las propiedades seleccionadas.
 
@@ -33,10 +43,10 @@ class Jerarquia:
 
          :returns:  dict(metadatos),list(Jerarquia),dict(measures),dict(data).
          """
+        self.logger.info('Transformando Jerarquias')
         data = [self.jerarquia_completa['data']]
 
         def recorrer_arbol_recursivamente(datos_jerarquia):
-
             datos_nivel_actual = [[jerarquia[propiedad] for propiedad in propiedades]
                                   for jerarquia in datos_jerarquia]
 
@@ -51,11 +61,18 @@ class Jerarquia:
         datos_jerarquia = recorrer_arbol_recursivamente(data)
 
         jerarquia_df = pd.DataFrame(datos_jerarquia, columns=propiedades, dtype='string')
+        jerarquia_df.replace('null', '',inplace=True)
+
+        self.logger.info('Jerarquia transformada')
 
         return jerarquia_df
 
-
-    def guardar_datos(self,directorio= 'iecasdmx/sistema_informacion/BADEA/jerarquias/'):
+    def guardar_datos(self, directorio='iecasdmx/sistema_informacion/BADEA/jerarquias/'):
+        self.logger.info('Almacenando datos Jerarquia')
+        columnas = ['ID', 'NAME', 'DESCRIPTION', 'PARENTCODE','ORDER']
         if not os.path.exists(directorio):
             os.makedirs(directorio)
-        self.datos.to_csv(f'{os.path.join(directorio,self.id_jerarquia)}.csv')
+        datos = self.datos.__deepcopy__()
+        datos.columns = columnas
+        datos.to_csv(f'{os.path.join(directorio, self.id_jerarquia)}.csv', sep=';', index=False)
+        self.logger.info('Jerarquia Almacenada')
