@@ -113,8 +113,16 @@ class Datos:
     def crear_plantilla_mapa(self, directorio="iecasdmx/sistema_informacion/mapas_plantillas/"):
         for column in self.datos_por_observacion.columns:
             if column in self.configuracion['dimensiones_a_mapear']:
+                if os.path.isfile(os.path.join(directorio, column)):
+                    df_mapa = pd.read_csv(os.path.join(directorio, column))
+                else:
+                    df_mapa = pd.DataFrame(columns=['SOURCE', 'TARGET'])
+                conjunto_conceptos = set.union(set(df_mapa['SOURCE'].values),
+                                               set(self.datos_por_observacion[column].unique()))
+                conjunto_conceptos = list(conjunto_conceptos)
+                conjunto_conceptos.sort()
                 df_mapa = pd.DataFrame(columns=['SOURCE', 'TARGET'])
-                df_mapa['SOURCE'] = self.datos_por_observacion[column].unique()
+                df_mapa['SOURCE'] = conjunto_conceptos
                 df_mapa.to_csv(os.path.join(directorio, column), index=False)
 
 
@@ -130,6 +138,7 @@ def transformar_formato_tiempo_segun_periodicidad(serie, periodicidad):
 
 
 def insertar_freq(df, periodicidad):
-    diccionario_periodicidad_sdmx = {'Mensual': 'M', 'Anual': 'A'}
+    diccionario_periodicidad_sdmx = {'Mensual': 'M', 'Anual': 'A',
+                                     'Mensual  Fuente: Instituto Nacional de Estadística': 'M','':'M'}
     df['FREQ'] = diccionario_periodicidad_sdmx[periodicidad]
     return df
