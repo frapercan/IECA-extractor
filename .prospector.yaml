@@ -23,6 +23,7 @@ pylint:
     - raising-bad-type
     - not-callable
     - too-many-arguments
+    - cyclic-import
   options:
     max-line-length: 120
     max-args: 8
@@ -39,3 +40,4 @@ pep257:
 pep8:
   options:
     max-line-length: 120
+

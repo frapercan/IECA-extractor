@@ -1,0 +1,28 @@
+id;name_en;description_en;parent
+DTHLUN;Persons whose legal union ended with the death of the partner;;
+MAR_SEP;Married or legally separated persons;;
+WID;Widowed persons;;
+NMAR;Not married persons;;
+ENDLUN;Persons whose legal union ended and not again in a legal union;;
+LUN;Persons in legal union (married or in registered partnership);;
+NLUN;Persons neither in registered partnership nor married;;
+DTHREP;Persons whose registered partnership ended with the death of the partner;;
+REP;Persons in registered partnership;;
+DIV_WID;Divorced or widowed persons;;
+MARO;Persons in an opposite-sex married couple;;
+MAR_REP;Persons married or in registered partnership;;
+MARS;Persons in a same-sex married couple;;
+CSU;Persons in consensual union;;
+REPS;Persons in a same-sex registered partnership;;
+DISREP;Persons whose registered partnership was legally dissolved;;
+REPO;Persons in an opposite-sex registered partnership;;
+SIN;Single persons (never in legal union);;
+DISLUN;Persons whose legal union was legally dissolved;;
+SEP;Separated persons;;
+NCSU;Persons not in consensual union;;
+MAR;Married persons;;
+_Z;Not applicable (below legal marriageable age of the country);;
+DIV;Divorced persons;;
+_U;Unknown;;
+NLUN_NCSU;Persons neither in legal nor in consensual union;;
+_T;Total;;

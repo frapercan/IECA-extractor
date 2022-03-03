@@ -1,4 +1,31 @@
-SOURCE,TARGET
-Índice,INX
-Variación mensual,RCH_M
-Variación anual,RCH_A
+SOURCE,COD,NAME,TARGET
+Población municipal,,,HAB
+Índice,,,INX
+Variación mensual,,,RCH_M
+Variación anual,,,RCH_A
+Divorcios,,,DIV
+Nulidades,,,DISLUN
+Separaciones,,,SEP
+Población municipal,,,PERS
+Nacimientos,,,NACI
+Defunciones,,,DEATHS
+Crecimiento natural,,,CREC_NAT
+Partos,,,PART
+Muertes fetales tardías,,,LATE_FETAL_DEATH
+Matrimonios,,,MARRIAGE
+Empresas,,,EMPRESA
+Establecimientos,,,ESTABLECIMIENTO
+Valor,,,NR
+Sociedades constituidas,,,SOC_CONST
+Sociedades extinguidas,,,SOC_EXT
+Sociedades que desembolsan dividendos,,,SOC_DIV
+Sociedades disueltas,,,SOC_DIS
+Sociedades que realizan escisión,,,SOC_ESC
+SM transformadas,,,SM_TRANS
+SM fusionadas,,,SM_FUS
+SM presentan concurso de acreedores,,,SM_ACR
+Sociedades que amplían capital,,,SM_AMP_CAP
+Sociedades que reducen capital,,,SM_RED_CAP
+Capital suscrito,,,CAP_SUS
+%,,,PC
+

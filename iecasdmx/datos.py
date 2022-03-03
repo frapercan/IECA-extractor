@@ -4,6 +4,7 @@ import sys
 import pandas as pd
 
 import logging
+import numpy as np
 
 fmt = '[%(asctime)-15s] [%(levelname)s] %(name)s: %(message)s'
 logging.basicConfig(format=fmt, level=logging.INFO, stream=sys.stdout)
@@ -13,24 +14,22 @@ class Datos:
     """Estructura de datos para manejar los datos encontrados dentro
     de las consultas del IECA. El proceso de inicialización de esta estructura
     realiza los siguientes pasos:
-        #. Convierte de JSON a DataFrame utilizando las medidas y jerarquias para las columnas
-        #. Desacopla las observaciones en base a las medidas
-        #. Añade la dimension FREQ de SDMX
-
-        :param id_consulta: ID de la consulta de BADEA.
-       :type id_consulta: str
-        :param configuracion: Información con respecto a las configuraciones del procesamiento.
-       :type configuracion: JSON
-        :param periodicidad: Periodicidad de la consulta de BADEA
-       :type periodicidad: str
-        :param datos: Diccionario con los datos de la consulta de BADEA.
-       :type datos: JSON
-        :param jerarquias: Jerarquias utilizadas en la consulta de BADEA.
-       :type jerarquias: Jerarquia
-        :param medidas: Diccionario con las medidas de la consulta de BADEA.
-       :type medidas: JSON
-
-        """
+    #. Convierte de JSON a DataFrame utilizando las medidas y jerarquias para las columnas
+    #. Desacopla las observaciones en base a las medidas
+    #. Añade la dimension FREQ de SDMX
+    :param id_consulta: ID de la consulta de BADEA.
+    :type id_consulta: str
+    :param configuracion: Información con respecto a las configuraciones del procesamiento.
+    :type configuracion: JSON
+    :param periodicidad: Periodicidad de la consulta de BADEA
+    :type periodicidad: str
+    :param datos: Diccionario con los datos de la consulta de BADEA.
+    :type datos: JSON
+    :param jerarquias: Jerarquias utilizadas en la consulta de BADEA.
+    :type jerarquias: :class:'iecasdmx.Jerarquia'
+    :param medidas: Diccionario con las medidas de la consulta de BADEA.
+    :type medidas: JSON
+    """
 
     def __init__(self, id_consulta, configuracion, periodicidad, datos, jerarquias, medidas):
         self.logger = logging.getLogger(self.__class__.__name__)
@@ -56,17 +55,32 @@ class Datos:
                            self.medidas]
         columnas = [jerarquia.metadatos['alias'] for jerarquia in self.jerarquias] + [medida['des'] for medida in
                                                                                       self.medidas]
+        try:
+            df = pd.DataFrame(datos, columns=columnas)
+        except Exception as e:
+            self.logger.error('Consulta sin datos - %s', self.id_consulta)
+            raise e
 
-        df = pd.DataFrame(datos, columns=columnas)
         df.columns = columnas
         df[columnas_jerarquia] = df[columnas_jerarquia].applymap(lambda x: x['cod'][-1])
+        print(df[columnas_medida].shape,df[columnas_medida].applymap(
+            lambda x: x['val']).shape)
         df[columnas_medida] = df[columnas_medida].applymap(
             lambda x: x['val'])
 
+        #
         dimension_temporal = self.configuracion['dimensiones_temporales']
         if dimension_temporal in df.columns:
             df[dimension_temporal] = transformar_formato_tiempo_segun_periodicidad(df[dimension_temporal],
                                                                                    self.periodicidad)
+
+        # Parche IECA ya que están indexando por cod en lugar de id.
+        for jerarquia in self.jerarquias:
+            columna = jerarquia.metadatos['alias']
+
+            if columna != dimension_temporal:
+                df[columna] = df.merge(jerarquia.datos, how='left', left_on=columna, right_on='cod')['id'].values
+
         self.logger.info('Datos Transformados a DataFrame Correctamente')
 
         return df
@@ -87,7 +101,6 @@ class Datos:
 
                 valores_medida = self.datos[columnas_jerarquia + [medida]].copy()
                 valores_medida.loc[:, 'INDICATOR'] = medida
-                #
                 valores_medida.columns = columnas
                 valores_medida = valores_medida[columnas_ordenadas]
                 df = pd.concat([df, valores_medida])
@@ -106,23 +119,40 @@ class Datos:
                                                   set(self.configuracion['dimensiones_a_mapear'])))
         for columna in columnas_a_mapear:
             self.logger.info('Mapeando: %s', columna)
-            mapa = pd.read_csv(os.path.join(directorio, columna))
+            mapa = pd.read_csv(os.path.join(directorio, columna), dtype='string')
             self.datos_por_observacion[columna] = \
                 self.datos_por_observacion.merge(mapa, how='left', left_on=columna, right_on='SOURCE')['TARGET'].values
 
-    def crear_plantilla_mapa(self, directorio="iecasdmx/sistema_informacion/mapas_plantillas/"):
+    def crear_plantilla_mapa(self, directorio="iecasdmx/sistema_informacion/mapas_plantillas"):
+        columnas_plantilla = ['SOURCE', 'COD', 'NAME', 'TARGET']
         for column in self.datos_por_observacion.columns:
             if column in self.configuracion['dimensiones_a_mapear']:
+                df_mapa = None
+
                 if os.path.isfile(os.path.join(directorio, column)):
-                    df_mapa = pd.read_csv(os.path.join(directorio, column))
+                    df_mapa = pd.read_csv(os.path.join(directorio, column), dtype='string')
                 else:
-                    df_mapa = pd.DataFrame(columns=['SOURCE', 'TARGET'])
-                conjunto_conceptos = set.union(set(df_mapa['SOURCE'].values),
-                                               set(self.datos_por_observacion[column].unique()))
-                conjunto_conceptos = list(conjunto_conceptos)
-                conjunto_conceptos.sort()
-                df_mapa = pd.DataFrame(columns=['SOURCE', 'TARGET'])
-                df_mapa['SOURCE'] = conjunto_conceptos
+                    df_mapa = pd.DataFrame(columns=columnas_plantilla, dtype='string')
+
+                uniques = np.full([len(self.datos_por_observacion[column].unique()), len(columnas_plantilla)], None)
+                uniques[:, 0] = self.datos_por_observacion[column].unique()
+
+                df_auxiliar = pd.DataFrame(uniques, columns=columnas_plantilla, dtype='string')
+
+                df_mapa = pd.concat([df_mapa, df_auxiliar]).drop_duplicates('SOURCE', keep='first')
+
+                if column != 'INDICATOR':
+                    jerarquia_codigos = pd.read_csv(
+                        os.path.join("iecasdmx/sistema_informacion/BADEA/jerarquias",
+                                     column + '.csv'), sep=';',
+                        dtype='string')
+
+                    df_mapa['COD'][df_mapa['COD'].isna()] = \
+                        df_mapa[df_mapa['COD'].isna()].merge(jerarquia_codigos, how='left', left_on='SOURCE',
+                                                             right_on='ID')['COD_y']
+                    df_mapa['NAME'][df_mapa['NAME'].isna()] = \
+                        df_mapa[df_mapa['NAME'].isna()].merge(jerarquia_codigos, how='left', left_on='SOURCE',
+                                                              right_on='ID')['NAME_y']
                 df_mapa.to_csv(os.path.join(directorio, column), index=False)
 
 
@@ -139,6 +169,6 @@ def transformar_formato_tiempo_segun_periodicidad(serie, periodicidad):
 
 def insertar_freq(df, periodicidad):
     diccionario_periodicidad_sdmx = {'Mensual': 'M', 'Anual': 'A',
-                                     'Mensual  Fuente: Instituto Nacional de Estadística': 'M','':'M'}
+                                     'Mensual  Fuente: Instituto Nacional de Estadística': 'M', '': 'M'}
     df['FREQ'] = diccionario_periodicidad_sdmx[periodicidad]
     return df

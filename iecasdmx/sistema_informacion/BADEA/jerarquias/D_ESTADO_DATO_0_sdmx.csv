@@ -1,0 +1,4 @@
+ID;NAME;DESCRIPTION;PARENTCODE;ORDER
+222;() Estado del dato P, D;Estado del dato P, D;;0
+40123;(D) Definitivo;Definitivo;;1
+40124;(P) Provisional;Provisional;;2

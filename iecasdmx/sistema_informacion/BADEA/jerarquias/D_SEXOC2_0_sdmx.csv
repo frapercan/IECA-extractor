@@ -1,0 +1,7 @@
+ID;NAME;DESCRIPTION;PARENTCODE;ORDER
+29;() Sexo c2;Sexo c2;;0
+4972;(00) Total;Total;;1
+4973;(01) Hombres;Hombres;4972;1
+4974;(06) Mujeres;Mujeres;4972;2
+4975;(NP) No procede;No procede;4972;3
+4976;(NC) No consta;No consta;4972;4
