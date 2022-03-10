@@ -8,6 +8,6 @@ SM transformadas,,,SM_TRANS
 SM fusionadas,,,SM_FUS
 SM presentan concurso de acreedores,,,SM_ACR
 Sociedades que amplían capital,,,SM_AMP_CAP
-Sociedades que reducen capital,,,SM_RED_CAP
-Capital suscrito,,,CAP_SUS
+Sociedades que reducen capital,,,SOC_RED_CAP
+Capital suscrito,,,CAP_SUSCRITO
 %,,,PC

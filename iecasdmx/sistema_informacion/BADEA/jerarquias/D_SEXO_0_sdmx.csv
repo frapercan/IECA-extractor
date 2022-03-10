@@ -1,5 +1,5 @@
 ID;NAME;DESCRIPTION;PARENTCODE;ORDER
-22;() Sexo c1;Sexo c1;;0
+22;() Sexo;Sexo;;0
 3691;(00) Ambos sexos;Ambos sexos;;1
 3689;(01) Hombres;Hombres;3691;1
 3690;(06) Mujeres;Mujeres;3691;2

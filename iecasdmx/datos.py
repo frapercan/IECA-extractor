@@ -63,8 +63,6 @@ class Datos:
 
         df.columns = columnas
         df[columnas_jerarquia] = df[columnas_jerarquia].applymap(lambda x: x['cod'][-1])
-        print(df[columnas_medida].shape,df[columnas_medida].applymap(
-            lambda x: x['val']).shape)
         df[columnas_medida] = df[columnas_medida].applymap(
             lambda x: x['val'])
 
@@ -109,8 +107,8 @@ class Datos:
         self.logger.info('DataFrame Desacoplado')
         return df
 
-    def guardar_datos_procesados(self, directorio='iecasdmx/sistema_informacion/BADEA/datos/'):
-        self.datos_por_observacion.to_csv(os.path.join(directorio, str(self.id_consulta) + '.csv'), sep=';',
+    def guardar_datos_procesados(self,categoria=None, directorio='iecasdmx/sistema_informacion/BADEA/datos/'):
+        self.datos_por_observacion.to_csv(os.path.join(directorio,categoria,str(self.id_consulta) + '.csv'), sep=';',
                                           index=False)
 
     def mapear_valores(self, directorio="iecasdmx/sistema_informacion/mapas/"):
@@ -123,7 +121,7 @@ class Datos:
             self.datos_por_observacion[columna] = \
                 self.datos_por_observacion.merge(mapa, how='left', left_on=columna, right_on='SOURCE')['TARGET'].values
 
-    def crear_plantilla_mapa(self, directorio="iecasdmx/sistema_informacion/mapas_plantillas"):
+    def crear_plantilla_mapa(self, directorio="iecasdmx/sistema_informacion/mapas"):
         columnas_plantilla = ['SOURCE', 'COD', 'NAME', 'TARGET']
         for column in self.datos_por_observacion.columns:
             if column in self.configuracion['dimensiones_a_mapear']:
@@ -131,6 +129,7 @@ class Datos:
 
                 if os.path.isfile(os.path.join(directorio, column)):
                     df_mapa = pd.read_csv(os.path.join(directorio, column), dtype='string')
+
                 else:
                     df_mapa = pd.DataFrame(columns=columnas_plantilla, dtype='string')
 
@@ -155,6 +154,30 @@ class Datos:
                                                               right_on='ID')['NAME_y']
                 df_mapa.to_csv(os.path.join(directorio, column), index=False)
 
+    def extender_datos_procesados(self, dimensiones):
+        disyuncion_dimensiones = [dimension for dimension in dimensiones if
+                                  dimension not in self.datos_por_observacion.columns]
+        self.datos_por_observacion[disyuncion_dimensiones] = '_Z'
+
+    def borrar_datos_duplicados(self):
+        columnas_sin_obs_value = [column for column in self.datos_por_observacion.columns if column != 'OBS_VALUE']
+        self.datos_por_observacion = self.datos_por_observacion.drop_duplicates(subset=columnas_sin_obs_value,
+                                                                                keep='last')
+
+    def sumar_datos_duplicados(self):
+        columnas_sin_obs_value = [column for column in self.datos_por_observacion.columns if column != 'OBS_VALUE']
+        self.datos_por_observacion['OBS_VALUE'] = pd.to_numeric(self.datos_por_observacion['OBS_VALUE'])
+        self.datos_por_observacion = self.datos_por_observacion.groupby(columnas_sin_obs_value, as_index=False)[
+            'OBS_VALUE'].sum()
+
+    def mapear_columnas(self, mapeo_columnas):
+        columnas = self.datos_por_observacion.columns
+        columnas = [mapeo_columnas[columna] if columna in mapeo_columnas.keys() else columna for columna in columnas]
+        self.datos_por_observacion.columns = columnas
+
+    def borrar_filas(self,columna,valor):
+        self.datos_por_observacion = self.datos_por_observacion[self.datos_por_observacion[columna] != valor]
+
 
 def transformar_cadena_numero(cadenas_df):
     return cadenas_df.replace(',', '.').replace('%', '')
@@ -169,6 +192,7 @@ def transformar_formato_tiempo_segun_periodicidad(serie, periodicidad):
 
 def insertar_freq(df, periodicidad):
     diccionario_periodicidad_sdmx = {'Mensual': 'M', 'Anual': 'A',
-                                     'Mensual  Fuente: Instituto Nacional de Estadística': 'M', '': 'M'}
+                                     'Mensual  Fuente: Instituto Nacional de Estadística': 'M', '': 'M',
+                                     'Anual. Datos a 31 de diciembre':'A'}
     df['FREQ'] = diccionario_periodicidad_sdmx[periodicidad]
     return df

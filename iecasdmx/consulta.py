@@ -71,25 +71,34 @@ class Consulta:
         :returns:  dict(metadatos),list(Jerarquia),dict(measures),dict(data).
          """
 
-        #La maravillosa API del IECA colapsa con consultas grandes (20MB+ aprox)
-        # print(self.id_consulta in [self.id_consulta])
-        #
-        # print(os.path.join('iecasdmx/sistema_informacion/BADEA/JSON/',self.id_consulta+'.json'))
-        # f = open(os.path.join('iecasdmx/sistema_informacion/BADEA/JSON/',self.id_consulta+'.json'))
-        # respuesta = json.load(f)
-        # print(respuesta)
+        # La maravillosa API del IECA colapsa con consultas grandes (20MB+ aprox)
+        directorio_json = os.path.join('iecasdmx/sistema_informacion/BADEA/JSON/', self.id_consulta + '.json')
+        respuesta = False
+        try:
+            self.logger.info('Buscando el JSON de la consulta en local')
+            respuesta = json.load(open(directorio_json))
+            self.logger.info('JSON leido correctamente')
 
 
-        self.logger.info('Iniciando peticion a la API del IECA')
-        respuesta = requests.get(
-            f"https://www.juntadeandalucia.es/institutodeestadisticaycartografia/intranet/admin/rest/v1.0/consulta/"
-            f"{self.id_consulta}").json()
+        except:
+            self.logger.info('No se ha encontrado el fichero %s', directorio_json)
 
-        self.logger.info('Petición Finalizada')
+            self.logger.info('Iniciando peticion a la API del IECA')
+            respuesta = requests.get(
+                f"https://www.juntadeandalucia.es/institutodeestadisticaycartografia/intranet/admin/rest/v1.0/consulta/"
+                f"{self.id_consulta}").json()
+            self.logger.info('Petición Finalizada')
+            self.logger.info('Guardando JSON')
 
+            with open(directorio_json, 'w') as json_file:
+                json.dump(respuesta, json_file)
+            self.logger.info('JSON Guardado')
 
-
-        return respuesta['metainfo'], \
-               respuesta['hierarchies'], \
-               respuesta['measures'], \
-               respuesta['data']
+        finally:
+            if respuesta:
+                return respuesta['metainfo'], \
+                       respuesta['hierarchies'], \
+                       respuesta['measures'], \
+                       respuesta['data']
+            else:
+                self.logger.info('Solicitar JSON al IECA')
