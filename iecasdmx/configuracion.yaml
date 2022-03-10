@@ -39,6 +39,10 @@ dimensiones_condicionales:
     - G102_OTRAS_CAUSAS
     - D_MES_0
     - D_EDCA_LUGDEF_0
+  CRA:
+    - D_MACROECO_0
+    - D_CNAE_O9_CRA_NEW_0
+
 
 mapeo_columnas:
   D_TERRITORIO_0: REF_AREA
@@ -52,6 +56,8 @@ mapeo_columnas:
   D_G102: G102
   D_EDCA_LUGDEF_0: LUG_DEF
   D_MES_0: MES
+  D_MACROECO_0: MACROECO
+  D_CNAE_O9_CRA_NEW_0: CNAE_09_CRA_NEW
 
 
 
