@@ -76,29 +76,30 @@ class Consulta:
         respuesta = False
         try:
             self.logger.info('Buscando el JSON de la consulta en local')
-            respuesta = json.load(open(directorio_json))
+            with open(directorio_json, 'r', encoding='utf-8') as json_file:
+                respuesta = json.load(json_file)
             self.logger.info('JSON leido correctamente')
 
-
-        except:
-            self.logger.info('No se ha encontrado el fichero %s', directorio_json)
-
+        except Exception as e:
+            self.logger.warning('No se ha encontrado el fichero %s', directorio_json)
+            self.logger.warning('Excepción: %s', e)
             self.logger.info('Iniciando peticion a la API del IECA')
             respuesta = requests.get(
                 f"https://www.juntadeandalucia.es/institutodeestadisticaycartografia/intranet/admin/rest/v1.0/consulta/"
                 f"{self.id_consulta}").json()
             self.logger.info('Petición Finalizada')
             self.logger.info('Guardando JSON')
-
-            with open(directorio_json, 'w') as json_file:
+            with open(directorio_json, 'w', encoding='utf-8') as json_file:
                 json.dump(respuesta, json_file)
             self.logger.info('JSON Guardado')
 
         finally:
             if respuesta:
-                return respuesta['metainfo'], \
-                       respuesta['hierarchies'], \
-                       respuesta['measures'], \
-                       respuesta['data']
+                self.logger.info('Datos alcanzados correctamente')
             else:
-                self.logger.info('Solicitar JSON al IECA')
+                self.logger.warning('No hay información disponible')
+
+        return respuesta['metainfo'], \
+               respuesta['hierarchies'], \
+               respuesta['measures'], \
+               respuesta['data'] if respuesta else None

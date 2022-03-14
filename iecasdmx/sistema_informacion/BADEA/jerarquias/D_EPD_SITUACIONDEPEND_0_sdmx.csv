@@ -1,0 +1,5 @@
+ID;NAME;DESCRIPTION;PARENTCODE;ORDER
+196;() Situación de dependencia;Situación de dependencia;;0
+38404;(00) TOTAL;TOTAL;;1
+38402;(0) Sin situación de dependencia reconocida;Sin situación de dependencia reconocida;38404;1
+38403;(1) Con situación de dependencia reconocida;Con situación de dependencia reconocida;38404;2
