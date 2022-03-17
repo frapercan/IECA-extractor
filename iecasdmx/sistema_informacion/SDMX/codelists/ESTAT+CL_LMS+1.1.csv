@@ -1,9 +1,0 @@
-id;name_en;description_en;parent
-TOTAL;Total;;
-SIN;Never married and never in a registered partnership;;TOTAL
-MAR_REP;Married or in registered partnership;;TOTAL
-MARO_REPO;In an opposite-sex marriage or registered partnership;;MAR_REP
-MARS_REPS;In a same-sex marriage or registered partnership;;MAR_REP
-WID_DTHREP;Widowed or registered partnership ended with the death of partner (and not remarried or in a registered partnership);;TOTAL
-DIV_DISREP;Divorced or registered partnership legally dissolved (and not remarried or in a registered partnership);;TOTAL
-UNK;Not stated;;TOTAL

@@ -874,3 +874,22 @@ SOURCE,COD,NAME,TARGET
 2887,23086,(23086) Torredelcampo,2887
 3144,C01NC,(C01NC) Provincia sin especificar,3144
 3147,C01NC000,(C01NC000) Provincia sin especificar,3147
+2240,P2_108,(108) España,ES
+3160,P2_C02,(C02) Aragón,ES24
+3165,P2_C03,(C03) Principado de Asturias,ES12
+3170,P2_C04,(C04) Islas Baleares/Illes Balears,ES53
+3179,P2_C05,(C05) Canarias,ES70
+3184,P2_C06,(C06) Cantabria,ES13
+3205,P2_C07,(C07) Castilla-La Mancha,ES42
+3242,P2_C08,(C08) Castilla y León,ES41
+3259,P2_C09,(C09) Cataluña/Catalunya,ES51
+3272,P2_C10,(C10) Comunidad Valenciana/Comunitat Valenciana,ES52
+3281,P2_C11,(C11) Extremadura,ES43
+3298,P2_C12,(C12) Galicia,ES11
+3303,P2_C13,(C13) Comunidad de Madrid,ES30
+3308,P2_C14,(C14) Región de Murcia,ES62
+3313,P2_C15,(C15) Comunidad Foral de Navarra,ES22
+3326,P2_C16,(C16) País Vasco/Euskadi,ES21
+3331,P2_C17,(C17) La Rioja,ES23
+3335,P1_51,(51) Ceuta,ES63
+3339,P1_52,(52) Melilla,ES64

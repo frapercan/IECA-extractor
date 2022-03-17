@@ -1,9 +1,0 @@
-ID;NAME;DESCRIPTION;PARENTCODE;ORDER
-31;() Custodia;Custodia;;0
-5105;(00) Total;Total;;1
-5101;(1) Padre;Padre;5105;1
-5102;(2) Madre;Madre;5105;2
-5103;(3) Ambos;Ambos;5105;3
-5104;(4) Otros;Otros;5105;4
-5107;(NP) No procede;No procede;5105;5
-5106;(NC) No consta;No consta;5105;6
