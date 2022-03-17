@@ -1,10 +1,10 @@
-directorio_sistema_informacion: iecasdmx/sistema_informacion/
-directorio_mapas: iecasdmx/sistema_informacion/mapas/
-directorio_jerarquias: iecasdmx/sistema_informacion/BADEA/jerarquias
-directorio_datos: iecasdmx/sistema_informacion/BADEA/datos
-directorio_json: iecasdmx/sistema_informacion/BADEA/JSON
+directorio_sistema_informacion: sistema_informacion/
+directorio_mapas: sistema_informacion/mapas/
+directorio_jerarquias: sistema_informacion/BADEA/jerarquias
+directorio_datos: sistema_informacion/BADEA/datos
+directorio_json: sistema_informacion/BADEA/JSON
 
-directorio_datos_SDMX: iecasdmx/sistema_informacion/SDMX/datos
+directorio_datos_SDMX: sistema_informacion/SDMX/datos
 
 
 
