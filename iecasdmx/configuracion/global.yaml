@@ -2,7 +2,7 @@ directorio_sistema_informacion: sistema_informacion/
 directorio_mapas: sistema_informacion/mapas/
 directorio_jerarquias: sistema_informacion/BADEA/jerarquias
 directorio_datos: sistema_informacion/BADEA/datos
-directorio_json: sistema_informacion/BADEA/JSON
+directorio_json: sistema_informacion/BADEA/consultas
 
 directorio_datos_SDMX: sistema_informacion/SDMX/datos
 
@@ -25,12 +25,19 @@ dimensiones_a_mapear:
   - D_NACIONALIDAD_0
   - D_ESTADO_DATO_0
 
+propiedades_jerarquias:
+  - id
+  - cod
+  - label
+  - des
+  - parentId
+  - order
 
 dimensiones_condicionales:
   SOCMER:
-  - D_CNAE09_0
-  - D_SEXO_SOCIOS_0
-  - D_FORMA_JUR_SOCMER_0
+    - D_CNAE09_0
+    - D_SEXO_SOCIOS_0
+    - D_FORMA_JUR_SOCMER_0
 
   PENCONT:
     - D_CLASEDEPENSION_0
@@ -40,7 +47,7 @@ dimensiones_condicionales:
   DEFCAU:
     - D_SEXO_0
     - D_EDAD_0
-    -  D_CIE10_0
+    - D_CIE10_0
     - D_G102_0
     - G102_OTRAS_CAUSAS
     - D_MES_0
@@ -83,7 +90,7 @@ mapeo_columnas:
   D_ESTADOCIVIL_0: ESTADO_CIVIL
   D_EPD_NIVELESTUDIOSTER_0: NIVEL_ESTUDIOS_TER
   D_EPD_RELACTIVIDAD_0: RELACTIVIDAD
-  D_EPD_SITUACPROFES_0:  SITUAC_PROFES
+  D_EPD_SITUACPROFES_0: SITUAC_PROFES
   D_EPD_PERCEPPRESINVAL_0: PERCEP_PRES_INVAL
   D_EPD_SITUACIONDEPEND_0: SITUACION_DEPEND
   D_EPD_COMPHOGACTIVIDAD_0: COMP_HOG_ACTIVIDAD

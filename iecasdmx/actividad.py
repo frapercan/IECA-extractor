@@ -11,12 +11,30 @@ logging.basicConfig(format=fmt, level=logging.INFO, stream=sys.stdout)
 
 
 class Actividad:
-    """
+    """Una actividad es definida por una lista de consultas a través de su ID en el fichero
+    de configuración **'actividades.yaml'**.
+
+    Esta clase ejecutará las consultas y se encargará de hacer las transformaciones pertinentes al
+    grupo completo para su correcta modelización en el estandard SDMX.
+
+
+    Args:
+        configuracion_global (:class:`Diccionario`): Configuración común a todas las ejecuciones que se realicen.
+        configuracion_actividad (:class:`Diccionario`): Configuración común para toda la actividad.
+        plantilla_configuracion_actividad (:class:`Diccionario`): Configuración por defecto de la actividad.
+            Este fichero de configuración extiende a :attr:`~.configuracion_actividad` con las configuraciones que no
+            están explicitamente recogidas en este.
+        actividad (:class:`Cadena de Texto`): Nombre de la actividad.
+
+    Attributes:
+        consultas (:obj:`Diccionario` de :class:`iecasdmx.consulta.Consulta`): Diccionario que contiene las consultas
+         con los datos y metadatos, cuya clave serán los :attr:`iecasdmx.consulta.Consulta.id_consulta`
+         correspondientes.
     """
 
-    def __init__(self, configuracion_global, configuracion_actividad, plantilla_actividad, actividad):
+    def __init__(self, configuracion_global, configuracion_actividad, plantilla_configuracion_actividad, actividad):
         self.configuracion_global = configuracion_global
-        self.configuracion_actividad = {**plantilla_actividad, **configuracion_actividad}
+        self.configuracion_actividad = {**plantilla_configuracion_actividad, **configuracion_actividad}
         self.actividad = actividad
 
         self.consultas = {}
@@ -25,6 +43,10 @@ class Actividad:
         self.logger.info('Inicializando actividad completa')
 
     def generar_consultas(self):
+        """Inicializa y ejecuta las consultas a la API de BADEA dentro del diccionario :attr:`~.consultas`.
+
+        """
+
         for consulta in self.configuracion_actividad['consultas']:
             try:
                 consulta = Consulta(consulta, self.configuracion_global, self.configuracion_actividad,
@@ -36,6 +58,9 @@ class Actividad:
             consulta.ejecutar()
 
     def ejecutar(self):
+        """Aplica las funciones configuradas en el fichero de configuración **'actividades.yaml'** bajo
+        la clave **acciones_actividad_completa**.
+        """
         self.logger.info('Ejecutando actividad')
         for accion in self.configuracion_actividad['acciones_actividad_completa'].keys():
             if self.configuracion_actividad['acciones_actividad_completa'][accion]:
@@ -43,6 +68,17 @@ class Actividad:
         self.logger.info('Ejecución finalizada')
 
     def agrupar_consultas_SDMX(self):
+        """Tras realizar las consultas, esta función genera un fichero de configuración en  el sistema de información \
+        con respecto a la actividad completa, agrupando las consultas de la actividad por su titulo. De esta forma un \
+        grupo de consultas formaran un fichero de datos .CSV que contiene a todas.
+        Los datos se guardarán siguiendo dos procedimientos:
+            - **EXTENSION_DISJUNTOS**: Estructura de datos (DSD) común para toda la actividad donde las columnas \
+            faltantes son añadidas y rellenas con la variable **_Z**
+            - **ORIGINAL**: Estructura de datos (DSD) por cada grupo de consulta. Si las consultas con el mismo titulo \
+            tienen dimensiones distintas, se creara una estructura común para todas las consultas y se mostrara una \
+            advertencia por consola.
+
+        """
         directorio = os.path.join(self.configuracion_global['directorio_datos_SDMX'], self.actividad)
         fichero = os.path.join(directorio, 'configuracion.yaml')
         if not os.path.exists(directorio):
@@ -74,7 +110,7 @@ class Actividad:
                 self.consultas[consulta].datos.extender_con_disjuntos(agrupacion['variables'])
             columnas_grupo = [self.consultas[consulta].datos.datos_por_observacion.columns for consulta in
                               informacion_grupo['consultas']]
-            self.comprobar_columnas_grupo_actividad(columnas_grupo, grupo)
+            self.comprobar_dimensiones_grupo_actividad(columnas_grupo, grupo)
             union_datos_sin_extender = pd.concat(
                 [self.consultas[consulta].datos.datos_por_observacion for consulta in
                  informacion_grupo['consultas']])
@@ -103,13 +139,21 @@ class Actividad:
                 index=False)
         self.logger.info('Datos por titulo unidos')
 
-    def comprobar_columnas_grupo_actividad(self, columnas_grupo, grupo):
-        self.logger.info('Comprobando columnas del grupo de consultas')
+    def comprobar_dimensiones_grupo_actividad(self, columnas_grupo, grupo):
+        """Comprueba el modelado por titulos en BADEA y muestra por pantalla advertencias sobre las dimensiones
+        para facilitar su depuración.
+
+        Args:
+            columnas_grupo (:obj:`Lista` de :class:`DataFrame.columns`): Listado de columnas de cada consulta del grupo.
+            grupo (:class:`Cadena de Texto`): Titulo del grupo
+
+        """
+        self.logger.info('Comprobando dimensiones del grupo de consultas')
         columnas_existentes = set(columna for columnas in columnas_grupo for columna in columnas)
 
         for columnas in columnas_grupo:
             if set(columnas) != columnas_existentes:
-                self.logger.warning('Las columnas no coinciden dentro del grupo: %s', grupo)
+                self.logger.warning('Las dimensiones no coinciden dentro del grupo: %s', grupo)
                 self.logger.warning('%s', set(columnas))
                 self.logger.warning('%s', columnas_existentes)
 

@@ -8,10 +8,14 @@ Bienvenido a la documentación de IECA2SDMX!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Introduccion
 
-Package
+
+Modulos
 =======
+.. automodule:: iecasdmx.actividad
+   :members:
+
 .. automodule:: iecasdmx.consulta
    :members:
 

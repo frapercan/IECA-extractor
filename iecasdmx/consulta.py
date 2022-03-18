@@ -13,31 +13,34 @@ logging.basicConfig(format=fmt, level=logging.INFO, stream=sys.stdout)
 
 
 class Consulta:
-    """Estructura de datos para la información extraida de la API del IECA.
-    Este objeto al inicializarse consultara la API del IECA utilizando el número
-    de consulta estructurando la información en los siguientes atributos:
-        #. Metadatos en forma de diccionario
-        #. Lista de :class:`iecasdmx.jerarquia.Jerarquia`
-        #. Medidas en forma de diccionario
-        #. Observaciones/Datos en una clase :class:`iecasdmx.datos.Jerarquia`
+    """Este objeto al inicializarse consultara la API del IECA utilizando :attr:`~.id_consulta`.
+    Esta clase se encargará de generar las estructuras de datos y metadatos y de ser su recipiente.
+    Las medidas se trataran como parte de una dimensión SDMX llamada **INDICATOR** y se manejaran dentro
+    de la clase :class:`iecasdmx.datos.Datos`.
+
 
     Args:
-        id_consulta (:class:`str`): ID de la consulta en base a una actividad
-        configuracion (:class:`dict`): configuración de la ejecución
+        id_consulta (:class:`Cadena de Texto`): ID de la consulta que se va a procesar.
+        configuracion_global (:class:`Diccionario`): Configuración común a todas las ejecuciones que se realicen.
+        configuracion_actividad (:class:`Diccionario`): Configuración común para toda la actividad.
+        actividad (:class:`Cadena de Texto`): Nombre de la actividad.
 
     Attributes:
-        Metadatos (:class:`Diccionario`): Metainformación de la consulta con los siguientes campos:
-            "id"
-            "title"
-            "subtitle"
-            "activity"
-            "source"
-            "periodicity"
-            "type"
-            "notes"
+        id_consulta (:class:`Cadena de Texto`)
+        metadatos (:class:`Diccionario`): Metainformación de la consulta con los siguientes campos clave:
 
+            - id
+            - title
+            - subtitle
+            - activity
+            - source
+            - periodicity
+            - type
+            - notes
 
-        jerarquias (:obj:`Lista` de :class:`iecasdmx.jerarquia.Jerarquia`): Description of attr2
+        jerarquias (:obj:`Lista` de :class:`iecasdmx.jerarquia.Jerarquia`): Jerarquias utilizadas en los datos de
+            la consulta
+        datos (:class:`iecasdmx.datos.Datos`): Datos proporcionados en la consulta.
     """
 
     def __init__(self, id_consulta, configuracion_global, configuracion_actividad, actividad):
@@ -51,14 +54,17 @@ class Consulta:
         self.logger = logging.getLogger(f'{self.__class__.__name__} [{self.id_consulta}]')
         self.logger.info('Inicializando consulta')
 
-        self.metadatos, self.jerarquias_sin_procesar, self.medidas, self.datos_sin_procesar = \
+        self.metadatos, \
+        jerarquias_sin_procesar, \
+        self.medidas, \
+        datos_sin_procesar = \
             self.solicitar_informacion_api()
 
         self.jerarquias = [iecasdmx.Jerarquia(jerarquia, self.configuracion_global, self.actividad) for jerarquia in
-                           self.jerarquias_sin_procesar]
+                           jerarquias_sin_procesar]
         self.datos = iecasdmx.Datos(self.id_consulta, self.configuracion_global, self.actividad,
                                     self.metadatos['periodicity'],
-                                    self.datos_sin_procesar,
+                                    datos_sin_procesar,
                                     self.jerarquias, self.medidas)
 
         self.logger.info('Consulta Finalizada')
@@ -76,6 +82,9 @@ class Consulta:
         self._id_consulta = value
 
     def ejecutar(self):
+        """Aplica las funciones configuradas en el fichero de configuración **'actividades.yaml'** bajo
+        las claves **acciones_jerarquia** y **acciones_datos*.
+        """
         for accion in self.configuracion_actividad['acciones_jerarquia'].keys():
             for jerarquia in self.jerarquias:
                 if self.configuracion_actividad['acciones_jerarquia'][accion]:
@@ -91,12 +100,18 @@ class Consulta:
                     getattr(self.datos, accion)()
 
     def solicitar_informacion_api(self):
-        """Consulta la API a través de la id_consulta.
-        :param name: The name to use.
-        :type name: str.
-        :param state: Current state to be in.
-        :type state: bool.
-        :returns:  dict(metadatos),list(Jerarquia),dict(measures),dict(data).
+        """Utilizando :attr:`~.id_consulta` busca el JSON de la consulta en local, y si no, le manda
+        la petición a la API del IECA. Si se ha alcanzado la API, se guarda el JSON para acelerar futuras consultas y
+        no sobrecargar el sistema. Hemos de tener esto en cuenta, en caso de que las consultas de la API no sean
+        inmutables.
+
+
+        Returns:
+            - metainfo (:class:`Diccionario`)
+            - hierarchies (:class:`Diccionario`)
+            - measures (:class:`Diccionario`)
+            - data (:class:`Diccionario`)
+
          """
 
         # La maravillosa API del IECA colapsa con consultas grandes (20MB+ aprox)

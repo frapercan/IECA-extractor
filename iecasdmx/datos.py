@@ -13,22 +13,25 @@ logging.basicConfig(format=fmt, level=logging.INFO, stream=sys.stdout)
 class Datos:
     """Estructura de datos para manejar los datos encontrados dentro
     de las consultas del IECA. El proceso de inicialización de esta estructura
-    realiza los siguientes pasos:
-    #. Convierte de JSON a DataFrame utilizando las medidas y jerarquias para las columnas
-    #. Desacopla las observaciones en base a las medidas
-    #. Añade la dimension FREQ de SDMX
-    :param id_consulta: ID de la consulta de BADEA.
-    :type id_consulta: str
-    :param configuracion: Información con respecto a las configuraciones del procesamiento.
-    :type configuracion_global: JSON
-    :param periodicidad: Periodicidad de la consulta de BADEA
-    :type periodicidad: str
-    :param datos: Diccionario con los datos de la consulta de BADEA.
-    :type datos: JSON
-    :param jerarquias: Jerarquias utilizadas en la consulta de BADEA.
-    :type jerarquias: :class:'iecasdmx.Jerarquia'
-    :param medidas: Diccionario con las medidas de la consulta de BADEA.
-    :type medidas: JSON
+    realiza los siguientes acciones de forma configurable:
+        - Convierte de JSON a DataFrame utilizando las medidas y jerarquias para generar las dimensiones/columnas.
+        - Desacopla las observaciones en base a las medidas utilizando la dimension **INDICATOR**
+        - Añade la dimension **FREQ** de SDMX en base a la periodicidad de la consulta.
+
+    Args:
+        id_consulta (:class:`Cadena de Texto`): ID de la consulta que se va a procesar.
+        configuracion_global (:class:`Diccionario`): Configuración común a todas las ejecuciones que se realicen.
+        actividad (:class:`Cadena de Texto`): Nombre de la actividad.
+        periodicidad (:class:`Cadena de Texto`): Periodicidad de las observaciones.
+        datos (:class:`Diccionario`): Datos de la consulta.
+        jerarquias (:obj:`Lista` de :class:`iecasdmx.jerarquia.Jerarquia`): Jerarquias de la consulta
+        medidas (:class:`iecasdmx.consulta.medidas`): Medidas de la consulta
+    Attributes:
+        datos (:class:`pandas:pandas.DataFrame`): Los datos en un cuadro de datos
+        datos_por_observacion (:class:`pandas:pandas.DataFrame`): Los datos desacoplados por medidas en columnas
+        datos_por_observacion_extension_disjuntos (:class:`pandas:pandas.DataFrame`): Los datos desacoplados
+            pero con todas las columnas necesarias para crear un DSD para toda la actividad.
+
     """
 
     def __init__(self, id_consulta, configuracion_global, actividad, periodicidad, datos, jerarquias,
@@ -44,14 +47,29 @@ class Datos:
 
         self.logger.info('Procesando las observaciones: %s con periodicidad: %s',
                          self.id_consulta, self.periodicidad)
-        self.datos = self.datos_a_dataframe(datos)
+        self.datos = self.convertir_datos_a_dataframe_sdmx(datos)
         self.datos_por_observacion = self.desacoplar_datos_por_medidas()
         self.datos_por_observacion_extension_disjuntos = None
         insertar_freq(self.datos_por_observacion, self.periodicidad)
 
         self.logger.info('Finalización procesamiento de las observaciones')
 
-    def datos_a_dataframe(self, datos):
+    def convertir_datos_a_dataframe_sdmx(self, datos):
+        """Transforma el diccionario con los datos de las observaciones a formato tabular válido para SDMX de
+        la siguiente forma:
+            1. Recorremos el diccionario accediendo de forma ordenada a las dimensiones correspondientes tomando \
+                las jerarquias y las medidas como referencia.
+            2. Los datos en el JSON están indexados por 'COD' en lugar de por 'ID' que sería más apropiado, aquí \
+                cruzamos la información pertinente para mapear COD -> ID.
+            3. Rellenamos la dimension **FREQ** de SDMX en base a la periodicidad de la consulta.
+
+        Args:
+            datos (:class:`Diccionario`): Datos de la consulta.
+
+        Returns:
+            datos (:class:`pandas:pandas.DataFrame`): Las observaciones en un cuadro de datos con la forma tabular
+            original del modelado hecho en BADEA.
+        """
         self.logger.info('Transformando los datos JSON a DataFrame')
 
         columnas_jerarquia = [jerarquia.metadatos['alias'] for jerarquia in self.jerarquias]
@@ -87,6 +105,18 @@ class Datos:
         return df
 
     def desacoplar_datos_por_medidas(self):
+        """El formato tabular proporcionado por la API tiene una dimension para cada medida, nuestro modelado
+        SDMX consistirá en crear una dimension **INDICATOR** cuyo valor será la medida en sí.
+
+        Esto quiere decir que nuestro cuadro de datos tendrá menos columnas, pero mayor número de filas
+        (Numero de observaciones * Numero de medidas).
+
+        Args:
+            datos (:class:`pandas:pandas.DataFrame`): Datos de la consulta en un cuadro de datos.
+
+        Returns:
+            datos (:class:`pandas:pandas.DataFrame`): Las observaciones en un cuadro de datos adaptado al estandar SDMX.
+        """
         self.logger.info('Desacoplando las Observaciones del DataFrame')
 
         columnas_jerarquia = [jerarquia.metadatos['alias'] for jerarquia in self.jerarquias]
@@ -110,6 +140,15 @@ class Datos:
         return df
 
     def guardar_datos(self, clase):
+        """Accion que guarda la jerarquia en formato .CSV de dos formas bifurcando en directorios a traves del
+            argumento clase:
+
+            - Con el Còdigo de BADEA (No admitido por nuestro framework de SDMX)
+            - Sin el código de BADEA (Admitido por nuestro framework de SDMX)
+
+            Args:
+                clase (:class:`Cadena de Texto`): Nombre para el directorio en el que se almacenaran los datos.
+         """
         self.logger.info('Guardando datos %s', clase)
         directorio = os.path.join(self.configuracion_global['directorio_datos'], self.actividad, clase)
         if not os.path.exists(directorio):
@@ -119,6 +158,10 @@ class Datos:
                                           index=False)
 
     def mapear_valores(self):
+        """Accion que realiza el mapeo de los valores del cuadro de datos configuradas bajo el parámetro
+         :obj:`dimensiones_a_mapear` observaciones utilizando los mapas previamente rellenos  del
+         fichero de configuracion global.
+         """
         self.logger.info('Mapeando observaciones hacia SDMX')
         columnas_a_mapear = list(set.intersection(set(self.datos_por_observacion.columns),
                                                   set(self.configuracion_global['dimensiones_a_mapear'])))
@@ -129,6 +172,9 @@ class Datos:
                 self.datos_por_observacion.merge(mapa, how='left', left_on=columna, right_on='SOURCE')['TARGET'].values
 
     def extender_mapa_nuevos_terminos(self):
+        """Accion que crea/extiende el mapa para las columnas configuradas facilitando al técnico realizar la
+        conversión y su posterior reutilización en distintas actividades.
+         """
         self.logger.info('Ampliando mapas de dimensiones con nuevas ocurrencias')
         columnas_plantilla = ['SOURCE', 'COD', 'NAME', 'TARGET']
         columnas_jerarquia_alias = [jerarquia.id_jerarquia for jerarquia in self.jerarquias] + ['INDICATOR']
@@ -177,17 +223,28 @@ class Datos:
                                index=False)
 
     def extender_con_disjuntos(self, dimensiones):
+        """Accion que añade las columnas al dataframe para que todas las dimensiones SDMX de la actividad sean
+        contempladas en un mismo DSD, añadiendo el valor **_Z** a estas nuevas columnas.
+
+        Args:
+            dimensiones (:obj:`Lista` de :class:`Cadena de Texto`): Lista de dimensiones únicas que se encuentran
+                en el conjunto de la actividad sobre la que estamos trabajando.
+         """
         self.datos_por_observacion_extension_disjuntos = self.datos_por_observacion.copy()
         disyuncion_dimensiones = [dimension for dimension in dimensiones if
                                   dimension not in self.datos_por_observacion.columns]
         self.datos_por_observacion_extension_disjuntos[disyuncion_dimensiones] = '_Z'
 
     def borrar_datos_duplicados(self):
+        """Accion que borra las filas duplicadas sin tener en cuenta **OBS_VALUE**.
+         """
         columnas_sin_obs_value = [column for column in self.datos_por_observacion.columns if column != 'OBS_VALUE']
         self.datos_por_observacion = self.datos_por_observacion.drop_duplicates(subset=columnas_sin_obs_value,
                                                                                 keep='last')
 
     def sumar_datos_duplicados(self):
+        """Accion que agrupa los datos duplicados y devuelve los datos agregados de **OBS_VALUE**.
+         """
         columnas_sin_obs_value = [column for column in self.datos_por_observacion.columns if column != 'OBS_VALUE']
         self.datos_por_observacion['OBS_VALUE'] = pd.to_numeric(self.datos_por_observacion['OBS_VALUE'])
         self.datos_por_observacion = self.datos_por_observacion.groupby(columnas_sin_obs_value, as_index=False)[
@@ -196,23 +253,38 @@ class Datos:
             self.logger.error('DataFrame vacio, comprueba el mapeo')
 
     def mapear_columnas(self):
+        """Accion que realiza el mapeo de las columnas del cuadro de datos configuradas bajo el parámetro
+         observaciones utilizando el mapa previamente relleno a través del campo :obj:`mapeo_columnas` del
+         fichero de configuracion global.
+         """
         mapeo_columnas = self.configuracion_global['mapeo_columnas']
         columnas = self.datos_por_observacion.columns
         columnas = [mapeo_columnas[columna] if columna in mapeo_columnas.keys() else columna for columna in columnas]
         self.datos_por_observacion.columns = columnas
 
     def borrar_filas(self, dics_columna_valor_a_borrar):
+        """Accion que elimina del cuadro de datos las filas que contengan los valores proporcionados.
+
+        Args:
+            dics_columna_valor_a_borrar (:obj:`Lista` de :class:`Cadena de Texto`): Lista de diccionarios con cuyo par
+                clave-valor es la columna-valor deseado para la eliminación.
+         """
+
         for dic in dics_columna_valor_a_borrar:
             columna = list(dic.keys())[0]
             valor = dic[columna]
             self.datos_por_observacion = self.datos_por_observacion[self.datos_por_observacion[columna] != valor]
 
 
-def transformar_cadena_numero(cadenas_df):
-    return cadenas_df.replace(',', '.').replace('%', '')
-
-
 def transformar_formato_tiempo_segun_periodicidad(serie, periodicidad):
+    """Transforma la dimension temporal de un cuadro de datos para que se adecue al formato de tiempo utilizado
+    en SDMX.
+
+    Args:
+        serie (:class:`pandas:pandas.Series`): Serie perteneciente al cuadro de datos a transformar
+        periodicidad (:class:`Cadena de Texto`): Periodicidad de la consulta.
+     """
+
     dimension_a_transformar = ['Mensual', 'Trimestral', 'Mensual  Fuente: Instituto Nacional de Estadística']
     if periodicidad in dimension_a_transformar:
         serie = serie.apply(lambda x: x[:4] + '-' + x[4:])
@@ -220,6 +292,12 @@ def transformar_formato_tiempo_segun_periodicidad(serie, periodicidad):
 
 
 def insertar_freq(df, periodicidad):
+    """Añade los valores a la columna **'FREQ'** dependiendo de un mapa simple de periodicidad.
+
+    Args:
+        df (:class:`pandas:pandas.DataFrame`): Cuadro de datos al que añadir la frecuencia.
+        periodicidad (:class:`Cadena de Texto`): Periodicidad de la consulta.
+     """
     diccionario_periodicidad_sdmx = {'Mensual': 'M', 'Anual': 'A',
                                      'Mensual  Fuente: Instituto Nacional de Estadística': 'M', '': 'M',
                                      'Anual. Datos a 31 de diciembre': 'A'}

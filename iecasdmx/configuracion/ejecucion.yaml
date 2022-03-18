@@ -1,12 +1,12 @@
 actividades:
   - IPC
-#  - DSN
-#  - PADRON
-#  - MNP
-#  - DIRECTORIO
-#  - SOCMER
-#  - CONTPROV
-#  - PENSIONES
-#  - DEFCAU
-#  - CRA
-#  - EPD
+  - DSN
+  - PADRON
+  - MNP
+  - DIRECTORIO
+  - SOCMER
+  - CONTPROV
+  - PENSIONES
+  - DEFCAU
+  - CRA
+  - EPD
