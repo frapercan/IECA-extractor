@@ -16,7 +16,7 @@ def read(filename):
 
 setup(
     name="iecasdmx",
-    version="0.3.0",
+    version="0.2.0",
     url="https://github.com/frapercan/IECA2SDMX",
     license='MIT',
 
@@ -24,7 +24,7 @@ setup(
     author_email="frapercan1@alum.us.es",
 
     description="Transformación de datos y metadatos desde el IECA hacia SDMX",
-    long_description_content_type="text/x-rst",
+    long_description_content_type="text/markdown",
     long_description=read("README.md"),
 
     packages=find_packages(exclude=('tests',)),

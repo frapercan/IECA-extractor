@@ -1,24 +1,31 @@
-﻿# Plantilla de programas para Python
+﻿# Conversión de datos del Instituto de Estadística y Cartografía Andaluz a SDMX
 
-![pipy](https://badge.fury.io/py/plantilla-programas-python.svg)
-[![codecov](https://codecov.io/gh/BREKIADATA-SL/plantilla-programas-python/branch/main/graph/badge.svg?token=2T1J6LQTJE)](https://codecov.io/gh/BREKIADATA-SL/plantilla-programas-python)
+[![PyPI version](https://badge.fury.io/py/iecasdmx.svg)](https://badge.fury.io/py/iecasdmx)
+[![codecov](https://codecov.io/gh/frapercan/IECA2SDMX/branch/develop/graph/badge.svg?token=GbJ3V9jEa7)](https://codecov.io/gh/frapercan/IECA2SDMX)
+[![Python Tox](https://github.com/frapercan/IECA2SDMX/actions/workflows/tox.yml/badge.svg)](https://github.com/frapercan/IECA2SDMX/actions/workflows/tox.yml)
+[![Documentation Status](https://readthedocs.org/projects/ieca2sdmx/badge/?version=latest)](https://ieca2sdmx.readthedocs.io/en/latest/?badge=latest)
+
+Herramienta interna de transformación de datos desde la [API del IECA](https://www.juntadeandalucia.es/institutodeestadisticaycartografia/badea/apidoc) hacia el estandar SDMX, 
+haciendo uso de las [herramientas SDMX del Instituto Nacional de Estadística Italiano (ISTAT Toolkit)](https://sdmxistattoolkit.github.io/).
+
+## Despliegue
+
+En un entorno con Python instalado, intsalar los requisitos de dependencias.
+
+    pip3 install -r requirements.txt
+
+## Ejecución
+Con el directorio de trabajo en la raiz del proyecto ejecutar el fichero main.py
+
+    IECA2SDMX
+    └── iecasdmx
+        └── main.py                    # Fichero de ejecución
+
+## Documentación
+[IECA2SDMX](https://ieca2sdmx.readthedocs.io/en/latest/)
 
 
-El objetivo de este repositorio es servir de referencia a las distintas herramientas que se están desarrollado dentro de la organización para estandar las siguientes funcionalidades en cada uno de los entornos de trabajo:
-
--   Empaquetamiento con Pipy
--   Ejecución del Análisis estático del código en integración continua
--   Ejecución de la Generación automatica de Documentación en integración continua
--   Ejecución de pruebas unitarias en integración continua
-
-## Paquete Python
-
-Este repositorio está configurado en los ficheros setup.py y setup.cfg para compilar toda la lógica y empaquetarlas dentro del sistema de PIPY.
-
-De forma que podremos hacer uso de:
-
-pip3 install plantilla-programas-python
-
+# Información para desarrolladores del repositorio
 ## Ejecutar Integración continua en local
 
 Tox es una herramienta de automatización para python, sus comandos son los siguientes:
@@ -62,12 +69,3 @@ Dentro de la version actual del paquete, incrementa en 1 la subversion
  Incrementa la version del paquete
 
 
-
-## Documentación
-Al estar trabajando sobre repositorios privados, no podemos utilizar readthedocs para alojar la nuestra.
-
-Pero igualmente estára accesible para los desarrolladores bajo el directorio:
-
-/docs/_build/html
-
-![docs](https://github.com/BREKIADATA-SL/plantilla-programas-python/raw/main/imagenes/docs.png)
