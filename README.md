@@ -8,6 +8,10 @@
 Herramienta interna de transformación de datos desde la [API del IECA](https://www.juntadeandalucia.es/institutodeestadisticaycartografia/badea/apidoc) hacia el estandar SDMX, 
 haciendo uso de las [herramientas SDMX del Instituto Nacional de Estadística Italiano (ISTAT Toolkit)](https://sdmxistattoolkit.github.io/).
 
+![indexa](imagenes/indexa-logo.png)
+![ieca](imagenes/ieca-logo.png)
+
+
 ## Despliegue
 
 En un entorno con Python instalado, intsalar los requisitos de dependencias.
