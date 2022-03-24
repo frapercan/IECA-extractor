@@ -1,0 +1,60 @@
+NOMBRE_DSD: DSD_PADRON
+grupos_consultas:
+  Población extranjera por país de nacionalidad y provincias según grupos quinquenales de edad y sexo:
+    consultas:
+    - '64623'
+    - '64707'
+    - '64708'
+    - '64709'
+    - '64710'
+    id: '3'
+  Población por edad simple y provincias según nacionalidad (española/extranjera) y sexo:
+    consultas:
+    - '64582'
+    - '64703'
+    - '64704'
+    - '64705'
+    - '64706'
+    id: '1'
+  Población por grupos quinquenales de edad y relación entre el lugar de residencia y el lugar de nacimiento según sexo:
+    consultas:
+    - '64585'
+    - '64773'
+    - '64774'
+    - '64775'
+    - '64776'
+    id: '2'
+  Población por municipio de residencia y edad simple según nacionalidad (española/extranjera) y sexo:
+    consultas:
+    - '64670'
+    - '64736'
+    - '64737'
+    - '64739'
+    - '64740'
+    - '64744'
+    id: '4'
+  Población por municipio de residencia y lugar de nacimiento según grandes grupos de edad y sexo:
+    consultas:
+    - '64683'
+    - '64746'
+    - '64747'
+    - '64748'
+    id: '5'
+  Población por municipio de residencia y país de nacimiento extranjero según sexo:
+    consultas:
+    - '64685'
+    - '64749'
+    - '64750'
+    - '64751'
+    id: '6'
+variables:
+- TIME_PERIOD
+- REF_AREA
+- SEXO
+- D_NACIONALIDAD_0
+- EDAD
+- INDICATOR
+- OBS_VALUE
+- FREQ
+- D_RELAC_RESID_NAC_0
+- D_LUG_NAC_PADRON_0

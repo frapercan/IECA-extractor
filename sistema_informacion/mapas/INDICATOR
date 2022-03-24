@@ -1,0 +1,54 @@
+SOURCE,COD,NAME,TARGET
+Población municipal,,,HAB
+Índice,,,INX
+Variación mensual,,,RCH_M
+Variación anual,,,RCH_A
+Divorcios,,,DIV
+Nulidades,,,DISLUN
+Separaciones,,,SEP
+Nacimientos,,,NACI
+Defunciones,,,DEATHS
+Crecimiento natural,,,CREC_NAT
+Partos,,,PART
+Muertes fetales tardías,,,LATE_FETAL_DEATH
+Matrimonios,,,MARRIAGE
+Empresas,,,EMPRESA
+Establecimientos,,,ESTABLECIMIENTO
+Valor,,,NR
+Sociedades constituidas,,,SOC_CONST
+Sociedades extinguidas,,,SOC_EXT
+Sociedades que desembolsan dividendos,,,SOC_DIV
+Sociedades disueltas,,,SOC_DIS
+Sociedades que realizan escisión,,,SOC_ESC
+SM transformadas,,,SOC_TRANS
+SM fusionadas,,,SM_FUS
+SM presentan concurso de acreedores,,,SM_ACR
+Sociedades que amplían capital,,,SM_AMP_CAP
+Sociedades que reducen capital,,,SOC_RED_CAP
+Capital suscrito,,,CAP_SUSCRITO
+%,,,PC
+Número de pensiones,,,NUM_PEN
+Pensión media,,,PEN_MED
+Número de pensionistas,,,NUM_PEN_PERS
+Tasa interanual. Precio corriente,,,TAS_INTER_PREC_CORR
+Tasa interanual. IVE,,,RAS_INTER_IVE
+Consumos intermedios a precios de adquisición,,,CON_INTER_PREC_ADQ
+Valor Añadido Bruto a precios básicos. Valor,,,VAL_ANA_BRUTO_PREC_BAS_VAL
+Valor Añadido Bruto a precios básicos. IVE,,,VAL_ANA_BRUTO_PRE_BAS_IVE
+Remuneración de asalariados,,,REM_ASA
+Otros impuestos netos sobre la producción,,,OTROS_IMP
+Excedente de Explotación Bruto/Renta mixta,,,EXC_EXPL_BRUT_RENT_MIX
+Puestos de trabajo totales,,,PUES_TRA_TOTAL
+Puestos de trabajo asalariados,,,PUES_TRA_ASAL
+Puestos de trabajo no asalariados,,,PUES_TRA_NO_ASAL
+Empleo equivalente totales,,,EMPL_EQ_TOTAL
+Empleo equivalente asalariados,,,EMPL_EQ_ASAL
+Empleo equivalente no asalariados,,,EMPL_EQ_NO_ASAL
+Horas totales,,,HORAS_TOTAL
+Horas asalariados,,,HORAS_ASA
+Horas no asalariados,,,HORAS_NO_asa
+Producción a precios básicos,,,PROD_PREC_BAS
+Índice de volumen encadenado,,,CLV_I15
+Población,,,POP
+Porcentaje,,,PC
+Hogares,,,HH
