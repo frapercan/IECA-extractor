@@ -1,0 +1,24 @@
+NOMBRE_DSD: DSD_CRA
+grupos_consultas:
+  Contabilidad Regional Anual de Andalucía. Revi:
+    consultas:
+    - '27051'
+    id: '2'
+  Contabilidad Regional Anual de Andalucía. Revisión estadística 2019:
+    consultas:
+    - '27050'
+    - '27052'
+    - '27053'
+    - '27054'
+    - '27055'
+    - '66051'
+    id: '1'
+variables:
+- MACROECO
+- TIME_PERIOD
+- OBS_STATUS
+- REF_AREA
+- INDICATOR
+- OBS_VALUE
+- FREQ
+- CNAE_CRA_NEW

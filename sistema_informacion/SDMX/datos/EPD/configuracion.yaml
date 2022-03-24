@@ -1,0 +1,49 @@
+NOMBRE_DSD: DSD_EPD
+grupos_consultas:
+  Educación:
+    consultas:
+    - '66385'
+    id: '2'
+  Hogares:
+    consultas:
+    - '66391'
+    id: '7'
+  Ocupación:
+    consultas:
+    - '66387'
+    id: '4'
+  Percepción de prestaciones:
+    consultas:
+    - '66388'
+    id: '5'
+  'Población: Prevalencia de la discapacidad':
+    consultas:
+    - '66383'
+    - '66384'
+    id: '1'
+  Relación con la actividad:
+    consultas:
+    - '66386'
+    id: '3'
+  Situación de dependencia:
+    consultas:
+    - '66390'
+    id: '6'
+variables:
+- SEXO
+- EDAD
+- TIME_PERIOD
+- CERTIFIC_DISCAPAC
+- REF_AREA
+- INDICATOR
+- OBS_VALUE
+- FREQ
+- ESTADO_CIVIL
+- NIVEL_ESTUDIOS_TER
+- RELACTIVIDAD
+- SITUAC_PROFES
+- PERCEP_PRES_INVAL
+- SITUACION_DEPEND
+- COMP_HOG_ACTIVIDAD
+- PRESENC_DISCAPAC
+- AMBITO_ESTUD_HOG
