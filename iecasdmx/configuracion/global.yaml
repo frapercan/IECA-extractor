@@ -97,5 +97,9 @@ mapeo_columnas:
   D_EPD_AMBITOESTUDHOG_0: AMBITO_ESTUD_HOG
   D_EPD_PRESENCDISCAPAC_0: PRESENC_DISCAPAC
 
+medidas_reemplazando_obs_status:
+  - estado Apoyo gubernamental IyD agricola
+
+
 
 

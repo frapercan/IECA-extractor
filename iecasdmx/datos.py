@@ -75,8 +75,8 @@ class Datos:
         columnas_jerarquia = [jerarquia.metadatos['alias'] for jerarquia in self.jerarquias]
         columnas_medida = [medida['des'] for medida in
                            self.medidas]
-        columnas = [jerarquia.metadatos['alias'] for jerarquia in self.jerarquias] + [medida['des'] for medida in
-                                                                                      self.medidas]
+        columnas = columnas_jerarquia + columnas_medida
+
         try:
             df = pd.DataFrame(datos, columns=columnas)
         except Exception as e:
@@ -85,10 +85,10 @@ class Datos:
 
         df.columns = columnas
         df[columnas_jerarquia] = df[columnas_jerarquia].applymap(lambda x: x['cod'][-1])
-        df[columnas_medida] = df[columnas_medida].applymap(
-            lambda x: x['val'])
 
-        #
+        df[columnas_medida] = df[columnas_medida].applymap(
+            lambda x: x['val'] if x['val'] != "" else x['format'])
+
         dimension_temporal = self.configuracion_global['dimensiones_temporales']
         if dimension_temporal in df.columns:
             df[dimension_temporal] = transformar_formato_tiempo_segun_periodicidad(df[dimension_temporal],
@@ -122,8 +122,14 @@ class Datos:
         columnas_jerarquia = [jerarquia.metadatos['alias'] for jerarquia in self.jerarquias]
         columnas = columnas_jerarquia + ['INDICATOR', 'OBS_VALUE']
         df = pd.DataFrame(columns=columnas)
+        medidas = [medida['des'] for medida in self.medidas]
+        for medida in medidas:
+            if medida in self.configuracion_global['medidas_reemplazando_obs_status']:
+                medidas.remove(medida)
+                self.datos.rename(columns={medida: 'OBS_STATUS'}, inplace=True)
+                columnas_jerarquia = columnas_jerarquia + ['OBS_STATUS']
 
-        for medida in [medida['des'] for medida in self.medidas]:
+        for medida in medidas:
             if medida not in self.configuracion_global['indicadores_a_borrar']:
                 self.logger.info('Desacoplando para la medida: %s', medida)
 
@@ -197,12 +203,6 @@ class Datos:
                 uniques = np.full([len(self.datos_por_observacion[columna_id].unique()), len(columnas_plantilla)], None)
                 uniques[:, 0] = self.datos_por_observacion[columna_id].unique()
 
-                nuevos_terminos = [unique[0] for unique in uniques if unique[0] not in df_mapa['SOURCE'].values]
-
-                if nuevos_terminos:
-                    self.logger.warning("Nuevos términos añadidos al mapa: %s", nuevos_terminos)
-                else:
-                    self.logger.info("Todos los elementos son mapeables")
                 df_auxiliar = pd.DataFrame(uniques, columns=columnas_plantilla, dtype='string')
 
                 df_mapa = pd.concat([df_mapa, df_auxiliar]).drop_duplicates('SOURCE', keep='first')
