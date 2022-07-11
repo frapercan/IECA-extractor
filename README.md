@@ -54,7 +54,7 @@ Sus comandos son los siguientes:
 
     tox -e docs
 
-Para compilar la documentación se hace uso del paquete make, en caso de no tenerlo se debe instalar.
+Para compilar la documentación se hace uso del paquete make, se debe instalar en caso de no tenerlo presente en el entorno.
 
 ## Integración continua
 Github está configurado con dos distintas comprobaciones.
