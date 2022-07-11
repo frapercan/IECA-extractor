@@ -28,6 +28,9 @@ setup(
     long_description=read("README.md"),
 
     packages=find_packages(exclude=('tests',)),
+    package_data={
+        "": ["configuracion/*.yaml"],
+    },
 
     install_requires=[],
 

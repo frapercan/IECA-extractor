@@ -1,0 +1,92 @@
+ID,NAME
+HAB,Población municipal
+INX,Índice
+RCH_M,Variación mensual
+RCH_A,Variación anual
+DIV,Divorcios
+DISLUN,Nulidades
+SEP,Separaciones
+NACI,Nacimientos
+DEATHS,Defunciones
+CREC_NAT,Crecimiento natural
+PART,Partos
+LATE_FETAL_DEATH,Muertes fetales tardías
+MARRIAGE,Matrimonios
+EMPRESA,Empresas
+ESTABLECIMIENTO,Establecimientos
+NR,Valor
+SOC_CONST,Sociedades constituidas
+SOC_EXT,Sociedades extinguidas
+SOC_DIV,Sociedades que desembolsan dividendos
+SOC_DIS,Sociedades disueltas
+SOC_ESC,Sociedades que realizan escisión
+SOC_TRANS,SM transformadas
+SM_FUS,SM fusionadas
+SM_ACR,SM presentan concurso de acreedores
+SM_AMP_CAP,Sociedades que amplían capital
+SOC_RED_CAP,Sociedades que reducen capital
+CAP_SUSCRITO,Capital suscrito
+PC,%
+NUM_PEN,Número de pensiones
+PEN_MED,Pensión media
+NUM_PEN_PERS,Número de pensionistas
+TAS_INTER_PREC_CORR,Tasa interanual. Precio corriente
+RAS_INTER_IVE,Tasa interanual. IVE
+CON_INTER_PREC_ADQ,Consumos intermedios a precios de adquisición
+VAL_ANA_BRUTO_PREC_BAS_VAL,Valor Añadido Bruto a precios básicos. Valor
+VAL_ANA_BRUTO_PRE_BAS_IVE,Valor Añadido Bruto a precios básicos. IVE
+REM_ASA,Remuneración de asalariados
+OTROS_IMP,Otros impuestos netos sobre la producción
+EXC_EXPL_BRUT_RENT_MIX,Excedente de Explotación Bruto/Renta mixta
+PUES_TRA_TOTAL,Puestos de trabajo totales
+PUES_TRA_ASAL,Puestos de trabajo asalariados
+PUES_TRA_NO_ASAL,Puestos de trabajo no asalariados
+EMPL_EQ_TOTAL,Empleo equivalente totales
+EMPL_EQ_ASAL,Empleo equivalente asalariados
+EMPL_EQ_NO_ASAL,Empleo equivalente no asalariados
+HORAS_TOTAL,Horas totales
+HORAS_ASA,Horas asalariados
+HORAS_NO_asa,Horas no asalariados
+PROD_PREC_BAS,Producción a precios básicos
+CLV_I15,Índice de volumen encadenado
+POP,Población
+PC,Porcentaje
+HH,Hogares
+EUR_HAB,Euros por habitante
+VIAJEROS,Viajeros
+PERNOCTACIONES,Pernoctaciones
+ESTANCIA_MEDIA,Estancia media
+PERS_MEDI_EMPL,Personal medio empleado
+ESTA_MEDI_ABIE_ESTI,Establecimientos medios abiertos estimados
+PLAZ_MEDI_ESTI,Plazas medias estimadas
+PARC_MEDI_ESTI,Parcelas medias estimadas
+PARC_OCUP,Parcelas ocupadas
+GRAD_OCUP_PARC,Grado de ocupación por parcelas
+GRAD_OCUP_PARC_FIN_SEMA,Grado de ocupación por parcelas en fin de semana
+PCT_VIAJEROS,% Viajeros
+PCT_PERN,% Pernoctaciones
+EMPLEO_MEDIO,Empleo medio
+HABI_ESTI,Habitaciones estimadas
+GRAD_OCUP_PLAZ,Grado de ocupación por plazas
+GRAD_OCUP_PLAZ_FIN_SEMA,Grado de ocupación por plazas de fin de semana
+GRAD_OCUP_HABI,Grado de ocupación por habitaciones
+GRAC_OCUP_PLAZ_FIN_SEMA,Gracdo de ocupación por plazas de fin de semana
+PERS_MEDI_REMU,Personal medio remunerado
+PERS_MEDI_NO_REMU,Personal medio no remunerado
+ESTA_MEDI_ESTI,Establecimientos medios estimados
+HABI_MEDI_ESTI,Habitaciones medias estimadas
+GRAD_OCUP_HABI,Grado de ocupación por habitación
+GRAD_OCUP_PLAZ,Grado de ocupación por plaza
+GRAD_OCUP_PLAZ_FIN_SEMA,Grado de ocupación por plaza en fin de semana
+PERS_MEDI_REMU_FIJO,Personal medio remunerado fijo
+PERS_MEDI_REMU_EVEN,Personal medio remunerado eventual
+PLAZAS,Plazas
+APAR_ESTI,Apartamentos estimados
+GRAD_OCUP_PLAZ_FIN_SEMA,Grado de ocupación por plaza de fin de semana
+GRAD_OCUP_APAR,Grado de ocupación por apartamentos
+GRAD_OCUP_APAR_FIN_SEMA,Grado de ocupación por apartamentos en fin de semana
+TURISTAS,Turistas
+TASA_VARI_INTE,Tasa de variación interanual
+PCT_TURISTAS,% Turistas
+PCT_VIAJES,% Viajes
+GAST_MEDI_DIAR,Gasto medio diario

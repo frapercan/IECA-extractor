@@ -1,7 +1,6 @@
 import yaml
 
-import iecasdmx
-from iecasdmx.actividad import Actividad
+from iecasdmx.ieca.actividad import Actividad
 
 
 def test_consulta_positiva():

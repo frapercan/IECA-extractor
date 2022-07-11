@@ -2,4 +2,4 @@ setuptools
 requests
 pandas
 pyyaml
-
+deepl

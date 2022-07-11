@@ -1,0 +1,151 @@
+SOURCE,COD,NAME,TARGET
+Población municipal,,,HAB
+Índice,,,INX
+Variación mensual,,,RCH_M
+Variación anual,,,RCH_A
+Divorcios,,,DIV
+Nulidades,,,DISLUN
+Separaciones,,,SEP
+Nacimientos,,,NACI
+Defunciones,,,DEATHS
+Crecimiento natural,,,CREC_NAT
+Partos,,,PART
+Muertes fetales tardías,,,LATE_FETAL_DEATH
+Matrimonios,,,MARRIAGE
+Empresas,,,EMPRESA
+Establecimientos,,,ESTABLECIMIENTO
+Valor,,,NR
+Sociedades constituidas,,,SOC_CONST
+Sociedades extinguidas,,,SOC_EXT
+Sociedades que desembolsan dividendos,,,SOC_DIV
+Sociedades disueltas,,,SOC_DIS
+Sociedades que realizan escisión,,,SOC_ESC
+SM transformadas,,,SOC_TRANS
+SM fusionadas,,,SM_FUS
+SM presentan concurso de acreedores,,,SM_ACR
+Sociedades que amplían capital,,,SM_AMP_CAP
+Sociedades que reducen capital,,,SOC_RED_CAP
+Capital suscrito,,,CAP_SUSCRITO
+%,,,PC
+Número de pensiones,,,NUM_PEN
+Pensión media,,,PEN_MED
+Número de pensionistas,,,NUM_PEN_PERS
+Tasa interanual. Precio corriente,,,TAS_INTER_PREC_CORR
+Tasa interanual. IVE,,,RAS_INTER_IVE
+Consumos intermedios a precios de adquisición,,,CON_INTER_PREC_ADQ
+Valor Añadido Bruto a precios básicos. Valor,,,VAL_ANA_BRUTO_PREC_BAS_VAL
+Valor Añadido Bruto a precios básicos. IVE,,,VAL_ANA_BRUTO_PRE_BAS_IVE
+Remuneración de asalariados,,,REM_ASA
+Otros impuestos netos sobre la producción,,,OTROS_IMP
+Excedente de Explotación Bruto/Renta mixta,,,EXC_EXPL_BRUT_RENT_MIX
+Puestos de trabajo totales,,,PUES_TRA_TOTAL
+Puestos de trabajo asalariados,,,PUES_TRA_ASAL
+Puestos de trabajo no asalariados,,,PUES_TRA_NO_ASAL
+Empleo equivalente totales,,,EMPL_EQ_TOTAL
+Empleo equivalente asalariados,,,EMPL_EQ_ASAL
+Empleo equivalente no asalariados,,,EMPL_EQ_NO_ASAL
+Horas totales,,,HORAS_TOTAL
+Horas asalariados,,,HORAS_ASA
+Horas no asalariados,,,HORAS_NO_asa
+Producción a precios básicos,,,PROD_PREC_BAS
+Índice de volumen encadenado,,,CLV_I15
+Población,,,POP
+Porcentaje,,,PC
+Hogares,,,HH
+Euros por habitante,,,EUR_HAB
+Viajeros,,,VIAJEROS
+Pernoctaciones,,,PERNOCTACIONES
+Estancia media,,,ESTANCIA_MEDIA
+Personal medio empleado,,,PERS_MEDI_EMPL
+Establecimientos medios abiertos estimados,,,ESTA_MEDI_ABIE_ESTI
+Plazas medias estimadas,,,PLAZ_MEDI_ESTI
+Parcelas medias estimadas,,,PARC_MEDI_ESTI
+Parcelas ocupadas,,,PARC_OCUP
+Grado de ocupación por parcelas,,,GRAD_OCUP_PARC
+Grado de ocupación por parcelas en fin de semana,,,GRAD_OCUP_PARC_FIN_SEMA
+% Viajeros,,,PCT_VIAJEROS
+% Pernoctaciones,,,PCT_PERN
+Empleo medio,,,EMPLEO_MEDIO
+Habitaciones estimadas,,,HABI_ESTI
+Grado de ocupación por plazas,,,GRAD_OCUP_PLAZ
+Grado de ocupación por plazas de fin de semana,,,GRAD_OCUP_PLAZ_FIN_SEMA
+Grado de ocupación por habitaciones,,,GRAD_OCUP_HABI
+Gracdo de ocupación por plazas de fin de semana,,,GRAC_OCUP_PLAZ_FIN_SEMA
+Personal medio remunerado,,,PERS_MEDI_REMU
+Personal medio no remunerado,,,PERS_MEDI_NO_REMU
+Establecimientos medios estimados,,,ESTA_MEDI_ESTI
+Habitaciones medias estimadas,,,HABI_MEDI_ESTI
+Grado de ocupación por habitación,,,GRAD_OCUP_HABI
+Grado de ocupación por plaza,,,GRAD_OCUP_PLAZ
+Grado de ocupación por plaza en fin de semana,,,GRAD_OCUP_PLAZ_FIN_SEMA
+Personal medio remunerado fijo,,,PERS_MEDI_REMU_FIJO
+Personal medio remunerado eventual,,,PERS_MEDI_REMU_EVEN
+Plazas,,,PLAZAS
+Apartamentos estimados,,,APAR_ESTI
+Grado de ocupación por plaza de fin de semana,,,GRAD_OCUP_PLAZ_FIN_SEMA
+Grado de ocupación por apartamentos,,,GRAD_OCUP_APAR
+Grado de ocupación por apartamentos en fin de semana,,,GRAD_OCUP_APAR_FIN_SEMA
+Turistas,,,TURISTAS
+Tasa de variación interanual,,,TASA_VARI_INTE
+% Turistas,,,PCT_TURISTAS
+% Viajes,,,PCT_VIAJES
+Gasto medio diario,,,GAST_MEDI_DIAR
+Número de locales,,,NUME_LOCA
+Compra de mercaderías,,,COMP_MERC
+Consumo de materias primas y otros aprovisionamientos,,,CONS_MATE_PRIM_Y_OTRO_APRO
+Consumo de mercaderías,,,CONS_MERC
+Consumos intermedios,,,CONS_INTE
+Excedente Bruto de Explotación,,,EXCE_BRUT_EXPL
+Gastos de personal,,,GAST_PERS
+Gastos en servicios exteriores,,,GAST_SERV_EXTE
+Hombres,,,HOMBRES
+Horas personal no remunerado,,,HORA_PERS_NO_REMU
+Horas personal remunerado,,,HORA_PERS_REMU
+Impuestos menos subvenciones,,,IMPU_MENO_SUBV
+Inversión bruta en bienes materiales,,,INVE_BRUT_BIEN_MATE
+Margen comercial bruto,,,MARG_COME_BRUT
+Mujeres,,,MUJERES
+Número de empresas,,,NUME_EMPR
+Otros ingresos,,,OTROS_INGRESOS
+Personal ocupado a 30 de septiembre,,,PERS_OCUP_30_SEPT
+Personal ocupado medio,,,PERS_OCUP_MEDI
+Personal remunerado equivalente a jornada completa,,,PERS_REMU_EQUI_JORN_COMP
+Porcentaje del margen comercial bruto sobre ventas,,,PORC_DEL_MARG_COME_BRUT_SOBR_VENT
+Producción por ocupado,,,PROD_OCUP
+Productividad,,,PRODUCTIVIDAD
+Remuneración media,,,REMU_MEDI
+Remunerados eventuales,,,REMU_EVEN
+Remunerados eventuales hombres,,,REMU_EVEN_HOMB
+Remunerados eventuales mujeres,,,REMU_EVEN_MUJE
+Remunerados fijos,,,REMU_FIJO
+Remunerados fijos hombres,,,REMU_FIJO_HOMB
+Remunerados fijos mujeres,,,REMU_FIJO_MUJE
+Salario medio,,,SALARIO_MEDIO
+Sueldos y salarios,,,SUEL_Y_SALA
+Tamaño medio de los establecimientos,,,TAMA_MEDI_LOS_ESTA
+Tasa bruta de explotación,,,TASA_BRUT_EXPL
+Tasa de asalariados,,,TASA_ASAL
+Tasa de empleo femenino asalariado,,,TASA_EMPL_FEME_ASAL
+Tasa de participación femenina,,,TASA_PART_FEME
+Tasa de remunerados,,,TASA_REMU
+Tasa de valor añadido,,,TASA_VALO_ANAD
+Tasa estabilidad de empleo,,,TASA_ESTA_EMPL
+Tasa gasto de personal,,,TASA_GAST_PERS
+Total no remunerados,,,TOTA_NO_REMU
+Total no remunerados hombres,,,TOTA_NO_REMU_HOMB
+Total no remunerados mujeres,,,TOTA_NO_REMU_MUJE
+Total remunerados,,,TOTA_REMU
+Total ventas al por mayor y al por menor,,,TOTA_VENT_AL_MAYO_Y_AL_MENO
+Trabajos otras empresas,,,TRAB_OTRA_EMPR
+Trabajos realizados por la empresa para su activo,,,TRAB_REAL_LA_EMPR_SU_ACTI
+Valor Añadido Bruto a precios de mercado,,,VALO_ANAD_BRUT_PREC_MERC
+Valor Añadido Bruto al coste de los factores,,,VALO_ANAD_BRUT_AL_COST_LOS_FACT
+Valor de la producción,,,VALO_LA_PROD
+Variación de existencias de mercaderías,,,VARI_EXIS_MERC
+Variación de existencias de productos terminados y en curso,,,VARI_EXIS_PROD_TERM_Y_CURS
+Volumen de negocio,,,VOLU_NEGO
+Volumen de negocio por otros conceptos,,,VOLU_NEGO_OTRO_CONC
+Personal remunerado. Hombres. Jornada completa,,,PERS_REMU_HOMB_JORN_COMP
+Personal remunerado. Mujeres. Jornada completa,,,PERS_REMU_MUJE_JORN_COMP
+Personal remunerado. Hombres. Jornada parcial,,,PERS_REMU_HOMB_JORN_PARC
+Personal remunerado. Mujeres. Jornada parcial,,,PERS_REMU_MUJE_JORN_PARC

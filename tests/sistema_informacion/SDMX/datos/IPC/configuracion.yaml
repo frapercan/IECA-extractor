@@ -1,0 +1,20 @@
+NOMBRE_DSD: DSD_IPC
+grupos_consultas:
+  'IPC: Indice general y grupos ECOICOP. Base 2016':
+    consultas:
+    - '64207'
+    id: '1'
+  'IPC: Índices de grupos especiales. Base 2016':
+    consultas:
+    - '64208'
+    - '64209'
+    id: '2'
+variables:
+- TIME_PERIOD
+- REF_AREA
+- D_ECOICOP_0
+- INDICATOR
+- OBS_VALUE
+- FREQ
+- D_IPC_RUBRICAS_0
+- D_IPC_GRUPOSESPECIALES_0

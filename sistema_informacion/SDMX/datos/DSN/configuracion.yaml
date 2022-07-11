@@ -1,51 +1,52 @@
 NOMBRE_DSD: DSD_DSN
+categoria: POP_MIGRATION
 grupos_consultas:
-  Disoluciones según cónyuge que ejerce la custodia:
-    consultas:
-    - '64510'
-    id: '6'
-  Disoluciones según duración del matrimonio por provincia de residencia:
-    consultas:
-    - '64492'
-    id: '4'
   Disoluciones según la edad de los cónyuges por provincia de residencia:
+    id: '1'
     consultas:
     - '64486'
-    id: '1'
-  Disoluciones según la nacionalidad de los cónyuges:
-    consultas:
-    - '64511'
-    id: '7'
-  Disoluciones según número de hijos menores de edad:
-    consultas:
-    - '64509'
-    id: '5'
-  Divorcios, separaciones y nulidades entre cónyuges del mismo sexo:
-    consultas:
-    - '64512'
-    id: '8'
-  Divorcios, separaciones y nulidades según el estado civil previo al matrimonio por provincia de residencia:
-    consultas:
-    - '64490'
-    id: '3'
   Divorcios, separaciones y nulidades según sexo por provincia de residencia:
+    id: '2'
     consultas:
     - '64491'
-    id: '2'
+  Divorcios, separaciones y nulidades según el estado civil previo al matrimonio por provincia de residencia:
+    id: '3'
+    consultas:
+    - '64490'
+  Disoluciones según duración del matrimonio por provincia de residencia:
+    id: '4'
+    consultas:
+    - '64492'
+  Disoluciones según número de hijos menores de edad:
+    id: '5'
+    consultas:
+    - '64509'
+  Disoluciones según cónyuge que ejerce la custodia:
+    id: '6'
+    consultas:
+    - '64510'
+  Disoluciones según la nacionalidad de los cónyuges:
+    id: '7'
+    consultas:
+    - '64511'
+  Divorcios, separaciones y nulidades entre cónyuges del mismo sexo:
+    id: '8'
+    consultas:
+    - '64512'
 variables:
-- TIME_PERIOD
-- REF_AREA
+- TEMPORAL
+- TERRITORIO
 - EDAD
-- D_EDADC2_0
+- EDADC2
 - INDICATOR
 - OBS_VALUE
 - FREQ
 - SEXO
-- D_SEXOC2_0
-- ESTADO_CIVIL
-- D_ESTADOCIVILC2_0
-- D_DURACMATRIM_0
-- D_NUMHIJOSMENORED_0
-- D_CUSTODIA_0
-- D_NACIONACONYUGES_0
-- D_TIPOMATRIMONIO_0
+- SEXOC2
+- ESTADOCIVIL
+- ESTADOCIVILC2
+- DURACMATRIM
+- NUMHIJOSMENORED
+- CUSTODIA
+- NACIONACONYUGES
+- TIPOMATRIMONIO

@@ -1,0 +1,14 @@
+NOMBRE_DSD: DSD_INDICADORES
+categoria: Indicadores
+grupos_consultas:
+  Apoyo gubernamental a la investigación y desarrollo agrícola:
+    id: '1'
+    consultas:
+    - '16861'
+variables:
+- TERRITORIO
+- TEMPORAL
+- INDICATOR
+- OBS_VALUE
+- OBS_STATUS
+- FREQ

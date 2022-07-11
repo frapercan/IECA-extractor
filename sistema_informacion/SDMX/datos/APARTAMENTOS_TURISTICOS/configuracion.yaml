@@ -1,0 +1,38 @@
+NOMBRE_DSD: DSD_APARTAMENTOS_TURISTICOS
+categoria: TOURISM
+grupos_consultas:
+  Viajeros, pernoctaciones y estancia media por provincias y procedencia:
+    id: '1'
+    consultas:
+    - '67910'
+  Viajeros, pernoctaciones y estancia media según país de procedencia por provincias:
+    id: '2'
+    consultas:
+    - '67911'
+  ? Viajeros, pernoctaciones y estancia media según comunidad autónoma de procedencia
+    de los viajeros residentes en España por provincias
+  : id: '3'
+    consultas:
+    - '67912'
+  Viajeros, pernoctaciones y estancia media según país de procedencia. Zonas turísticas:
+    id: '4'
+    consultas:
+    - '67913'
+  Viajeros, pernoctaciones y estancia media según país de procedencia. Puntos turísticos:
+    id: '5'
+    consultas:
+    - '67914'
+  Personal empleado, apartamentos estimados, plazas estimadas y grados de ocupación por provincias:
+    id: '6'
+    consultas:
+    - '67915'
+variables:
+- ESTADO_DATO
+- TERRITORIO
+- TEMPORAL
+- RESITUR
+- INDICATOR
+- OBS_VALUE
+- FREQ
+- PARQUES_TURISMO
+- PUNTOS_TURISTICOS

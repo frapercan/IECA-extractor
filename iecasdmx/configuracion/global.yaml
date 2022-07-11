@@ -1,29 +1,58 @@
 directorio_sistema_informacion: sistema_informacion/
-directorio_mapas: sistema_informacion/mapas/
+directorio_mapas_dimensiones: sistema_informacion/mapas/dimensiones/
 directorio_jerarquias: sistema_informacion/BADEA/jerarquias
 directorio_datos: sistema_informacion/BADEA/datos
 directorio_json: sistema_informacion/BADEA/consultas
+fichero_traducciones: sistema_informacion/traducciones.yaml
 
 directorio_datos_SDMX: sistema_informacion/SDMX/datos
 
+direccion_API_SDMX: http://192.168.1.135
+usuario_SDMX: admin
+contraseña_SDMX: ''
+nodeId: IECA
+
+traducir: False
+
+lenguajes:
+  - 'en'
+  - 'es'
 
 
 dimensiones_temporales: D_TEMPORAL_0
 
 indicadores_a_borrar: Variación en lo que va de año
 
+
+dimensiones_armonizadas:
+  - FREQ
+  - SEXO
+  - TEMPORAL
+  - EDAD
+
+dimension_medida: INDICATOR
+dimension_temporal:
+  - TEMPORAL
+  - FREQ
+
 dimensiones_a_mapear:
+  - CL_INDICATOR
   - INDICATOR
   - D_ECOICOP_0
   - D_TERRITORIO_0
+  - TERRITORIO
   - D_ESTADOCIVIL_0
   - D_ESTADOCIVILC2_0
   - D_SEXO_0
+  - SEXO
   - D_SEXOC2_0
   - D_EDAD_0
   - D_EPD_GRUPOSEDAD_0
   - D_NACIONALIDAD_0
   - D_ESTADO_DATO_0
+  - OBS_STATUS
+  - D_TIPO_ALOJAM_ECTA_0
+  - D_PROCEDENCIA_ECTA_0
 
 propiedades_jerarquias:
   - id

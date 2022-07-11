@@ -8,6 +8,8 @@ acciones_datos:
   mapear_columnas: True
   borrar_filas:
     - OBS_VALUE: ''
+    - OBS_VALUE: '-'
+
   guardar_datos#2: procesados
 acciones_actividad_completa:
   agrupar_consultas_SDMX: True

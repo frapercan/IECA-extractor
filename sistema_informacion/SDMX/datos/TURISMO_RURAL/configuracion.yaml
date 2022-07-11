@@ -1,0 +1,37 @@
+NOMBRE_DSD: DSD_TURISMO_RURAL
+categoria: TOURISM
+grupos_consultas:
+  Viajeros, pernoctaciones y estancia media por provincias:
+    id: '1'
+    consultas:
+    - '67785'
+  Viajeros, pernoctaciones y estancia media según comunidad autónoma de procedencia de los viajeros residentes en España:
+    id: '2'
+    consultas:
+    - '67786'
+  Viajeros, pernoctaciones y estancia media según país de residencia:
+    id: '3'
+    consultas:
+    - '67787'
+  Viajeros, pernoctaciones y estancia media. Zonas turísticas:
+    id: '4'
+    consultas:
+    - '67788'
+  Viajeros, pernoctaciones y estancia media. Puntos turísticos:
+    id: '5'
+    consultas:
+    - '67789'
+  Personal empleado, establecimientos abiertos estimados, plazas estimadas y grados de ocupación por provincia:
+    id: '6'
+    consultas:
+    - '67790'
+variables:
+- ESTADO_DATO
+- TERRITORIO
+- TEMPORAL
+- RESITUR
+- INDICATOR
+- OBS_VALUE
+- FREQ
+- PARQUES_TURISMO
+- PUNTOS_TURISTICOS

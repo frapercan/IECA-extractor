@@ -1,0 +1,25 @@
+NOMBRE_DSD: DSD_EOH
+categoria: TOURISM
+grupos_consultas:
+  Viajeros, pernoctaciones y estancia media:
+    id: '1'
+    consultas:
+    - '67619'
+    - '67664'
+    - '67665'
+  Personal empleado, establecimientos abiertos estimados, plazas estimadas y grados de ocupación:
+    id: '2'
+    consultas:
+    - '67618'
+    - '67666'
+variables:
+- ESTADO_DATO
+- TERRITORIO
+- CAT_HOTELES
+- TEMPORAL
+- RESITUR
+- INDICATOR
+- OBS_VALUE
+- FREQ
+- PARQUES_TURISMO
+- PUNTOS_TURISTICOS

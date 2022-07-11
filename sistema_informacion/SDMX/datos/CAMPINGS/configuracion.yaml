@@ -1,0 +1,38 @@
+NOMBRE_DSD: DSD_CAMPINGS
+categoria: TOURISM
+grupos_consultas:
+  Viajeros, pernoctaciones y estancia media por provincias y pais de procedencia de los viajeros:
+    id: '1'
+    consultas:
+    - '67667'
+  Viajeros, pernoctaciones y estancia mediasegún pais de procedencia de los viajeros. Parques:
+    id: '2'
+    consultas:
+    - '67668'
+  Viajeros, pernoctaciones y estancia según comunidad autónoma de procedencia de los viajeros residentes en España. Parques:
+    id: '3'
+    consultas:
+    - '67669'
+  Viajeros, pernoctaciones y estancia media según pais de procedencia de los viajeros. Costas:
+    id: '4'
+    consultas:
+    - '67670'
+  ? Viajeros, pernoctaciones y estancia media según comunidad autónoma de procedencia
+    de los viajeros residentes en España. Costas
+  : id: '5'
+    consultas:
+    - '67671'
+  ? Personal empleado, establecimientos abiertos, plazas estimadas, parcelas estimadas,
+    parcelas ocupadas y grado de ocupación por provincia
+  : id: '6'
+    consultas:
+    - '67672'
+variables:
+- ESTADO_DATO
+- TERRITORIO
+- RESITUR
+- TEMPORAL
+- INDICATOR
+- OBS_VALUE
+- FREQ
+- PARQUES_TURISMO
