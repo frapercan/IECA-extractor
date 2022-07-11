@@ -32,7 +32,11 @@ Con el directorio de trabajo en la raiz del proyecto ejecutar el fichero main.py
 # Información para desarrolladores del repositorio
 ## Ejecutar Integración continua en local
 
-Tox es una herramienta de automatización para python, sus comandos son los siguientes:
+Tox es una herramienta de automatización para python, se puede instalar con pip:
+    
+    pip install tox
+    
+Sus comandos son los siguientes:
 
 ### Ejecutar Tests, Lint y Compilar la documentación
 
@@ -50,6 +54,7 @@ Tox es una herramienta de automatización para python, sus comandos son los sigu
 
     tox -e docs
 
+Para compilar la documentación se hace uso del paquete make, en caso de no tenerlo se debe instalar.
 
 ## Integración continua
 Github está configurado con dos distintas comprobaciones.
