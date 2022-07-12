@@ -15,7 +15,7 @@ def read(filename):
 
 
 setup(
-    name="iecasdmx",
+    name="src",
     version="0.2.0",
     url="https://github.com/frapercan/IECA2SDMX",
     license='MIT',
@@ -37,6 +37,6 @@ setup(
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.10',
     ],
 )

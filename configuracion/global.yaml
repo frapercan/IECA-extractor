@@ -1,9 +1,9 @@
-directorio_sistema_informacion: tests/sistema_informacion/
-directorio_mapas_dimensiones: tests/sistema_informacion/mapas/dimensiones
-directorio_jerarquias: tests/sistema_informacion/BADEA/jerarquias
-directorio_datos: tests/sistema_informacion/BADEA/datos
-directorio_json: tests/sistema_informacion/BADEA/JSON
-directorio_datos_SDMX: tests/sistema_informacion/SDMX/datos
+directorio_sistema_informacion: sistema_informacion/
+directorio_mapas_dimensiones: sistema_informacion/mapas/dimensiones/
+directorio_jerarquias: sistema_informacion/BADEA/jerarquias
+directorio_datos: sistema_informacion/BADEA/datos
+directorio_json: sistema_informacion/BADEA/consultas
+directorio_datos_SDMX: sistema_informacion/SDMX/datos
 
 dimensiones_temporales:
   - D_TEMPORAL_0

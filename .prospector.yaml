@@ -11,6 +11,7 @@ ignore-paths:
   - core/tests
   - build
   - .tox
+  - src/utiles/*
 
 ignore-patterns:
   - .*\.feature$
