@@ -90,13 +90,17 @@ class Jerarquia:
                 - Con el Còdigo de BADEA (No admitido por nuestro framework de SDMX)
                 - Sin el código de BADEA (Admitido por nuestro framework de SDMX)
 
+            La salida de la lista de código para importar en SDMX se deshará de los valores de las jerarquias
+            que no han sido utilizados en la consulta.
+
          """
         directorio = os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad)
         directorio_original = os.path.join(directorio, 'original')
+        directorio_sdmx = os.path.join(directorio, 'sdmx')
+
         if not os.path.exists(directorio_original):
             os.makedirs(directorio_original)
 
-        directorio_sdmx = os.path.join(directorio, '../sdmx')
         if not os.path.exists(directorio_sdmx):
             os.makedirs(directorio_sdmx)
         self.logger.info('Almacenando datos Jerarquia')
@@ -154,4 +158,4 @@ def mapear_jerarquia(df, dimension, directorio_mapas_dimensiones):
         df.merge(df_mapa, how='left', left_on='ID', right_on='SOURCE')['TARGET'].copy(deep=True)
     df.loc[:, 'PARENTCODE'] = \
         df.merge(df_mapa, how='left', left_on='PARENTCODE', right_on='SOURCE')['TARGET'].copy(deep=True)
-    return df
+    return df[df['ID'].notna()]

@@ -22,8 +22,6 @@ if __name__ == "__main__":
         configuracion_actividades = yaml.safe_load(configuracion_actividades)
         configuracion_plantilla_actividad = yaml.safe_load(plantilla_configuracion_actividad)
         mapa_conceptos_codelist = yaml.safe_load(mapa_conceptos_codelist)
-        traducciones = yaml.safe_load(traducciones)
-        traductor = deepl.Translator(os.getenv("DEEPL_AUTH_KEY"))
 
     for nombre_actividad in configuracion_ejecucion['actividades']:
         actividad = Actividad(configuracion_global, configuracion_actividades[nombre_actividad],
