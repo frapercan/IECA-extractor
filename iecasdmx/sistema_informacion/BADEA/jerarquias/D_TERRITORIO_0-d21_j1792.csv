@@ -1,0 +1,5 @@
+ID;NAME;DESCRIPTION;PARENTCODE;ORDER
+21;() TOTAL/España/Andalucía (se podría obtener con la 81);TOTAL/España/Andalucía (se podría obtener con la 81);;0
+3676;(00) TOTAL;TOTAL;;1
+2240;(108) España;España;3676;2
+3143;(C01) Andalucía;Andalucía;2240;3
