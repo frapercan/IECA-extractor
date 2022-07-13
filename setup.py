@@ -15,8 +15,8 @@ def read(filename):
 
 
 setup(
-    name="iecasdmx",
-    version="0.2.0",
+    name="src",
+    version="1.0.0",
     url="https://github.com/frapercan/IECA2SDMX",
     license='MIT',
 
@@ -28,12 +28,15 @@ setup(
     long_description=read("README.md"),
 
     packages=find_packages(exclude=('tests',)),
+    package_data={
+        "": ["configuracion/*.yaml"],
+    },
 
     install_requires=[],
 
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.10',
     ],
 )

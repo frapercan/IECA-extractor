@@ -1,0 +1,15 @@
+NOMBRE_DSD: DSD_EEE
+categoria: NO_CONFIGURADO
+grupos_consultas:
+  Estadística Estructural de Empresas:
+    id: '1'
+    consultas:
+    - '12267'
+variables:
+- TEMPORAL
+- TIPO_ESTAB
+- ACTIV_EST
+- TERRITORIO
+- INDICATOR
+- OBS_VALUE
+- FREQ
