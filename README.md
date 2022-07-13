@@ -1,6 +1,6 @@
 ﻿# Conversión de datos del Instituto de Estadística y Cartografía Andaluz a SDMX
 
-[![PyPI version](https://badge.fury.io/py/iecasdmx.svg)](https://badge.fury.io/py/iecasdmx)
+[![PyPI version](https://badge.fury.io/py/ieca2sdmx.svg)](https://badge.fury.io/py/ieca2sdmx)
 [![codecov](https://codecov.io/gh/frapercan/IECA2SDMX/branch/develop/graph/badge.svg?token=GbJ3V9jEa7)](https://codecov.io/gh/frapercan/IECA2SDMX)
 [![Python Tox](https://github.com/frapercan/IECA2SDMX/actions/workflows/tox.yml/badge.svg)](https://github.com/frapercan/IECA2SDMX/actions/workflows/tox.yml)
 [![Documentation Status](https://readthedocs.org/projects/ieca2sdmx/badge/?version=latest)](https://ieca2sdmx.readthedocs.io/en/latest/?badge=latest)
