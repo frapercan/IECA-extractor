@@ -13,16 +13,16 @@ Bienvenido a la documentación de IECA2SDMX!
 
 Modulos
 =======
-.. automodule:: iecasdmx.actividad
+.. automodule:: src.ieca.actividad
    :members:
 
-.. automodule:: iecasdmx.consulta
+.. automodule:: src.ieca.consulta
    :members:
 
-.. automodule:: iecasdmx.jerarquia
+.. automodule:: src.ieca.jerarquia
    :members:
 
-.. automodule:: iecasdmx.datos
+.. automodule:: src.ieca.datos
    :members:
 
 

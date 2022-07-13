@@ -157,8 +157,7 @@ def mapear_jerarquia(df, dimension, directorio_mapas_dimensiones):
 
     if 'IGNORE_ON_CL' not in df_mapa.columns:
         df_mapa['IGNORE_ON_CL'] = False
-        print(df_mapa)
-        df_mapa.to_csv(directorio_mapa, sep=',', dtype='string',index=False)
+        df_mapa.to_csv(directorio_mapa, sep=',',index=False)
 
     df.loc[:, 'IGNORE_ON_CL'] = \
         df.merge(df_mapa, how='left', left_on='ID', right_on='SOURCE')['IGNORE_ON_CL'].copy(deep=True)
