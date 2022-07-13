@@ -1,9 +1,9 @@
 ﻿# Extracción y procesamiento de datos del Instituto de Estadística y Cartografía Andaluz
 
-[![PyPI version](https://badge.fury.io/py/ieca-extractor.svg)](https://badge.fury.io/py/ieca-extractor)
-[![codecov](https://codecov.io/gh/frapercan/IECA2SDMX/branch/develop/graph/badge.svg?token=GbJ3V9jEa7)](https://codecov.io/gh/frapercan/IECA2SDMX)
+[![PyPI version](https://badge.fury.io/py/IECA-extractor.svg)](https://badge.fury.io/py/IECA-extractor)
+[![codecov](https://codecov.io/gh/frapercan/IECA-extractor/branch/main/graph/badge.svg?token=GbJ3V9jEa7)](https://codecov.io/gh/frapercan/IECA-extractor)
 [![Python Tox](https://github.com/frapercan/IECA2SDMX/actions/workflows/tox.yml/badge.svg)](https://github.com/frapercan/IECA2SDMX/actions/workflows/tox.yml)
-[![Documentation Status](https://readthedocs.org/projects/ieca2sdmx/badge/?version=latest)](https://ieca2sdmx.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/ieca-extractor/badge/?version=latest)](https://ieca-extractor.readthedocs.io/es/latest/?badge=latest)
 
 Herramienta interna de extracción de datos desde la [API del IECA](https://www.juntadeandalucia.es/institutodeestadisticaycartografia/badea/apidoc) hacia un sistema de información formado por ficheros en formato tabular, para su posterior uso con las [herramientas SDMX del Instituto Nacional de Estadística Italiano (ISTAT Toolkit)](https://sdmxistattoolkit.github.io/).
 
