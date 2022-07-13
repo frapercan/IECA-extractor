@@ -1,45 +1,46 @@
 NOMBRE_DSD: DSD_MNP
+categoria: SIN DEFINIR
 grupos_consultas:
+  Nacimientos, defunciones y crecimiento natural de la población por sexo según provincia o municipio de residencia:
+    id: '1'
+    consultas:
+    - '64783'
+    - '65403'
+  Partos por multiplicidad-sexo según municipio de residencia de la madre:
+    id: '2'
+    consultas:
+    - '64864'
+  Nacimientos por sexo y grupo de edad de la madre según muncipio de residencia de la madre:
+    id: '3'
+    consultas:
+    - '64865'
+    - '65404'
+    - '65405'
+    - '65406'
+  Distribución de las muertes fetales tardías por provincia de residencia de la madre o provincia de registro/ocurrencia:
+    id: '4'
+    consultas:
+    - '64894'
+  Matrimonios por relación con la residencia anterior de los cónyuges según municipio de residencia del matrimonio:
+    id: '5'
+    consultas:
+    - '64892'
   Defunciones por grupo de edad, estado civil y sexo según municipio de residencia o municipio de registro/ocurrencia:
+    id: '6'
     consultas:
     - '64893'
     - '65410'
     - '65411'
     - '65412'
     - '65413'
-    id: '6'
-  Distribución de las muertes fetales tardías por provincia de residencia de la madre o provincia de registro/ocurrencia:
-    consultas:
-    - '64894'
-    id: '4'
-  Matrimonios por relación con la residencia anterior de los cónyuges según municipio de residencia del matrimonio:
-    consultas:
-    - '64892'
-    id: '5'
-  Nacimientos por sexo y grupo de edad de la madre según muncipio de residencia de la madre:
-    consultas:
-    - '64865'
-    - '65404'
-    - '65405'
-    - '65406'
-    id: '3'
-  Nacimientos, defunciones y crecimiento natural de la población por sexo según provincia o municipio de residencia:
-    consultas:
-    - '64783'
-    - '65403'
-    id: '1'
-  Partos por multiplicidad-sexo según municipio de residencia de la madre:
-    consultas:
-    - '64864'
-    id: '2'
 variables:
-- TIME_PERIOD
+- TEMPORAL
 - SEXO
-- REF_AREA
+- TERRITORIO
 - INDICATOR
 - OBS_VALUE
 - FREQ
-- D_MULTIPLICIDAD_SEXO_0
+- MULTIPLICIDAD_SEXO
 - EDAD
-- D_DISTRIBUCION_MNP_0
-- D_REL_RESIDENANT_0
+- DISTRIBUCION_MNP
+- REL_RESIDENANT

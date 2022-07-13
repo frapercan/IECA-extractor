@@ -1,22 +1,23 @@
 NOMBRE_DSD: DSD_SOCMER
+categoria: SIN DEFINIR
 grupos_consultas:
   Sociedades mercantiles:
+    id: '1'
     consultas:
     - '65646'
     - '28098'
-    id: '1'
   Sociedades mercantiles constituidas:
+    id: '2'
     consultas:
     - '497'
     - '65647'
-    id: '2'
 variables:
-- TIME_PERIOD
-- REF_AREA
-- D_FORMA_JUR_SOCMER_0
-- OBS_STATUS
+- TEMPORAL
+- TERRITORIO
+- FORMA_JUR_SOCMER
+- ESTADO_DATO
 - INDICATOR
 - OBS_VALUE
 - FREQ
-- D_CNAE09_0
-- D_SEXO_SOCIOS_0
+- CNAE09
+- SEXO_SOCIOS

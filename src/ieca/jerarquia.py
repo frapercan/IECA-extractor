@@ -154,8 +154,22 @@ class Jerarquia:
 def mapear_jerarquia(df, dimension, directorio_mapas_dimensiones):
     directorio_mapa = os.path.join(directorio_mapas_dimensiones, dimension)
     df_mapa = pd.read_csv(directorio_mapa, sep=',', dtype='string')
+
+    if 'IGNORE_ON_CL' not in df_mapa.columns:
+        df_mapa['IGNORE_ON_CL'] = False
+        print(df_mapa)
+        df_mapa.to_csv(directorio_mapa, sep=',', dtype='string',index=False)
+
+    df.loc[:, 'IGNORE_ON_CL'] = \
+        df.merge(df_mapa, how='left', left_on='ID', right_on='SOURCE')['IGNORE_ON_CL'].copy(deep=True)
+
+    df.drop(df.loc[df['IGNORE_ON_CL'] == 'True'].index, inplace=True)
+
+    df.drop('IGNORE_ON_CL', inplace=True, axis=1)
+
     df.loc[:, 'ID'] = \
         df.merge(df_mapa, how='left', left_on='ID', right_on='SOURCE')['TARGET'].copy(deep=True)
     df.loc[:, 'PARENTCODE'] = \
         df.merge(df_mapa, how='left', left_on='PARENTCODE', right_on='SOURCE')['TARGET'].copy(deep=True)
+
     return df[df['ID'].notna()]
