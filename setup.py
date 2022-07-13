@@ -15,9 +15,9 @@ def read(filename):
 
 
 setup(
-    name="ieca2sdmx",
+    name="IECA-extractor",
     version="1.0.0",
-    url="https://github.com/frapercan/IECA2SDMX",
+    url="https://github.com/frapercan/IECA-extractor",
     license='MIT',
 
     author="frapercan",
