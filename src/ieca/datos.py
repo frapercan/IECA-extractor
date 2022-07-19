@@ -44,7 +44,6 @@ class Datos:
         self.medidas = medidas
 
         self.logger = logging.getLogger(f'{self.__class__.__name__} [{self.id_consulta}]')
-
         self.logger.info('Procesando las observaciones: %s con periodicidad: %s',
                          self.id_consulta, self.periodicidad)
         self.datos = self.convertir_datos_a_dataframe_sdmx(datos)
@@ -84,6 +83,9 @@ class Datos:
             raise e
 
         df.columns = columnas
+        columnas_jerarquias_aux = [columna_jerarquia + '_aux' for columna_jerarquia in columnas_jerarquia]
+        df[columnas_jerarquias_aux] = df[columnas_jerarquia].applymap(
+            lambda x: x['cod'][-2] if len(x['cod']) > 1 else None)
         df[columnas_jerarquia] = df[columnas_jerarquia].applymap(lambda x: x['cod'][-1])
 
         df[columnas_medida] = df[columnas_medida].applymap(
@@ -93,14 +95,18 @@ class Datos:
         for dimension_temporal in dimensiones_temporales:
             if dimension_temporal in df.columns:
                 df[dimension_temporal] = transformar_formato_tiempo_segun_periodicidad(df[dimension_temporal],
-                                                                                   self.periodicidad)
+                                                                                       self.periodicidad)
 
         # Parche IECA ya que están indexando por cod en lugar de id.
         for jerarquia in self.jerarquias:
             columna = jerarquia.metadatos['alias']
 
-            if columna not in  dimensiones_temporales:
+            if columna not in dimensiones_temporales:
                 df[columna] = df.merge(jerarquia.datos, how='left', left_on=columna, right_on='COD')['ID'].values
+
+                # Parche nº2 ya que la indexación a través de cod puede quedar disconexa.
+                df[columna][df[columna].isna()] = \
+                df.merge(jerarquia.datos, how='left', left_on=columna + '_aux', right_on='COD')['ID'].values
 
         self.logger.info('Datos Transformados a DataFrame Correctamente')
         return df
@@ -272,8 +278,8 @@ class Datos:
          fichero de configuracion global. Por último limpiamos las jerarquias de los prefiejos y sufijos.
          """
         columnas = self.datos_por_observacion.columns
-        columnas = [columna[2:] if columna[:2] == 'D_' else columna for columna in columnas ]
-        columnas = [columna[:-2] if columna[-2:] == '_0' else columna for columna in columnas ]
+        columnas = [columna[2:] if columna[:2] == 'D_' else columna for columna in columnas]
+        columnas = [columna[:-2] if columna[-2:] == '_0' else columna for columna in columnas]
 
         self.datos_por_observacion.columns = columnas
 
@@ -321,7 +327,7 @@ def insertar_freq(df, periodicidad):
 
 
 def crear_mapeo_por_defecto(descripcion):
-    preposiciones = ['A', 'DE', 'POR', 'PARA','EN']
+    preposiciones = ['A', 'DE', 'POR', 'PARA', 'EN']
     if pd.isna(descripcion):
         return None
     descripcion = descripcion.upper().replace(" ", "_")
@@ -335,4 +341,4 @@ def crear_mapeo_por_defecto(descripcion):
                     descripcion_reducida.append(parte)
         descripcion = '_'.join(descripcion_reducida)
 
-    return descripcion.replace('%','PCT')
+    return descripcion.replace('%', 'PCT')

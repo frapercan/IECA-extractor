@@ -82,7 +82,6 @@ class Actividad:
         """
         directorio = os.path.join(self.configuracion_global['directorio_datos_SDMX'], self.actividad)
         fichero = os.path.join(directorio, 'configuracion.yaml')
-        print(self.configuracion_actividad.keys())
         if not os.path.exists(directorio):
             os.makedirs(directorio)
 
