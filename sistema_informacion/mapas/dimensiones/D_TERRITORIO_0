@@ -1,6 +1,7 @@
 SOURCE,COD,NAME,TARGET,IGNORE_ON_CL
 3676,00,(00) TOTAL,3676,
 3143,C01,(C01) Andalucía,ES61,
+P1_C01,C01,(C01) Andalucía,ES61,
 2352,04,(04) Almería,ES611,
 2402,11,(11) Cádiz,ES612,
 2482,14,(14) Córdoba,ES613,
@@ -930,4 +931,3 @@ _Z,No aplica,No aplica,_Z,
 3386,132,(132) Suiza,CH,
 3397,157,(157) Serbia,RS,
 3574,436,(436) Turquía,TR,
-,,,,
