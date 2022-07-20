@@ -1,4 +1,4 @@
-﻿# Extracción y procesamiento de datos del Instituto de Estadística y Cartografía Andaluz
+﻿# Extracción y procesamiento de datos del Instituto de Estadística y Cartografía de Andalucía
 
 [![PyPI version](https://badge.fury.io/py/IECA-extractor.svg)](https://badge.fury.io/py/IECA-extractor)
 [![codecov](https://codecov.io/gh/frapercan/IECA-extractor/branch/main/graph/badge.svg?token=GbJ3V9jEa7)](https://codecov.io/gh/frapercan/IECA-extractor)
