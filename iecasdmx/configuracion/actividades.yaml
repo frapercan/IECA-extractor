@@ -3,6 +3,8 @@ IPC:
     - 64207
     - 64208
     - 64209
+  categoria:
+    SIN DEFINIR
 
 DSN:
   consultas:

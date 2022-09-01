@@ -60,6 +60,16 @@ DURACMATRIM:
   concept: none
   concept_scheme: none
   tipo: dimension
+ECOICOP: #Pruebas
+  codelist:
+    agency: ESC01
+    id: CL_ECOICOP
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    id: CS_SIN DEFINIR
+    version: '1.0'
+  tipo: dimension
 EDAD:
   codelist:
     agency: IECA
@@ -176,6 +186,26 @@ INDICATOR:
   concept_scheme: urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=SDMX:CROSS_DOMAIN_CONCEPTS(2.0)
   descripcion: Indicadores
   tipo: Dimension
+IPC_GRUPOSESPECIALES:
+  codelist:
+    agency: ESC01
+    id: CL_IPC_GRUPOSESPECIALES
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    id: CS_SIN DEFINIR
+    version: '1.0'
+  tipo: dimension
+IPC_RUBRICAS:
+  codelist:
+    agency: ESC01
+    id: CL_IPC_RUBRICAS
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    id: CS_SIN DEFINIR
+    version: '1.0'
+  tipo: dimension
 NACIONACONYUGES:
   codelist:
     agency: IECA

@@ -1,5 +1,6 @@
 directorio_sistema_informacion: tests/sistema_informacion/
 directorio_mapas_dimensiones: tests/sistema_informacion/mapas/dimensiones
+directorio_mapa_conceptos_codelists: sistema_informacion/mapas/conceptos_codelist.yaml
 directorio_jerarquias: tests/sistema_informacion/BADEA/jerarquias
 directorio_datos: tests/sistema_informacion/BADEA/datos
 directorio_json: tests/sistema_informacion/BADEA/JSON
@@ -42,4 +43,25 @@ mapeo_columnas:
   D_TEMPORAL_0: TIME_PERIOD
 
 
+dimensiones_a_mapear:
+  - CL_INDICATOR
+  - INDICATOR
+  - D_ECOICOP_0
+  - D_TERRITORIO_0
+  - TERRITORIO
+  - D_ESTADOCIVIL_0
+  - D_ESTADOCIVILC2_0
+  - D_SEXO_0
+  - SEXO
+  - D_SEXOC2_0
+  - D_EDAD_0
+  - D_EPD_GRUPOSEDAD_0
+  - D_NACIONALIDAD_0
+  - D_ESTADO_DATO_0
+  - OBS_STATUS
+  - D_TIPO_ALOJAM_ECTA_0
+  - D_PROCEDENCIA_ECTA_0
 
+
+medidas_reemplazando_obs_status:
+  - None
