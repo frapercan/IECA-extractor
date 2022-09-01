@@ -1,210 +1,274 @@
-TEMPORAL:
-  tipo: Time
-  concept_scheme: urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=SDMX:CROSS_DOMAIN_CONCEPTS(2.0)
-  concept: TIME_PERIOD
-  codelist: null
-
-INDICATOR:
-  tipo: Dimension
-  descripcion: Indicadores
-  concept_scheme: urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=SDMX:CROSS_DOMAIN_CONCEPTS(2.0)
-  concept: INDICATOR
-  codelist:
-    agency: IECA
-    id: CL_INDICATOR
-    version: 1.0
-
-FREQ:
-  tipo: Frequency
-  descripcion: Frecuencia
-  concept_scheme: urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=SDMX:CROSS_DOMAIN_CONCEPTS(2.0)
-  descarga: blob:https://webgate.ec.europa.eu/02907586-51af-4830-a89e-dc6d86654631
-  concept: FREQ
-  codelist:
-    agency: ESTAT
-    id: CL_FREQ
-    version: 5.0
-
-SEXO:
-  tipo: dimension
-  concept_scheme: CROSS_DOMAIN_CONCEPTS
-  concept: SEX
-  descarga: blob:https://webgate.ec.europa.eu/d1460000-e184-4c98-9782-9d940cb33069
-  codelist:
-    agency: SDMX
-    id: CL_SEX
-    version: 2.1
-
-
-PROCEDENCIA_ECTA:
-  tipo: dimension
-  concept_scheme: None
-  concept: None
-  codelist:
-    agency: IECA
-    id: CL_PROCEDENCIA_ECTA
-    version: 1.0
-
-TERRITORIO:
-  tipo: dimension
-  concept_scheme: CROSS_DOMAIN_CONCEPTS
-  concept: REF_AREA
-  codelist:
-    agency: IECA
-    id: CL_REF_AREA
-    version: 1.0
-
-TIPO_ALOJAM_ECTA:
-  tipo: dimension
-  concept_scheme: none
-  concept: None
-  codelist:
-    agency: IECA
-    id: CL_TIPO_ALOJAM_ECTA
-    version: 1.0
-
-CAT_HOTELES:
-  tipo: dimension
-  concept_scheme: none
-  concept: None
-  codelist:
-    agency: IECA
-    id: CL_CAT_HOTELES
-    version: 1.0
-
-OBS_VALUE:
-  tipo: Primary
-  concept_scheme: none
-  concept: None
-  codelist: null
-
-ESTADO_DATO :
-  tipo: atributo
-  concept_scheme: none
-  concept: none
-  codelist: null
-
-OBS_STATUS :
-  tipo: atributo
-  concept_scheme: none
-  concept: none
-  codelist: null
-
-RESITUR :
-  tipo: dimension
-  concept_scheme: none
-  concept: none
-  codelist:
-    agency: IECA
-    id: CL_RESITUR
-    version: 1.0
-
-EDAD :
-  tipo: dimension
-  concept_scheme: none
-  concept: none
-  codelist:
-    agency: IECA
-    id: CL_EDAD
-    version: 1.0
-
-EDADC2 :
-  tipo: dimension
-  concept_scheme: none
-  concept: none
-  codelist:
-    agency: IECA
-    id: CL_EDAD
-    version: 1.0
-
-SEXOC2 :
-  tipo: dimension
-  concept_scheme: none
-  concept: none
-  codelist:
-    agency: IECA
-    id: CL_EDAD
-    version: 1.0
-
-ESTADOCIVIL:
-  tipo: dimension
-  concept_scheme: none
-  concept: none
-  codelist:
-    agency: IECA
-    id: CL_CIVIL_STATUS
-    version: 1.0
-
-ESTADOCIVILC2:
-  tipo: dimension
-  concept_scheme: none
-  concept: none
-  codelist:
-    agency: IECA
-    id: CL_CIVIL_STATUS
-    version: 1.0
-
-
-DURACMATRIM:
-  tipo: dimension
-  concept_scheme: none
-  concept: none
-  codelist:
-    agency: IECA
-    id: CL_DURACMATRIM
-    version: 1.0
-
-TIPOMATRIMONIO:
-  tipo: dimension
-  concept_scheme: none
-  concept: none
-  codelist:
-    agency: IECA
-    id: CL_TIPOMATRIMONIO
-    version: 1.0
-
-CUSTODIA:
-  tipo: dimension
-  concept_scheme: none
-  concept: none
-  codelist:
-    agency: IECA
-    id: CL_CUSTODIA
-    version: 1.0
-
-NACIONACONYUGES:
-  tipo: dimension
-  concept_scheme: none
-  concept: none
-  codelist:
-    agency: IECA
-    id: CL_NACIONACONYUGES
-    version: 1.0
-
-NUMHIJOSMENORED:
-  tipo: dimension
-  concept_scheme: none
-  concept: none
-  codelist:
-    agency: IECA
-    id: CL_NUMHIJOSMENORED
-    version: 1.0
-
-TIPO_ESTAB:
-  tipo: dimension
-  concept_scheme: none
-  concept: none
-  codelist:
-    agency: IECA
-    id: CL_TIPO_ESTAB
-    version: 1.0
-
 ACTIV_EST:
-  tipo: dimension
-  concept_scheme: none
-  concept: none
   codelist:
     agency: IECA
     id: CL_ACTIV_EST
     version: 1.0
-
+  concept: none
+  concept_scheme: CS_TURISMO
+  tipo: dimension
+CAT_HOTELES:
+  codelist:
+    agency: IECA
+    id: CL_CAT_HOTELES
+    version: 1.0
+  concept: None
+  concept_scheme: none
+  tipo: dimension
+CNAE09:
+  codelist:
+    agency: ESC01
+    id: CL_CNAE09
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    id: CS_TRABAJO
+    version: '1.0'
+  tipo: dimension
+CNED2014:
+  codelist:
+    agency: ESC01
+    id: CL_CNED2014
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    id: CS_TRABAJO
+    version: '1.0'
+  tipo: dimension
+CNO11:
+  codelist:
+    agency: ESC01
+    id: CL_CNO11
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    id: CS_TRABAJO
+    version: '1.0'
+  tipo: dimension
+CUSTODIA:
+  codelist:
+    agency: IECA
+    id: CL_CUSTODIA
+    version: 1.0
+  concept: none
+  concept_scheme: none
+  tipo: dimension
+DURACMATRIM:
+  codelist:
+    agency: IECA
+    id: CL_DURACMATRIM
+    version: 1.0
+  concept: none
+  concept_scheme: none
+  tipo: dimension
+EDAD:
+  codelist:
+    agency: IECA
+    id: CL_EDAD
+    version: 1.0
+  concept: none
+  concept_scheme: none
+  tipo: dimension
+EDADC2:
+  codelist:
+    agency: IECA
+    id: CL_EDAD
+    version: 1.0
+  concept: none
+  concept_scheme: none
+  tipo: dimension
+EPA_CLASEINACTIV:
+  codelist:
+    agency: ESC01
+    id: CL_EPA_CLASEINACTIV
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    id: CS_TRABAJO
+    version: '1.0'
+  tipo: dimension
+EPA_ESTRUCHOGAR:
+  codelist:
+    agency: ESC01
+    id: CL_EPA_ESTRUCHOGAR
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    id: CS_TRABAJO
+    version: '1.0'
+  tipo: dimension
+EPA_NACIONALIDAD:
+  codelist:
+    agency: ESC01
+    id: CL_EPA_NACIONALIDAD
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    id: CS_TRABAJO
+    version: '1.0'
+  tipo: dimension
+EPA_NIVEL:
+  codelist:
+    agency: ESC01
+    id: CL_EPA_NIVEL
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    id: CS_TRABAJO
+    version: '1.0'
+  tipo: dimension
+EPA_RELACTIVIDAD:
+  codelist:
+    agency: ESC01
+    id: CL_EPA_RELACTIVIDAD
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    id: CS_TRABAJO
+    version: '1.0'
+  tipo: dimension
+EPA_TIPACTIVIDADHOGAR:
+  codelist:
+    agency: ESC01
+    id: CL_EPA_TIPACTIVIDADHOGAR
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    id: CS_TRABAJO
+    version: '1.0'
+  tipo: dimension
+ESTADOCIVIL:
+  codelist:
+    agency: IECA
+    id: CL_CIVIL_STATUS
+    version: 1.0
+  concept: none
+  concept_scheme: none
+  tipo: dimension
+ESTADOCIVILC2:
+  codelist:
+    agency: IECA
+    id: CL_CIVIL_STATUS
+    version: 1.0
+  concept: none
+  concept_scheme: none
+  tipo: dimension
+ESTADO_DATO:
+  codelist: null
+  concept: none
+  concept_scheme: none
+  tipo: atributo
+FREQ:
+  codelist:
+    agency: ESTAT
+    id: CL_FREQ
+    version: 5.0
+  concept: FREQ
+  concept_scheme: urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=SDMX:CROSS_DOMAIN_CONCEPTS(2.0)
+  descarga: blob:https://webgate.ec.europa.eu/02907586-51af-4830-a89e-dc6d86654631
+  descripcion: Frecuencia
+  tipo: Frequency
+INDICATOR:
+  codelist:
+    agency: IECA
+    id: CL_INDICATOR
+    version: 1.0
+  concept: INDICATOR
+  concept_scheme: urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=SDMX:CROSS_DOMAIN_CONCEPTS(2.0)
+  descripcion: Indicadores
+  tipo: Dimension
+NACIONACONYUGES:
+  codelist:
+    agency: IECA
+    id: CL_NACIONACONYUGES
+    version: 1.0
+  concept: none
+  concept_scheme: none
+  tipo: dimension
+NUMHIJOSMENORED:
+  codelist:
+    agency: IECA
+    id: CL_NUMHIJOSMENORED
+    version: 1.0
+  concept: none
+  concept_scheme: none
+  tipo: dimension
+OBS_STATUS:
+  codelist: null
+  concept: none
+  concept_scheme: none
+  tipo: atributo
+OBS_VALUE:
+  codelist: null
+  concept: None
+  concept_scheme: none
+  tipo: Primary
+PROCEDENCIA_ECTA:
+  codelist:
+    agency: IECA
+    id: CL_PROCEDENCIA_ECTA
+    version: 1.0
+  concept: None
+  concept_scheme: None
+  tipo: dimension
+RESITUR:
+  codelist:
+    agency: IECA
+    id: CL_RESITUR
+    version: 1.0
+  concept: none
+  concept_scheme: none
+  tipo: dimension
+SEXO:
+  codelist:
+    agency: SDMX
+    id: CL_SEX
+    version: 2.1
+  concept: SEX
+  concept_scheme: CROSS_DOMAIN_CONCEPTS
+  descarga: blob:https://webgate.ec.europa.eu/d1460000-e184-4c98-9782-9d940cb33069
+  tipo: dimension
+SEXOC2:
+  codelist:
+    agency: IECA
+    id: CL_EDAD
+    version: 1.0
+  concept: none
+  concept_scheme: none
+  tipo: dimension
+TEMPORAL:
+  codelist: null
+  concept: TIME_PERIOD
+  concept_scheme: urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=SDMX:CROSS_DOMAIN_CONCEPTS(2.0)
+  tipo: Time
+TERRITORIO:
+  codelist:
+    agency: IECA
+    id: CL_REF_AREA
+    version: 1.0
+  concept: REF_AREA
+  concept_scheme: CROSS_DOMAIN_CONCEPTS
+  tipo: dimension
+TIPOMATRIMONIO:
+  codelist:
+    agency: IECA
+    id: CL_TIPOMATRIMONIO
+    version: 1.0
+  concept: none
+  concept_scheme: none
+  tipo: dimension
+TIPO_ALOJAM_ECTA:
+  codelist:
+    agency: IECA
+    id: CL_TIPO_ALOJAM_ECTA
+    version: 1.0
+  concept: None
+  concept_scheme: none
+  tipo: dimension
+TIPO_ESTAB:
+  codelist:
+    agency: IECA
+    id: CL_TIPO_ESTAB
+    version: 1.0
+  concept: none
+  concept_scheme: none
+  tipo: dimension
