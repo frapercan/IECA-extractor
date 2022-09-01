@@ -149,3 +149,12 @@ Personal remunerado. Hombres. Jornada completa,,,PERS_REMU_HOMB_JORN_COMP
 Personal remunerado. Mujeres. Jornada completa,,,PERS_REMU_MUJE_JORN_COMP
 Personal remunerado. Hombres. Jornada parcial,,,PERS_REMU_HOMB_JORN_PARC
 Personal remunerado. Mujeres. Jornada parcial,,,PERS_REMU_MUJE_JORN_PARC
+Tasa de actividad,,,TASA_ACTI
+Tasa de empleo,,,TASA_DE_EMPLEO
+Tasa de paro,,,TASA_DE_PARO
+Ocupados,,,OCUPADOS
+Activos,,,ACTIVOS
+Inactivos,,,INACTIVOS
+Asalariados,,,ASALARIADOS
+Tasa de salarización,,,TASA_SALA
+Parados,,,PARADOS

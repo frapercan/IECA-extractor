@@ -1,5 +1,6 @@
 directorio_sistema_informacion: sistema_informacion/
 directorio_mapas_dimensiones: sistema_informacion/mapas/dimensiones/
+directorio_mapa_conceptos_codelists: sistema_informacion/mapas/conceptos_codelist.yaml
 directorio_jerarquias: sistema_informacion/BADEA/jerarquias
 directorio_datos: sistema_informacion/BADEA/datos
 directorio_json: sistema_informacion/BADEA/consultas
@@ -7,10 +8,13 @@ fichero_traducciones: sistema_informacion/traducciones.yaml
 
 directorio_datos_SDMX: sistema_informacion/SDMX/datos
 
-direccion_API_SDMX: http://192.168.1.135
+direccion_API_SDMX: http://localhost
+url_base: http://localhost/sdmx_172/ws/NODE_API/
+
 usuario_SDMX: admin
 contraseña_SDMX: ''
-nodeId: IECA
+nodeId: 'ESC01'
+
 
 traducir: False
 
@@ -128,7 +132,8 @@ mapeo_columnas:
 
 medidas_reemplazando_obs_status:
   - estado Apoyo gubernamental IyD agricola
+  -
 
-
-
-
+languages:
+  - es
+  - en

@@ -24,19 +24,13 @@ if __name__ == "__main__":
         configuracion_plantilla_actividad = yaml.safe_load(plantilla_configuracion_actividad)
         mapa_conceptos_codelist = yaml.safe_load(mapa_conceptos_codelist)
         traducciones = yaml.safe_load(traducciones)
-        traductor = deepl.Translator(os.getenv("DEEPL_AUTH_KEY"))
+        traductor = deepl.Translator('92766a66-fa2a-b1c6-d7dd-ec0750322229:fx')
 
     for nombre_actividad in configuracion_ejecucion['actividades']:
         actividad = Actividad(configuracion_global, configuracion_actividades[nombre_actividad],
                               configuracion_plantilla_actividad, nombre_actividad)
         actividad.generar_consultas()
-        actividad.ejecutar()
-
-
-
-
-        sdmx = SDMX(actividad,configuracion_global,mapa_conceptos_codelist,traducciones,traductor)
-        sdmx.gestionar_codelists()
+        # actividad.ejecutar()
 
 
 

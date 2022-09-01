@@ -66,15 +66,18 @@ class SDMX:
                     return jerarquia.metadatos['des']
 
     def autentificar(self):
-        headers = {}
-        headers['nodeId'] = self.configuracion_global['nodeId']
-
+        headers = {'nodeId': self.configuracion_global['nodeId'], 'language': self.configuracion_global['languages'][0],
+                   'Content-Type': 'application/json;charset=utf-8'}
         session = requests.session()
+
         session.headers = headers
-        response = session.post(
-            f'{self.configuracion_global["direccion_API_SDMX"]}/sdmx/ws/NODE_API/api/Security/Authenticate/',
-            json={'username': 'admin'})
-        session.headers['Authorization'] = f'bearer {response.json()["token"]}'
+        response = session.post(f'{self.configuracion_global["url_base"]}api/Security/Authenticate/',
+                                json={'username': 'admin'})
+        try:
+            session.headers['Authorization'] = f'bearer {response.json()["token"]}'
+        except KeyError:
+            session.headers['Authorization'] = None
+
         return session
 
     def recuperar_codelists(self):

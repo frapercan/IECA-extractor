@@ -8,6 +8,8 @@ import numpy as np
 
 import logging
 
+import yaml
+
 from iecasdmx.funciones import mapear_id_por_dimension
 
 fmt = '[%(asctime)-15s] [%(levelname)s] %(name)s: %(message)s'
@@ -38,17 +40,17 @@ class Jerarquia:
             exportada a .CSV para importarse en SDMX.
         """
 
-    def __init__(self, jerarquia, configuracion_global, actividad):
+    def __init__(self, jerarquia, configuracion_global, actividad, categoria):
         self.configuracion_global = configuracion_global
         self.actividad = actividad
         self.metadatos = jerarquia
         self.id_jerarquia = self.metadatos["alias"] + '-' + self.metadatos['cod']
+        self.categoria = categoria
         self.logger = logging.getLogger(f'{self.__class__.__name__} [{self.id_jerarquia}]')
 
         self.datos = self.solicitar_informacion_jerarquia()
         self.datos_sdmx = []
         self.nombre = self.metadatos["alias"][2:-2]
-        print(self.nombre)
         self.logger.info('Extrayendo lista de código')
 
     def convertir_jerarquia_a_dataframe(self, datos_jerarquia):
@@ -107,9 +109,12 @@ class Jerarquia:
 
         datos = self.datos.__deepcopy__()
         datos.columns = columnas
-        self.datos_sdmx = mapear_id_por_dimension(datos[columnas_sdmx], 'D_'+self.nombre+'_0', self.configuracion_global[
-            'directorio_mapas_dimensiones']) if self.nombre in self.configuracion_global['dimensiones_a_mapear'] else \
-        datos[columnas_sdmx]
+        self.datos_sdmx = mapear_id_por_dimension(datos[columnas_sdmx], 'D_' + self.nombre + '_0',
+                                                  self.configuracion_global[
+                                                      'directorio_mapas_dimensiones']) if self.nombre in \
+                                                                                          self.configuracion_global[
+                                                                                              'dimensiones_a_mapear'] else \
+            datos[columnas_sdmx]
 
         datos.to_csv(f'{os.path.join(directorio_original, self.id_jerarquia)}.csv', sep=';', index=False)
         self.datos_sdmx.to_csv(f'{os.path.join(directorio_sdmx, self.id_jerarquia)}.csv', sep=';', index=False)
@@ -144,3 +149,20 @@ class Jerarquia:
             else:
                 self.logger.warning('No hay información disponible')
         return datos
+
+    def añadir_mapa_concepto_codelist(self):
+        with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'r') as file:
+            # The FullLoader parameter handles the conversion from YAML
+            # scalar values to Python the dictionary format
+            mapa_conceptos_codelists = yaml.load(file, Loader=yaml.FullLoader)
+            if self.nombre not in mapa_conceptos_codelists:
+                print(self.nombre)
+                mapa_conceptos_codelists[self.nombre] = {'tipo': 'dimension', 'concept_scheme': {'agency': 'ESC01',
+                                                                                                 'id': 'CS_' + self.categoria,
+                                                                                                 'version': '1.0'},
+                                                         'codelist': {'agency': 'ESC01', 'id': 'CL_' + self.nombre,
+                                                                      'version': '1.0'}}
+                print(mapa_conceptos_codelists[self.nombre])
+            file.close()
+            with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'w') as file:
+                yaml.dump(mapa_conceptos_codelists, file)

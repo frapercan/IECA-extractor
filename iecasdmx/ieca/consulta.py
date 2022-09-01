@@ -61,12 +61,14 @@ class Consulta:
         datos_sin_procesar = \
             self.solicitar_informacion_api()
 
-        self.jerarquias = [Jerarquia(jerarquia, self.configuracion_global, self.actividad) for jerarquia in
-                           jerarquias_sin_procesar]
+        self.jerarquias = [
+            Jerarquia(jerarquia, self.configuracion_global, self.actividad, self.configuracion_actividad['categoria'])
+            for jerarquia in
+            jerarquias_sin_procesar]
         self.datos = Datos(self.id_consulta, self.configuracion_global, self.actividad,
-                                    self.metadatos['periodicity'],
-                                    datos_sin_procesar,
-                                    self.jerarquias, self.medidas)
+                           self.metadatos['periodicity'],
+                           datos_sin_procesar,
+                           self.jerarquias, self.medidas)
 
         self.logger.info('Consulta Finalizada')
 
