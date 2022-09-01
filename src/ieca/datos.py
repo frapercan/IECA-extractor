@@ -83,11 +83,10 @@ class Datos:
             raise e
 
         df.columns = columnas
-        columnas_jerarquias_aux = [columna_jerarquia+'_aux' for columna_jerarquia in columnas_jerarquia]
-        df[columnas_jerarquias_aux] = df[columnas_jerarquia].applymap(lambda x: x['cod'][-2] if len(x['cod']) >1 else None )
+        columnas_jerarquias_aux = [columna_jerarquia + '_aux' for columna_jerarquia in columnas_jerarquia]
+        df[columnas_jerarquias_aux] = df[columnas_jerarquia].applymap(
+            lambda x: x['cod'][-2] if len(x['cod']) > 1 else None)
         df[columnas_jerarquia] = df[columnas_jerarquia].applymap(lambda x: x['cod'][-1])
-
-
 
         df[columnas_medida] = df[columnas_medida].applymap(
             lambda x: x['val'] if x['val'] != "" else x['format'])
@@ -105,10 +104,9 @@ class Datos:
             if columna not in dimensiones_temporales:
                 df[columna] = df.merge(jerarquia.datos, how='left', left_on=columna, right_on='COD')['ID'].values
 
-
                 # Parche nº2 ya que la indexación a través de cod puede quedar disconexa.
-                df[columna][df[columna].isna()] = df.merge(jerarquia.datos, how='left', left_on=columna+'_aux', right_on='COD')['ID'].values
-
+                df[columna][df[columna].isna()] = \
+                df.merge(jerarquia.datos, how='left', left_on=columna + '_aux', right_on='COD')['ID'].values
 
         self.logger.info('Datos Transformados a DataFrame Correctamente')
         return df

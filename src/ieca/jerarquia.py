@@ -150,6 +150,7 @@ class Jerarquia:
                 self.logger.warning('No hay información disponible')
         return datos
 
+
     def añadir_mapa_concepto_codelist(self):
         with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'r') as file:
             # The FullLoader parameter handles the conversion from YAML
@@ -166,3 +167,16 @@ class Jerarquia:
             file.close()
             with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'w') as file:
                 yaml.dump(mapa_conceptos_codelists, file)
+
+
+def mapear_jerarquia(df, dimension, directorio_mapas_dimensiones):
+    directorio_mapa = os.path.join(directorio_mapas_dimensiones, dimension)
+    df_mapa = pd.read_csv(directorio_mapa, sep=',', dtype='string')
+
+    df.loc[:, 'ID'] = \
+        df.merge(df_mapa, how='left', left_on='ID', right_on='SOURCE')['TARGET'].copy(deep=True)
+    df.loc[:, 'PARENTCODE'] = \
+        df.merge(df_mapa, how='left', left_on='PARENTCODE', right_on='SOURCE')['TARGET'].copy(deep=True)
+
+    return df
+
