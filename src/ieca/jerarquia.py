@@ -1,13 +1,16 @@
-import copy
 import os
 import sys
+
 import requests
 import pandas as pd
 import itertools
 import numpy as np
+
 import logging
 
-pd.set_option('mode.chained_assignment', None)
+import yaml
+
+from iecasdmx.funciones import mapear_id_por_dimension
 
 fmt = '[%(asctime)-15s] [%(levelname)s] %(name)s: %(message)s'
 logging.basicConfig(format=fmt, level=logging.INFO, stream=sys.stdout)
@@ -37,11 +40,12 @@ class Jerarquia:
             exportada a .CSV para importarse en SDMX.
         """
 
-    def __init__(self, jerarquia, configuracion_global, actividad):
+    def __init__(self, jerarquia, configuracion_global, actividad, categoria):
         self.configuracion_global = configuracion_global
         self.actividad = actividad
         self.metadatos = jerarquia
         self.id_jerarquia = self.metadatos["alias"] + '-' + self.metadatos['cod']
+        self.categoria = categoria
         self.logger = logging.getLogger(f'{self.__class__.__name__} [{self.id_jerarquia}]')
 
         self.datos = self.solicitar_informacion_jerarquia()
@@ -90,30 +94,26 @@ class Jerarquia:
                 - Con el Còdigo de BADEA (No admitido por nuestro framework de SDMX)
                 - Sin el código de BADEA (Admitido por nuestro framework de SDMX)
 
-            La salida de la lista de código para importar en SDMX se deshará de los valores de las jerarquias
-            que no han sido utilizados en la consulta.
-
          """
         directorio = os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad)
         directorio_original = os.path.join(directorio, 'original')
-        directorio_sdmx = os.path.join(directorio, 'sdmx')
-
         if not os.path.exists(directorio_original):
             os.makedirs(directorio_original)
 
+        directorio_sdmx = os.path.join(directorio, '../sdmx')
         if not os.path.exists(directorio_sdmx):
             os.makedirs(directorio_sdmx)
         self.logger.info('Almacenando datos Jerarquia')
         columnas = ['ID', 'COD', 'NAME', 'DESCRIPTION', 'PARENTCODE', 'ORDER']
         columnas_sdmx = ['ID', 'NAME', 'DESCRIPTION', 'PARENTCODE', 'ORDER']
 
-        datos = copy.deepcopy(self.datos)
+        datos = self.datos.__deepcopy__()
         datos.columns = columnas
-        self.datos_sdmx = mapear_jerarquia(datos[columnas_sdmx], 'D_' + self.nombre + '_0',
-                                           self.configuracion_global[
-                                               'directorio_mapas_dimensiones']) if self.nombre in \
-                                                                                   self.configuracion_global[
-                                                                                       'dimensiones_a_mapear'] else \
+        self.datos_sdmx = mapear_id_por_dimension(datos[columnas_sdmx], 'D_' + self.nombre + '_0',
+                                                  self.configuracion_global[
+                                                      'directorio_mapas_dimensiones']) if self.nombre in \
+                                                                                          self.configuracion_global[
+                                                                                              'dimensiones_a_mapear'] else \
             datos[columnas_sdmx]
 
         datos.to_csv(f'{os.path.join(directorio_original, self.id_jerarquia)}.csv', sep=';', index=False)
@@ -123,7 +123,7 @@ class Jerarquia:
     def solicitar_informacion_jerarquia(self):
         """Realiza la petición HTTP a la API si la jerarquía no se encuentra en nuestro directorio local,
         automáticamente se convierte la jerarquia a dataframe haciendo uso de
-        :attr:`src.jerarquia.Jerarquia.convertir_jerarquia_a_dataframe`.
+        :attr:`iecasdmx.jerarquia.Jerarquia.convertir_jerarquia_a_dataframe`.
 
         Returns:
             datos (:class:`pandas:pandas.DataFrame`): La jerarquia en un cuadro de datos.
@@ -150,25 +150,19 @@ class Jerarquia:
                 self.logger.warning('No hay información disponible')
         return datos
 
-
-def mapear_jerarquia(df, dimension, directorio_mapas_dimensiones):
-    directorio_mapa = os.path.join(directorio_mapas_dimensiones, dimension)
-    df_mapa = pd.read_csv(directorio_mapa, sep=',', dtype='string')
-
-    if 'IGNORE_ON_CL' not in df_mapa.columns:
-        df_mapa['IGNORE_ON_CL'] = False
-        df_mapa.to_csv(directorio_mapa, sep=',',index=False)
-
-    df.loc[:, 'IGNORE_ON_CL'] = \
-        df.merge(df_mapa, how='left', left_on='ID', right_on='SOURCE')['IGNORE_ON_CL'].copy(deep=True)
-
-    df.drop(df.loc[df['IGNORE_ON_CL'] == 'True'].index, inplace=True)
-
-    df.drop('IGNORE_ON_CL', inplace=True, axis=1)
-
-    df.loc[:, 'ID'] = \
-        df.merge(df_mapa, how='left', left_on='ID', right_on='SOURCE')['TARGET'].copy(deep=True)
-    df.loc[:, 'PARENTCODE'] = \
-        df.merge(df_mapa, how='left', left_on='PARENTCODE', right_on='SOURCE')['TARGET'].copy(deep=True)
-
-    return df[df['ID'].notna()]
+    def añadir_mapa_concepto_codelist(self):
+        with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'r') as file:
+            # The FullLoader parameter handles the conversion from YAML
+            # scalar values to Python the dictionary format
+            mapa_conceptos_codelists = yaml.load(file, Loader=yaml.FullLoader)
+            if self.nombre not in mapa_conceptos_codelists:
+                print(self.nombre)
+                mapa_conceptos_codelists[self.nombre] = {'tipo': 'dimension', 'concept_scheme': {'agency': 'ESC01',
+                                                                                                 'id': 'CS_' + self.categoria,
+                                                                                                 'version': '1.0'},
+                                                         'codelist': {'agency': 'ESC01', 'id': 'CL_' + self.nombre,
+                                                                      'version': '1.0'}}
+                print(mapa_conceptos_codelists[self.nombre])
+            file.close()
+            with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'w') as file:
+                yaml.dump(mapa_conceptos_codelists, file)
