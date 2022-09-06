@@ -100,7 +100,7 @@ class Jerarquia:
         if not os.path.exists(directorio_original):
             os.makedirs(directorio_original)
 
-        directorio_sdmx = os.path.join(directorio, '../sdmx')
+        directorio_sdmx = os.path.join(directorio, 'sdmx')
         if not os.path.exists(directorio_sdmx):
             os.makedirs(directorio_sdmx)
         self.logger.info('Almacenando datos Jerarquia')
@@ -115,7 +115,6 @@ class Jerarquia:
                                                                                           self.configuracion_global[
                                                                                               'dimensiones_a_mapear'] else \
             datos[columnas_sdmx]
-
         datos.to_csv(f'{os.path.join(directorio_original, self.id_jerarquia)}.csv', sep=';', index=False)
         self.datos_sdmx.to_csv(f'{os.path.join(directorio_sdmx, self.id_jerarquia)}.csv', sep=';', index=False)
         self.logger.info('Jerarquia Almacenada')
@@ -152,8 +151,6 @@ class Jerarquia:
 
     def añadir_mapa_concepto_codelist(self):
         with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'r') as file:
-            # The FullLoader parameter handles the conversion from YAML
-            # scalar values to Python the dictionary format
             mapa_conceptos_codelists = yaml.load(file, Loader=yaml.FullLoader)
             if self.nombre not in mapa_conceptos_codelists:
                 print(self.nombre)

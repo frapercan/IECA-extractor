@@ -141,6 +141,7 @@ class Datos:
                 valores_medida = valores_medida[columnas_ordenadas]
                 df = pd.concat([df, valores_medida])
                 self.logger.info('Medida Desacoplada: %s', medida)
+                print(df)
 
         self.logger.info('DataFrame Desacoplado')
         return df

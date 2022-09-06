@@ -67,6 +67,11 @@ def mapear_id_por_dimension(df, dimension, directorio_mapas_dimensiones):
         df.merge(df_mapa, how='left', left_on='ID', right_on='SOURCE')['TARGET'].values
     df.loc[:, 'PARENTCODE'] = \
         df.merge(df_mapa, how='left', left_on='PARENTCODE', right_on='SOURCE')['TARGET'].values
+
+    df.dropna(subset=['ID'], inplace=True)
+    df.drop_duplicates(subset=['ID'], inplace=True)
+    df[df['ID'] == df['PARENTCODE']]['PARENTCODE'] = None
+
     return df
 
 
@@ -77,7 +82,5 @@ def montar_medidas(directorio_mapas_dimensiones):
 
     indicadores = pd.DataFrame(mapa_indicadores[['TARGET', 'SOURCE', 'COD', 'COD', 'NAME']].values,
                                columns=[['ID', 'NAME', 'DESCRIPTION', 'PARENTCODE', 'ORDER']], dtype='string')
-
-
 
     return indicadores

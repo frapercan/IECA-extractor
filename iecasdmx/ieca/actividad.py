@@ -35,6 +35,7 @@ class Actividad:
     def __init__(self, configuracion_global, configuracion_actividad, plantilla_configuracion_actividad, actividad):
         self.configuracion_global = configuracion_global
         self.configuracion_actividad = {**plantilla_configuracion_actividad, **configuracion_actividad}
+
         self.actividad = actividad
 
         self.consultas = {}
