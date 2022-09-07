@@ -44,13 +44,15 @@ if __name__ == "__main__":
                 id = 'CL_' + jerarquia.nombre
                 agencia = 'ESC01'
                 version = '1.0'
-                if jerarquia.nombre == 'EDAD':
-                    controller.codelists.put(agencia,id,version,descripcion,nombre)
-                    controller.codelists.data = controller.codelists.get(True)
-                    codelist = controller.codelists.data[agencia][id][version]
-                    print(codelist)
-                    codelist.put(jerarquia.datos_sdmx)
+                codelist = controller.codelists.data[agencia][id][version]
+                codelist.init_codes()
+                jerarquia.datos_sdmx.apply(lambda codigo: codelist.add_code(codigo['ID'],codigo['PARENTCODE'],codigo['NAME'],codigo['DESCRIPTION']) ,axis = 1)
+                codelist.put()
+
                     ##
-                    id = 'CS_' + jerarquia.nombre
-                    controller.conceptschemes.put(agencia,id,version,nombre,descripcion)
+                    # id = 'CS_' + jerarquia.nombre
+                    # controller.concept_schemes.put(agencia,id,version,nombre,descripcion)
+                    # controller.concept_schemes.data[agencia][id][version].add_concept('EDAD1',None,'DESCRIPCION','Me gustan las maduritas.')
+                    # controller.concept_schemes.data[agencia][id][version].put()
+
 

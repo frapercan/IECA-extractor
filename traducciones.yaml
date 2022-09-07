@@ -214,21 +214,35 @@
 "(01) Andaluc\xEDa":
   en: (01) Andalusia
   es: "(01) Andaluc\xEDa"
+"(01) Espa\xF1ola":
+  en: (01) Spanish
+(01) Estudiante:
+  en: (01) Student
+(01) Hogares inactivos:
+  en: (01) Inactive households
 (01) Hombres:
   en: (01) Men
   es: (01) Hombres
+(01) Unipersonales:
+  en: (01) Single Person
 "(010) Andaluc\xEDa":
   en: (010) Andalusia
   es: "(010) Andaluc\xEDa"
+(010) Estudiante:
+  en: (010) Student
 "(010014) De 10 a 14 a\xF1os":
   en: (010014) From 10 to 14 years old
   es: "(010014) De 10 a 14 a\xF1os"
 (0101) 1 estrella de oro:
   en: (0101) 1 gold star
   es: (0101) 1 estrella de oro
+"(0101) 15-29 a\xF1os":
+  en: (0101) 15-29 years
 (0101) Albania:
   en: (0101) Albania
   es: (0101) Albania
+(0101) Inactivos sin ingresos:
+  en: (0101) Inactive without income
 (0101) Ocupados:
   en: (0101) Occupied
 (010101) Ocupados subempleados:
@@ -238,9 +252,13 @@
 (0102) 2 estrellas de oro:
   en: (0102) 2 gold stars
   es: (0102) 2 estrellas de oro
+"(0102) 30-64 a\xF1os":
+  en: (0102) 30-64 years
 (0102) Austria:
   en: (0102) Austria
   es: (0102) Austria
+(0102) Inactivos con prestaciones por desempleo:
+  en: (0102) Inactive with unemployment benefits
 (0102) Parados:
   en: (0102) Unemployed
 (010201) Parados que buscan 1er empleo:
@@ -250,15 +268,21 @@
 (0103) 3 estrellas de oro:
   en: (0103) 3 gold stars
   es: (0103) 3 estrellas de oro
+"(0103) 65 y m\xE1s a\xF1os":
+  en: (0103) 65 and over
 "(0103) B\xE9lgica":
   en: (0103) Belgium
   es: "(0103) B\xE9lgica"
+(0103) Inactivos con prestaciones y pensiones:
+  en: (0103) Inactive with benefits and pensions
 (0104) 4 estrellas de oro:
   en: (0104) 4 gold stars
   es: (0104) 4 estrellas de oro
 (0104) Bulgaria:
   en: (0104) Bulgaria
   es: (0104) Bulgaria
+(0104) Inactivos con pensiones:
+  en: (0104) Inactive with pensions
 (0105) 5 estrellas de oro:
   en: (0105) 5 gold stars
   es: (0105) 5 estrellas de oro
@@ -408,14 +432,24 @@
 "(02) Arag\xF3n":
   en: (02) Aragon
   es: "(02) Arag\xF3n"
+(02) Extranjera:
+  en: (02) Foreign
+(02) Hogares ocupados:
+  en: (02) Employed households
 (02) Inactivos:
   en: (02) Inactive
 "(02) Resto de Espa\xF1a":
   en: (02) Rest of Spain
   es: "(02) Resto de Espa\xF1a"
+"(02) Sin n\xFAcleo":
+  en: (02) Non-core
+"(020) Jubilado, perceptor de pensi\xF3n distinta de jubilaci\xF3n, incapacitado permanente":
+  en: (020) Retired, receiving pension other than retirement, permanently incapacitated
 (020) Resto de CCAA:
   en: (020) Rest of Autonomous Communities
   es: (020) Resto de CCAA
+"(020) Sin n\xFAcleo":
+  en: (020) No core
 "(020024) De 20 a 24 a\xF1os":
   en: (020024) From 20 to 24 years old
 (0201) 1 estrella de plata:
@@ -423,6 +457,10 @@
   es: (0201) 1 estrella de plata
 (0201) Activos potenciales:
   en: (0201) Potential assets
+(0201) Ocupados sin parados:
+  en: (0201) Employed without unemployed
+"(0201) Percibiendo una pensi\xF3n de jubilaci\xF3n":
+  en: (0201) Receiving a retirement pension
 (020101) Desanimados:
   en: (020101) Discouraged
 (020102) Resto de activos potenciales:
@@ -432,8 +470,14 @@
   es: (0202) 2 estrellas de plata
 (0202) Inactivos3:
   en: (0202) Inactive3
+(0202) Incapacitado permanente:
+  en: (0202) Permanently disabled
+(0202) Ocupados y parados:
+  en: (0202) Employed and unemployed
 (020201) Inactivos3:
   en: (020201) Inactive3
+"(0203) Percibiendo pensi\xF3n distinta a jubilaci\xF3n":
+  en: (0203) Receiving a pension other than a retirement pension
 "(0236) Sud\xE1frica":
   en: (0236) South Africa
   es: "(0236) Sud\xE1frica"
@@ -451,11 +495,19 @@
 (03) 3 hijos:
   en: (03) 3 children
   es: (03) 3 hijos
+(03) Hogares parados:
+  en: (03) Unemployed households
+(03) Labores del hogar:
+  en: (03) Housework
+(03) Monoparental:
+  en: (03) Single parent
 "(03) Poblaci\xF3n contada aparte":
   en: (03) Population counted separately
 (03) Principado de Asturias:
   en: (03) Principality of Asturias
   es: (03) Principado de Asturias
+(030) Labores del hogar:
+  en: (030) Housework
 "(030034) De 30 a 34 a\xF1os":
   en: (030034) From 30 to 34 years old
   es: "(030034) De 30 a 34 a\xF1os"
@@ -467,12 +519,30 @@
 "(0301) Canad\xE1":
   en: (0301) Canada
   es: "(0301) Canad\xE1"
+"(0301) Hijo menor de 3 a\xF1os":
+  en: (0301) Child under 3 years old
+(0301) Parados sin ocupados, con prestaciones por desempleo:
+  en: (0301) Unemployed not in employment, with unemployment benefits
 (0302) Estados Unidos:
   en: (0302) United States
   es: (0302) Estados Unidos
+"(0302) Hijo 3-5 a\xF1os":
+  en: (0302) Child 3-5 years
+(0302) Parados sin ocupados, con prestaciones y pensiones:
+  en: (0302) Unemployed not in employment, with benefits and pensions
+"(0303) Hijo 6-15 a\xF1os":
+  en: (0303) Child 6-15 years
 "(0303) M\xE9xico":
   en: (0303) Mexico
   es: "(0303) M\xE9xico"
+(0303) Parados sin ocupados con pensiones:
+  en: (0303) Unemployed not in employment with pensions
+"(0304) Hijo 16-22 a\xF1os":
+  en: (0304) Son 16-22 years
+(0304) Parados sin ingresos:
+  en: (0304) Unemployed with no income
+"(0305) Hijo 23 y m\xE1s a\xF1os":
+  en: (0305) Child 23 and over
 (0340) Argentina:
   en: (0340) Argentina
   es: (0340) Argentina
@@ -497,9 +567,21 @@
 (04) Islas Baleares/Illes Balears:
   en: (04) Islas Baleares/Illes Balears
   es: (04) Islas Baleares/Illes Balears
+(04) Pareja sin hijos:
+  en: (04) Childless couple
+"(040) Realiz\xF3 trabajos sin remuneraci\xF3n, otras":
+  en: (040) Performed unpaid labour, other
 "(040044) De 40 a 44 a\xF1os":
   en: (040044) From 40 to 44 years old
   es: "(040044) De 40 a 44 a\xF1os"
+"(0401) Con mujer menor de 50 a\xF1os":
+  en: (0401) With woman under 50 years old
+"(0401) Realiz\xF3 trabajos sin remuneraci\xF3n":
+  en: (0401) Performed work without remuneration
+(0402) Otras:
+  en: (0402) Other
+"(0402) Sin mujer menor de 50 a\xF1os":
+  en: (0402) No woman under 50 years of age
 (0407) China:
   en: (0407) China
   es: (0407) China
@@ -546,9 +628,13 @@
 (05) Canarias:
   en: (05) Canary Islands
   es: (05) Canarias
+(05) Pareja sin hijos + otros:
+  en: (05) Couple without children + others
 "(05+) M\xE1s de 4 hijos":
   en: (05+) More than 4 children
   es: "(05+) M\xE1s de 4 hijos"
+(050) Pareja sin hijos + otros:
+  en: (050) Couple without children + others
 "(050054) De 50 a 54 a\xF1os":
   en: (050054) From 50 to 54 years old
   es: "(050054) De 50 a 54 a\xF1os"
@@ -570,9 +656,21 @@
 (06) Mujeres:
   en: (06) Women
   es: (06) Mujeres
+(06) Pareja con hijos:
+  en: (06) Couple with children
 "(060064) De 60 a 64 a\xF1os":
   en: (060064) 60 to 64 years old
   es: "(060064) De 60 a 64 a\xF1os"
+"(0601) Hijo menor de 3 a\xF1os":
+  en: (0601) Child under 3 years old
+"(0602) Hijo 3-5 a\xF1os":
+  en: (0602) Child 3-5 years
+"(0603) Hijo 6-15 a\xF1os":
+  en: (0603) Child 6-15 years
+"(0604) Hijo 16-22 a\xF1os":
+  en: (0604) Son 16-22 years
+"(0605) Hijo 23 y m\xE1s a\xF1os":
+  en: (0605) Child 23 years and older
 "(065069) De 65 a 69 a\xF1os":
   en: (065069) 65 to 69 years old
   es: "(065069) De 65 a 69 a\xF1os"
@@ -590,9 +688,21 @@
 (07) Castilla-La Mancha:
   en: (07) Castilla-La Mancha
   es: (07) Castilla-La Mancha
+(07) Pareja con hijos y otros:
+  en: (07) Couple with children and others
 "(070074) De 70 a 74 a\xF1os":
   en: (070074) 70 to 74 years old
   es: "(070074) De 70 a 74 a\xF1os"
+"(0701) Hijo menor de 3 a\xF1os y otros":
+  en: (0701) Child under 3 years old and others
+"(0702) Hijo 3-5 a\xF1os y otros":
+  en: (0702) Child 3-5 years and others
+"(0703) Hijo 6-15 a\xF1os y otros":
+  en: (0703) Child 6-15 years and others
+"(0704) Hijo 16-22 a\xF1os y otros":
+  en: (0704) Son 16-22 years old and others
+"(0705) Hijo 23 y m\xE1s a\xF1os y otros":
+  en: (0705) Child 23 and over and others
 "(075079) De 75 a 79 a\xF1os":
   en: (075079) 75 to 79 years old
   es: "(075079) De 75 a 79 a\xF1os"
@@ -6572,6 +6682,10 @@
 "(99) De 99 a\xF1os":
   en: (99) From 99 years old
   es: "(99) De 99 a\xF1os"
+(99) No refiere estado de inactividad:
+  en: (99) Does not refer to inactive status
+(990) No refiere estado de inactividad:
+  en: (990) Does not refer to inactive status
 "(A1) A1. CNAE 05, 06, 07, 08, 09, 19, 35, 36, 37, 38, 39. Industrias extractivas, energ\xEDa, agua y residuos":
   en: (A1) A1. CNAE 05, 06, 07, 08, 09, 19, 35, 36, 37, 38, 39. Mining and quarrying,
     energy, water and waste.
@@ -7094,13 +7208,21 @@
   en: "(TOTAL) Andaluc\u0102a (do not use, to be deleted, use 44)"
 (TOTAL) Anual:
   en: (TOTAL) Annual
+(TOTAL) Nacionalidad EPA (Esp/Ext):
+  en: (TOTAL) Nationality LFS (Esp/Ext)
 (TS) TOTAL SECTOR SERVICIOS:
   en: (TS) TOTAL SERVICES SECTOR
   es: (TS) TOTAL SECTOR SERVICIOS
+(Total) Estructura del hogar:
+  en: (Total) Household structure
 (Total) Nivel:
   en: (Total) Level
 "(Total) Relaci\xF3n con la actividad":
   en: (Total) Relationship to activity
+"(Total) Situaci\xF3n de inactividad 1":
+  en: (Total) Inactive status 1
+"(Total) Tipolog\u0102\xADa de la actividad del hogar":
+  en: (Total) Typology of household activity
 "(UE27NRU) Uni\xF3n Europea 27 (desde 2020)":
   en: (EU27NRU) European Union 27 (from 2020)
   es: "(UE27NRU) Uni\xF3n Europea 27 (desde 2020)"
@@ -7119,69 +7241,101 @@
 1 hijo:
   en: 1 child
   es: 1 hijo
+1 year:
+  es: "1 a\xF1o"
 '10':
   en: '10'
   es: '10'
 10 hijos:
   en: 10 children
   es: 10 hijos
+10 to 14 years:
+  es: "10 a 14 a\xF1os"
+10 years:
+  es: "10 a\xF1os"
 '100':
   en: '100'
   es: '100'
+100 years and over:
+  es: "100 a\xF1os o m\xE1s"
 '11':
   en: '11'
   es: '11'
 11 hijos:
   en: 11 children
   es: 11 hijos
+11 years:
+  es: "11 a\xF1os"
 '12':
   en: '12'
   es: '12'
 12 hijos:
   en: 12 children
   es: 12 hijos
+12 years:
+  es: "12 a\xF1os"
 '13':
   en: '13'
   es: '13'
 13 hijos:
   en: 13 children
   es: 13 hijos
+13 years:
+  es: "13 a\xF1os"
 '14':
   en: '14'
   es: '14'
 14 hijos:
   en: 14 children
   es: 14 hijos
+14 years:
+  es: "14 a\xF1os"
 '15':
   en: '15'
   es: '15'
 15 hijos:
   en: 15 children
   es: 15 hijos
+15 to 19 years:
+  es: "15 a 19 a\xF1os"
+15 to 29 years:
+  es: "15 a 29 a\xF1os"
+15 years:
+  es: "15 a\xF1os"
+"15-29 a\xF1os":
+  en: 15-29 years
 '16':
   en: '16'
   es: '16'
 16 hijos:
   en: 16 children
   es: 16 hijos
+16 years:
+  es: "16 a\xF1os"
 '17':
   en: '17'
   es: '17'
 17 hijos:
   en: 17 children
   es: 17 hijos
+17 years:
+  es: "17 a\xF1os"
 '18':
   en: '18'
   es: '18'
 18 hijos:
   en: 18 children
   es: 18 hijos
+18 years:
+  es: "18 a\xF1os"
 '19':
   en: '19'
   es: '19'
 19 hijos:
   en: 19 children
   es: 19 hijos
+19 years:
+  es: "19 a\xF1os"
 '1900':
   en: '1900'
   es: '1900'
@@ -9892,12 +10046,18 @@
 2 hijos:
   en: 2 children
   es: 2 hijos
+2 years:
+  es: "2 a\xF1os"
 '20':
   en: '20'
   es: '20'
 20 hijos:
   en: 20 children
   es: 20 hijos
+20 to 24 years:
+  es: "De 20 a 24 a\xF1os"
+20 years:
+  es: "20 a\xF1os"
 '2000':
   en: '2000'
   es: '2000'
@@ -11818,30 +11978,50 @@
 '21':
   en: '21'
   es: '21'
+21 years:
+  es: "21 a\xF1os"
 '22':
   en: '22'
   es: '22'
+22 years:
+  es: "22 a\xF1os"
 '23':
   en: '23'
   es: '23'
+23 years:
+  es: "23 a\xF1os"
 '24':
   en: '24'
   es: '24'
+24 years:
+  es: "24 a\xF1os"
 '25':
   en: '25'
   es: '25'
+25 to 29 years:
+  es: "25 a 29 a\xF1os"
+25 years:
+  es: "25 a\xF1os"
 '26':
   en: '26'
   es: '26'
+26 years:
+  es: "26 a\xF1os"
 '27':
   en: '27'
   es: '27'
+27 years:
+  es: "27 a\xF1os"
 '28':
   en: '28'
   es: '28'
+28 years:
+  es: "28 a\xF1os"
 '29':
   en: '29'
   es: '29'
+29 years:
+  es: "29 a\xF1os"
 '3':
   en: '3'
   es: '3'
@@ -11851,36 +12031,66 @@
 3 hijos:
   en: 3 children
   es: 3 hijos
+3 years:
+  es: "3 a\xF1os"
 '30':
   en: '30'
   es: '30'
+30 to 34 years:
+  es: "30 a 34 a\xF1os"
+30 to 49 years:
+  es: "30 a 49 a\xF1os"
+30 years:
+  es: "30 a\xF1os"
+"30-64 a\xF1os":
+  en: 30-64 years
 '31':
   en: '31'
   es: '31'
+31 years:
+  es: "31 a\xF1os"
 '32':
   en: '32'
   es: '32'
+32 years:
+  es: "32 a\xF1os"
 '33':
   en: '33'
   es: '33'
+33 years:
+  es: "33 a\xF1os"
 '34':
   en: '34'
   es: '34'
+34 years:
+  es: "34 a\xF1os"
 '35':
   en: '35'
   es: '35'
+35 to 39 years:
+  es: "35 a 39 a\xF1os"
+35 years:
+  es: "35 a\xF1os"
 '36':
   en: '36'
   es: '36'
+36 years:
+  es: "36 a\xF1os"
 '37':
   en: '37'
   es: '37'
+37 years:
+  es: "37 a\xF1os"
 '38':
   en: '38'
   es: '38'
+38 years:
+  es: "38 a\xF1os"
 '39':
   en: '39'
   es: '39'
+39 years:
+  es: "39 a\xF1os"
 '4':
   en: '4'
   es: '4'
@@ -11890,36 +12100,62 @@
 4 hijos:
   en: 4 children
   es: 4 hijos
+4 years:
+  es: "4 a\xF1os"
 '40':
   en: '40'
   es: '40'
+40 to 44 years:
+  es: "40 a 44 a\xF1os"
+40 years:
+  es: "40 a\xF1os"
 '41':
   en: '41'
   es: '41'
+41 years:
+  es: "41 a\xF1os"
 '42':
   en: '42'
   es: '42'
+42 years:
+  es: "42 a\xF1os"
 '43':
   en: '43'
   es: '43'
+43 years:
+  es: "43 a\xF1os"
 '44':
   en: '44'
   es: '44'
+44 years:
+  es: "44 a\xF1os"
 '45':
   en: '45'
   es: '45'
+45 to 49 years:
+  es: "45 a 49 a\xF1os"
+45 years:
+  es: "45 a\xF1os"
 '46':
   en: '46'
   es: '46'
+46 years:
+  es: "46 a\xF1os"
 '47':
   en: '47'
   es: '47'
+47 years:
+  es: "47 a\xF1os"
 '48':
   en: '48'
   es: '48'
+48 years:
+  es: "48 a\xF1os"
 '49':
   en: '49'
   es: '49'
+49 years:
+  es: "49 a\xF1os"
 '5':
   en: '5'
   es: '5'
@@ -11929,2319 +12165,426 @@
 5 hijos:
   en: 5 children
   es: 5 hijos
+5 to 9 years:
+  es: "5 a 9 a\xF1os"
 5 y 4 estrellas de oro:
   en: 5 and 4 gold stars
   es: 5 y 4 estrellas de oro
+5 years:
+  es: "5 a\xF1os"
 '50':
   en: '50'
   es: '50'
+50 to 54 years:
+  es: "50 a 54 a\xF1os"
+50 to 64 years:
+  es: "50 a 64 a\xF1os"
+50 years:
+  es: "50 a\xF1os"
 '51':
   en: '51'
   es: '51'
+51 years:
+  es: "51 a\xF1os"
 '52':
   en: '52'
   es: '52'
+52 years:
+  es: "52 a\xF1os"
 '53':
   en: '53'
   es: '53'
+53 years:
+  es: "53 a\xF1os"
 '54':
   en: '54'
   es: '54'
+54 years:
+  es: "54 a\xF1os"
 '55':
   en: '55'
   es: '55'
+55 to 59 years:
+  es: "55 a 59 a\xF1os"
+55 years:
+  es: "55 a\xF1os"
 '56':
   en: '56'
   es: '56'
+56 years:
+  es: "56 a\xF1os"
 '57':
   en: '57'
   es: '57'
+57 years:
+  es: "57 a\xF1os"
 '58':
   en: '58'
-  es: '58'
-'59':
-  en: '59'
-  es: '59'
-'6':
-  en: '6'
-  es: '6'
-6 hijos:
-  en: 6 children
-  es: 6 hijos
-'60':
-  en: '60'
-  es: '60'
-'61':
-  en: '61'
-  es: '61'
-'62':
-  en: '62'
-  es: '62'
-'63':
-  en: '63'
-  es: '63'
-'64':
-  en: '64'
-  es: '64'
-'65':
-  en: '65'
-  es: '65'
-'66':
-  en: '66'
-  es: '66'
-'67':
-  en: '67'
-  es: '67'
-'68':
-  en: '68'
-  es: '68'
-'69':
-  en: '69'
-  es: '69'
-'7':
-  en: '7'
-  es: '7'
-7 hijos:
-  en: 7 children
-  es: 7 hijos
-'70':
-  en: '70'
-  es: '70'
-'71':
-  en: '71'
-  es: '71'
-'72':
-  en: '72'
-  es: '72'
-'73':
-  en: '73'
-  es: '73'
-'74':
-  en: '74'
-  es: '74'
-'75':
-  en: '75'
-  es: '75'
-'76':
-  en: '76'
-  es: '76'
-'77':
-  en: '77'
-  es: '77'
-'78':
-  en: '78'
-  es: '78'
-'79':
-  en: '79'
-  es: '79'
-'8':
-  en: '8'
-  es: '8'
-8 hijos:
-  en: 8 children
-  es: 8 hijos
-'80':
-  en: '80'
-  es: '80'
-'81':
-  en: '81'
-  es: '81'
-'82':
-  en: '82'
-  es: '82'
-'83':
-  en: '83'
-  es: '83'
-'84':
-  en: '84'
-  es: '84'
-'85':
-  en: '85'
-  es: '85'
-'86':
-  en: '86'
-  es: '86'
-'87':
-  en: '87'
-  es: '87'
-'88':
-  en: '88'
-  es: '88'
-'89':
-  en: '89'
-  es: '89'
-'9':
-  en: '9'
-  es: '9'
-9 hijos:
-  en: 9 children
-  es: 9 hijos
-'90':
-  en: '90'
-  es: '90'
-'91':
-  en: '91'
-  es: '91'
-'92':
-  en: '92'
-  es: '92'
-'93':
-  en: '93'
-  es: '93'
-'94':
-  en: '94'
-  es: '94'
-'95':
-  en: '95'
-  es: '95'
-'96':
-  en: '96'
-  es: '96'
-'97':
-  en: '97'
-  es: '97'
-'98':
-  en: '98'
-  es: '98'
-'99':
-  en: '99'
-  es: '99'
-"A1. CNAE 05, 06, 07, 08, 09, 19, 35, 36, 37, 38, 39. Industrias extractivas, energ\xEDa, agua y residuos":
-  en: A1. CNAE 05, 06, 07, 08, 09, 19, 35, 36, 37, 38, 39. Extractive industries,
-    energy, water and waste.
-  es: "A1. CNAE 05, 06, 07, 08, 09, 19, 35, 36, 37, 38, 39. Industrias extractivas,\
-    \ energ\xEDa, agua y residuos"
-"A10. CNAE 28. Maquinaria y equipo mec\xE1nico":
-  en: A10. Machinery and mechanical equipment
-  es: "A10. CNAE 28. Maquinaria y equipo mec\xE1nico"
-A11. CNAE 29, 30. Material de transporte:
-  en: A11. CNAE 29, 30. Transport equipment
-  es: A11. CNAE 29, 30. Material de transporte
-"A12. CNAE 31, 32, 33. Industrias manufactureras diversas, reparaci\xF3n e instalaci\xF3n de maquinaria y equipo":
-  en: A12. Miscellaneous manufacturing industries, repair and installation of machinery
-    and equipment.
-  es: "A12. CNAE 31, 32, 33. Industrias manufactureras diversas, reparaci\xF3n e instalaci\xF3\
-    n de maquinaria y equipo"
-"A2. CNAE 10, 11, 12. Alimentaci\xF3n, bebidas y tabaco":
-  en: A2. CNAE 10, 11, 12. Food, beverages and tobacco.
-  es: "A2. CNAE 10, 11, 12. Alimentaci\xF3n, bebidas y tabaco"
-"A3. CNAE 13, 14, 15. Textil, confecci\xF3n, cuero y calzado":
-  en: A3. CNAE 13, 14, 15. Textile, clothing, leather and footwear.
-  es: "A3. CNAE 13, 14, 15. Textil, confecci\xF3n, cuero y calzado"
-"A4. CNAE 16, 17, 18. Madera y corcho, papel y artes gr\xE1ficas":
-  en: A4. CNAE 16, 17, 18. Wood and cork, paper and graphic arts.
-  es: "A4. CNAE 16, 17, 18. Madera y corcho, papel y artes gr\xE1ficas"
-"A5. CNAE 20, 21. Industria qu\xEDmica y farmac\xE9utica":
-  en: A5. CNAE 20, 21. Chemical and pharmaceutical industry.
-  es: "A5. CNAE 20, 21. Industria qu\xEDmica y farmac\xE9utica"
-"A6. CNAE 22. Caucho y materias pl\xE1sticas":
-  en: A6. CNAE 22. Rubber and plastic materials.
-  es: "A6. CNAE 22. Caucho y materias pl\xE1sticas"
-"A7. CNAE 23. Productos minerales no met\xE1licos diversos":
-  en: A7. CNAE 23. Miscellaneous non-metallic mineral products.
-  es: "A7. CNAE 23. Productos minerales no met\xE1licos diversos"
-"A8. CNAE 24, 25. Metalurgia y frabricaci\xF3n de productos met\xE1licos, excepto maquinaria y equipo":
-  en: A8. Metallurgy and manufacture of fabricated metal products, except machinery
-    and equipment.
-  es: "A8. CNAE 24, 25. Metalurgia y frabricaci\xF3n de productos met\xE1licos, excepto\
-    \ maquinaria y equipo"
-"A9. CNAE 26, 27. Material y equipo el\xE9ctrico, electr\xF3nico y \xF3ptico":
-  en: A9. Electrical, electronic and optical material and equipment.
-  es: "A9. CNAE 26, 27. Material y equipo el\xE9ctrico, electr\xF3nico y \xF3ptico"
-Actividad (Industria-Comercio-Servicios):
-  en: Activity (Industry-Commerce-Services)
-  es: Actividad (Industria-Comercio-Servicios)
-Actividad (Industria-Comercio-Servicios)_2:
-  en: Activity (Industry-Commerce-Services)_2
-  es: Actividad (Industria-Comercio-Servicios)_2
-Activos:
-  en: Assets
-Activos potenciales:
-  en: Potential assets
-Albania:
-  en: Albania
-  es: Albania
-Albergue:
-  en: Hostel
-  es: Albergue
-Alemania:
-  en: Germany
-  es: Alemania
-"Alg\xFAn c\xF3nyuge extranjero":
-  en: Any foreign spouse
-  es: "Alg\xFAn c\xF3nyuge extranjero"
+"65 y m\xE1s a\xF1os":
+  en: 65 and over
 "Almer\xEDa":
   en: Almeria
-  es: "Almer\xEDa"
-Ambos:
-  en: Both
-  es: Ambos
-"Ambos c\xF3nyuges espa\xF1oles":
-  en: Both Spanish spouses
-  es: "Ambos c\xF3nyuges espa\xF1oles"
-"Ambos c\xF3nyuges extranjeros":
-  en: Both foreign spouses
-  es: "Ambos c\xF3nyuges extranjeros"
-Ambos sexos:
-  en: Both sexes
-  es: Ambos sexos
-"Andaluc\xEDa":
-  en: Andalusia
-  es: "Andaluc\xEDa"
-"Andaluc\xEDa (no usar, se va a eliminar, usar la 44)":
-  en: Andalusia (do not use, will be eliminated, use 44)
-  es: "Andaluc\xEDa (no usar, se va a eliminar, usar la 44)"
-"Andaluc\xEDa/Provincias Andaluc\xEDa (usar en consultas provinciales)":
-  en: Andalusia/Provinces Andalusia (use in provincial queries)
-  es: "Andaluc\xEDa/Provincias Andaluc\xEDa (usar en consultas provinciales)"
-"Andaluc\u0102\xADa (no usar, se va a eliminar, usar la 44)":
-  en: "Andaluc\u0102a (do not use, to be deleted, use 44)"
-Andorra:
-  en: Andorra
-  es: Andorra
-Anual:
-  en: Annual
-  es: Anual
-Apartamento, piso o chalet de amigos, familiares...:
-  en: Apartment, apartment or villa of friends, relatives...
-  es: Apartamento, piso o chalet de amigos, familiares...
-Apartamento, piso o chalet en alquiler:
-  en: Apartment, apartment or villa for rent
-  es: Apartamento, piso o chalet en alquiler
-Apartamento, piso o chalet en multipropiedad:
-  en: Apartment, apartment or villa in time-share ownership
-  es: Apartamento, piso o chalet en multipropiedad
-Apartamento, piso o chalet en propiedad:
-  en: Apartment, apartment or villa in property
-  es: Apartamento, piso o chalet en propiedad
-Apartamentos estimados:
-  en: Estimated apartments
-  es: Apartamentos estimados
-"Arag\xF3n":
-  en: Aragon
-  es: "Arag\xF3n"
-Argentina:
-  en: Argentina
-  es: Argentina
-Armenia:
-  en: Armenia
-  es: Armenia
-Australia:
-  en: Australia
-  es: Australia
-Austria:
-  en: Austria
-  es: Austria
-Bielorrusia:
-  en: Belarus
-  es: Bielorrusia
-Bosnia-Herzegovina:
-  en: Bosnia-Herzegovina
-  es: Bosnia-Herzegovina
-Brasil:
-  en: Brazil
-  es: Brasil
-Bulgaria:
-  en: Bulgaria
-  es: Bulgaria
-"B\xE9lgica":
-  en: Belgium
-  es: "B\xE9lgica"
-"CNAE 45. Venta y reparaci\xF3n veh\xEDculos de motor y motocicletas":
-  en: Sale and repair of motor vehicles and motorcycles.
-  es: "CNAE 45. Venta y reparaci\xF3n veh\xEDculos de motor y motocicletas"
-"CNAE 451. Venta de veh\xEDculos de motor":
-  en: CNAE 451. Sale of motor vehicles
-  es: "CNAE 451. Venta de veh\xEDculos de motor"
-"CNAE 452. Mantenimiento y reparaci\xF3n de veh\xEDculos de motor":
-  en: CNAE 452. Maintenance and repair of motor vehicles.
-  es: "CNAE 452. Mantenimiento y reparaci\xF3n de veh\xEDculos de motor"
-"CNAE 453. Comercio de repuestos y accesorios de veh\xEDculos de motor":
-  en: CNAE 453. Trade of spare parts and accessories for motor vehicles.
-  es: "CNAE 453. Comercio de repuestos y accesorios de veh\xEDculos de motor"
-"CNAE 454. Venta, mantenimiento y reparaci\xF3n de motocicletas y de sus repuestos y accesorios":
-  en: Sale, maintenance and repair of motorcycles and their parts and accessories.
-  es: "CNAE 454. Venta, mantenimiento y reparaci\xF3n de motocicletas y de sus repuestos\
-    \ y accesorios"
-"CNAE 46. Comercio al por mayor e intercambios, excepto de veh\xEDculos motor y motocicletas*":
-  en: Wholesale trade and exchanges, except of motor vehicles and motorcycles*.
-  es: "CNAE 46. Comercio al por mayor e intercambios, excepto de veh\xEDculos motor\
-    \ y motocicletas*"
-"CNAE 46. Comercio al por mayor e intermediarios, excepto de veh\xEDculos motor y motocicletas":
-  en: Wholesale trade and intermediaries, except of motor vehicles and motorcycles.
-  es: "CNAE 46. Comercio al por mayor e intermediarios, excepto de veh\xEDculos motor\
-    \ y motocicletas"
-CNAE 461. Intermediarios del comercio:
-  en: CNAE 461. Trade intermediaries
-  es: CNAE 461. Intermediarios del comercio
-CNAE 462. Comercio al por mayor de materias primas agrarias y animales vivos:
-  en: Wholesale trade of agricultural raw materials and live animals.
-  es: CNAE 462. Comercio al por mayor de materias primas agrarias y animales vivos
-CNAE 463. Comercio al por mayor de productos alimenticios, bebidas y tabaco:
-  en: CNAE 463. Wholesale trade of food products, beverages and tobacco.
-  es: CNAE 463. Comercio al por mayor de productos alimenticios, bebidas y tabaco
-"CNAE 464. Comercio al por mayor de art\xEDculos de uso dom\xE9stico":
-  en: CNAE 464. Wholesale trade in household goods
-  es: "CNAE 464. Comercio al por mayor de art\xEDculos de uso dom\xE9stico"
-"CNAE 465. Comercio al por mayor de equipos para las tecnolog\xEDas de la informaci\xF3n y las comunicaciones":
-  en: Wholesale trade of equipment for information and communication technologies.
-  es: "CNAE 465. Comercio al por mayor de equipos para las tecnolog\xEDas de la informaci\xF3\
-    n y las comunicaciones"
-CNAE 466. Comercio al por mayor de otra maquinaria, equipo y suministros:
-  en: CNAE 466. Wholesale trade of other machinery, equipment and supplies
-  es: CNAE 466. Comercio al por mayor de otra maquinaria, equipo y suministros
-CNAE 467. Otro comercio al por mayor especializado:
-  en: CNAE 467. Other specialized wholesale trade
-  es: CNAE 467. Otro comercio al por mayor especializado
-CNAE 469. Comercio al por mayor no especializado:
-  en: CNAE 469. Non-specialized wholesale trade
-  es: CNAE 469. Comercio al por mayor no especializado
-"CNAE 47. Comercio al por menor, excepto de veh\xEDculos de motor y motocicletas":
-  en: CNAE 47. Retail trade, except of motor vehicles and motorcycles.
-  es: "CNAE 47. Comercio al por menor, excepto de veh\xEDculos de motor y motocicletas"
-CNAE 471. Comercio al por menor en establecimientos no especializados:
-  en: CNAE 471. Retail trade in non-specialized establishments
-  es: CNAE 471. Comercio al por menor en establecimientos no especializados
-CNAE 472. Comercio al por menor de alimentos, bebidas y tabaco en establecimientos especializados:
-  en: CNAE 472. Retail sale of food, beverages and tobacco in specialized establishments.
-  es: CNAE 472. Comercio al por menor de alimentos, bebidas y tabaco en establecimientos
-    especializados
-"CNAE 473. Comercio al por menor de combustible para la automoci\xF3n en establecimientos especializados":
-  en: CNAE 473. Retail sale of automotive fuel in specialized stores.
-  es: "CNAE 473. Comercio al por menor de combustible para la automoci\xF3n en establecimientos\
-    \ especializados"
-? "CNAE 474, 475, 476, 477. Comercio al por menor de equipos para las tecnolog\xED\
-  as de la informaci\xF3n y las comunicaciones, art\xEDculos culturales y recreativos\
-  \ y de otros art\xEDculos de uso dom\xE9stico en establecimientos especializados"
-: en: CNAE 474, 475, 476, 477. Retail sale of information and communications technology
-    equipment, cultural and recreational goods and other household articles in specialized
-    stores.
-  es: "CNAE 474, 475, 476, 477. Comercio al por menor de equipos para las tecnolog\xED\
-    as de la informaci\xF3n y las comunicaciones, art\xEDculos culturales y recreativos\
-    \ y de otros art\xEDculos de uso dom\xE9stico en establecimientos especializados"
-CNAE 478. Comercio al por menor en puestos de venta y mercadillos:
-  en: CNAE 478. Retail trade in stalls and markets.
-  es: CNAE 478. Comercio al por menor en puestos de venta y mercadillos
-CNAE 479. Comercio al por menor no realizado ni en establecimientos, ni en puestos de venta, ni en mercadillos:
-  en: CNAE 479. Retail trade not carried out in establishments, stalls or markets.
-  es: CNAE 479. Comercio al por menor no realizado ni en establecimientos, ni en puestos
-    de venta, ni en mercadillos
-"CNAE 49. Transporte terrestre y por tuber\xEDa":
-  en: CNAE 49. Land and Pipeline Transportation
-  es: "CNAE 49. Transporte terrestre y por tuber\xEDa"
-"CNAE 50 y 51. Transporte mar\xEDtimo y por v\xEDas navegables interiores. Transporte a\xE9reo":
-  en: CNAE 50 and 51. Maritime and inland waterway transport. Air transport
-  es: "CNAE 50 y 51. Transporte mar\xEDtimo y por v\xEDas navegables interiores. Transporte\
-    \ a\xE9reo"
-CNAE 52. Almacenamiento y actividades anexas a los transportes:
-  en: CNAE 52. Warehousing and support activities for transports
-  es: CNAE 52. Almacenamiento y actividades anexas a los transportes
-CNAE 53. Actividades postales y de correos:
-  en: CNAE 53. Postal and courier activities.
-  es: CNAE 53. Actividades postales y de correos
-CNAE 55. Servicios de alojamiento:
-  en: CNAE 55. Accommodation services
-  es: CNAE 55. Servicios de alojamiento
-CNAE 56. Servicios de comidas y bebidas:
-  en: CNAE 56. Food and beverage services
-  es: CNAE 56. Servicios de comidas y bebidas
-"CNAE 58. Edici\xF3n":
-  en: CNAE 58. Publishing
-  es: "CNAE 58. Edici\xF3n"
-"CNAE 59. Actividades cinematogr\xE1ficas, de v\xEDdeo y de programas de televisi\xF3n, grabaci\xF3n de sonido y edici\xF3n musical":
-  en: Motion picture, video and television programme production, sound recording and
-    music publishing activities.
-  es: "CNAE 59. Actividades cinematogr\xE1ficas, de v\xEDdeo y de programas de televisi\xF3\
-    n, grabaci\xF3n de sonido y edici\xF3n musical"
-"CNAE 60. Actividades de programaci\xF3n y emisi\xF3n de radio y televisi\xF3n":
-  en: CNAE 60. Radio and television programming and broadcasting activities.
-  es: "CNAE 60. Actividades de programaci\xF3n y emisi\xF3n de radio y televisi\xF3\
-    n"
-CNAE 61. Telecomunicaciones:
-  en: CNAE 61. Telecommunications
-  es: CNAE 61. Telecomunicaciones
-"CNAE 62. Programaci\xF3n, consultor\xEDa y otras actividades relacionadas con la inform\xE1tica":
-  en: Programming, consulting and other activities related to information technology.
-  es: "CNAE 62. Programaci\xF3n, consultor\xEDa y otras actividades relacionadas con\
-    \ la inform\xE1tica"
-"CNAE 63. Servicios de informaci\xF3n":
-  en: CNAE 63. Information services
-  es: "CNAE 63. Servicios de informaci\xF3n"
-CNAE 68. Actividades inmobiliarias:
-  en: CNAE 68. Real estate activities
-  es: CNAE 68. Actividades inmobiliarias
-"CNAE 69. Actividades jur\xEDdicas y de contabilidad":
-  en: CNAE 69. Legal and accounting activities.
-  es: "CNAE 69. Actividades jur\xEDdicas y de contabilidad"
-"CNAE 70. Actividades de las sedes centrales; actividades de consultor\xEDa de gesti\xF3n empresarial":
-  en: CNAE 70. Activities of head offices; business management consulting activities.
-  es: "CNAE 70. Actividades de las sedes centrales; actividades de consultor\xEDa\
-    \ de gesti\xF3n empresarial"
-"CNAE 71. Servicios t\xE9cnicos de arquitectura e ingenier\xEDa; ensayos y an\xE1lisis t\xE9cnicos":
-  en: CNAE 71. Architectural and engineering technical services; technical testing
-    and analysis
-  es: "CNAE 71. Servicios t\xE9cnicos de arquitectura e ingenier\xEDa; ensayos y an\xE1\
-    lisis t\xE9cnicos"
-"CNAE 72. Investigaci\xF3n y desarrollo":
-  en: CNAE 72. Research and development
-  es: "CNAE 72. Investigaci\xF3n y desarrollo"
-CNAE 73. Publicidad y estudios de mercado:
-  en: CNAE 73. Advertising and market research.
-  es: CNAE 73. Publicidad y estudios de mercado
-"CNAE 74. Otras actividades profesionales, cient\xEDficas y t\xE9cnicas":
-  en: CNAE 74. Other professional, scientific and technical activities.
-  es: "CNAE 74. Otras actividades profesionales, cient\xEDficas y t\xE9cnicas"
-CNAE 75. Actividades veterinarias:
-  en: CNAE 75. Veterinary activities
-  es: CNAE 75. Actividades veterinarias
-CNAE 77. Actividades de alquiler:
-  en: CNAE 77. Rental activities
-  es: CNAE 77. Actividades de alquiler
-CNAE 78. Actividades relacionadas con el empleo:
-  en: CNAE 78. Employment related activities
-  es: CNAE 78. Actividades relacionadas con el empleo
-"CNAE 79. Agencias de viaje, operadores tur\xEDsticos, servicios de reservas y actividades relacionadas con los mismos":
-  en: CNAE 79. Travel agencies, tour operators, reservation services and related activities.
-  es: "CNAE 79. Agencias de viaje, operadores tur\xEDsticos, servicios de reservas\
-    \ y actividades relacionadas con los mismos"
-"CNAE 80. Actividades de seguridad e investigaci\xF3n":
-  en: CNAE 80. Security and investigation activities
-  es: "CNAE 80. Actividades de seguridad e investigaci\xF3n"
-"CNAE 81. Servicios a edificios y actividades de jardiner\xEDa":
-  en: CNAE 81. Services to buildings and gardening activities.
-  es: "CNAE 81. Servicios a edificios y actividades de jardiner\xEDa"
-CNAE 82. Actividades administrativas de oficina y otras actividades auxiliares a las empresas:
-  en: CNAE 82. Office administrative and other business support activities.
-  es: CNAE 82. Actividades administrativas de oficina y otras actividades auxiliares
-    a las empresas
-"CNAE 95.Reparaci\xF3n de ordenadores, efectos personales y art\xEDculos de uso dom\xE9stico":
-  en: Repair of computers, personal and household goods.
-  es: "CNAE 95.Reparaci\xF3n de ordenadores, efectos personales y art\xEDculos de\
-    \ uso dom\xE9stico"
-CNAE 96. Otros servicios personales:
-  en: CNAE 96. Other personal services
-  es: CNAE 96. Otros servicios personales
-Camping:
-  en: Camping
-  es: Camping
-"Canad\xE1":
-  en: Canada
-  es: "Canad\xE1"
-Canarias:
-  en: Canary Islands
-  es: Canarias
-Cantabria:
-  en: Cantabria
-  es: Cantabria
-Capital suscrito:
-  en: Subscribed capital
-  es: Capital suscrito
-Casado/a:
-  en: Married
-  es: Casado/a
-"Castilla y Le\xF3n":
-  en: "Castilla y Le\xF3n"
-  es: "Castilla y Le\xF3n"
-Castilla-La Mancha:
-  en: Castilla-La Mancha
-  es: Castilla-La Mancha
-"Catalu\xF1a/Catalunya":
-  en: Catalonia/Catalonia
-  es: "Catalu\xF1a/Catalunya"
-"Categor\xEDas de los establecimientos hoteleros":
-  en: Categories of hotel establishments
-  es: "Categor\xEDas de los establecimientos hoteleros"
-"Categor\xEDas de los establecimientos hoteleros_agrupada":
-  en: Categories of hotel establishments_aggregated
-  es: "Categor\xEDas de los establecimientos hoteleros_agrupada"
-China:
-  en: China
-  es: China
-Chipre:
-  en: Cyprus
-  es: Chipre
-"Ciudad aut\xF3noma de Ceuta":
-  en: Autonomous City of Ceuta
-  es: "Ciudad aut\xF3noma de Ceuta"
-"Ciudad aut\xF3noma de Melilla":
-  en: Autonomous City of Melilla
-  es: "Ciudad aut\xF3noma de Melilla"
-"Ciudades Aut\xF3nomas de Ceuta y Melilla":
-  en: Autonomous Cities of Ceuta and Melilla
-  es: "Ciudades Aut\xF3nomas de Ceuta y Melilla"
-"Compra de mercader\xEDas":
-  en: Purchase of goods
-  es: "Compra de mercader\xEDas"
-Comunidad Foral de Navarra:
-  en: Community of Navarra
-  es: Comunidad Foral de Navarra
-Comunidad Valenciana/Comunitat Valenciana:
-  en: Valencian Community/Comunitat Valenciana
-  es: Comunidad Valenciana/Comunitat Valenciana
-Comunidad de Madrid:
-  en: Community of Madrid
-  es: Comunidad de Madrid
-Consumo de materias primas y otros aprovisionamientos:
-  en: Consumption of raw materials and other supplies
-  es: Consumo de materias primas y otros aprovisionamientos
-"Consumo de mercader\xEDas":
-  en: Consumption of goods
-  es: "Consumo de mercader\xEDas"
-Consumos intermedios:
-  en: Intermediate consumption
-  es: Consumos intermedios
-"Consumos intermedios a precios de adquisici\xF3n":
-  en: Intermediate consumption at acquisition prices
-  es: "Consumos intermedios a precios de adquisici\xF3n"
-Crecimiento natural:
-  en: Natural growth
-  es: Crecimiento natural
-Croacia:
-  en: Croacia
-  es: Croacia
-Custodia:
-  en: Case
-  es: Custodia
+"Con mujer menor de 50 a\xF1os":
+  en: With a woman under 50
 "C\xE1diz":
   en: Cadiz
-  es: "C\xE1diz"
 "C\xF3rdoba":
-  en: "C\xF3rdoba"
-  es: "C\xF3rdoba"
-"De 0 a 14 a\xF1os":
-  en: From 0 to 14 years old
-  es: "De 0 a 14 a\xF1os"
-"De 0 a 4 a\xF1os":
-  en: From 0 to 4 years old
-  es: "De 0 a 4 a\xF1os"
-"De 0 a\xF1os":
-  en: From 0 years old
-  es: "De 0 a\xF1os"
-"De 1 a\xF1os":
-  en: From 1 year
-  es: "De 1 a\xF1os"
-"De 10 a 14 a\xF1os":
-  en: From 10 to 14 years old
-  es: "De 10 a 14 a\xF1os"
-"De 10 a\xF1os":
-  en: From 10 years old
-  es: "De 10 a\xF1os"
+  en: Cordoba
 "De 100 a\xF1os":
-  en: 100 years old
-  es: "De 100 a\xF1os"
+  en: From 100 years old
 "De 100 y m\xE1s a\xF1os":
   en: 100 and over
-  es: "De 100 y m\xE1s a\xF1os"
 "De 101 a\xF1os":
-  en: 101 years old
-  es: "De 101 a\xF1os"
+  en: From 101 years old
 "De 102 a\xF1os":
-  en: 102 years old
-  es: "De 102 a\xF1os"
+  en: From 102 years old
 "De 103 a\xF1os":
   en: From 103 years old
-  es: "De 103 a\xF1os"
 "De 104 a\xF1os":
   en: 104 years old
-  es: "De 104 a\xF1os"
 "De 105 a\xF1os":
-  en: 105 years old
-  es: "De 105 a\xF1os"
+  en: From 105 years old
 "De 106 a\xF1os":
   en: From 106 years old
-  es: "De 106 a\xF1os"
 "De 107 a\xF1os":
-  en: 107 years old
-  es: "De 107 a\xF1os"
+  en: From 107 years old
 "De 108 a\xF1os":
-  en: 108 years old
-  es: "De 108 a\xF1os"
+  en: From 108 years old
 "De 109 a\xF1os":
-  en: 109 years old
-  es: "De 109 a\xF1os"
-"De 11 a\xF1os":
-  en: From 11 years old
-  es: "De 11 a\xF1os"
+  en: From 109 years old
 "De 110 a\xF1os":
-  en: 110 years old
-  es: "De 110 a\xF1os"
+  en: From 110 years old
 "De 111 a\xF1os":
   en: From 111 years old
-  es: "De 111 a\xF1os"
 "De 112 a\xF1os":
   en: From 112 years old
-  es: "De 112 a\xF1os"
 "De 113 a\xF1os":
-  en: 113 years old
-  es: "De 113 a\xF1os"
+  en: From 113 years old
 "De 114 a\xF1os":
-  en: 114 years old
-  es: "De 114 a\xF1os"
-"De 115 a\xF1os":
-  en: 115 years old
-  es: "De 115 a\xF1os"
-"De 116 a\xF1os":
-  en: From 116 years old
-  es: "De 116 a\xF1os"
-"De 117 a\xF1os":
-  en: 117 years old
-  es: "De 117 a\xF1os"
-"De 118 a\xF1os":
-  en: From 118 years old
-  es: "De 118 a\xF1os"
-"De 119 a\xF1os":
-  en: From 119 years old
-  es: "De 119 a\xF1os"
-"De 12 a\xF1os":
-  en: From 12 years old
-  es: "De 12 a\xF1os"
-"De 120 a\xF1os":
-  en: 120 years old
-  es: "De 120 a\xF1os"
-"De 121 a\xF1os":
-  en: 121 years old
-  es: "De 121 a\xF1os"
-"De 122 a\xF1os":
-  en: From 122 years old
-  es: "De 122 a\xF1os"
-"De 123 a\xF1os":
-  en: From 123 years old
-  es: "De 123 a\xF1os"
-"De 124 a\xF1os":
-  en: 124 years old
-  es: "De 124 a\xF1os"
-"De 125 y m\xE1s a\xF1os":
-  en: 125 and over
-  es: "De 125 y m\xE1s a\xF1os"
-"De 13 a\xF1os":
-  en: From 13 years old
-  es: "De 13 a\xF1os"
-"De 14 a\xF1os":
-  en: From 14 years old
-  es: "De 14 a\xF1os"
-"De 15 a 24 a\xF1os":
-  en: From 15 to 24 years old
-  es: "De 15 a 24 a\xF1os"
-"De 15 a 29 a\xF1os":
-  en: From 15 to 29 years old
-  es: "De 15 a 29 a\xF1os"
-"De 15 a\xF1os":
-  en: 15 years old
-  es: "De 15 a\xF1os"
+  en: From 114 years old
 "De 16 a 24 a\xF1os":
   en: From 16 to 24 years old
 "De 16 a\xF1os":
   en: From 16 years old
-  es: "De 16 a\xF1os"
 "De 17 a\xF1os":
-  en: 17 years old
-  es: "De 17 a\xF1os"
+  en: From 17 years old
 "De 18 a\xF1os":
   en: From 18 years old
-  es: "De 18 a\xF1os"
 "De 19 a\xF1os":
   en: 19 years old
-  es: "De 19 a\xF1os"
-"De 2 a\xF1os":
-  en: From 2 years old
-  es: "De 2 a\xF1os"
 "De 20 a 24 a\xF1os":
   en: From 20 to 24 years old
 "De 20 a\xF1os":
   en: 20 years old
-  es: "De 20 a\xF1os"
 "De 21 a\xF1os":
   en: 21 years old
-  es: "De 21 a\xF1os"
 "De 22 a\xF1os":
   en: 22 years old
-  es: "De 22 a\xF1os"
 "De 23 a\xF1os":
   en: 23 years old
-  es: "De 23 a\xF1os"
 "De 24 a\xF1os":
   en: 24 years old
-  es: "De 24 a\xF1os"
 "De 25 a 29 a\xF1os":
   en: From 25 to 29 years old
-  es: "De 25 a 29 a\xF1os"
 "De 25 a 34 a\xF1os":
   en: From 25 to 34 years old
 "De 25 a\xF1os":
   en: From 25 years old
-  es: "De 25 a\xF1os"
 "De 26 a\xF1os":
   en: 26 years old
-  es: "De 26 a\xF1os"
 "De 27 a\xF1os":
   en: 27 years old
-  es: "De 27 a\xF1os"
 "De 28 a\xF1os":
   en: 28 years old
-  es: "De 28 a\xF1os"
 "De 29 a\xF1os":
   en: 29 years old
-  es: "De 29 a\xF1os"
-"De 3 a\xF1os":
-  en: From 3 years old
-  es: "De 3 a\xF1os"
 "De 30 a 34 a\xF1os":
   en: From 30 to 34 years old
-  es: "De 30 a 34 a\xF1os"
-"De 30 a 44 a\xF1os":
-  en: From 30 to 44 years old
-  es: "De 30 a 44 a\xF1os"
 "De 30 a\xF1os":
   en: From 30 years old
-  es: "De 30 a\xF1os"
 "De 31 a\xF1os":
   en: 31 years old
-  es: "De 31 a\xF1os"
 "De 32 a\xF1os":
   en: 32 years old
-  es: "De 32 a\xF1os"
 "De 33 a\xF1os":
   en: 33 years old
-  es: "De 33 a\xF1os"
 "De 34 a\xF1os":
   en: 34 years old
-  es: "De 34 a\xF1os"
 "De 35 a 39 a\xF1os":
   en: From 35 to 39 years old
-  es: "De 35 a 39 a\xF1os"
 "De 35 a 44 a\xF1os":
   en: From 35 to 44 years old
 "De 35 a\xF1os":
   en: From 35 years old
-  es: "De 35 a\xF1os"
 "De 36 a\xF1os":
   en: 36 years old
-  es: "De 36 a\xF1os"
 "De 37 a\xF1os":
   en: 37 years old
-  es: "De 37 a\xF1os"
 "De 38 a\xF1os":
   en: 38 years old
-  es: "De 38 a\xF1os"
 "De 39 a\xF1os":
   en: 39 years old
-  es: "De 39 a\xF1os"
-"De 4 a\xF1os":
-  en: From 4 years old
-  es: "De 4 a\xF1os"
-"De 40 a 44 a\xF1os":
-  en: From 40 to 44 years old
-  es: "De 40 a 44 a\xF1os"
 "De 40 a\xF1os":
-  en: 40 years old
-  es: "De 40 a\xF1os"
+  en: From 40 years old
 "De 41 a\xF1os":
   en: 41 years old
-  es: "De 41 a\xF1os"
 "De 42 a\xF1os":
   en: 42 years old
-  es: "De 42 a\xF1os"
 "De 43 a\xF1os":
   en: 43 years old
-  es: "De 43 a\xF1os"
 "De 44 a\xF1os":
   en: 44 years old
-  es: "De 44 a\xF1os"
-"De 45 a 49 a\xF1os":
-  en: From 45 to 49 years old
-  es: "De 45 a 49 a\xF1os"
 "De 45 a 54 a\xF1os":
   en: From 45 to 54 years old
-"De 45 a 74 a\xF1os":
-  en: From 45 to 74 years old
-  es: "De 45 a 74 a\xF1os"
 "De 45 a\xF1os":
   en: From 45 years old
-  es: "De 45 a\xF1os"
 "De 46 a\xF1os":
   en: 46 years old
-  es: "De 46 a\xF1os"
 "De 47 a\xF1os":
   en: 47 years old
-  es: "De 47 a\xF1os"
 "De 48 a\xF1os":
   en: 48 years old
-  es: "De 48 a\xF1os"
 "De 49 a\xF1os":
   en: 49 years old
-  es: "De 49 a\xF1os"
-"De 5 a 9 a\xF1os":
-  en: From 5 to 9 years old
-  es: "De 5 a 9 a\xF1os"
-"De 5 a\xF1os":
-  en: From 5 years old
-  es: "De 5 a\xF1os"
 "De 50 a 54 a\xF1os":
   en: From 50 to 54 years old
-  es: "De 50 a 54 a\xF1os"
 "De 50 a\xF1os":
   en: From 50 years old
-  es: "De 50 a\xF1os"
 "De 51 a\xF1os":
   en: 51 years old
-  es: "De 51 a\xF1os"
 "De 52 a\xF1os":
   en: 52 years old
-  es: "De 52 a\xF1os"
 "De 53 a\xF1os":
   en: 53 years old
-  es: "De 53 a\xF1os"
 "De 54 a\xF1os":
   en: 54 years old
-  es: "De 54 a\xF1os"
 "De 55 a 59 a\xF1os":
   en: From 55 to 59 years old
-  es: "De 55 a 59 a\xF1os"
 "De 55 a 64 a\xF1os":
   en: From 55 to 64 years old
 "De 55 a\xF1os":
-  en: 55 years old
-  es: "De 55 a\xF1os"
+  en: From 55 years old
 "De 56 a\xF1os":
   en: 56 years old
-  es: "De 56 a\xF1os"
 "De 57 a\xF1os":
   en: 57 years old
-  es: "De 57 a\xF1os"
 "De 58 a\xF1os":
   en: 58 years old
-  es: "De 58 a\xF1os"
 "De 59 a\xF1os":
   en: 59 years old
-  es: "De 59 a\xF1os"
-"De 6 a\xF1os":
-  en: From 6 years old
-  es: "De 6 a\xF1os"
 "De 60 a 64 a\xF1os":
   en: 60 to 64 years old
-  es: "De 60 a 64 a\xF1os"
 "De 60 a\xF1os":
-  en: 60 years old
-  es: "De 60 a\xF1os"
+  en: From 60 years old
 "De 61 a\xF1os":
   en: 61 years old
-  es: "De 61 a\xF1os"
 "De 62 a\xF1os":
   en: 62 years old
-  es: "De 62 a\xF1os"
 "De 63 a\xF1os":
   en: 63 years old
-  es: "De 63 a\xF1os"
 "De 64 a\xF1os":
   en: 64 years old
-  es: "De 64 a\xF1os"
 "De 65 a 69 a\xF1os":
-  en: From 65 to 69 years old
-  es: "De 65 a 69 a\xF1os"
+  en: 65 to 69 years old
 "De 65 a\xF1os":
   en: From 65 years old
-  es: "De 65 a\xF1os"
 "De 65 y m\xE1s a\xF1os":
   en: 65 and over
 "De 66 a\xF1os":
   en: 66 years old
-  es: "De 66 a\xF1os"
 "De 67 a\xF1os":
   en: 67 years old
-  es: "De 67 a\xF1os"
 "De 68 a\xF1os":
   en: 68 years old
-  es: "De 68 a\xF1os"
 "De 69 a\xF1os":
   en: 69 years old
-  es: "De 69 a\xF1os"
-"De 7 a\xF1os":
-  en: From 7 years old
-  es: "De 7 a\xF1os"
 "De 70 a 74 a\xF1os":
   en: From 70 to 74 years old
-  es: "De 70 a 74 a\xF1os"
 "De 70 a\xF1os":
   en: 70 years old
-  es: "De 70 a\xF1os"
 "De 71 a\xF1os":
   en: 71 years old
-  es: "De 71 a\xF1os"
 "De 72 a\xF1os":
   en: 72 years old
-  es: "De 72 a\xF1os"
 "De 73 a\xF1os":
   en: 73 years old
-  es: "De 73 a\xF1os"
 "De 74 a\xF1os":
   en: 74 years old
-  es: "De 74 a\xF1os"
 "De 75 a 79 a\xF1os":
   en: From 75 to 79 years old
-  es: "De 75 a 79 a\xF1os"
 "De 75 a\xF1os":
   en: 75 years old
-  es: "De 75 a\xF1os"
-"De 75 y m\xE1s a\xF1os":
-  en: 75 and over
-  es: "De 75 y m\xE1s a\xF1os"
 "De 76 a\xF1os":
   en: 76 years old
-  es: "De 76 a\xF1os"
 "De 77 a\xF1os":
-  en: 77 years old
-  es: "De 77 a\xF1os"
+  en: Aged 77
 "De 78 a\xF1os":
   en: 78 years old
-  es: "De 78 a\xF1os"
 "De 79 a\xF1os":
   en: 79 years old
-  es: "De 79 a\xF1os"
-"De 8 a\xF1os":
-  en: From 8 years old
-  es: "De 8 a\xF1os"
 "De 80 a 84 a\xF1os":
   en: From 80 to 84 years old
-  es: "De 80 a 84 a\xF1os"
 "De 80 a\xF1os":
-  en: 80 years old
-  es: "De 80 a\xF1os"
+  en: From 80 years old
 "De 81 a\xF1os":
   en: 81 years old
-  es: "De 81 a\xF1os"
 "De 82 a\xF1os":
   en: 82 years old
-  es: "De 82 a\xF1os"
 "De 83 a\xF1os":
   en: 83 years old
-  es: "De 83 a\xF1os"
 "De 84 a\xF1os":
   en: 84 years old
-  es: "De 84 a\xF1os"
 "De 85 a 89 a\xF1os":
   en: From 85 to 89 years old
-  es: "De 85 a 89 a\xF1os"
 "De 85 a\xF1os":
   en: 85 years old
-  es: "De 85 a\xF1os"
 "De 86 a\xF1os":
   en: 86 years old
-  es: "De 86 a\xF1os"
 "De 87 a\xF1os":
   en: 87 years old
-  es: "De 87 a\xF1os"
 "De 88 a\xF1os":
   en: 88 years old
-  es: "De 88 a\xF1os"
 "De 89 a\xF1os":
   en: 89 years old
-  es: "De 89 a\xF1os"
-"De 9 a\xF1os":
-  en: 9 years old
-  es: "De 9 a\xF1os"
 "De 90 a 94 a\xF1os":
-  en: From 90 to 94 years old
-  es: "De 90 a 94 a\xF1os"
+  en: 90 to 94 years old
 "De 90 a\xF1os":
   en: 90 years old
-  es: "De 90 a\xF1os"
 "De 91 a\xF1os":
   en: 91 years old
-  es: "De 91 a\xF1os"
 "De 92 a\xF1os":
   en: 92 years old
-  es: "De 92 a\xF1os"
 "De 93 a\xF1os":
   en: 93 years old
-  es: "De 93 a\xF1os"
 "De 94 a\xF1os":
   en: 94 years old
-  es: "De 94 a\xF1os"
 "De 95 a 99 a\xF1os":
   en: From 95 to 99 years old
-  es: "De 95 a 99 a\xF1os"
 "De 95 a\xF1os":
   en: 95 years old
-  es: "De 95 a\xF1os"
 "De 96 a\xF1os":
-  en: 96 years old
-  es: "De 96 a\xF1os"
+  en: From 96 years old
 "De 97 a\xF1os":
-  en: 97 years old
-  es: "De 97 a\xF1os"
+  en: From 97 years old
 "De 98 a\xF1os":
-  en: 98 years old
-  es: "De 98 a\xF1os"
+  en: From 98 years old
 "De 99 a\xF1os":
-  en: 99 years old
-  es: "De 99 a\xF1os"
-Defunciones:
-  en: Deaths
-  es: Defunciones
-Desanimados:
-  en: Discouraged
-Dinamarca:
-  en: Denmark
-  es: Dinamarca
-Distinta nacionalidad:
-  en: Different nationality
-  es: Distinta nacionalidad
-Distinto sexo:
-  en: Different sex
-  es: Distinto sexo
-Divorciado/a:
-  en: Divorced
-  es: Divorciado/a
-Divorcios:
-  en: Divorcios
-  es: Divorcios
-"Duraci\xF3n del matrimonio":
-  en: Duration of marriage
-  es: "Duraci\xF3n del matrimonio"
-Edad 0-15-30-45-75+:
-  en: Edad 0-15-30-45-75+
-  es: Edad 0-15-30-45-75+
-Edad c2:
-  en: Age c2
-  es: Edad c2
-"Edad c\xF3nyuge 1":
-  en: Age spouse 1
-  es: "Edad c\xF3nyuge 1"
-Empleo equivalente asalariados:
-  en: Equivalent salaried employment
-  es: Empleo equivalente asalariados
-Empleo equivalente no asalariados:
-  en: Equivalent non-salaried employment
-  es: Empleo equivalente no asalariados
-Empleo equivalente totales:
-  en: Total equivalent employment
-  es: Empleo equivalente totales
-Empleo medio:
-  en: Average employment
-  es: Empleo medio
-Empresas:
-  en: Companies
-  es: Empresas
-"Empresas con sede social en Andaluc\xEDa":
-  en: Companies headquartered in Andalusia
-  es: "Empresas con sede social en Andaluc\xEDa"
-Eslovaquia:
-  en: Slovakia
-  es: Eslovaquia
-Eslovenia:
-  en: Eslovenia
-  es: Eslovenia
-"Espa\xF1a":
-  en: Spain
-  es: "Espa\xF1a"
-Establecimientos:
-  en: Establishments
-  es: Establecimientos
-Establecimientos medios abiertos estimados:
-  en: Estimated average open establishments
-  es: Establecimientos medios abiertos estimados
-Establecimientos medios estimados:
-  en: Estimated average establishments
-  es: Establecimientos medios estimados
-Estado civil c1:
-  en: Marital status c1
-  es: Estado civil c1
-Estado civil c2:
-  en: Marital status c2
-  es: Estado civil c2
-"Estado civil c\xF3nyuge 1":
-  en: Marital status spouse 1
-  es: "Estado civil c\xF3nyuge 1"
-Estados Unidos:
-  en: United States
-  es: Estados Unidos
-Estancia media:
-  en: Average length of stay
-  es: Estancia media
-Estonia:
-  en: Estonia
-  es: Estonia
-Euros por habitante:
-  en: Euros per inhabitant
-  es: Euros por habitante
-"Excedente Bruto de Explotaci\xF3n":
-  en: Gross operating surplus
-  es: "Excedente Bruto de Explotaci\xF3n"
-"Excedente de Explotaci\xF3n Bruto/Renta mixta":
-  en: Gross operating surplus/mixed income
-  es: "Excedente de Explotaci\xF3n Bruto/Renta mixta"
-Extranjero:
+  en: From 99 years old
+EDAD:
+  en: AGE
+Edad:
+  en: Age
+"Espa\xF1ola":
+  en: Spanish
+Estructura del hogar:
+  en: Household structure
+Estudiante:
+  en: Student
+Extranjera:
   en: Foreign
-  es: Extranjero
-Extranjeros:
-  en: Foreigners
-  es: Extranjeros
-Extremadura:
-  en: Extremadura
-  es: Extremadura
-Finlandia:
-  en: Finland
-  es: Finlandia
-Francia:
-  en: France
-  es: Francia
-Frecuencia:
-  en: Frequency
-  es: Frecuencia
-G. TOTAL SECTOR COMERCIO:
-  en: G. TOTAL SECTOR COMERCIO
-  es: G. TOTAL SECTOR COMERCIO
-G. TOTAL SECTOR COMERCIO*:
-  en: G. TOTAL SECTOR COMERCIO*
-  es: G. TOTAL SECTOR COMERCIO*
-Galicia:
-  en: Galicia
-  es: Galicia
-Gasto medio diario:
-  en: Gasto medium diary
-  es: Gasto medio diario
-Gastos de personal:
-  en: Personnel expenses
-  es: Gastos de personal
-Gastos en servicios exteriores:
-  en: Expenditures on external services
-  es: Gastos en servicios exteriores
-Georgia:
-  en: Georgia
-  es: Georgia
-"Gracdo de ocupaci\xF3n por plazas de fin de semana":
-  en: Weekend occupancy rate by bedplaces
-  es: "Gracdo de ocupaci\xF3n por plazas de fin de semana"
-"Grado de ocupaci\xF3n por apartamentos":
-  en: Occupancy rate by apartment
-  es: "Grado de ocupaci\xF3n por apartamentos"
-"Grado de ocupaci\xF3n por apartamentos en fin de semana":
-  en: Weekend occupancy rate by apartment
-  es: "Grado de ocupaci\xF3n por apartamentos en fin de semana"
-"Grado de ocupaci\xF3n por habitaciones":
-  en: Occupancy rate per room
-  es: "Grado de ocupaci\xF3n por habitaciones"
-"Grado de ocupaci\xF3n por habitaci\xF3n":
-  en: Occupancy rate per room
-  es: "Grado de ocupaci\xF3n por habitaci\xF3n"
-"Grado de ocupaci\xF3n por parcelas":
-  en: Occupancy rate by parcel
-  es: "Grado de ocupaci\xF3n por parcelas"
-"Grado de ocupaci\xF3n por parcelas en fin de semana":
-  en: Weekend occupancy rate by parcels of land
-  es: "Grado de ocupaci\xF3n por parcelas en fin de semana"
-"Grado de ocupaci\xF3n por plaza":
-  en: Occupancy rate per seat
-  es: "Grado de ocupaci\xF3n por plaza"
-"Grado de ocupaci\xF3n por plaza de fin de semana":
-  en: Occupancy rate per weekend vacancy
-  es: "Grado de ocupaci\xF3n por plaza de fin de semana"
-"Grado de ocupaci\xF3n por plaza en fin de semana":
-  en: Weekend occupancy rate per seat
-  es: "Grado de ocupaci\xF3n por plaza en fin de semana"
-"Grado de ocupaci\xF3n por plazas":
-  en: Occupancy rate by bedplaces
-  es: "Grado de ocupaci\xF3n por plazas"
-"Grado de ocupaci\xF3n por plazas de fin de semana":
-  en: Weekend occupancy rate by bedplaces
-  es: "Grado de ocupaci\xF3n por plazas de fin de semana"
 Granada:
   en: Grenada
-  es: Granada
-Grecia:
-  en: Greece
-  es: Grecia
-H. TRANSPORTE Y ALMACENAMIENTO:
-  en: H. TRANSPORTATION AND STORAGE
-  es: H. TRANSPORTE Y ALMACENAMIENTO
-Habitaciones estimadas:
-  en: Estimated rooms
-  es: Habitaciones estimadas
-Habitaciones medias estimadas:
-  en: Estimated average rooms
-  es: Habitaciones medias estimadas
-Hogares:
-  en: Homes
-  es: Hogares
-Hombres:
-  en: Men
-  es: Hombres
-Horas asalariados:
-  en: Salaried hours
-  es: Horas asalariados
-Horas no asalariados:
-  en: Unpaid Hours
-  es: Horas no asalariados
-Horas personal no remunerado:
-  en: Unpaid personnel hours
-  es: Horas personal no remunerado
-Horas personal remunerado:
-  en: Paid personnel hours
-  es: Horas personal remunerado
-Horas totales:
-  en: Total hours
-  es: Horas totales
-"Hostal, pensi\xF3n":
-  en: Hostel, guesthouse
-  es: "Hostal, pensi\xF3n"
-Hotel, apartahotel:
-  en: Hotel, apartahotel
-  es: Hotel, apartahotel
+"Hijo 16-22 a\xF1os":
+  en: Son 16-22 years
+"Hijo 16-22 a\xF1os y otros":
+  en: Son 16-22 years old and others
+"Hijo 23 y m\xE1s a\xF1os":
+  en: Child 23 and over
+"Hijo 23 y m\xE1s a\xF1os y otros":
+  en: Child 23 and over and others
+"Hijo 3-5 a\xF1os":
+  en: Child 3-5 years
+"Hijo 3-5 a\xF1os y otros":
+  en: Child 3-5 years and others
+"Hijo 6-15 a\xF1os":
+  en: Child 6-15 years
+"Hijo 6-15 a\xF1os y otros":
+  en: Child 6-15 years and others
+"Hijo menor de 3 a\xF1os":
+  en: Child under 3 years old
+"Hijo menor de 3 a\xF1os y otros":
+  en: Child under 3 years old and others
+Hogares inactivos:
+  en: Inactive households
+Hogares ocupados:
+  en: Employed households
+Hogares parados:
+  en: Unemployed households
 Huelva:
   en: Huelva
-  es: Huelva
-"Hungr\xEDa":
-  en: Hungary
-  es: "Hungr\xEDa"
-"I. HOSTELER\xCDA":
-  en: I. HOSPITALITY
-  es: "I. HOSTELER\xCDA"
-Impuestos menos subvenciones:
-  en: Taxes less subsidies
-  es: Impuestos menos subvenciones
-Inactivos:
-  en: Inactive
-Inactivos3:
-  en: Inactive3
-Indicadores:
-  en: Indicators
-  es: Indicadores
-"Inversi\xF3n bruta en bienes materiales":
-  en: Gross investment in tangible goods
-  es: "Inversi\xF3n bruta en bienes materiales"
-Irlanda:
-  en: Irlanda
-  es: Irlanda
-Islandia:
-  en: Islandia
-  es: Islandia
-Islas Baleares/Illes Balears:
-  en: Balearic Islands/Illes Balears
-  es: Islas Baleares/Illes Balears
-Italia:
-  en: Italy
-  es: Italia
-"J. INFORMACI\xD3N Y COMUNICACIONES":
-  en: J. INFORMATION AND COMMUNICATIONS
-  es: "J. INFORMACI\xD3N Y COMUNICACIONES"
-"Jap\xF3n":
-  en: Japan
-  es: "Jap\xF3n"
+Inactivos con pensiones:
+  en: Inactive with pensions
+Inactivos con prestaciones por desempleo:
+  en: Inactive on unemployment benefits
+Inactivos con prestaciones y pensiones:
+  en: Inactive with benefits and pensions
+Inactivos sin ingresos:
+  en: Inactive with no income
+Incapacitado permanente:
+  en: Permanently disabled
 "Ja\xE9n":
-  en: Jaen
-  es: "Ja\xE9n"
-L. ACTIVIDADES INMOBILIARIAS:
-  en: L. REAL ESTATE ACTIVITIES
-  es: L. ACTIVIDADES INMOBILIARIAS
-La Rioja:
-  en: La Rioja
-  es: La Rioja
-Letonia:
-  en: Latvia
-  es: Letonia
-Liechtenstein:
-  en: Liechtenstein
-  es: Liechtenstein
-Lituania:
-  en: Lithuania
-  es: Lituania
-Luxemburgo:
-  en: Luxembourg
-  es: Luxemburgo
-"M. ACTIVIDADES PROFESIONALES, CIENT\xCDFICAS Y T\xC9CNICAS":
-  en: M. PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES
-  es: "M. ACTIVIDADES PROFESIONALES, CIENT\xCDFICAS Y T\xC9CNICAS"
-Macedonia:
-  en: Macedonia
-  es: Macedonia
-Madre:
-  en: Mother
-  es: Madre
-Malta:
-  en: Malta
-  es: Malta
-Margen comercial bruto:
-  en: Gross commercial margin
-  es: Margen comercial bruto
-Matrimonios:
-  en: Matrimonios
-  es: Matrimonios
-"Menor de 16 a\xF1os":
-  en: Under 16 years of age
-"Menos de 1 a\xF1o":
-  en: Less than 1 year
-  es: "Menos de 1 a\xF1o"
-Misma nacionalidad:
-  en: Same nationality
-  es: Misma nacionalidad
-Mismo sexo:
-  en: Same sex
-  es: Mismo sexo
-Moldova:
-  en: Moldova
-  es: Moldova
-"Muertes fetales tard\xEDas":
-  en: Late fetal deaths
-  es: "Muertes fetales tard\xEDas"
-Mujeres:
-  en: Women
-  es: Mujeres
-"Municipio de Almer\xEDa sin especificar":
-  en: "Municipality of Almer\xEDa unspecified"
-  es: "Municipio de Almer\xEDa sin especificar"
-"Municipio de C\xE1diz sin especificar":
-  en: "Municipality of C\xE1diz unspecified"
-  es: "Municipio de C\xE1diz sin especificar"
-"Municipio de C\xF3rdoba sin especificar":
-  en: "Municipality of C\xF3rdoba unspecified"
-  es: "Municipio de C\xF3rdoba sin especificar"
-Municipio de Granada sin especificar:
-  en: Municipality of Granada unspecified
-  es: Municipio de Granada sin especificar
-Municipio de Huelva sin especificar:
-  en: Municipality of Huelva unspecified
-  es: Municipio de Huelva sin especificar
-"Municipio de Ja\xE9n sin especificar":
-  en: "Municipality of Ja\xE9n unspecified"
-  es: "Municipio de Ja\xE9n sin especificar"
-"Municipio de M\xE1laga sin especificar":
-  en: Municipality of Malaga unspecified
-  es: "Municipio de M\xE1laga sin especificar"
-Municipio de Sevilla sin especificar:
-  en: Municipality of Seville unspecified
-  es: Municipio de Sevilla sin especificar
+  en: "Ja\xE9n"
+"Jubilado, perceptor de pensi\xF3n distinta de jubilaci\xF3n, incapacitado permanente":
+  en: Retired, receiving a pension other than a retirement pension, permanently disabled
+Labores del hogar:
+  en: Housework
+Monoparental:
+  en: Single-parent
 "M\xE1laga":
   en: Malaga
-  es: "M\xE1laga"
-"M\xE1s de 4 hijos":
-  en: More than 4 children
-  es: "M\xE1s de 4 hijos"
-"M\xE9xico":
-  en: Mexico
-  es: "M\xE9xico"
-"M\xF3naco":
-  en: Monaco
-  es: "M\xF3naco"
-N. ACTIVIDADES ADMINISTRATIVAS Y SERVICIOS AUXILIARES:
-  en: N. ADMINISTRATIVE ACTIVITIES AND AUXILIARY SERVICES
-  es: N. ACTIVIDADES ADMINISTRATIVAS Y SERVICIOS AUXILIARES
-Nacimientos:
-  en: Births
-  es: Nacimientos
-"Nacionalidad de los c\xF3nyuges":
-  en: Nationality of spouses
-  es: "Nacionalidad de los c\xF3nyuges"
-"Ning\xFAn hijo menor":
-  en: No minor children
-  es: "Ning\xFAn hijo menor"
-Nivel:
-  en: Level
+Nacionalidad EPA (Esp/Ext):
+  en: Nationality EPA (Esp/Ext)
 No aplica:
   en: Not applicable
-  es: No aplica
 No consta:
-  en: Not listed
-  es: No consta
-"No consta nacionalidad de alguno de los c\xF3nyuges":
-  en: There is no record of the nationality of either of the spouses.
-  es: "No consta nacionalidad de alguno de los c\xF3nyuges"
+  en: It does not include
 No procede:
   en: Not applicable
-  es: No procede
-No sabe:
-  en: Don't know
-  es: No sabe
-Noruega:
-  en: Norway
-  es: Noruega
-Nulidades:
-  en: Nullities
-  es: Nulidades
-"N\xFAmero de empresas":
-  en: Number of companies
-  es: "N\xFAmero de empresas"
-"N\xFAmero de hijos menores de edad":
-  en: Number of minor children
-  es: "N\xFAmero de hijos menores de edad"
-"N\xFAmero de locales":
-  en: Number of premises
-  es: "N\xFAmero de locales"
-"N\xFAmero de pensiones":
-  en: Number of pensions
-  es: "N\xFAmero de pensiones"
-"N\xFAmero de pensionistas":
-  en: Number of pensioners
-  es: "N\xFAmero de pensionistas"
-Ocupados:
-  en: Occupied
-Ocupados subempleados:
-  en: Employed underemployed
-Otros:
-  en: Others
-  es: Otros
-"Otros impuestos netos sobre la producci\xF3n":
-  en: Other net taxes on production
-  es: "Otros impuestos netos sobre la producci\xF3n"
-Otros ingresos:
-  en: Other income
-  es: Otros ingresos
-"Otros pa\xEDses":
-  en: Other countries
-  es: "Otros pa\xEDses"
-Padre:
-  en: Father
-  es: Padre
-Parados:
-  en: Stopped
-Parados que buscan 1er empleo:
-  en: Unemployed seeking 1st job
-Parados que han trabajado antes:
-  en: Unemployed who have worked before
-Parcelas medias estimadas:
-  en: Estimated average plots
-  es: Parcelas medias estimadas
-Parcelas ocupadas:
-  en: Occupied plots
-  es: Parcelas ocupadas
-Partos:
-  en: Childbirth
-  es: Partos
-"Pa\xEDs Vasco/Euskadi":
-  en: Basque Country/Euskadi
-  es: "Pa\xEDs Vasco/Euskadi"
-"Pa\xEDses Africanos":
-  en: African Countries
-  es: "Pa\xEDses Africanos"
-"Pa\xEDses Bajos":
-  en: Netherlands
-  es: "Pa\xEDses Bajos"
-"Pa\xEDses africanos":
-  en: African Countries
-  es: "Pa\xEDses africanos"
-"Pensi\xF3n media":
-  en: Half board
-  es: "Pensi\xF3n media"
-Pernoctaciones:
-  en: Overnight stays
-  es: Pernoctaciones
-"Persona de 16 o m\xE1s a\xF1os":
-  en: Person aged 16 or over
-Personal medio empleado:
-  en: Average staff employed
-  es: Personal medio empleado
-Personal medio no remunerado:
-  en: Average unpaid personnel
-  es: Personal medio no remunerado
-Personal medio remunerado:
-  en: Average paid staff
-  es: Personal medio remunerado
-Personal medio remunerado eventual:
-  en: Temporary paid average personnel
-  es: Personal medio remunerado eventual
-Personal medio remunerado fijo:
-  en: Average permanent paid staff
-  es: Personal medio remunerado fijo
-Personal ocupado a 30 de septiembre:
-  en: Staff employed as of September 30
-  es: Personal ocupado a 30 de septiembre
-Personal ocupado medio:
-  en: Average employed personnel
-  es: Personal ocupado medio
-Personal remunerado equivalente a jornada completa:
-  en: Full-time equivalent paid staff
-  es: Personal remunerado equivalente a jornada completa
-Personal remunerado. Hombres. Jornada completa:
-  en: Paid personnel. Male. Full time
-  es: Personal remunerado. Hombres. Jornada completa
-Personal remunerado. Hombres. Jornada parcial:
-  en: Paid personnel. Men. Part-time
-  es: Personal remunerado. Hombres. Jornada parcial
-Personal remunerado. Mujeres. Jornada completa:
-  en: Paid personnel. Female. Full time
-  es: Personal remunerado. Mujeres. Jornada completa
-Personal remunerado. Mujeres. Jornada parcial:
-  en: Paid personnel. Female. Part-time
-  es: Personal remunerado. Mujeres. Jornada parcial
-Plazas:
-  en: Places
-  es: Plazas
-Plazas medias estimadas:
-  en: Estimated average number of seats
-  es: Plazas medias estimadas
-"Poblaci\xF3n":
-  en: Population
-  es: "Poblaci\xF3n"
-"Poblaci\xF3n contada aparte":
-  en: Population counted separately
-"Poblaci\xF3n contada aparte que no trabaja":
-  en: Separately counted population not working
-"Poblaci\xF3n contada aparte que trabaja":
-  en: Population counted separately as working
-"Poblaci\xF3n municipal":
-  en: Municipal population
-  es: "Poblaci\xF3n municipal"
-Polonia:
-  en: Poland
-  es: Polonia
-Porcentaje:
-  en: Percentage
-  es: Porcentaje
-Porcentaje del margen comercial bruto sobre ventas:
-  en: Gross sales margin as a percentage of sales
-  es: Porcentaje del margen comercial bruto sobre ventas
-Portugal:
-  en: Portugal
-  es: Portugal
-Principado de Asturias:
-  en: Principality of Asturias
-  es: Principado de Asturias
-Procedencia:
-  en: Source
-  es: Procedencia
-Procedencia ECTA:
-  en: Source ECTA
-  es: Procedencia ECTA
-"Producci\xF3n a precios b\xE1sicos":
-  en: Production at basic prices
-  es: "Producci\xF3n a precios b\xE1sicos"
-"Producci\xF3n por ocupado":
-  en: Production per occupied
-  es: "Producci\xF3n por ocupado"
-Productividad:
-  en: Productivity
-  es: Productividad
+No refiere estado de inactividad:
+  en: Does not refer to inactive status
+Ocupados sin parados:
+  en: Employed without unemployed
+Ocupados y parados:
+  en: Employed and unemployed
+Otras:
+  en: Other
+Parados sin ingresos:
+  en: Unemployed with no income
+Parados sin ocupados con pensiones:
+  en: Unemployed without employed with pensions
+Parados sin ocupados, con prestaciones por desempleo:
+  en: Unemployed not in employment, with unemployment benefits
+Parados sin ocupados, con prestaciones y pensiones:
+  en: Unemployed without jobs, with benefits and pensions
+Pareja con hijos:
+  en: Couple with children
+Pareja con hijos y otros:
+  en: Couple with children and others
+Pareja sin hijos:
+  en: Childless couple
+Pareja sin hijos + otros:
+  en: Couple without children + others
+"Percibiendo pensi\xF3n distinta a jubilaci\xF3n":
+  en: Receiving a pension other than a retirement pension
+"Percibiendo una pensi\xF3n de jubilaci\xF3n":
+  en: Receiving a retirement pension
 Provincia sin especificar:
   en: Province not specified
-  es: Provincia sin especificar
-Puestos de trabajo asalariados:
-  en: Salaried jobs
-  es: Puestos de trabajo asalariados
-Puestos de trabajo no asalariados:
-  en: Non-salaried jobs
-  es: Puestos de trabajo no asalariados
-Puestos de trabajo totales:
-  en: Total jobs
-  es: Puestos de trabajo totales
-"Regi\xF3n de Murcia":
-  en: Region of Murcia
-  es: "Regi\xF3n de Murcia"
-Reino Unido:
-  en: United Kingdom
-  es: Reino Unido
-"Relaci\xF3n con la actividad":
-  en: Relationship with the activity
-"Remuneraci\xF3n de asalariados":
-  en: Compensation of employees
-  es: "Remuneraci\xF3n de asalariados"
-"Remuneraci\xF3n media":
-  en: Average compensation
-  es: "Remuneraci\xF3n media"
-Remunerados eventuales:
-  en: Temporary salaried employees
-  es: Remunerados eventuales
-Remunerados eventuales hombres:
-  en: Male casual salaried employees
-  es: Remunerados eventuales hombres
-Remunerados eventuales mujeres:
-  en: Female casual salaried employees
-  es: Remunerados eventuales mujeres
-Remunerados fijos:
-  en: Fixed salaried employees
-  es: Remunerados fijos
-Remunerados fijos hombres:
-  en: Permanent salaried men
-  es: Remunerados fijos hombres
-Remunerados fijos mujeres:
-  en: Women with fixed salaries
-  es: Remunerados fijos mujeres
-"Rep\xFAblica Checa":
-  en: Czech Republic
-  es: "Rep\xFAblica Checa"
-"Rep\xFAblica de Corea":
-  en: Republic of Korea
-  es: "Rep\xFAblica de Corea"
-Residencia de los viajeros:
-  en: Residence of travelers
-  es: Residencia de los viajeros
-Resto Europa:
-  en: Rest of Europe
-  es: Resto Europa
-"Resto Pa\xEDses Africanos":
-  en: Rest of African Countries
-  es: "Resto Pa\xEDses Africanos"
-Resto UE:
-  en: Rest of EU
-  es: Resto UE
-"Resto de Am\xE9rica":
-  en: Rest of the Americas
-  es: "Resto de Am\xE9rica"
-Resto de Asia:
-  en: Rest of Asia
-  es: Resto de Asia
-Resto de CCAA:
-  en: Rest of Autonomous Communities
-  es: Resto de CCAA
-"Resto de Espa\xF1a":
-  en: Rest of Spain
-  es: "Resto de Espa\xF1a"
-Resto de activos potenciales:
-  en: Remaining potential assets
-Resto de ocupados:
-  en: Other employed persons
-Resto del mundo:
-  en: Rest of the world
-  es: Resto del mundo
-"Ruman\xEDa":
-  en: Romania
-  es: "Ruman\xEDa"
-Rusia:
-  en: Russia
-  es: Rusia
-"S. OTROS SERVICIOS (EXCEPTO DIVISI\xD3N 94 CNAE 2009)":
-  en: "S. OTROS SERVICIOS (EXCEPTO DIVISI\xD3N 94 CNAE 2009)"
-  es: "S. OTROS SERVICIOS (EXCEPTO DIVISI\xD3N 94 CNAE 2009)"
-"SA1. CNAE 05, 06, 07, 08, 09, 19. Industrias extractivas y del petr\xF3leo":
-  en: SA1. CNAE 05, 06, 07, 08, 09, 19. Mining, quarrying and petroleum industries.
-  es: "SA1. CNAE 05, 06, 07, 08, 09, 19. Industrias extractivas y del petr\xF3leo"
-SA10. CNAE 24. Metalurgia:
-  en: SA10. CNAE 24. Metallurgy
-  es: SA10. CNAE 24. Metalurgia
-"SA11. CNAE 25. Fabricaci\xF3n de productos met\xE1licos, excepto maquinaria y equipo":
-  en: SA11. Manufacture of fabricated metal products, except machinery and equipment.
-  es: "SA11. CNAE 25. Fabricaci\xF3n de productos met\xE1licos, excepto maquinaria\
-    \ y equipo"
-"SA12. CNAE 26, 27. Material y equipo el\xE9ctrico, electr\xF3nico y \xF3ptico":
-  en: HS12. CNAE 26, 27. Electrical, electronic and optical material and equipment.
-  es: "SA12. CNAE 26, 27. Material y equipo el\xE9ctrico, electr\xF3nico y \xF3ptico"
-"SA13. CNAE 28. Maquinaria y equipo mec\xE1nico":
-  en: SA13. CNAE 28. Machinery and mechanical equipment
-  es: "SA13. CNAE 28. Maquinaria y equipo mec\xE1nico"
-"SA14. CNAE 29. Veh\xEDculos de motor":
-  en: SA14. CNAE 29. Motor vehicles
-  es: "SA14. CNAE 29. Veh\xEDculos de motor"
-"SA15. CNAE 30. Material de transporte, excepto veh\xEDculos de motor":
-  en: SA15. Transport equipment, except motor vehicles.
-  es: "SA15. CNAE 30. Material de transporte, excepto veh\xEDculos de motor"
-SA16. CNAE 31, 32. Industrias manufactureras diversas:
-  en: SA16. CNAE 31, 32. Miscellaneous manufacturing industries.
-  es: SA16. CNAE 31, 32. Industrias manufactureras diversas
-"SA17. CNAE 33. Reparaci\xF3n e instalaci\xF3n de maquinaria y equipo":
-  en: SA17. Repair and installation of machinery and equipment.
-  es: "SA17. CNAE 33. Reparaci\xF3n e instalaci\xF3n de maquinaria y equipo"
-SA18. CNAE 35. Suministro de electricidad y gas:
-  en: SA18. Electricity and gas supply.
-  es: SA18. CNAE 35. Suministro de electricidad y gas
-SA19. CNAE 36, 37, 38, 39. Agua y residuos:
-  en: SA19. CNAE 36, 37, 38, 39. Water and waste.
-  es: SA19. CNAE 36, 37, 38, 39. Agua y residuos
-"SA2. CNAE 10. Alimentaci\xF3n":
-  en: SA2. CNAE 10. Food
-  es: "SA2. CNAE 10. Alimentaci\xF3n"
-SA3. CNAE 11, 12. Bebidas y tabaco:
-  en: SA3. CNAE 11, 12. Beverages and tobacco.
-  es: SA3. CNAE 11, 12. Bebidas y tabaco
-"SA4. CNAE 13, 14, 15. Textil, confecci\xF3n, cuero y calzado":
-  en: SA4. CNAE 13, 14, 15. Textile, clothing, leather and footwear.
-  es: "SA4. CNAE 13, 14, 15. Textil, confecci\xF3n, cuero y calzado"
-SA5. CNAE 16. Madera y corcho:
-  en: SA5. CNAE 16. Wood and cork
-  es: SA5. CNAE 16. Madera y corcho
-"SA6. CNAE 17, 18. Papel y artes gr\xE1ficas":
-  en: SA6. CNAE 17, 18. Paper and graphic arts.
-  es: "SA6. CNAE 17, 18. Papel y artes gr\xE1ficas"
-"SA7. CNAE 20, 21. Industria qu\xEDmica, Industria farmac\xE9utica":
-  en: SA7. CNAE 20, 21. Chemical industry, Pharmaceutical industry.
-  es: "SA7. CNAE 20, 21. Industria qu\xEDmica, Industria farmac\xE9utica"
-"SA8. CNAE 22. Caucho y materias pl\xE1sticas":
-  en: SA8. CNAE 22. Rubber and plastic materials.
-  es: "SA8. CNAE 22. Caucho y materias pl\xE1sticas"
-"SA9. CNAE 23. Productos minerales no met\xE1licos diversos":
-  en: SA9. CNAE 23. Miscellaneous non-metallic mineral products.
-  es: "SA9. CNAE 23. Productos minerales no met\xE1licos diversos"
-"SE1. CNAE 05, 06, 09, 19. Extracci\xF3n de antracita y hulla, Industrias del petr\xF3leo y gas natural":
-  en: SE1. CNAE 05, 06, 09, 19. Extraction of anthracite and hard coal, petroleum
-    and natural gas industries.
-  es: "SE1. CNAE 05, 06, 09, 19. Extracci\xF3n de antracita y hulla, Industrias del\
-    \ petr\xF3leo y gas natural"
-"SE10. CNAE 10.81, 10.82, 10.83. Az\xFAcar, caf\xE9, te e infusiones y productos de confiter\xEDa":
-  en: SE10. CNAE 10.81, 10.82, 10.83. Sugar, coffee, tea and tea infusions and confectionery
-    products.
-  es: "SE10. CNAE 10.81, 10.82, 10.83. Az\xFAcar, caf\xE9, te e infusiones y productos\
-    \ de confiter\xEDa"
-SE11. CNAE 10.84,10.85,10.86,10.89. Otros productos alimenticios:
-  en: SE11. CNAE 10.84,10.85,10.86,10.89. Other food products
-  es: SE11. CNAE 10.84,10.85,10.86,10.89. Otros productos alimenticios
-SE12. CNAE 10.9. Comida para animales:
-  en: SE12. CNAE 10.9. Animal feed.
-  es: SE12. CNAE 10.9. Comida para animales
-"SE13. CNAE 11.01, 11.02, 11.03, 11.04, 11.05, 11.06. Fabricaci\xF3n de bebidas":
-  en: SE13. CNAE 11.01, 11.02, 11.03, 11.04, 11.05, 11.06. Manufacture of beverages
-  es: "SE13. CNAE 11.01, 11.02, 11.03, 11.04, 11.05, 11.06. Fabricaci\xF3n de bebidas"
-"SE14. CNAE 11.07. Producci\xF3n de aguas embotelladas y bebidas aromatizadas \xF3 azucaradas":
-  en: SE14. CNAE 11.07. Production of bottled waters and flavored or sweetened beverages.
-  es: "SE14. CNAE 11.07. Producci\xF3n de aguas embotelladas y bebidas aromatizadas\
-    \ \xF3 azucaradas"
-SE15. CNAE 12. Industria del tabaco:
-  en: SE15. CNAE 12. Tobacco industry.
-  es: SE15. CNAE 12. Industria del tabaco
-"SE16. CNAE 13.1.Preparaci\xF3n e hilado de fibras textiles":
-  en: SE16. CNAE 13.1.Preparation and spinning of textile fibers.
-  es: "SE16. CNAE 13.1.Preparaci\xF3n e hilado de fibras textiles"
-"SE17. CNAE 13.2. Fabricaci\xF3n de tejidos textiles":
-  en: SE17. CNAE 13.2. Manufacture of textile fabrics.
-  es: "SE17. CNAE 13.2. Fabricaci\xF3n de tejidos textiles"
-SE18. CNAE 13.3. Acabado de textiles:
-  en: SE18. NACE 13.3. Textile finishing
-  es: SE18. CNAE 13.3. Acabado de textiles
-"SE19. CNAE 13.91, 13.92. Fabricaci\xF3n de tejidos de punto y productos a partir de textiles, excepto prendas de vestir":
-  en: SE19. CNAE 13.91, 13.92. Manufacture of knitted and crocheted fabrics and products
-    made from textile fabrics, except apparel.
-  es: "SE19. CNAE 13.91, 13.92. Fabricaci\xF3n de tejidos de punto y productos a partir\
-    \ de textiles, excepto prendas de vestir"
-"SE2. CNAE 07, 08. Extracci\xF3n de rocas y minerales met\xE1licos":
-  en: SE2. CNAE 07, 08. Extraction of metallic rocks and ores
-  es: "SE2. CNAE 07, 08. Extracci\xF3n de rocas y minerales met\xE1licos"
-SE20. CNAE 13.93, 13.94, 13.95, 13.96, 13.99. Otras industrias textiles:
-  en: SE20. CNAE 13.93, 13.94, 13.95, 13.96, 13.99. Otras industrias textiles
-  es: SE20. CNAE 13.93, 13.94, 13.95, 13.96, 13.99. Otras industrias textiles
-"SE21. CNAE 14.1. Confecci\xF3n de prendas de vestir":
-  en: SE21. CNAE 14.1. Manufacture of garments.
-  es: "SE21. CNAE 14.1. Confecci\xF3n de prendas de vestir"
-"SE22. CNAE 14.2. Fabricaci\xF3n de art\xEDculos de peleter\xEDa":
-  en: SE22. CNAE 14.2. Manufacture of fur articles.
-  es: "SE22. CNAE 14.2. Fabricaci\xF3n de art\xEDculos de peleter\xEDa"
-"SE23. CNAE 14.3. Confecci\xF3n de prendas de vestir de punto":
-  en: SE23. CNAE 14.3. Manufacture of knitted and crocheted garments.
-  es: "SE23. CNAE 14.3. Confecci\xF3n de prendas de vestir de punto"
-"SE24. CNAE 15.1. Fabricaci\xF3n de cuero, pieles y productos elaborados con \xE9stos":
-  en: SE24. CNAE 15.1. Manufacture of leather, hides, skins and leather goods
-  es: "SE24. CNAE 15.1. Fabricaci\xF3n de cuero, pieles y productos elaborados con\
-    \ \xE9stos"
-"SE25. CNAE 15.2. Fabricaci\xF3n de calzado":
-  en: SE25. CNAE 15.2. Manufacture of footwear.
-  es: "SE25. CNAE 15.2. Fabricaci\xF3n de calzado"
-SE26. CNAE 16.10. Aserrado y cepillado de la madera:
-  en: SE26. CNAE 16.10. Sawing and planing of wood
-  es: SE26. CNAE 16.10. Aserrado y cepillado de la madera
-"SE27. CNAE 16.21. Fabricaci\xF3n de chapas, tableros y paneles de madera":
-  en: SE27. CNAE 16.21. Manufacture of veneer sheets, boards and panels.
-  es: "SE27. CNAE 16.21. Fabricaci\xF3n de chapas, tableros y paneles de madera"
-"SE28. CNAE 16.22, 16.23. Estructuras de madera y piezas de carpinter\xEDa y ebanister\xEDa para la construcci\xF3n":
-  en: SE28. CNAE 16.22, 16.23. Wooden structures and parts of carpentry and joinery
-    for construction.
-  es: "SE28. CNAE 16.22, 16.23. Estructuras de madera y piezas de carpinter\xEDa y\
-    \ ebanister\xEDa para la construcci\xF3n"
-"SE29. CNAE 16.24. Fabricaci\xF3n de envases y embalajes de madera":
-  en: SE29. CNAE 16.24. Manufacture of wooden containers and packaging
-  es: "SE29. CNAE 16.24. Fabricaci\xF3n de envases y embalajes de madera"
-"SE3. CNAE 10.1. Industria c\xE1rnica":
-  en: SE3. CNAE 10.1. Meat industry
-  es: "SE3. CNAE 10.1. Industria c\xE1rnica"
-"SE30. CNAE 16.29. Fabricaci\xF3n de art\xEDculos de corcho, cester\xEDa y esparter\xEDa y otros productos de madera":
-  en: SE30. CNAE 16.29. Manufacture of articles of cork, basketware, wickerwork, plaiting
-    materials and other wood products.
-  es: "SE30. CNAE 16.29. Fabricaci\xF3n de art\xEDculos de corcho, cester\xEDa y esparter\xED\
-    a y otros productos de madera"
-"SE31. CNAE 17.1. Fabricaci\xF3n de pasta papelera, papel y cart\xF3n":
-  en: SE31. Manufacture of pulp, paper and paperboard.
-  es: "SE31. CNAE 17.1. Fabricaci\xF3n de pasta papelera, papel y cart\xF3n"
-"SE32. CNAE 17.2. Fabricaci\xF3n de art\xEDculos de papel y cart\xF3n":
-  en: SE32. Manufacture of articles of paper and cardboard.
-  es: "SE32. CNAE 17.2. Fabricaci\xF3n de art\xEDculos de papel y cart\xF3n"
-"SE33. CNAE 18. Artes gr\xE1ficas y reproducci\xF3n de soportes grabados":
-  en: SE33. CNAE 18. Graphic arts and reproduction of recorded media.
-  es: "SE33. CNAE 18. Artes gr\xE1ficas y reproducci\xF3n de soportes grabados"
-"SE34. CNAE 20, 21 Industria qu\xEDmica, industria farmac\xE9utica":
-  en: SE34. CNAE 20, 21 Chemical industry, pharmaceutical industry.
-  es: "SE34. CNAE 20, 21 Industria qu\xEDmica, industria farmac\xE9utica"
-"SE35. CNAE 22.1. Fabricaci\xF3n de productos de caucho":
-  en: SE35. CNAE 22.1. Manufacture of rubber products.
-  es: "SE35. CNAE 22.1. Fabricaci\xF3n de productos de caucho"
-"SE36. CNAE 22.2. Fabricaci\xF3n de productos de pl\xE1stico":
-  en: SE36. CNAE 22.2. Manufacture of plastic products.
-  es: "SE36. CNAE 22.2. Fabricaci\xF3n de productos de pl\xE1stico"
-"SE37. CNAE 23.1. Fabricaci\xF3n de vidrio y productos de vidrio":
-  en: SE37. Manufacture of glass and glass products.
-  es: "SE37. CNAE 23.1. Fabricaci\xF3n de vidrio y productos de vidrio"
-"SE38. CNAE 23.2, 23.4. Fabricaci\xF3n de productos cer\xE1micos excepto los destinados a la construcci\xF3n":
-  en: SE38. CNAE 23.2, 23.4. Manufacture of ceramic products except those intended
-    for construction.
-  es: "SE38. CNAE 23.2, 23.4. Fabricaci\xF3n de productos cer\xE1micos excepto los\
-    \ destinados a la construcci\xF3n"
-"SE39. CNAE 23.3. Fabricaci\xF3n de productos cer\xE1micos para la construcci\xF3n":
-  en: SE39. CNAE 23.3. Manufacture of ceramic products for construction.
-  es: "SE39. CNAE 23.3. Fabricaci\xF3n de productos cer\xE1micos para la construcci\xF3\
-    n"
-SE4. CNAE 10.2. Industria del pescado:
-  en: SE4. CNAE 10.2. Industria del pescado
-  es: SE4. CNAE 10.2. Industria del pescado
-"SE40. CNAE 23.5. Fabricaci\xF3n de cemento, cal y yeso":
-  en: SE40. CNAE 23.5. Manufacture of cement, lime and plaster.
-  es: "SE40. CNAE 23.5. Fabricaci\xF3n de cemento, cal y yeso"
-"SE41. CNAE 23.6. Fabricaci\xF3n de elementos de hormig\xF3n, cemento y yeso":
-  en: SE41. CNAE 23.6. Manufacture of concrete, cement and plaster elements.
-  es: "SE41. CNAE 23.6. Fabricaci\xF3n de elementos de hormig\xF3n, cemento y yeso"
-SE42. CNAE 23.7. Corte, tallado y acabado de la piedra:
-  en: SE42. CNAE 23.7. Cutting, shaping and finishing of stone.
-  es: SE42. CNAE 23.7. Corte, tallado y acabado de la piedra
-"SE43. CNAE 23.9. Fabricaci\xF3n de productos abrasivos y productos minerales no met\xE1licos n.c.o.p.":
-  en: SE43. CNAE 23.9. Manufacture of abrasives and non-metallic mineral products
-    n.e.c.
-  es: "SE43. CNAE 23.9. Fabricaci\xF3n de productos abrasivos y productos minerales\
-    \ no met\xE1licos n.c.o.p."
-"SE44. CNAE 24.1. Fabricaci\xF3n de productos b\xE1sicos de hierro, acero y ferroaleaciones":
-  en: SE44. Manufacture of basic iron, steel and ferroalloy products.
-  es: "SE44. CNAE 24.1. Fabricaci\xF3n de productos b\xE1sicos de hierro, acero y\
-    \ ferroaleaciones"
-"SE45. CNAE 24.2. Fabricaci\xF3n de tubos, tuber\xEDas, perfiles huecos y sus accesorios, de acero":
-  en: SE45. Manufacture of tubes, pipes, hollow sections and accessories thereof,
-    of steel.
-  es: "SE45. CNAE 24.2. Fabricaci\xF3n de tubos, tuber\xEDas, perfiles huecos y sus\
-    \ accesorios, de acero"
-"SE46. CNAE 24.3. Fabricaci\xF3n de otros productos de primera transformaci\xF3n del acero":
-  en: SE46. CNAE 24.3. Manufacture of other products of first transformation of steel.
-  es: "SE46. CNAE 24.3. Fabricaci\xF3n de otros productos de primera transformaci\xF3\
-    n del acero"
-"SE47. CNAE 24.4. Producci\xF3n de metales preciosos y de otros metales no f\xE9rreos":
-  en: SE47. CNAE 24.4. Production of precious metals and other non-ferrous metals.
-  es: "SE47. CNAE 24.4. Producci\xF3n de metales preciosos y de otros metales no f\xE9\
-    rreos"
-"SE48. CNAE 24.5. Fundici\xF3n de metales":
-  en: SE48. CNAE 24.5. Foundry of metals.
-  es: "SE48. CNAE 24.5. Fundici\xF3n de metales"
-"SE49. CNAE 25.11. Fabricaci\xF3n de estructuras met\xE1licas y sus componentes":
-  en: SE49. CNAE 25.11. Manufacture of metal structures and components thereof.
-  es: "SE49. CNAE 25.11. Fabricaci\xF3n de estructuras met\xE1licas y sus componentes"
-"SE5. CNAE 10.3. Preparaci\xF3n y conservaci\xF3n de frutas y hortalizas":
-  en: Preparation and preservation of fruits and vegetables.
-  es: "SE5. CNAE 10.3. Preparaci\xF3n y conservaci\xF3n de frutas y hortalizas"
-"SE50. CNAE 25.12. Fabricaci\xF3n de carpinter\xEDa met\xE1lica":
-  en: SE50. CNAE 25.12. Manufacture of metal carpentry and joinery.
-  es: "SE50. CNAE 25.12. Fabricaci\xF3n de carpinter\xEDa met\xE1lica"
-"SE51. CNAE 25.2. Fabricaci\xF3n de cisternas, grandes dep\xF3sitos y contenedores de metal":
-  en: SE51. CNAE 25.2. Manufacture of tanks, large tanks and metal containers.
-  es: "SE51. CNAE 25.2. Fabricaci\xF3n de cisternas, grandes dep\xF3sitos y contenedores\
-    \ de metal"
-"SE52. CNAE 25.3. Fabricaci\xF3n de generadores de vapor, excepto calderas de calefacci\xF3n central":
-  en: SE52. CNAE 25.3. Manufacture of steam generators, except central heating boilers.
-  es: "SE52. CNAE 25.3. Fabricaci\xF3n de generadores de vapor, excepto calderas de\
-    \ calefacci\xF3n central"
-"SE53. CNAE 25.4. Fabricaci\xF3n de armas y municiones":
-  en: SE53. Manufacture of arms and ammunition.
-  es: "SE53. CNAE 25.4. Fabricaci\xF3n de armas y municiones"
-"SE54. CNAE 25.5. Forja, estampaci\xF3n y embutici\xF3n de metales; metalurgia de polvos":
-  en: SE54. Forging, stamping and pressing of metals; powder metallurgy.
-  es: "SE54. CNAE 25.5. Forja, estampaci\xF3n y embutici\xF3n de metales; metalurgia\
-    \ de polvos"
-SE55. CNAE 25.61. Tratamiento y revestimiento de metales:
-  en: SE55. CNAE 25.61. Treatment and coating of metals
-  es: SE55. CNAE 25.61. Tratamiento y revestimiento de metales
-"SE56. CNAE 25.62. Ingenier\xEDa mec\xE1nica por cuenta de terceros":
-  en: SE56. CNAE 25.62. Mechanical engineering on behalf of others
-  es: "SE56. CNAE 25.62. Ingenier\xEDa mec\xE1nica por cuenta de terceros"
-"SE57. CNAE 25.7.Fabricaci\xF3n de art\xEDculos de cuchiller\xEDa y cuberter\xEDa, herramientas y ferreter\xEDa":
-  en: SE57. CNAE 25.7.Manufacture of cutlery, tools and hardware.
-  es: "SE57. CNAE 25.7.Fabricaci\xF3n de art\xEDculos de cuchiller\xEDa y cuberter\xED\
-    a, herramientas y ferreter\xEDa"
-"SE58. CNAE 25.9. Fabricaci\xF3n de otros productos met\xE1licos":
-  en: SE58. CNAE 25.9. Manufacture of other metal products
-  es: "SE58. CNAE 25.9. Fabricaci\xF3n de otros productos met\xE1licos"
-"SE59. CNAE 26.1. Fabricaci\xF3n de componentes electr\xF3nicos y circuitos impresos ensamblados":
-  en: SE59. Manufacture of electronic components and assembled printed circuits.
-  es: "SE59. CNAE 26.1. Fabricaci\xF3n de componentes electr\xF3nicos y circuitos\
-    \ impresos ensamblados"
-SE6. CNAE 10.4. Aceites y grasas:
-  en: SE6. CNAE 10.4. Oils and fats
-  es: SE6. CNAE 10.4. Aceites y grasas
-"SE60. CNAE 26.2. Fabricaci\xF3n de ordenadores y equipos perif\xE9ricos":
-  en: SE60. CNAE 26.2. Manufacture of computers and peripheral equipment
-  es: "SE60. CNAE 26.2. Fabricaci\xF3n de ordenadores y equipos perif\xE9ricos"
-"SE61. CNAE 26.3. Fabricaci\xF3n de equipos de telecomunicaciones":
-  en: SE61. CNAE 26.3. Manufacture of telecommunications equipment
-  es: "SE61. CNAE 26.3. Fabricaci\xF3n de equipos de telecomunicaciones"
-"SE62. CNAE 26.4. Fabricaci\xF3n de productos electr\xF3nicos de consumo":
-  en: SE62. CNAE 26.4. Manufacture of consumer electronic products
-  es: "SE62. CNAE 26.4. Fabricaci\xF3n de productos electr\xF3nicos de consumo"
-"SE63. CNAE 26.5. Fabricaci\xF3n de instrumentos y aparatos de medida, verificaci\xF3n y navegaci\xF3n; fabricaci\xF3n de relojes":
-  en: SE63. CNAE 26.5. Manufacture of measuring, checking and navigating instruments
-    and apparatus; manufacture of clocks and watches.
-  es: "SE63. CNAE 26.5. Fabricaci\xF3n de instrumentos y aparatos de medida, verificaci\xF3\
-    n y navegaci\xF3n; fabricaci\xF3n de relojes"
-? "SE64. CNAE 26.6, 26.7, 26.8. Equipos de radiaci\xF3n y electrom\xE9dicos, instrumentos\
-  \ de \xF3ptica y fotogr\xE1ficos; soportes magn\xE9ticos y \xF3pticos"
-: en: SE64. CNAE 26.6, 26.7, 26.8. Radiation and electromedical equipment, optical
-    and photographic instruments; magnetic and optical media.
-  es: "SE64. CNAE 26.6, 26.7, 26.8. Equipos de radiaci\xF3n y electrom\xE9dicos, instrumentos\
-    \ de \xF3ptica y fotogr\xE1ficos; soportes magn\xE9ticos y \xF3pticos"
-? "SE65. CNAE 27.1. Fabricaci\xF3n de motores, generadores y transformadores el\xE9\
-  ctricos, y de aparatos de distribuci\xF3n y control el\xE9ctrico"
-: en: SE65. Manufacture of electric motors, generators and transformers, and of electrical
-    distribution and control apparatus.
-  es: "SE65. CNAE 27.1. Fabricaci\xF3n de motores, generadores y transformadores el\xE9\
-    ctricos, y de aparatos de distribuci\xF3n y control el\xE9ctrico"
-"SE66. CNAE 27.3.Fabricaci\xF3n de cables y dispositivos de cableado":
-  en: SE66. CNAE 27.3.Manufacture of cables and wiring devices.
-  es: "SE66. CNAE 27.3.Fabricaci\xF3n de cables y dispositivos de cableado"
-"SE67. CNAE 27.4.Fabricaci\xF3n de l\xE1mparas y aparatos el\xE9ctricos de iluminaci\xF3n":
-  en: SE67. CNAE 27.4.Manufacture of lamps and electric lighting equipment.
-  es: "SE67. CNAE 27.4.Fabricaci\xF3n de l\xE1mparas y aparatos el\xE9ctricos de iluminaci\xF3\
-    n"
-"SE68. CNAE 27.5. Fabricaci\xF3n de aparatos dom\xE9sticos":
-  en: SE68. CNAE 27.5. Manufacture of household appliances
-  es: "SE68. CNAE 27.5. Fabricaci\xF3n de aparatos dom\xE9sticos"
-"SE69. CNAE 27.2, 27.9. Fabricaci\xF3n de pilas y acumuladores y otro material y equipo el\xE9ctrico":
-  en: SE69. CNAE 27.2, 27.9. Manufacture of batteries and accumulators and other electrical
-    material and equipment.
-  es: "SE69. CNAE 27.2, 27.9. Fabricaci\xF3n de pilas y acumuladores y otro material\
-    \ y equipo el\xE9ctrico"
-"SE7. CNAE 10.5. Productos l\xE1cteos":
-  en: SE7. CNAE 10.5. Dairy products
-  es: "SE7. CNAE 10.5. Productos l\xE1cteos"
-"SE70. CNAE 28.1. Fabricaci\xF3n de maquinaria de uso general":
-  en: SE70. CNAE 28.1. Manufacture of general-purpose machinery.
-  es: "SE70. CNAE 28.1. Fabricaci\xF3n de maquinaria de uso general"
-"SE71. CNAE 28.2. Fabricaci\xF3n de otra maquinaria de uso general":
-  en: SE71. Manufacture of other general-purpose machinery.
-  es: "SE71. CNAE 28.2. Fabricaci\xF3n de otra maquinaria de uso general"
-"SE72. CNAE 28.3. Fabricaci\xF3n de maquinaria agraria y forestal":
-  en: SE72. Manufacture of agricultural and forestry machinery.
-  es: "SE72. CNAE 28.3. Fabricaci\xF3n de maquinaria agraria y forestal"
-"SE73. CNAE 28.4. Fabricaci\xF3n de m\xE1quinas-herramienta":
-  en: SE73. CNAE 28.4. Manufacture of machine tools.
-  es: "SE73. CNAE 28.4. Fabricaci\xF3n de m\xE1quinas-herramienta"
-"SE74. CNAE 28.9. Fabricaci\xF3n de otra maquinaria para usos espec\xEDficos":
-  en: SE74. CNAE 28.9. Manufacture of other special purpose machinery
-  es: "SE74. CNAE 28.9. Fabricaci\xF3n de otra maquinaria para usos espec\xEDficos"
-"SE75. CNAE 29.1. Fabricaci\xF3n de veh\xEDculos de motor":
-  en: SE75. CNAE 29.1. Manufacture of motor vehicles.
-  es: "SE75. CNAE 29.1. Fabricaci\xF3n de veh\xEDculos de motor"
-"SE76. CNAE 29.2. Fabricaci\xF3n de carrocer\xEDas para veh\xEDculos de motor y de remolques y semirremolques":
-  en: SE76. CNAE 29.2. Manufacture of bodies for motor vehicles and of trailers and
-    semi-trailers.
-  es: "SE76. CNAE 29.2. Fabricaci\xF3n de carrocer\xEDas para veh\xEDculos de motor\
-    \ y de remolques y semirremolques"
-"SE77. CNAE 29.3.Fabricaci\xF3n de componentes, piezas y accesorios para veh\xEDculos de motor":
-  en: SE77. Manufacture of components, parts and accessories for motor vehicles.
-  es: "SE77. CNAE 29.3.Fabricaci\xF3n de componentes, piezas y accesorios para veh\xED\
-    culos de motor"
-"SE78. CNAE 30.1. Construcci\xF3n naval":
-  en: SE78. CNAE 30.1. Shipbuilding
-  es: "SE78. CNAE 30.1. Construcci\xF3n naval"
-"SE79. CNAE 30.2. Fabricaci\xF3n de locomotoras y material ferroviario":
-  en: SE79. CNAE 30.2. Manufacture of locomotives and railway material.
-  es: "SE79. CNAE 30.2. Fabricaci\xF3n de locomotoras y material ferroviario"
-"SE8. CNAE 10.6. Moliner\xEDas, almidones y productos amil\xE1ceos":
-  en: SE8. CNAE 10.6. Mills, starches and starch products
-  es: "SE8. CNAE 10.6. Moliner\xEDas, almidones y productos amil\xE1ceos"
-"SE80. CNAE 30.3, 30.4. Construcci\xF3n aerona\xFAtica y espacial y de veh\xEDculos militares de combate":
-  en: SE80. CNAE 30.3, 30.4. Construction of aircraft, space and military combat vehicles.
-  es: "SE80. CNAE 30.3, 30.4. Construcci\xF3n aerona\xFAtica y espacial y de veh\xED\
-    culos militares de combate"
-"SE81. CNAE 30.9. Fabricaci\xF3n de otro material de transporte n.c.o.p.":
-  en: SE81. CNAE 30.9. Manufacture of other transport equipment n.e.c.
-  es: "SE81. CNAE 30.9. Fabricaci\xF3n de otro material de transporte n.c.o.p."
-"SE82. CNAE 31. Fabricaci\xF3n de muebles":
-  en: SE82. Manufacture of furniture
-  es: "SE82. CNAE 31. Fabricaci\xF3n de muebles"
-"SE83. CNAE 32.1. Fabricaci\xF3n de art\xEDculos de joyer\xEDa, bisuter\xEDa y similares":
-  en: SE83. CNAE 32.1. Manufacture of jewelry, imitation jewelry and similar articles.
-  es: "SE83. CNAE 32.1. Fabricaci\xF3n de art\xEDculos de joyer\xEDa, bisuter\xED\
-    a y similares"
-"SE84. CNAE 32.3, 32.4. Fabricaci\xF3n de art\xEDculos de deporte, juegos y juguetes":
-  en: SE84. CNAE 32.3, 32.4. Manufacture of sporting goods, games and toys.
-  es: "SE84. CNAE 32.3, 32.4. Fabricaci\xF3n de art\xEDculos de deporte, juegos y\
-    \ juguetes"
-"SE85. CNAE 32.5. Fabricaci\xF3n de instrumentos y suministros m\xE9dicos y odontol\xF3gicos":
-  en: SE85. CNAE 32.5. Manufacture of medical and dental instruments and supplies.
-  es: "SE85. CNAE 32.5. Fabricaci\xF3n de instrumentos y suministros m\xE9dicos y\
-    \ odontol\xF3gicos"
-"SE86. CNAE 32.2, 32.9. Fabricaci\xF3n de instrumentos musicales Otras industrias manufactureras diversas":
-  en: SE86. CNAE 32.2, 32.9. Manufacture of musical instruments Other miscellaneous
-    manufacturing industries.
-  es: "SE86. CNAE 32.2, 32.9. Fabricaci\xF3n de instrumentos musicales Otras industrias\
-    \ manufactureras diversas"
-"SE87. CNAE 33.1. Reparaci\xF3n de productos met\xE1licos, maquinaria y equipo":
-  en: SE87. CNAE 33.1. Repair of metal products, machinery and equipment
-  es: "SE87. CNAE 33.1. Reparaci\xF3n de productos met\xE1licos, maquinaria y equipo"
-"SE88. CNAE 33.2. Instalaci\xF3n de m\xE1quinas y equipos industriales":
-  en: SE88. CNAE 33.2. Installation of industrial machinery and equipment.
-  es: "SE88. CNAE 33.2. Instalaci\xF3n de m\xE1quinas y equipos industriales"
-"SE89. CNAE 35.1. Producci\xF3n, transporte y distribuci\xF3n de energ\xEDa el\xE9ctrica":
-  en: SE89. CNAE 35.1. Production, transmission and distribution of electric power.
-  es: "SE89. CNAE 35.1. Producci\xF3n, transporte y distribuci\xF3n de energ\xEDa\
-    \ el\xE9ctrica"
-"SE9. CNAE 10.7. Panader\xEDa y pastas alimenticias":
-  en: SE9. CNAE 10.7. Bakery and pasta products
-  es: "SE9. CNAE 10.7. Panader\xEDa y pastas alimenticias"
-"SE90. CNAE 35.2, 35.3. Producci\xF3n y distribuci\xF3n de gas, vapor y aire acondicionado":
-  en: SE90. CNAE 35.2, 35.3. Production and distribution of gas, steam and air conditioning.
-  es: "SE90. CNAE 35.2, 35.3. Producci\xF3n y distribuci\xF3n de gas, vapor y aire\
-    \ acondicionado"
-"SE91. CNAE 36. Captaci\xF3n, depuraci\xF3n y distribuci\xF3n de agua":
-  en: SE91. CNAE 36. Water collection, purification and distribution.
-  es: "SE91. CNAE 36. Captaci\xF3n, depuraci\xF3n y distribuci\xF3n de agua"
-"SE92. CNAE 37, 38, 39. Actividades de saneamiento, gesti\xF3n de residuos y descontaminaci\xF3n":
-  en: SE92. CNAE 37, 38, 39. Sanitation, waste management and decontamination activities.
-  es: "SE92. CNAE 37, 38, 39. Actividades de saneamiento, gesti\xF3n de residuos y\
-    \ descontaminaci\xF3n"
-SM fusionadas:
-  en: SM merged
-  es: SM fusionadas
-SM presentan concurso de acreedores:
-  en: SM files for bankruptcy protection
-  es: SM presentan concurso de acreedores
-SM transformadas:
-  en: SM transformed
-  es: SM transformadas
-Salario medio:
-  en: Average salary
-  es: Salario medio
-San Marino:
-  en: San Marino
-  es: San Marino
-Santa Sede:
-  en: Santa Sede
-  es: Santa Sede
-Separaciones:
-  en: Separations
-  es: Separaciones
-Separado/a:
-  en: Separated
-  es: Separado/a
-Separado/a o divorciado/a:
-  en: Separated or divorced
-  es: Separado/a o divorciado/a
-Serbia:
-  en: Serbia
-  es: Serbia
+"Realiz\xF3 trabajos sin remuneraci\xF3n":
+  en: Performed unpaid work
+"Realiz\xF3 trabajos sin remuneraci\xF3n, otras":
+  en: Performed unpaid work, other
 Sevilla:
   en: Seville
-  es: Sevilla
-Sexo:
-  en: Sex
-  es: Sexo
-Sexo c2:
-  en: Sex c2
-  es: Sexo c2
-"Sexo c\xF3nyuge 1":
-  en: Sex spouse 1
-  es: "Sexo c\xF3nyuge 1"
-Sociedades constituidas:
-  en: Incorporated companies
-  es: Sociedades constituidas
-Sociedades disueltas:
-  en: Dissolved companies
-  es: Sociedades disueltas
-Sociedades extinguidas:
-  en: Dissolved companies
-  es: Sociedades extinguidas
-"Sociedades que ampl\xEDan capital":
-  en: Companies increasing capital
-  es: "Sociedades que ampl\xEDan capital"
-Sociedades que desembolsan dividendos:
-  en: Companies that pay dividends
-  es: Sociedades que desembolsan dividendos
-"Sociedades que realizan escisi\xF3n":
-  en: Companies spinning off
-  es: "Sociedades que realizan escisi\xF3n"
-Sociedades que reducen capital:
-  en: Companies that reduce capital
-  es: Sociedades que reducen capital
-Soltero/a:
-  en: Soltero/a
-  es: Soltero/a
-"Sud\xE1frica":
-  en: South Africa
-  es: "Sud\xE1frica"
-Suecia:
-  en: Sweden
-  es: Suecia
-Sueldos y salarios:
-  en: Wages and salaries
-  es: Sueldos y salarios
-Suiza:
-  en: Switzerland
-  es: Suiza
+"Sin mujer menor de 50 a\xF1os":
+  en: No woman under 50
+"Sin n\xFAcleo":
+  en: Core-less
+"Situaci\xF3n de inactividad 1":
+  en: Inactive status 1
 TOTAL:
   en: TOTAL
-  es: TOTAL
-TOTAL SECTOR INDUSTRIAL:
-  en: TOTAL SECTOR INDUSTRIAL
-  es: TOTAL SECTOR INDUSTRIAL
-TOTAL SECTOR SERVICIOS:
-  en: TOTAL SERVICES SECTOR
-  es: TOTAL SECTOR SERVICIOS
-"Tama\xF1o medio de los establecimientos":
-  en: Average size of establishments
-  es: "Tama\xF1o medio de los establecimientos"
-"Tasa bruta de explotaci\xF3n":
-  en: Gross operating rate
-  es: "Tasa bruta de explotaci\xF3n"
-Tasa de asalariados:
-  en: Rate of salaried employees
-  es: Tasa de asalariados
-Tasa de empleo femenino asalariado:
-  en: Female salaried employment rate
-  es: Tasa de empleo femenino asalariado
-"Tasa de participaci\xF3n femenina":
-  en: Female participation rate
-  es: "Tasa de participaci\xF3n femenina"
-Tasa de remunerados:
-  en: Rate of remunerated employees
-  es: Tasa de remunerados
-"Tasa de valor a\xF1adido":
-  en: Value-added rate
-  es: "Tasa de valor a\xF1adido"
-"Tasa de variaci\xF3n interanual":
-  en: Year-on-year rate of change
-  es: "Tasa de variaci\xF3n interanual"
-Tasa estabilidad de empleo:
-  en: Employment stability rate
-  es: Tasa estabilidad de empleo
-Tasa gasto de personal:
-  en: Personnel expense rate
-  es: Tasa gasto de personal
-Tasa interanual. IVE:
-  en: Year-on-year rate. IVE
-  es: Tasa interanual. IVE
-Tasa interanual. Precio corriente:
-  en: Year-on-year rate. Current price
-  es: Tasa interanual. Precio corriente
-Territorio:
-  en: Territory
-  es: Territorio
-"Territorio planificaci\xF3n (Pa\xEDses)":
-  en: Planning territory (Countries)
-  es: "Territorio planificaci\xF3n (Pa\xEDses)"
-Tipo alojamiento ECTA:
-  en: Type of accommodation ECTA
-  es: Tipo alojamiento ECTA
-Tipo de alojamiento:
-  en: Type of accommodation
-  es: Tipo de alojamiento
-Tipo de establecimiento:
-  en: Type of establishment
-  es: Tipo de establecimiento
-Tipo de matrimonio:
-  en: Type of marriage
-  es: Tipo de matrimonio
-Total:
-  en: Total
-  es: Total
-Total Edad:
-  en: Total Age
-  es: Total Edad
-Total Estado civil:
-  en: Total Marital status
-  es: Total Estado civil
-Total no remunerados:
-  en: Total unpaid
-  es: Total no remunerados
-Total no remunerados hombres:
-  en: Total unpaid men
-  es: Total no remunerados hombres
-Total no remunerados mujeres:
-  en: Total unpaid women
-  es: Total no remunerados mujeres
-Total remunerados:
-  en: Total paid
-  es: Total remunerados
-Total ventas al por mayor y al por menor:
-  en: Total wholesale and retail sales
-  es: Total ventas al por mayor y al por menor
-Trabajos otras empresas:
-  en: Work for other companies
-  es: Trabajos otras empresas
-Trabajos realizados por la empresa para su activo:
-  en: Work performed by the company for its assets
-  es: Trabajos realizados por la empresa para su activo
-Turistas:
-  en: Turistas
-  es: Turistas
-"Turqu\xEDa":
-  en: Turkey
-  es: "Turqu\xEDa"
-Ucrania:
-  en: Ukraine
-  es: Ucrania
-"Unidades locales en Andaluc\xEDa":
-  en: Local units in Andalusia
-  es: "Unidades locales en Andaluc\xEDa"
-"Uni\xF3n Europea":
-  en: European Union
-  es: "Uni\xF3n Europea"
-"Uni\xF3n Europea 27 (desde 2020)":
-  en: European Union 27 (from 2020)
-  es: "Uni\xF3n Europea 27 (desde 2020)"
-"Uni\xF3n Europea 28 (2013-2020)":
-  en: European Union 28 (2013-2020)
-  es: "Uni\xF3n Europea 28 (2013-2020)"
-"Uno de los c\xF3nyuges extranjero":
-  en: One of the spouses is a foreigner
-  es: "Uno de los c\xF3nyuges extranjero"
-Valor:
-  en: Value
-  es: Valor
-"Valor A\xF1adido Bruto a precios b\xE1sicos. IVE":
-  en: Gross Value Added at basic prices. IVE
-  es: "Valor A\xF1adido Bruto a precios b\xE1sicos. IVE"
-"Valor A\xF1adido Bruto a precios b\xE1sicos. Valor":
-  en: Gross Value Added at basic prices. Value
-  es: "Valor A\xF1adido Bruto a precios b\xE1sicos. Valor"
-"Valor A\xF1adido Bruto a precios de mercado":
-  en: Gross Value Added at market prices
-  es: "Valor A\xF1adido Bruto a precios de mercado"
-"Valor A\xF1adido Bruto al coste de los factores":
-  en: Gross value added at factor cost
-  es: "Valor A\xF1adido Bruto al coste de los factores"
-"Valor de la producci\xF3n":
-  en: Production value
-  es: "Valor de la producci\xF3n"
-"Variaci\xF3n anual":
-  en: Annual change
-  es: "Variaci\xF3n anual"
-"Variaci\xF3n de existencias de mercader\xEDas":
-  en: Variation in merchandise inventories
-  es: "Variaci\xF3n de existencias de mercader\xEDas"
-"Variaci\xF3n de existencias de productos terminados y en curso":
-  en: Changes in inventories of finished goods and work in progress
-  es: "Variaci\xF3n de existencias de productos terminados y en curso"
-"Variaci\xF3n mensual":
-  en: Monthly variation
-  es: "Variaci\xF3n mensual"
-Viajeros:
-  en: Travelers
-  es: Viajeros
-Viudo/a:
-  en: Viudo
-  es: Viudo/a
-Volumen de negocio:
-  en: Turnover
-  es: Volumen de negocio
-Volumen de negocio por otros conceptos:
-  en: Turnover from other items
-  es: Volumen de negocio por otros conceptos
-Yugoslavia:
-  en: Yugoslavia
-  es: Yugoslavia
-Zona Euro 19 (desde 2015):
-  en: Euro Zone 19 (since 2015)
-  es: Zona Euro 19 (desde 2015)
-"c1 espa\xF1ol y c2 extranjero":
-  en: c1 spanish and c2 foreign
-  es: "c1 espa\xF1ol y c2 extranjero"
-"c1 extranjero y c2 espa\xF1ol":
-  en: c1 foreign and c2 spanish
-  es: "c1 extranjero y c2 espa\xF1ol"
-c1 extranjero, nacionalidad del c2 desconocida:
-  en: c1 foreign, nationality of c2 unknown
-  es: c1 extranjero, nacionalidad del c2 desconocida
-c2 extranjero, nacionalidad del c1 desconocida:
-  en: c2 foreign, nationality of c1 unknown
-  es: c2 extranjero, nacionalidad del c1 desconocida
-"\xCDndice":
-  en: Index
-  es: "\xCDndice"
-"\xCDndice de volumen encadenado":
-  en: Chained volume index
-  es: "\xCDndice de volumen encadenado"
+"Tipolog\u0102\xADa de la actividad del hogar":
+  en: Typology of household activity
+Unipersonales:
+  en: Unipersonal

@@ -62,6 +62,16 @@ CUSTODIA:
   concept: none
   concept_scheme: none
   tipo: dimension
+DISTRIBUCION_MNP:
+  codelist:
+    agency: ESC01
+    id: CL_DISTRIBUCION_MNP
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    id: CS_DEMOGRAFIA
+    version: '1.0'
+  tipo: dimension
 DURACMATRIM:
   codelist:
     agency: ESC01
@@ -226,6 +236,16 @@ MACROECO:
     id: CS_EMPLEO
     version: '1.0'
   tipo: dimension
+MULTIPLICIDAD_SEXO:
+  codelist:
+    agency: ESC01
+    id: CL_MULTIPLICIDAD_SEXO
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    id: CS_DEMOGRAFIA
+    version: '1.0'
+  tipo: dimension
 NACIONACONYUGES:
   codelist:
     agency: ESC01
@@ -238,6 +258,16 @@ NUMHIJOSMENORED:
   codelist:
     agency: ESC01
     id: CL_NUMHIJOSMENORED
+REL_RESIDENANT:
+  codelist:
+    agency: ESC01
+    id: CL_REL_RESIDENANT
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    id: CS_DEMOGRAFIA
+    version: '1.0'
+  tipo: dimension
 SEXO:
   codelist:
     agency: ESC01
