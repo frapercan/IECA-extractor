@@ -1,19 +1,3 @@
-ACTIV_EST:
-  codelist:
-    agency: ESC01
-    id: CL_ACTIV_EST
-    version: 1.0
-  concept: none
-  concept_scheme: CS_TURISMO
-  tipo: dimension
-CAT_HOTELES:
-  codelist:
-    agency: ESC01
-    id: CL_CAT_HOTELES
-    version: 1.0
-  concept: None
-  concept_scheme: none
-  tipo: dimension
 CNAE09:
   codelist:
     agency: ESC01
@@ -21,18 +5,13 @@ CNAE09:
     version: '1.0'
   concept_scheme:
     agency: ESC01
+    concepto: CNAE09
     id: CS_TRABAJO
     version: '1.0'
-  tipo: dimension
-CNAE_O9_CRA_NEW:
-  codelist:
-    agency: ESC01
-    id: CL_CNAE_O9_CRA_NEW
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    id: CS_EMPLEO
-    version: '1.0'
+  descripcion:
+    es: Actividad
+  nombre:
+    es: CNAE09
   tipo: dimension
 CNED2014:
   codelist:
@@ -41,8 +20,13 @@ CNED2014:
     version: '1.0'
   concept_scheme:
     agency: ESC01
+    concepto: CNED2014
     id: CS_TRABAJO
     version: '1.0'
+  descripcion:
+    es: "Nivel de formaci\xC3\xB3n"
+  nombre:
+    es: CNED2014
   tipo: dimension
 CNO11:
   codelist:
@@ -51,60 +35,28 @@ CNO11:
     version: '1.0'
   concept_scheme:
     agency: ESC01
+    concepto: CNO11
     id: CS_TRABAJO
     version: '1.0'
-  tipo: dimension
-CUSTODIA:
-  codelist:
-    agency: ESC01
-    id: CL_CUSTODIA
-    version: 1.0
-  concept: none
-  concept_scheme: none
-  tipo: dimension
-DISTRIBUCION_MNP:
-  codelist:
-    agency: ESC01
-    id: CL_DISTRIBUCION_MNP
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    id: CS_DEMOGRAFIA
-    version: '1.0'
-  tipo: dimension
-DURACMATRIM:
-  codelist:
-    agency: ESC01
-    id: CL_DURACMATRIM
-    version: 1.0
-  concept: none
-  concept_scheme: none
-  tipo: dimension
-ECOICOP:
-  codelist:
-    agency: ESC01
-    id: CL_ECOICOP
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    id: CS_SIN DEFINIR
-    version: '1.0'
+  descripcion:
+    es: "Ocupaci\xC3\xB3n"
+  nombre:
+    es: CNO11
   tipo: dimension
 EDAD:
   codelist:
     agency: ESC01
     id: CL_EDAD
-    version: 1.0
-  concept: none
-  concept_scheme: none
-  tipo: dimension
-EDADC2:
-  codelist:
-    agency: ESC01
-    id: CL_EDAD
-    version: 1.0
-  concept: none
-  concept_scheme: none
+    version: '1.0'
+  concept_scheme:
+    agency: SDMX
+    concepto: AGE
+    id: CROSS_DOMAIN_CONCEPTS
+    version: '2.0'
+  descripcion:
+    es: Edad
+  nombre:
+    es: EDAD
   tipo: dimension
 EPA_CLASEINACTIV:
   codelist:
@@ -113,8 +65,13 @@ EPA_CLASEINACTIV:
     version: '1.0'
   concept_scheme:
     agency: ESC01
+    concepto: EPA_CLASEINACTIV
     id: CS_TRABAJO
     version: '1.0'
+  descripcion:
+    es: "Situaci\xC3\xB3n de inactividad 1"
+  nombre:
+    es: EPA_CLASEINACTIV
   tipo: dimension
 EPA_ESTRUCHOGAR:
   codelist:
@@ -123,8 +80,13 @@ EPA_ESTRUCHOGAR:
     version: '1.0'
   concept_scheme:
     agency: ESC01
+    concepto: EPA_ESTRUCHOGAR
     id: CS_TRABAJO
     version: '1.0'
+  descripcion:
+    es: Estructura del hogar
+  nombre:
+    es: EPA_ESTRUCHOGAR
   tipo: dimension
 EPA_NACIONALIDAD:
   codelist:
@@ -133,8 +95,13 @@ EPA_NACIONALIDAD:
     version: '1.0'
   concept_scheme:
     agency: ESC01
+    concepto: EPA_NACIONALIDAD
     id: CS_TRABAJO
     version: '1.0'
+  descripcion:
+    es: Nacionalidad
+  nombre:
+    es: EPA_NACIONALIDAD
   tipo: dimension
 EPA_NIVEL:
   codelist:
@@ -143,8 +110,13 @@ EPA_NIVEL:
     version: '1.0'
   concept_scheme:
     agency: ESC01
+    concepto: EPA_NIVEL
     id: CS_TRABAJO
     version: '1.0'
+  descripcion:
+    es: Nivel
+  nombre:
+    es: EPA_NIVEL
   tipo: dimension
 EPA_RELACTIVIDAD:
   codelist:
@@ -153,8 +125,13 @@ EPA_RELACTIVIDAD:
     version: '1.0'
   concept_scheme:
     agency: ESC01
+    concepto: EPA_RELACTIVIDAD
     id: CS_TRABAJO
     version: '1.0'
+  descripcion:
+    es: "Relaci\xF3n con la actividad"
+  nombre:
+    es: EPA_RELACTIVIDAD
   tipo: dimension
 EPA_TIPACTIVIDADHOGAR:
   codelist:
@@ -163,120 +140,28 @@ EPA_TIPACTIVIDADHOGAR:
     version: '1.0'
   concept_scheme:
     agency: ESC01
+    concepto: EPA_TIPACTIVIDADHOGAR
     id: CS_TRABAJO
     version: '1.0'
-  tipo: dimension
-ESTADOCIVIL:
-  codelist:
-    agency: ESC01
-    id: CL_CIVIL_STATUS
-    version: 1.0
-  concept: none
-  concept_scheme: none
-  tipo: dimension
-ESTADOCIVILC2:
-  codelist:
-    agency: ESC01
-    id: CL_CIVIL_STATUS
-    version: 1.0
-  concept: none
-  concept_scheme: none
-  tipo: dimension
-ESTADO_DATO:
-  codelist: null
-  concept: none
-  concept_scheme: none
-  tipo: atributo
-FREQ:
-  codelist:
-    agency: ESTAT
-    id: CL_FREQ
-    version: 5.0
-  concept: FREQ
-  concept_scheme: urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=SDMX:CROSS_DOMAIN_CONCEPTS(2.0)
-  descarga: blob:https://webgate.ec.europa.eu/02907586-51af-4830-a89e-dc6d86654631
-  descripcion: Frecuencia
-  tipo: Frequency
-INDICATOR:
-  codelist:
-    agency: ESC01
-    id: CL_INDICATOR
-    version: 1.0
-  concept: INDICATOR
-  concept_scheme: urn:sdmx:org.sdmx.infomodel.conceptscheme.ConceptScheme=SDMX:CROSS_DOMAIN_CONCEPTS(2.0)
-  descripcion: Indicadores
-  tipo: Dimension
-IPC_GRUPOSESPECIALES:
-  codelist:
-    agency: ESC01
-    id: CL_IPC_GRUPOSESPECIALES
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    id: CS_SIN DEFINIR
-    version: '1.0'
-  tipo: dimension
-IPC_RUBRICAS:
-  codelist:
-    agency: ESC01
-    id: CL_IPC_RUBRICAS
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    id: CS_SIN DEFINIR
-    version: '1.0'
-  tipo: dimension
-MACROECO:
-  codelist:
-    agency: ESC01
-    id: CL_MACROECO
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    id: CS_EMPLEO
-    version: '1.0'
-  tipo: dimension
-MULTIPLICIDAD_SEXO:
-  codelist:
-    agency: ESC01
-    id: CL_MULTIPLICIDAD_SEXO
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    id: CS_DEMOGRAFIA
-    version: '1.0'
-  tipo: dimension
-NACIONACONYUGES:
-  codelist:
-    agency: ESC01
-    id: CL_NACIONACONYUGES
-    version: 1.0
-  concept: none
-  concept_scheme: none
-  tipo: dimension
-NUMHIJOSMENORED:
-  codelist:
-    agency: ESC01
-    id: CL_NUMHIJOSMENORED
-REL_RESIDENANT:
-  codelist:
-    agency: ESC01
-    id: CL_REL_RESIDENANT
-    version: '1.0'
-  concept_scheme:
-    agency: ESC01
-    id: CS_DEMOGRAFIA
-    version: '1.0'
+  descripcion:
+    es: "Tipolog\xC3\xADa de la actividad del hogar"
+  nombre:
+    es: EPA_TIPACTIVIDADHOGAR
   tipo: dimension
 SEXO:
   codelist:
-    agency: ESC01
-    id: CL_SEXO
-    version: '1.0'
+    agency: SDMX
+    id: CL_SEX
+    version: '2.1'
   concept_scheme:
-    agency: ESC01
-    id: CS_TRABAJO
-    version: '1.0'
+    agency: SDMX
+    concepto: SEX
+    id: CROSS_DOMAIN_CONCEPTS
+    version: '2.0'
+  descripcion:
+    es: Sexo
+  nombre:
+    es: SEXO
   tipo: dimension
 TEMPORAL:
   codelist:
@@ -284,9 +169,14 @@ TEMPORAL:
     id: CL_TEMPORAL
     version: '1.0'
   concept_scheme:
-    agency: ESC01
-    id: CS_TRABAJO
-    version: '1.0'
+    agency: SDMX
+    concepto: TIME_PERIOD
+    id: CROSS_DOMAIN_CONCEPTS
+    version: '2.0'
+  descripcion:
+    es: Anual
+  nombre:
+    es: TEMPORAL
   tipo: dimension
 TERRITORIO:
   codelist:
@@ -294,7 +184,12 @@ TERRITORIO:
     id: CL_TERRITORIO
     version: '1.0'
   concept_scheme:
-    agency: ESC01
-    id: CS_TRABAJO
-    version: '1.0'
+    agency: SDMX
+    concepto: REF_AREA
+    id: CROSS_DOMAIN_CONCEPTS
+    version: '2.0'
+  descripcion:
+    es: Territorio
+  nombre:
+    es: TERRITORIO
   tipo: dimension

@@ -43,6 +43,7 @@ dimensiones_a_mapear:
   - CL_INDICATOR
   - INDICATOR
   - D_ECOICOP_0
+  - ECOICOP
   - D_TERRITORIO_0
   - TERRITORIO
   - D_ESTADOCIVIL_0

@@ -44,6 +44,7 @@ class Jerarquia:
         self.configuracion_global = configuracion_global
         self.actividad = actividad
         self.metadatos = jerarquia
+        print(self.metadatos)
         self.id_jerarquia = self.metadatos["alias"] + '-' + self.metadatos['cod']
         self.categoria = categoria
         self.logger = logging.getLogger(f'{self.__class__.__name__} [{self.id_jerarquia}]')
@@ -152,13 +153,15 @@ class Jerarquia:
     def añadir_mapa_concepto_codelist(self):
         with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'r') as file:
             mapa_conceptos_codelists = yaml.load(file, Loader=yaml.FullLoader)
-            if self.nombre not in mapa_conceptos_codelists:
-                print(self.nombre)
+            if not mapa_conceptos_codelists or self.nombre not in mapa_conceptos_codelists:
                 mapa_conceptos_codelists[self.nombre] = {'tipo': 'dimension', 'concept_scheme': {'agency': 'ESC01',
                                                                                                  'id': 'CS_' + self.categoria,
-                                                                                                 'version': '1.0'},
+                                                                                                 'version': '1.0',
+                                                                                                 'concepto': self.nombre},
                                                          'codelist': {'agency': 'ESC01', 'id': 'CL_' + self.nombre,
-                                                                      'version': '1.0'}}
+                                                                      'version': '1.0'},
+                                                         'nombre': {'es': self.nombre},
+                                                         'descripcion': {'es': self.metadatos['des']}}
                 print(mapa_conceptos_codelists[self.nombre])
             file.close()
             with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'w') as file:

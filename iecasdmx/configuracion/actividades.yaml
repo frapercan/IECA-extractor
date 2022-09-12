@@ -4,7 +4,7 @@ IPC:
     - 64208
     - 64209
   categoria:
-    SIN DEFINIR
+    ECONOMICS
 
 DSN:
   consultas:
@@ -51,6 +51,8 @@ PADRON:
     - 64749
     - 64750
     - 64751
+  categoria:
+    DEMOGRAFIA
 
 MNP:
   consultas:
@@ -120,6 +122,8 @@ DEFCAU:
     - 65724
     - 60318
     - 60318
+  categoria:
+    SIN_DEFINIR
 
 CRA:
   consultas:
@@ -237,4 +241,7 @@ EPA:
     - 14774?D_TEMPORAL_0=2014,2033,2052,2071,2090,2109,2128,2147,2166,2185,2204,2239,55498,55517,55536,180156,180175&posord=f[D_TEMPORAL_0],f[D_SEXO_0],f[D_TERRITORIO_0],c[D_EDAD_0],c[Measures]
 
   categoria:
-    TRABAJO
+    LABOUR
+  subcategoria:
+    Encuestas de Población Activa
+
