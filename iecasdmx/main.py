@@ -1,4 +1,6 @@
+import copy
 import os
+import sys
 
 import pandas as pd
 import yaml
@@ -22,6 +24,7 @@ if __name__ == "__main__":
                  encoding='utf-8') as mapa_conceptos_codelist_file, \
             open("sistema_informacion/traducciones.yaml", 'r',
                  encoding='utf-8') as traducciones:
+
         configuracion_global = yaml.safe_load(configuracion_global)
         configuracion_ejecucion = yaml.safe_load(configuracion_ejecucion)
         configuracion_actividades = yaml.safe_load(configuracion_actividades)
@@ -33,6 +36,10 @@ if __name__ == "__main__":
         agencia = configuracion_global['nodeId']
 
         controller = MDM(configuracion_global, traductor)
+        category_scheme = controller.category_schemes.data['ESC01']['IECA_CAT_EN_ES']['1.0']
+        category_scheme.init_categories()
+        print(category_scheme.categories.to_string())
+
         for nombre_actividad in configuracion_ejecucion['actividades']:
             actividad = Actividad(configuracion_global, configuracion_actividades[nombre_actividad],
                                   configuracion_plantilla_actividad, nombre_actividad)
@@ -56,6 +63,9 @@ if __name__ == "__main__":
                     agencia_concept_scheme = informacion['concept_scheme']['agency']
                     id_concept_scheme = informacion['concept_scheme']['id']
                     version_concept_scheme = informacion['concept_scheme']['version']
+                    nomre_concept_scheme_str = id_concept_scheme.replace('CS_', '')[
+                                                   0].upper() + id_concept_scheme.replace('CS_', '')[1:].lower()
+                    nombre_concept_scheme = {'es': nomre_concept_scheme_str}
 
                     concepto = informacion['concept_scheme']['concepto']
 
@@ -66,7 +76,7 @@ if __name__ == "__main__":
                     codelist.put()
 
                     controller.concept_schemes.put(agencia_concept_scheme, id_concept_scheme, version_concept_scheme,
-                                                   nombre, descripcion)
+                                                   nombre_concept_scheme, nombre_concept_scheme)
                     concept_scheme = controller.concept_schemes.data[agencia_concept_scheme][id_concept_scheme][
                         version_concept_scheme]
                     concept_scheme.init_concepts()
@@ -85,23 +95,22 @@ if __name__ == "__main__":
                                              {'es': 'Unidades de Medida (Indicadores)',
                                               'en': 'Measurement units (Indicators)'})
                     codelist_medidas = controller.codelists.data[agencia]['CL_UNIT']['1.0']
-
+                codelist_medidas.init_codes()
                 for consulta in actividad.consultas.values():
                     for medida in consulta.medidas:
                         id_medida = mapa_indicadores[mapa_indicadores['SOURCE'] == medida['des']]['TARGET'].values[0]
                         if id_medida not in codelist_medidas.codes['id']:
                             codelist_medidas.add_code(id_medida, None, medida['des'], None)
-                    codelist_medidas.put()
-
+                codelist_medidas.put()
 
             ## DSD CREACION
             id_dsd = 'DSD_' + nombre_actividad
             agencia_dsd = 'ESC01'
             version_dsd = '1.0'
-            nombre_dsd = {'es': nombre_actividad}
+            nombre_dsd = {'es': actividad.configuracion_actividad['subcategoria']}
             descripcion = None
 
-            variables = actividad.configuracion['variables']
+            variables = copy.deepcopy(actividad.configuracion['variables'])
             try:
                 variables.remove('TEMPORAL')
             except:
@@ -128,8 +137,26 @@ if __name__ == "__main__":
                 dsd = controller.dsds.data[agencia_dsd][id_dsd][version_dsd]
             except:
                 controller.dsds.put(agencia_dsd, id_dsd, version_dsd, nombre_dsd, descripcion, dimensiones)
-                dsd = controller.dsds.data[agencia_dsd][id_dsd][version_dsd]
+                dsds = controller.dsds.get(init_data=False)
+                dsd = dsds[agencia_dsd][id_dsd][version_dsd]
 
+            # Creación de categoría para la actividad
+            category_scheme.init_categories()
+            category_scheme.add_category(nombre_actividad, actividad.configuracion_actividad['categoria'],
+                                         actividad.configuracion_actividad['subcategoria'], None)
+            category_scheme.put()
 
+            # Creación del cubo para la actividad
             for consulta in actividad.consultas.values():
-                controller.cubes.put(consulta.id_consulta,consulta.configuracion_actividad['categoria'],{'es':'prueba'})
+                categories = category_scheme.categories
+                id_cube_cat = \
+                    categories[categories['id'] == nombre_actividad]['id_cube_cat'].values[0]
+                id_cubo = controller.cubes.put(consulta.id_consulta, id_cube_cat, id_dsd,
+                                               consulta.metadatos['subtitle'],
+                                               dimensiones)
+
+                variables = copy.deepcopy(actividad.configuracion['variables'])
+                mapa = copy.deepcopy(actividad.configuracion['variables'])
+                mapa = ['TIME_PERIOD' if variable == 'TEMPORAL' else variable for variable in mapa]
+
+                controller.mappings.put(variables,mapa,id_cubo,consulta.id_consulta)
