@@ -1,6 +1,7 @@
 import copy
 import os
 import sys
+import time
 
 import pandas as pd
 import yaml
@@ -36,9 +37,17 @@ if __name__ == "__main__":
         agencia = configuracion_global['nodeId']
 
         controller = MDM(configuracion_global, traductor)
+
+
+
+
         category_scheme = controller.category_schemes.data['ESC01']['IECA_CAT_EN_ES']['1.0']
-        category_scheme.init_categories()
-        print(category_scheme.categories.to_string())
+        if configuracion_global['reset_ddb']:
+            controller.ddb_reset()
+            category_scheme.import_dcs()
+            category_scheme.init_categories()
+            for _ in range(20):
+                category_scheme.set_permissions()
 
         for nombre_actividad in configuracion_ejecucion['actividades']:
             actividad = Actividad(configuracion_global, configuracion_actividades[nombre_actividad],
@@ -101,7 +110,7 @@ if __name__ == "__main__":
                         id_medida = mapa_indicadores[mapa_indicadores['SOURCE'] == medida['des']]['TARGET'].values[0]
                         if id_medida not in codelist_medidas.codes['id']:
                             codelist_medidas.add_code(id_medida, None, medida['des'], None)
-                codelist_medidas.put()
+                            codelist_medidas.put()
 
             ## DSD CREACION
             id_dsd = 'DSD_' + nombre_actividad

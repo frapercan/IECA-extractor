@@ -337,4 +337,4 @@ def crear_mapeo_por_defecto(descripcion):
                     descripcion_reducida.append(parte)
         descripcion = '_'.join(descripcion_reducida)
 
-    return descripcion.replace('%','PCT')
+    return descripcion.replace('%','PCT').replace('€','EUR').replace('(','').replace(')','')
