@@ -1,3 +1,168 @@
+AA_BASECOTIZAC:
+  codelist:
+    agency: ESC01
+    id: CL_AA_BASECOTIZAC
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: AA_BASECOTIZAC
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: "Base de cotizaci\xF3n"
+  nombre:
+    es: AA_BASECOTIZAC
+  tipo: dimension
+AA_DURACEMPREND:
+  codelist:
+    agency: ESC01
+    id: CL_AA_DURACEMPREND
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: AA_DURACEMPREND
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: "Duraci\xF3n del emprendimiento"
+  nombre:
+    es: AA_DURACEMPREND
+  tipo: dimension
+AA_MULTIVARIABL:
+  codelist:
+    agency: ESC01
+    id: CL_AA_MULTIVARIABL
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: AA_MULTIVARIABL
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Multivariable
+  nombre:
+    es: AA_MULTIVARIABL
+  tipo: dimension
+AA_SITPREVULTEM:
+  codelist:
+    agency: ESC01
+    id: CL_AA_SITPREVULTEM
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: AA_SITPREVULTEM
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: "Situaci\xF3n previa al inicio del \xFAltimo emprendimiento"
+  nombre:
+    es: AA_SITPREVULTEM
+  tipo: dimension
+AA_TERRITORIOIN:
+  codelist:
+    agency: ESC01
+    id: CL_AA_TERRITORIOIN
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: AA_TERRITORIOIN
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Territorio
+  nombre:
+    es: AA_TERRITORIOIN
+  tipo: dimension
+AA_TERRITROIO:
+  codelist:
+    agency: ESC01
+    id: CL_AA_TERRITROIO
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: AA_TERRITROIO
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Territorio
+  nombre:
+    es: AA_TERRITROIO
+  tipo: dimension
+AA_TIPOCOTIZACA:
+  codelist:
+    agency: ESC01
+    id: CL_AA_TIPOCOTIZACA
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: AA_TIPOCOTIZACA
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: "Tipo de cotizaciones tenidas en el a\xF1o"
+  nombre:
+    es: AA_TIPOCOTIZACA
+  tipo: dimension
+AA_TIPODEHOGAR:
+  codelist:
+    agency: ESC01
+    id: CL_AA_TIPODEHOGAR
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: AA_TIPODEHOGAR
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Tipo de hogar
+  nombre:
+    es: AA_TIPODEHOGAR
+  tipo: dimension
+AA_TIPOMOVIMIEN:
+  codelist:
+    agency: ESC01
+    id: CL_AA_TIPOMOVIMIEN
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: AA_TIPOMOVIMIEN
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Tipo de movimiento
+  nombre:
+    es: AA_TIPOMOVIMIEN
+  tipo: dimension
+AA_TIPOULTIEMPR:
+  codelist:
+    agency: ESC01
+    id: CL_AA_TIPOULTIEMPR
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: AA_TIPOULTIEMPR
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: "Tipolog\xEDa del \xFAltimo emprendimiento"
+  nombre:
+    es: AA_TIPOULTIEMPR
+  tipo: dimension
+ANOCELEBRMATRIM:
+  codelist:
+    agency: ESC01
+    id: CL_ANOCELEBRMATRIM
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: ANOCELEBRMATRIM
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: "A\xF1os"
+  nombre:
+    es: ANOCELEBRMATRIM
+  tipo: dimension
 CNAE09:
   codelist:
     agency: ESC01
@@ -147,6 +312,96 @@ EPA_TIPACTIVIDADHOGAR:
     es: "Tipolog\xC3\xADa de la actividad del hogar"
   nombre:
     es: EPA_TIPACTIVIDADHOGAR
+  tipo: dimension
+MCVLS_VARIABLE:
+  codelist:
+    agency: ESC01
+    id: CL_MCVLS_VARIABLE
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MCVLS_VARIABLE
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Variable
+  nombre:
+    es: MCVLS_VARIABLE
+  tipo: dimension
+MCVL_MONEDAD:
+  codelist:
+    agency: ESC01
+    id: CL_MCVL_MONEDAD
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MCVL_MONEDAD
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Edad
+  nombre:
+    es: MCVL_MONEDAD
+  tipo: dimension
+MCVL_MONSALARIO:
+  codelist:
+    agency: ESC01
+    id: CL_MCVL_MONSALARIO
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MCVL_MONSALARIO
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Salario
+  nombre:
+    es: MCVL_MONSALARIO
+  tipo: dimension
+MCVL_SECTORACTIVIDAD:
+  codelist:
+    agency: ESC01
+    id: CL_MCVL_SECTORACTIVIDAD
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MCVL_SECTORACTIVIDAD
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Sector de actividad
+  nombre:
+    es: MCVL_SECTORACTIVIDAD
+  tipo: dimension
+MES:
+  codelist:
+    agency: ESC01
+    id: CL_MES
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MES
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Mes
+  nombre:
+    es: MES
+  tipo: dimension
+NACIONALIDAD:
+  codelist:
+    agency: ESC01
+    id: CL_NACIONALIDAD
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: NACIONALIDAD
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Nacionalidad
+  nombre:
+    es: NACIONALIDAD
   tipo: dimension
 SEXO:
   codelist:

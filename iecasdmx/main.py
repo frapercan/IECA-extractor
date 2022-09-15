@@ -46,8 +46,8 @@ if __name__ == "__main__":
             controller.ddb_reset()
             category_scheme.import_dcs()
             category_scheme.init_categories()
-            for _ in range(20):
-                category_scheme.set_permissions()
+            category_scheme.set_permissions()
+
 
         for nombre_actividad in configuracion_ejecucion['actividades']:
             actividad = Actividad(configuracion_global, configuracion_actividades[nombre_actividad],
@@ -110,7 +110,7 @@ if __name__ == "__main__":
                         id_medida = mapa_indicadores[mapa_indicadores['SOURCE'] == medida['des']]['TARGET'].values[0]
                         if id_medida not in codelist_medidas.codes['id']:
                             codelist_medidas.add_code(id_medida, None, medida['des'], None)
-                            codelist_medidas.put()
+                    codelist_medidas.put()
 
             ## DSD CREACION
             id_dsd = 'DSD_' + nombre_actividad

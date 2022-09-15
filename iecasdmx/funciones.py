@@ -84,3 +84,14 @@ def montar_medidas(directorio_mapas_dimensiones):
                                columns=[['ID', 'NAME', 'DESCRIPTION', 'PARENTCODE', 'ORDER']], dtype='string')
 
     return indicadores
+
+import unicodedata
+
+def strip_accents(text):
+
+    text = unicodedata.normalize('NFD', text)\
+           .encode('ascii', 'ignore')\
+           .decode("utf-8")
+
+    return str(text)
+

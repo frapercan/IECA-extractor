@@ -158,12 +158,9 @@ Inactivos,,,INACTIVOS
 Asalariados,,,ASALARIADOS
 Tasa de salarización,,,TASA_SALA
 Parados,,,PARADOS
-Número de autónomos,,,NÚME_AUTÓ
-Número de movimientos,,,NÚME_MOVI
-Supervivientes,,,SUPERVIVIENTES
 Asalariados (Personas),,,ASAL_PER
 Salario medio (€),,,SALA_MEDI_EUR
 Primer cuartil (€),,,PRIM_CUAR_EUR
 Segundo cuartil (€),,,SEGU_CUAR_EUR
 Tercer cuartil (€),,,TERC_CUAR_EUR
-Desviación típica (€),,,DESV_TÍPI_EUR
+Desviación típica (€),,,DESV_TIPI_EUR

@@ -6,6 +6,8 @@ import pandas as pd
 import logging
 import numpy as np
 
+from iecasdmx.funciones import strip_accents
+
 fmt = '[%(asctime)-15s] [%(levelname)s] %(name)s: %(message)s'
 logging.basicConfig(format=fmt, level=logging.INFO, stream=sys.stdout)
 
@@ -337,4 +339,4 @@ def crear_mapeo_por_defecto(descripcion):
                     descripcion_reducida.append(parte)
         descripcion = '_'.join(descripcion_reducida)
 
-    return descripcion.replace('%','PCT').replace('€','EUR').replace('(','').replace(')','')
+    return strip_accents(descripcion.replace('%','PCT').replace('€','EUR').replace('(','').replace(')',''))
