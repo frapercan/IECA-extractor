@@ -10,6 +10,7 @@ acciones_datos:
   borrar_filas:
     - OBS_VALUE: ''
     - OBS_VALUE: '-'
+    - OBS_VALUE: '*'
 
   guardar_datos#2: procesados
 acciones_actividad_completa:

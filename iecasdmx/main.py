@@ -38,16 +38,9 @@ if __name__ == "__main__":
 
         controller = MDM(configuracion_global, traductor)
 
-
-
-
         category_scheme = controller.category_schemes.data['ESC01']['IECA_CAT_EN_ES']['1.0']
         if configuracion_global['reset_ddb']:
-            controller.ddb_reset()
-            category_scheme.import_dcs()
-            category_scheme.init_categories()
-            category_scheme.set_permissions()
-
+            controller.delete_all('ESC01', 'IECA_CAT_EN_ES', '1.0')
 
         for nombre_actividad in configuracion_ejecucion['actividades']:
             actividad = Actividad(configuracion_global, configuracion_actividades[nombre_actividad],
@@ -157,10 +150,12 @@ if __name__ == "__main__":
 
             # Creación del cubo para la actividad
             for consulta in actividad.consultas.values():
+                cube_id = configuracion_global['nodeId'] + "_" + consulta.id_consulta
                 categories = category_scheme.categories
                 id_cube_cat = \
                     categories[categories['id'] == nombre_actividad]['id_cube_cat'].values[0]
-                id_cubo = controller.cubes.put(consulta.id_consulta, id_cube_cat, id_dsd,
+
+                id_cubo = controller.cubes.put(cube_id, id_cube_cat, id_dsd,
                                                consulta.metadatos['subtitle'],
                                                dimensiones)
 
@@ -168,4 +163,16 @@ if __name__ == "__main__":
                 mapa = copy.deepcopy(actividad.configuracion['variables'])
                 mapa = ['TIME_PERIOD' if variable == 'TEMPORAL' else variable for variable in mapa]
 
-                controller.mappings.put(variables,mapa,id_cubo,consulta.id_consulta)
+                mapping_id = controller.mappings.put(variables, id_cubo, consulta.id_consulta)
+
+                # try:
+                    # mapping = controller.mappings.data[id_cubo].load_cube(
+                    #     consulta.datos.datos_por_observacion_extension_disjuntos)
+                # except:
+                #     controller.mappings.data = controller.mappings.get(True)
+                    # mapping = controller.mappings.data[id_cubo].load_cube(
+                    #     consulta.datos.datos_por_observacion_extension_disjuntos)
+
+                id_df = f'DF_{nombre_actividad}_{consulta.id_consulta}'
+                nombre_df = {'es': consulta.metadatos['subtitle']}
+                controller.dataflows.put(id_df, agencia, '1.0',nombre_df,None,id_cubo,dsd,category_scheme,nombre_actividad)

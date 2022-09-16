@@ -44,7 +44,6 @@ class Jerarquia:
         self.configuracion_global = configuracion_global
         self.actividad = actividad
         self.metadatos = jerarquia
-        print(self.metadatos)
         self.id_jerarquia = self.metadatos["alias"] + '-' + self.metadatos['cod']
         self.categoria = categoria
         self.logger = logging.getLogger(f'{self.__class__.__name__} [{self.id_jerarquia}]')
@@ -162,7 +161,6 @@ class Jerarquia:
                                                                       'version': '1.0'},
                                                          'nombre': {'es': self.nombre},
                                                          'descripcion': {'es': self.metadatos['des']}}
-                print(mapa_conceptos_codelists[self.nombre])
             file.close()
             with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'w') as file:
                 yaml.dump(mapa_conceptos_codelists, file)
