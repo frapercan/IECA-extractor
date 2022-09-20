@@ -77,12 +77,17 @@ if __name__ == "__main__":
                     codelist.add_codes(jerarquia.datos_sdmx)
                     codelist.put()
 
-                    controller.concept_schemes.put(agencia_concept_scheme, id_concept_scheme, version_concept_scheme,
-                                                   nombre_concept_scheme, nombre_concept_scheme)
-                    concept_scheme = controller.concept_schemes.data[agencia_concept_scheme][id_concept_scheme][
-                        version_concept_scheme]
-                    concept_scheme.init_concepts()
+                    try:
+                        concept_scheme = controller.concept_schemes.data[agencia_concept_scheme][id_concept_scheme][
+                            version_concept_scheme]
+                    except:
+                        controller.concept_schemes.put(agencia_concept_scheme, id_concept_scheme,
+                                                       version_concept_scheme,
+                                                       nombre_concept_scheme, nombre_concept_scheme)
+                        concept_scheme = controller.concept_schemes.data[agencia_concept_scheme][id_concept_scheme][
+                            version_concept_scheme]
 
+                    concept_scheme.init_concepts()
                     concept_scheme.add_concept(concepto, None, descripcion['es'], None)
                     concept_scheme.put()
                 mapa_indicadores = pd.read_csv(
@@ -165,14 +170,21 @@ if __name__ == "__main__":
 
                 mapping_id = controller.mappings.put(variables, id_cubo, consulta.id_consulta)
 
-                # try:
-                    # mapping = controller.mappings.data[id_cubo].load_cube(
-                    #     consulta.datos.datos_por_observacion_extension_disjuntos)
-                # except:
-                #     controller.mappings.data = controller.mappings.get(True)
-                    # mapping = controller.mappings.data[id_cubo].load_cube(
-                    #     consulta.datos.datos_por_observacion_extension_disjuntos)
+                try:
+                    mapping = controller.mappings.data[id_cubo].load_cube(
+                        consulta.datos.datos_por_observacion_extension_disjuntos)
+                except:
+                    controller.mappings.data = controller.mappings.get(True)
+                    mapping = controller.mappings.data[id_cubo].load_cube(
+                        consulta.datos.datos_por_observacion_extension_disjuntos)
 
                 id_df = f'DF_{nombre_actividad}_{consulta.id_consulta}'
-                nombre_df = {'es': consulta.metadatos['subtitle']}
-                controller.dataflows.put(id_df, agencia, '1.0',nombre_df,None,id_cubo,dsd,category_scheme,nombre_actividad)
+                nombre_df = {'es': consulta.metadatos['title']}
+
+                variables_df = ['ID_'+variable if variable != 'OBS_VALUE' else variable for variable in mapa] + ['ID_OBS_STATUS']
+                controller.dataflows.put(id_df, agencia, '1.0',nombre_df,None,variables_df,id_cubo,dsd,category_scheme,nombre_actividad)
+                controller.dataflows.data = controller.dataflows.get(False)
+                try:
+                    controller.dataflows.data[agencia][id_df]['1.0'].publish()
+                except:
+                    print('está publicado')

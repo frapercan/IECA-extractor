@@ -84,10 +84,16 @@ class Datos:
         except Exception as e:
             self.logger.error('Consulta sin datos - %s', self.id_consulta)
             raise e
-
+        if 'D_TIPO_EMPRESA_0' in df.columns:
+            print(df['D_TIPO_EMPRESA_0'])
         df.columns = columnas
+        print(df.columns)
+        print(columnas_medida)
+        print(columnas_jerarquia)
         df[columnas_jerarquia] = df[columnas_jerarquia].applymap(lambda x: x['cod'][-1])
 
+        print(df[columnas_medida])
+        print(len(columnas_medida),df[columnas_medida].shape)
         df[columnas_medida] = df[columnas_medida].applymap(
             lambda x: x['val'] if x['val'] != "" else x['format'])
 
@@ -104,7 +110,12 @@ class Datos:
                 df[columna] = df.merge(jerarquia.datos, how='left', left_on=columna, right_on='COD')['ID'].values
 
         self.logger.info('Datos Transformados a DataFrame Correctamente')
+        if 'D_TIPO_EMPRESA_0' in df.columns:
+            print(df['D_TIPO_EMPRESA_0'])
         return df
+
+    {'cod': ['00', '40'], 'des': 'Sector Empresas'}
+    {'cod': ['00', '40'], 'des': 'Sector Empresas'}
 
     def desacoplar_datos_por_medidas(self):
         """El formato tabular proporcionado por la API tiene una dimension para cada medida, nuestro modelado

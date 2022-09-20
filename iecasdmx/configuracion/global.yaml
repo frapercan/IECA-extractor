@@ -61,6 +61,7 @@ dimensiones_a_mapear:
   - OBS_STATUS
   - D_TIPO_ALOJAM_ECTA_0
   - D_PROCEDENCIA_ECTA_0
+  - D_TIPO_EMPRESA_0
 
 propiedades_jerarquias:
   - id

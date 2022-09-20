@@ -208,6 +208,21 @@ CNO11:
   nombre:
     es: CNO11
   tipo: dimension
+DISCIPLINA:
+  codelist:
+    agency: ESC01
+    id: CL_DISCIPLINA
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: DISCIPLINA
+    id: CS_EMPRESAS
+    version: '1.0'
+  descripcion:
+    es: "Disciplina cient\xEDfica"
+  nombre:
+    es: DISCIPLINA
+  tipo: dimension
 EDAD:
   codelist:
     agency: ESC01
@@ -313,6 +328,51 @@ EPA_TIPACTIVIDADHOGAR:
   nombre:
     es: EPA_TIPACTIVIDADHOGAR
   tipo: dimension
+EPD_TAMANOEMPRESA:
+  codelist:
+    agency: ESC01
+    id: CL_EPD_TAMANOEMPRESA
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: EPD_TAMANOEMPRESA
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: "Tama\xF1o de la empresa"
+  nombre:
+    es: EPD_TAMANOEMPRESA
+  tipo: dimension
+ESTRATO_ASALARIADOS:
+  codelist:
+    agency: ESC01
+    id: CL_ESTRATO_ASALARIADOS
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: ESTRATO_ASALARIADOS
+    id: CS_BUSINESS_STAT
+    version: '1.0'
+  descripcion:
+    es: "Tama\xF1o de la empresa"
+  nombre:
+    es: ESTRATO_ASALARIADOS
+  tipo: dimension
+ESTUDIOS:
+  codelist:
+    agency: ESC01
+    id: CL_ESTUDIOS
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: ESTUDIOS
+    id: CS_EMPRESAS
+    version: '1.0'
+  descripcion:
+    es: Estudios
+  nombre:
+    es: ESTUDIOS
+  tipo: dimension
 MCVLS_VARIABLE:
   codelist:
     agency: ESC01
@@ -327,6 +387,66 @@ MCVLS_VARIABLE:
     es: Variable
   nombre:
     es: MCVLS_VARIABLE
+  tipo: dimension
+MCVL_CNAESECTOR:
+  codelist:
+    agency: ESC01
+    id: CL_MCVL_CNAESECTOR
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MCVL_CNAESECTOR
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Sector de actividad
+  nombre:
+    es: MCVL_CNAESECTOR
+  tipo: dimension
+MCVL_COTIZANTE:
+  codelist:
+    agency: ESC01
+    id: CL_MCVL_COTIZANTE
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MCVL_COTIZANTE
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Cotizante
+  nombre:
+    es: MCVL_COTIZANTE
+  tipo: dimension
+MCVL_DIASCOTIZANO:
+  codelist:
+    agency: ESC01
+    id: CL_MCVL_DIASCOTIZANO
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MCVL_DIASCOTIZANO
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: "D\xEDas cotizados en el a\xF1o"
+  nombre:
+    es: MCVL_DIASCOTIZANO
+  tipo: dimension
+MCVL_INTERVINGRESOS:
+  codelist:
+    agency: ESC01
+    id: CL_MCVL_INTERVINGRESOS
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MCVL_INTERVINGRESOS
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Intervalo de ingresos
+  nombre:
+    es: MCVL_INTERVINGRESOS
   tipo: dimension
 MCVL_MONEDAD:
   codelist:
@@ -358,6 +478,21 @@ MCVL_MONSALARIO:
   nombre:
     es: MCVL_MONSALARIO
   tipo: dimension
+MCVL_PENSIONISTA:
+  codelist:
+    agency: ESC01
+    id: CL_MCVL_PENSIONISTA
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MCVL_PENSIONISTA
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Pensionista
+  nombre:
+    es: MCVL_PENSIONISTA
+  tipo: dimension
 MCVL_SECTORACTIVIDAD:
   codelist:
     agency: ESC01
@@ -372,6 +507,81 @@ MCVL_SECTORACTIVIDAD:
     es: Sector de actividad
   nombre:
     es: MCVL_SECTORACTIVIDAD
+  tipo: dimension
+MCVL_TIPOCOTIZACION:
+  codelist:
+    agency: ESC01
+    id: CL_MCVL_TIPOCOTIZACION
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MCVL_TIPOCOTIZACION
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: "Tipo de cotizaci\xF3n"
+  nombre:
+    es: MCVL_TIPOCOTIZACION
+  tipo: dimension
+MCVL_TIPOHOGAR:
+  codelist:
+    agency: ESC01
+    id: CL_MCVL_TIPOHOGAR
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MCVL_TIPOHOGAR
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Tipo de hogar
+  nombre:
+    es: MCVL_TIPOHOGAR
+  tipo: dimension
+MCVL_TIPOPENSION:
+  codelist:
+    agency: ESC01
+    id: CL_MCVL_TIPOPENSION
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MCVL_TIPOPENSION
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: "Tipo de pensi\xF3n"
+  nombre:
+    es: MCVL_TIPOPENSION
+  tipo: dimension
+MCVL_TIPOPRESTACION:
+  codelist:
+    agency: ESC01
+    id: CL_MCVL_TIPOPRESTACION
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MCVL_TIPOPRESTACION
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: "Tipos de prestaci\xF3n"
+  nombre:
+    es: MCVL_TIPOPRESTACION
+  tipo: dimension
+MCVL_TIPRELACIONSS:
+  codelist:
+    agency: ESC01
+    id: CL_MCVL_TIPRELACIONSS
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MCVL_TIPRELACIONSS
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: "Tipo de relaci\xF3n con la seguridad social"
+  nombre:
+    es: MCVL_TIPRELACIONSS
   tipo: dimension
 MES:
   codelist:
@@ -402,6 +612,36 @@ NACIONALIDAD:
     es: Nacionalidad
   nombre:
     es: NACIONALIDAD
+  tipo: dimension
+NAT_GASTO:
+  codelist:
+    agency: ESC01
+    id: CL_NAT_GASTO
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: NAT_GASTO
+    id: CS_EMPRESAS
+    version: '1.0'
+  descripcion:
+    es: Naturaleza del gasto
+  nombre:
+    es: NAT_GASTO
+  tipo: dimension
+PUB_PRIV:
+  codelist:
+    agency: ESC01
+    id: CL_PUB_PRIV
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: PUB_PRIV
+    id: CS_EMPRESAS
+    version: '1.0'
+  descripcion:
+    es: PUBLICA/PRIVADA
+  nombre:
+    es: PUB_PRIV
   tipo: dimension
 SEXO:
   codelist:
@@ -447,4 +687,49 @@ TERRITORIO:
     es: Territorio
   nombre:
     es: TERRITORIO
+  tipo: dimension
+TIPO_EMPRESA:
+  codelist:
+    agency: ESC01
+    id: CL_TIPO_EMPRESA
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPO_EMPRESA
+    id: CS_EMPRESAS
+    version: '1.0'
+  descripcion:
+    es: Tipo de empresa
+  nombre:
+    es: TIPO_EMPRESA
+  tipo: dimension
+TIPO_ESTAB:
+  codelist:
+    agency: ESC01
+    id: CL_TIPO_ESTAB
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPO_ESTAB
+    id: CS_EMPRESAS
+    version: '1.0'
+  descripcion:
+    es: Tipo de establecimiento
+  nombre:
+    es: TIPO_ESTAB
+  tipo: dimension
+TIPO_PERSONAL:
+  codelist:
+    agency: ESC01
+    id: CL_TIPO_PERSONAL
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPO_PERSONAL
+    id: CS_EMPRESAS
+    version: '1.0'
+  descripcion:
+    es: Tipo de personal
+  nombre:
+    es: TIPO_PERSONAL
   tipo: dimension
