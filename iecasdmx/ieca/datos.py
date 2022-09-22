@@ -114,9 +114,6 @@ class Datos:
             print(df['D_TIPO_EMPRESA_0'])
         return df
 
-    {'cod': ['00', '40'], 'des': 'Sector Empresas'}
-    {'cod': ['00', '40'], 'des': 'Sector Empresas'}
-
     def desacoplar_datos_por_medidas(self):
         """El formato tabular proporcionado por la API tiene una dimension para cada medida, nuestro modelado
         SDMX consistirá en crear una dimension **INDICATOR** cuyo valor será la medida en sí.
@@ -348,5 +345,18 @@ def crear_mapeo_por_defecto(descripcion):
                 else:
                     descripcion_reducida.append(parte)
         descripcion = '_'.join(descripcion_reducida)
-
-    return strip_accents(descripcion.replace('%','PCT').replace('€','EUR').replace('(','').replace(')',''))
+    descripcion = descripcion.replace('%','PCT')
+    descripcion = descripcion.replace('€','EUR')
+    descripcion = descripcion.replace('(','')
+    descripcion = descripcion.replace(')','')
+    descripcion = descripcion.replace('>=','GE')
+    descripcion = descripcion.replace('>','GT')
+    descripcion = descripcion.replace('<=','LT')
+    descripcion = descripcion.replace('<','LE')
+    descripcion = descripcion.replace('/','')
+    descripcion = descripcion.replace('"','')
+    descripcion = descripcion.replace(':','')
+    descripcion = descripcion.replace(',','')
+    descripcion = descripcion.replace('+','MAS')
+    descripcion = descripcion.replace('.','')
+    return strip_accents(descripcion)

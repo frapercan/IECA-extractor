@@ -12,7 +12,6 @@ direccion_API_SDMX: http://localhost
 url_base: http://localhost/sdmx_172/ws/NODE_API/
 
 reset_ddb: False
-
 usuario_SDMX: admin
 contraseña_SDMX: ''
 nodeId: 'ESC01'
