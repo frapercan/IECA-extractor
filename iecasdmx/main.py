@@ -5,6 +5,7 @@ import time
 
 import pandas as pd
 import yaml
+from mdmpyclient.codelist.codelist import Codelist
 
 from iecasdmx.ieca.actividad import Actividad
 from mdmpyclient.mdm import MDM
@@ -36,7 +37,7 @@ if __name__ == "__main__":
 
         agencia = configuracion_global['nodeId']
 
-        controller = MDM(configuracion_global, traductor)
+        controller = MDM(configuracion_global, traductor, True)
 
         category_scheme = controller.category_schemes.data['ESC01']['IECA_CAT_EN_ES']['1.0']
         if configuracion_global['reset_ddb']:
@@ -71,25 +72,15 @@ if __name__ == "__main__":
 
                     concepto = informacion['concept_scheme']['concepto']
 
-                    controller.codelists.put(agencia_codelist, id_codelist, version_codelist, nombre, descripcion)
-                    codelist = controller.codelists.data[agencia_codelist][id_codelist][version_codelist]
-                    codelist.init_codes()
+                    codelist = controller.codelists.add_codelist(agencia_codelist, id_codelist, version_codelist,
+                                                                 nombre, descripcion)
                     codelist.add_codes(jerarquia.datos_sdmx)
-                    codelist.put()
-
-                    try:
-                        concept_scheme = controller.concept_schemes.data[agencia_concept_scheme][id_concept_scheme][
-                            version_concept_scheme]
-                    except:
-                        controller.concept_schemes.put(agencia_concept_scheme, id_concept_scheme,
-                                                       version_concept_scheme,
-                                                       nombre_concept_scheme, nombre_concept_scheme)
-                        concept_scheme = controller.concept_schemes.data[agencia_concept_scheme][id_concept_scheme][
-                            version_concept_scheme]
-
-                    concept_scheme.init_concepts()
+                    # print(jerarquia.datos_sdmx)
+                    concept_scheme = controller.concept_schemes.add_concept_scheme(agencia_concept_scheme,
+                                                                                   id_concept_scheme,
+                                                                                   version_concept_scheme,
+                                                                                   nombre_concept_scheme, None)
                     concept_scheme.add_concept(concepto, None, descripcion['es'], None)
-                    concept_scheme.put()
                 mapa_indicadores = pd.read_csv(
                     os.path.join(configuracion_global['directorio_mapas_dimensiones'], 'INDICATOR'))
 
@@ -97,19 +88,22 @@ if __name__ == "__main__":
                 try:
                     codelist_medidas = controller.codelists.data[agencia]['CL_UNIT']['1.0']
                 except:
-                    controller.codelists.put(agencia, 'CL_UNIT', '1.0', {'es': 'Unidades de Medida (Indicadores)',
-                                                                         'en': 'Measurement units (Indicators)'},
-                                             {'es': 'Unidades de Medida (Indicadores)',
-                                              'en': 'Measurement units (Indicators)'})
-                    codelist_medidas = controller.codelists.data[agencia]['CL_UNIT']['1.0']
-                codelist_medidas.init_codes()
+                    codelist_medidas = controller.codelists.add_codelist(agencia, 'CL_UNIT', '1.0',
+                                                                         {'es': 'Unidades de Medida (Indicadores)',
+                                                                          'en': 'Measurement units (Indicators)'},
+                                                                         {'es': 'Unidades de Medida (Indicadores)',
+                                                                          'en': 'Measurement units (Indicators)'})
+                # codelist_medidas.init_codes()
                 for consulta in actividad.consultas.values():
                     for medida in consulta.medidas:
                         id_medida = mapa_indicadores[mapa_indicadores['SOURCE'] == medida['des']]['TARGET'].values[0]
                         if id_medida not in codelist_medidas.codes['id']:
                             codelist_medidas.add_code(id_medida, None, medida['des'], None)
-                    codelist_medidas.put()
-
+                    # codelist_medidas.put()
+            controller.concept_schemes.put_all_concept_schemes()
+            controller.codelists.put_all_codelists()
+            controller.concept_schemes.put_all_data()
+            controller.codelists.put_all_data()
             ## DSD CREACION
             id_dsd = 'DSD_' + nombre_actividad
             agencia_dsd = 'ESC01'
@@ -181,10 +175,13 @@ if __name__ == "__main__":
                 id_df = f'DF_{nombre_actividad}_{consulta.id_consulta}'
                 nombre_df = {'es': consulta.metadatos['title']}
 
-                variables_df = ['ID_'+variable if variable != 'OBS_VALUE' else variable for variable in mapa] + ['ID_OBS_STATUS']
-                controller.dataflows.put(id_df, agencia, '1.0',nombre_df,None,variables_df,id_cubo,dsd,category_scheme,nombre_actividad)
+                variables_df = ['ID_' + variable if variable != 'OBS_VALUE' else variable for variable in mapa] + [
+                    'ID_OBS_STATUS']
+                controller.dataflows.put(id_df, agencia, '1.0', nombre_df, None, variables_df, id_cubo, dsd,
+                                         category_scheme, nombre_actividad)
                 controller.dataflows.data = controller.dataflows.get(False)
                 try:
                     controller.dataflows.data[agencia][id_df]['1.0'].publish()
                 except:
                     print('está publicado')
+        controller.logout()
