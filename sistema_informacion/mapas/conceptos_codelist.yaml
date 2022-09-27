@@ -61,32 +61,32 @@ AA_SITPREVULTEM:
 AA_TERRITORIOIN:
   codelist:
     agency: ESC01
-    id: CL_AA_TERRITORIOIN
+    id: CL_TERRITORIO
     version: '1.0'
   concept_scheme:
-    agency: ESC01
-    concepto: AA_TERRITORIOIN
-    id: CS_TRABAJO
-    version: '1.0'
+    agency: SDMX
+    concepto: REF_AREA
+    id: CROSS_DOMAIN_CONCEPTS
+    version: '2.0'
   descripcion:
     es: Territorio
   nombre:
-    es: AA_TERRITORIOIN
+    es: TERRITORIO
   tipo: dimension
 AA_TERRITROIO:
   codelist:
     agency: ESC01
-    id: CL_AA_TERRITROIO
+    id: CL_TERRITORIO
     version: '1.0'
   concept_scheme:
-    agency: ESC01
-    concepto: AA_TERRITROIO
-    id: CS_TRABAJO
-    version: '1.0'
+    agency: SDMX
+    concepto: REF_AREA
+    id: CROSS_DOMAIN_CONCEPTS
+    version: '2.0'
   descripcion:
     es: Territorio
   nombre:
-    es: AA_TERRITROIO
+    es: CL_TERRITORIO
   tipo: dimension
 AA_TIPOCOTIZACA:
   codelist:
