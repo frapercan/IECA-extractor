@@ -71,7 +71,6 @@ def mapear_id_por_dimension(df, dimension, directorio_mapas_dimensiones):
     df.dropna(subset=['ID'], inplace=True)
     df.drop_duplicates(subset=['ID'], inplace=True)
     df[df['ID'] == df['PARENTCODE']]['PARENTCODE'] = None
-
     return df
 
 

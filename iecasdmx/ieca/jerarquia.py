@@ -77,12 +77,10 @@ class Jerarquia:
                 *[recorrer_arbol_recursivamente(jerarquia['children']) for jerarquia in datos_jerarquia]))
 
         datos_jerarquia = recorrer_arbol_recursivamente(data)
-        datos_jerarquia.append(['_Z', 'No aplica', 'No aplica', 'No aplica', 'null', 'null'])
 
         jerarquia_df = pd.DataFrame(datos_jerarquia, columns=[propiedad.upper() for propiedad in propiedades_jerarquia],
                                     dtype='string')
 
-        jerarquia_df.replace('null', '', inplace=True)
         jerarquia_df.drop_duplicates('COD', keep='first', inplace=True)
         self.logger.info('Jerarquia transformada')
 
@@ -115,6 +113,10 @@ class Jerarquia:
                                                                                           self.configuracion_global[
                                                                                               'dimensiones_a_mapear'] else \
             datos[columnas_sdmx]
+        Z = pd.Series({'ID': '_Z', 'NAME': 'No aplica', 'DESCRIPTION': 'No aplica', 'PARENTCODE': None, 'ORDER': None})
+
+        self.datos_sdmx = pd.concat([self.datos_sdmx, Z.to_frame().T], ignore_index=True)
+
         datos.to_csv(f'{os.path.join(directorio_original, self.id_jerarquia)}.csv', sep=';', index=False)
         self.datos_sdmx.to_csv(f'{os.path.join(directorio_sdmx, self.id_jerarquia)}.csv', sep=';', index=False)
         self.logger.info('Jerarquia Almacenada')
