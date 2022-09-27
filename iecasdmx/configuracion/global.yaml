@@ -11,7 +11,7 @@ directorio_datos_SDMX: sistema_informacion/SDMX/datos
 direccion_API_SDMX: http://localhost
 url_base: http://localhost/sdmx_172/ws/NODE_API/
 
-reset_ddb: False
+reset_ddb: True
 usuario_SDMX: admin
 contraseña_SDMX: ''
 nodeId: 'ESC01'
@@ -61,6 +61,8 @@ dimensiones_a_mapear:
   - D_TIPO_ALOJAM_ECTA_0
   - D_PROCEDENCIA_ECTA_0
   - D_TIPO_EMPRESA_0
+  - AA_TERRITROIO
+  - AA_TERRITORIOIN
 
 propiedades_jerarquias:
   - id
