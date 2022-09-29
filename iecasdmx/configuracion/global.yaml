@@ -8,10 +8,13 @@ fichero_traducciones: sistema_informacion/traducciones.yaml
 
 directorio_datos_SDMX: sistema_informacion/SDMX/datos
 
-direccion_API_SDMX: http://192.168.56.1
-url_base: http://192.168.56.1/sdmx_172/ws/NODE_API/
 
+direccion_API_SDMX: http://localhost
+url_base: http://localhost/sdmx_172/ws/NODE_API/
+
+volcado_mdm: True
 reset_ddb: True
+
 usuario_SDMX: admin
 contraseña_SDMX: ''
 nodeId: 'ESC01'
@@ -84,8 +87,6 @@ mapeo_columnas:
   D_EPD_GRUPOSEDAD_0: EDAD
   D_SECC_CNAE09_0: SECC_CNAE09
   D_ESTADO_DATO_0: OBS_STATUS
-  D_TEMPORAL_0: TIME_PERIOD
-  TEMPORAL: TIME_PERIOD
   D_MACROMAG_CPA_0: MACROMAG_CPA
   D_CIE10_0: CIE10
   D_G102: G102
@@ -103,6 +104,8 @@ mapeo_columnas:
   D_EPD_COMPHOGACTIVIDAD_0: COMP_HOG_ACTIVIDAD
   D_EPD_AMBITOESTUDHOG_0: AMBITO_ESTUD_HOG
   D_EPD_PRESENCDISCAPAC_0: PRESENC_DISCAPAC
+  AA_TERRITROIO: TERRITORIO
+  AA_TERRITORIOIN: TERRITORIO
 
 medidas_reemplazando_obs_status:
   - estado Apoyo gubernamental IyD agricola

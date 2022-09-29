@@ -36,11 +36,14 @@ class Datos:
 
     """
 
-    def __init__(self, id_consulta, configuracion_global, actividad, periodicidad, datos, jerarquias,
+    def __init__(self, id_consulta, configuracion_global,mapa_conceptos_codelist, actividad, periodicidad, datos, jerarquias,
                  medidas):
         self.id_consulta = id_consulta
         self.configuracion_global = configuracion_global
+        self.mapa_conceptos_codelist = mapa_conceptos_codelist
+
         self.actividad = actividad
+
         self.periodicidad = periodicidad
         self.jerarquias = jerarquias
         self.medidas = medidas
@@ -84,15 +87,10 @@ class Datos:
         except Exception as e:
             self.logger.error('Consulta sin datos - %s', self.id_consulta)
             raise e
-        if 'D_TIPO_EMPRESA_0' in df.columns:
-            print(df['D_TIPO_EMPRESA_0'])
         df.columns = columnas
-        print(df.columns)
-        print(columnas_medida)
-        print(columnas_jerarquia)
+
         df[columnas_jerarquia] = df[columnas_jerarquia].applymap(lambda x: x['cod'][-1], na_action='ignore')
-        print(df[columnas_medida])
-        print(len(columnas_medida), df[columnas_medida].shape)
+        
         df[columnas_medida] = df[columnas_medida].applymap(
             lambda x: x['val'] if x['val'] != "" else x['format'], na_action='ignore')
 
@@ -109,8 +107,6 @@ class Datos:
 
 
         self.logger.info('Datos Transformados a DataFrame Correctamente')
-        if 'D_TIPO_EMPRESA_0' in df.columns:
-            print(df['D_TIPO_EMPRESA_0'])
         return df
 
     def desacoplar_datos_por_medidas(self):
@@ -281,9 +277,10 @@ class Datos:
          """
         mapeo_columnas = self.configuracion_global['mapeo_columnas']
         columnas = self.datos_por_observacion.columns
-        # columnas = [mapeo_columnas[columna] if columna in mapeo_columnas.keys() else columna for columna in columnas]
-        columnas = [columna[2:] if columna[:2] == 'D_' else columna for columna in columnas]
-        columnas = [columna[:-2] if columna[-2:] == '_0' else columna for columna in columnas]
+        
+        columnas = [columna[2:] if columna[:2] == 'D_' else columna for columna in columnas ]
+        columnas = [columna[:-2] if columna[-2:] == '_0' else columna for columna in columnas ]
+        columnas = [mapeo_columnas[columna] if columna in mapeo_columnas.keys() else columna for columna in columnas]
 
         self.datos_por_observacion.columns = columnas
 

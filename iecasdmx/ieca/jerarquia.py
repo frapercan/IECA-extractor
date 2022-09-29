@@ -161,8 +161,8 @@ class Jerarquia:
                                                                                                  'concepto': self.nombre},
                                                          'codelist': {'agency': 'ESC01', 'id': 'CL_' + self.nombre,
                                                                       'version': '1.0'},
-                                                         'nombre': {'es': self.nombre},
+                                                         'nombre': {'es': self.metadatos['des'].decode('utf-8')},
                                                          'descripcion': {'es': self.metadatos['des']}}
             file.close()
-            with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'w') as file:
-                yaml.dump(mapa_conceptos_codelists, file)
+            with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'w', encoding='utf-8') as file:
+                yaml.dump(mapa_conceptos_codelists, file,encoding='utf-8')
