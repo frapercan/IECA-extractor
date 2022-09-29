@@ -80,6 +80,7 @@ class Jerarquia:
 
         jerarquia_df = pd.DataFrame(datos_jerarquia, columns=[propiedad.upper() for propiedad in propiedades_jerarquia],
                                     dtype='string')
+        jerarquia_df = jerarquia_df.replace(to_replace='null', value='')
         jerarquia_df.drop_duplicates('COD', keep='first', inplace=True)
         self.logger.info('Jerarquia transformada')
 

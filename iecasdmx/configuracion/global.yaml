@@ -8,8 +8,8 @@ fichero_traducciones: sistema_informacion/traducciones.yaml
 
 directorio_datos_SDMX: sistema_informacion/SDMX/datos
 
-direccion_API_SDMX: http://192.168.1.123
-url_base: http://192.168.1.123/sdmx_172/ws/NODE_API/
+direccion_API_SDMX: http://192.168.56.1
+url_base: http://192.168.56.1/sdmx_172/ws/NODE_API/
 
 reset_ddb: True
 usuario_SDMX: admin

@@ -18,9 +18,9 @@ actividades:
   #  - ECTA
   #  - EEE
 #  - EPA
-#  - AUTONOMOS
+  - AUTONOMOS
 #    - SALARIOS
-  - MCVL
+#  - MCVL
 #  - EMPRESASIMD
 #  - USO_TIC
 
