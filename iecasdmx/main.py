@@ -54,7 +54,6 @@ if __name__ == "__main__":
                 # Conversión de Jerarquia a Codelist y Esquemas de conceptos
                 for consulta in actividad.consultas.values():
                     for jerarquia in consulta.jerarquias:
-                        print(jerarquia.metadatos)
                         informacion = mapa_conceptos_codelist[jerarquia.nombre]
 
                         nombre = informacion['descripcion']
