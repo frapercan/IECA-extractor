@@ -2,7 +2,6 @@ import copy
 import os
 import sys
 import time
-from pprint import pprint
 
 import pandas as pd
 import yaml
@@ -55,9 +54,10 @@ if __name__ == "__main__":
                 # Conversión de Jerarquia a Codelist y Esquemas de conceptos
                 for consulta in actividad.consultas.values():
                     for jerarquia in consulta.jerarquias:
+                        print(jerarquia.metadatos)
                         informacion = mapa_conceptos_codelist[jerarquia.nombre]
 
-                        nombre = informacion['nombre']
+                        nombre = informacion['descripcion']
                         descripcion = informacion['descripcion']
 
                         id_codelist = informacion['codelist']['id']
@@ -67,16 +67,15 @@ if __name__ == "__main__":
                         agencia_concept_scheme = informacion['concept_scheme']['agency']
                         id_concept_scheme = informacion['concept_scheme']['id']
                         version_concept_scheme = informacion['concept_scheme']['version']
-                        nomre_concept_scheme_str = id_concept_scheme.replace('CS_', '')[
+                        nombre_concept_scheme_str = id_concept_scheme.replace('CS_', '')[
                                                        0].upper() + id_concept_scheme.replace('CS_', '')[1:].lower()
-                        nombre_concept_scheme = {'es': nomre_concept_scheme_str}
+                        nombre_concept_scheme = {'es': nombre_concept_scheme_str}
 
                         concepto = informacion['concept_scheme']['concepto']
 
                         codelist = controller.codelists.add_codelist(agencia_codelist, id_codelist, version_codelist,
                                                                      nombre, descripcion)
                         codelist.add_codes(jerarquia.datos_sdmx)
-                        # print(jerarquia.datos_sdmx)
                         concept_scheme = controller.concept_schemes.add_concept_scheme(agencia_concept_scheme,
                                                                                        id_concept_scheme,
                                                                                        version_concept_scheme,
@@ -135,7 +134,6 @@ if __name__ == "__main__":
                     pass
 
                 dimensiones = {variable: mapa_conceptos_codelist[variable] for variable in variables}
-                pprint(dimensiones)
                 try:
                     dsd = controller.dsds.data[agencia_dsd][id_dsd][version_dsd]
                 except:
@@ -175,7 +173,7 @@ if __name__ == "__main__":
                             consulta.datos.datos_por_observacion_extension_disjuntos)
 
                     id_df = f'DF_{nombre_actividad}_{consulta.id_consulta}'
-                    nombre_df = {'es': consulta.metadatos['title']}
+                    nombre_df = {'es': consulta.metadatos['title']+': '+consulta.metadatos['subtitle']}
 
                     variables_df = ['ID_' + variable if variable != 'OBS_VALUE' else variable for variable in mapa] + [
                         'ID_OBS_STATUS']

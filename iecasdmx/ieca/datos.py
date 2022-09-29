@@ -277,10 +277,13 @@ class Datos:
          """
         mapeo_columnas = self.configuracion_global['mapeo_columnas']
         columnas = self.datos_por_observacion.columns
-        # columnas = [mapeo_columnas[columna] if columna in mapeo_columnas.keys() else columna for columna in columnas]
+
         columnas = [columna[2:] if columna[:2] == 'D_' else columna for columna in columnas ]
         columnas = [columna[:-2] if columna[-2:] == '_0' else columna for columna in columnas ]
+        print(columnas)
+        columnas = [mapeo_columnas[columna] if columna in mapeo_columnas.keys() else columna for columna in columnas]
 
+        print(columnas)
         self.datos_por_observacion.columns = columnas
 
     def borrar_filas(self, dics_columna_valor_a_borrar):
