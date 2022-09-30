@@ -9,8 +9,8 @@ fichero_traducciones: sistema_informacion/traducciones.yaml
 directorio_datos_SDMX: sistema_informacion/SDMX/datos
 
 
-direccion_API_SDMX: http://localhost
-url_base: http://localhost/sdmx_172/ws/NODE_API/
+direccion_API_SDMX: http://192.168.1.123
+url_base: http://192.168.1.123/sdmx_172/ws/NODE_API/
 
 volcado_mdm: True
 reset_ddb: True
@@ -121,6 +121,9 @@ mapeo_columnas:
   EPA_ESTRUCHOGAR: ESTRUCHOGAR
   EPA_TIPACTIVIDADHOGAR: TIPACTIVIDADHOGAR
   MCVL_SECTORACTIVIDAD: SECTORACTIVIDAD
+  MCVL_MONEDAD: MONEDAD
+  MCVL_MONSALARIO: MONSALARIO
+  MCVLS_VARIABLE: VARIABLE
 
 medidas_reemplazando_obs_status:
   - estado Apoyo gubernamental IyD agricola

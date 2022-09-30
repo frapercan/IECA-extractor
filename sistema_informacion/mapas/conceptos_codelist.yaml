@@ -436,17 +436,17 @@ ESTUDIOS:
 MCVLS_VARIABLE:
   codelist:
     agency: ESC01
-    id: CL_MCVLS_VARIABLE
+    id: CL_MULTIVARIABL
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: MCVLS_VARIABLE
+    concepto: MULTIVARIABL
     id: CS_TRABAJO
     version: '1.0'
   descripcion:
     es: Variable
   nombre:
-    es: MCVLS_VARIABLE
+    es: VARIABLE
   tipo: dimension
 MCVL_CNAESECTOR:
   codelist:
@@ -511,32 +511,32 @@ MCVL_INTERVINGRESOS:
 MCVL_MONEDAD:
   codelist:
     agency: ESC01
-    id: CL_MCVL_MONEDAD
+    id: CL_MONEDAD
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: MCVL_MONEDAD
-    id: CS_TRABAJO
+    concepto: AGE
+    id: CROSS_DOMAIN_CONCEPTS
     version: '1.0'
   descripcion:
     es: Edad
   nombre:
-    es: MCVL_MONEDAD
+    es: MONEDAD
   tipo: dimension
 MCVL_MONSALARIO:
   codelist:
     agency: ESC01
-    id: CL_MCVL_MONSALARIO
+    id: CL_MONSALARIO
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: MCVL_MONSALARIO
+    concepto: MONSALARIO
     id: CS_TRABAJO
     version: '1.0'
   descripcion:
     es: Salario
   nombre:
-    es: MCVL_MONSALARIO
+    es: MONSALARIO
   tipo: dimension
 MCVL_PENSIONISTA:
   codelist:
@@ -657,6 +657,36 @@ MES:
     es: Mes
   nombre:
     es: MES
+  tipo: dimension
+MONEDAD:
+  codelist:
+    agency: ESC01
+    id: CL_MONEDAD
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: AGE
+    id: CROSS_DOMAIN_CONCEPTS
+    version: '1.0'
+  descripcion:
+    es: Edad
+  nombre:
+    es: MONEDAD
+  tipo: dimension
+MONSALARIO:
+  codelist:
+    agency: ESC01
+    id: CL_MONSALARIO
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MONSALARIO
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Salario
+  nombre:
+    es: MONSALARIO
   tipo: dimension
 MULTIVARIABL:
   codelist:
@@ -942,4 +972,19 @@ TIPO_PERSONAL:
     es: Tipo de personal
   nombre:
     es: TIPO_PERSONAL
+  tipo: dimension
+VARIABLE:
+  codelist:
+    agency: ESC01
+    id: CL_MULTIVARIABL
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: MULTIVARIABL
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Variable
+  nombre:
+    es: VARIABLE
   tipo: dimension
