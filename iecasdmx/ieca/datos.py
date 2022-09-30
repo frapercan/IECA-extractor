@@ -89,22 +89,22 @@ class Datos:
             raise e
         df.columns = columnas
 
-        df[columnas_jerarquia] = df[columnas_jerarquia].applymap(lambda x: x['cod'][-1])
-
+        df[columnas_jerarquia] = df[columnas_jerarquia].applymap(lambda x: x['cod'][-1], na_action='ignore')
+        
         df[columnas_medida] = df[columnas_medida].applymap(
-            lambda x: x['val'] if x['val'] != "" else x['format'])
+            lambda x: x['val'] if x['val'] != "" else x['format'], na_action='ignore')
 
         dimension_temporal = self.configuracion_global['dimensiones_temporales']
         if dimension_temporal in df.columns:
             df[dimension_temporal] = transformar_formato_tiempo_segun_periodicidad(df[dimension_temporal],
                                                                                    self.periodicidad)
-
         # Parche IECA ya que están indexando por cod en lugar de id.
         for jerarquia in self.jerarquias:
             columna = jerarquia.metadatos['alias']
 
             if columna != dimension_temporal:
                 df[columna] = df.merge(jerarquia.datos, how='left', left_on=columna, right_on='COD')['ID'].values
+
 
         self.logger.info('Datos Transformados a DataFrame Correctamente')
         return df
@@ -277,13 +277,11 @@ class Datos:
          """
         mapeo_columnas = self.configuracion_global['mapeo_columnas']
         columnas = self.datos_por_observacion.columns
-
+        
         columnas = [columna[2:] if columna[:2] == 'D_' else columna for columna in columnas ]
         columnas = [columna[:-2] if columna[-2:] == '_0' else columna for columna in columnas ]
-        print(columnas)
         columnas = [mapeo_columnas[columna] if columna in mapeo_columnas.keys() else columna for columna in columnas]
 
-        print(columnas)
         self.datos_por_observacion.columns = columnas
 
     def borrar_filas(self, dics_columna_valor_a_borrar):
@@ -330,8 +328,8 @@ def insertar_freq(df, periodicidad):
 
 
 def crear_mapeo_por_defecto(descripcion):
-    preposiciones = ['A', 'DE', 'POR', 'PARA','EN']
-    if isinstance(descripcion,pd._libs.missing.NAType):
+    preposiciones = ['A', 'DE', 'POR', 'PARA', 'EN']
+    if isinstance(descripcion, pd._libs.missing.NAType):
         return None
     descripcion = descripcion.upper().replace(" ", "_")
     if len(descripcion) >= 15:
@@ -343,18 +341,18 @@ def crear_mapeo_por_defecto(descripcion):
                 else:
                     descripcion_reducida.append(parte)
         descripcion = '_'.join(descripcion_reducida)
-    descripcion = descripcion.replace('%','PCT')
-    descripcion = descripcion.replace('€','EUR')
-    descripcion = descripcion.replace('(','')
-    descripcion = descripcion.replace(')','')
-    descripcion = descripcion.replace('>=','GE')
-    descripcion = descripcion.replace('>','GT')
-    descripcion = descripcion.replace('<=','LT')
-    descripcion = descripcion.replace('<','LE')
-    descripcion = descripcion.replace('/','')
-    descripcion = descripcion.replace('"','')
-    descripcion = descripcion.replace(':','')
-    descripcion = descripcion.replace(',','')
-    descripcion = descripcion.replace('+','MAS')
-    descripcion = descripcion.replace('.','')
+    descripcion = descripcion.replace('%', 'PCT')
+    descripcion = descripcion.replace('€', 'EUR')
+    descripcion = descripcion.replace('(', '')
+    descripcion = descripcion.replace(')', '')
+    descripcion = descripcion.replace('>=', 'GE')
+    descripcion = descripcion.replace('>', 'GT')
+    descripcion = descripcion.replace('<=', 'LT')
+    descripcion = descripcion.replace('<', 'LE')
+    descripcion = descripcion.replace('/', '')
+    descripcion = descripcion.replace('"', '')
+    descripcion = descripcion.replace(':', '')
+    descripcion = descripcion.replace(',', '')
+    descripcion = descripcion.replace('+', 'MAS')
+    descripcion = descripcion.replace('.', '')
     return strip_accents(descripcion)

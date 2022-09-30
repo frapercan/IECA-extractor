@@ -183,4 +183,6 @@ if __name__ == "__main__":
                         controller.dataflows.data[agencia][id_df]['1.0'].publish()
                     except:
                         print('está publicado')
+
             controller.logout()
+

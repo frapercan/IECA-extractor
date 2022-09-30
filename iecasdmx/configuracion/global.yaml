@@ -8,6 +8,7 @@ fichero_traducciones: sistema_informacion/traducciones.yaml
 
 directorio_datos_SDMX: sistema_informacion/SDMX/datos
 
+
 direccion_API_SDMX: http://localhost
 url_base: http://localhost/sdmx_172/ws/NODE_API/
 
@@ -68,7 +69,8 @@ dimensiones_a_mapear:
   - D_AA_TERRITORIOIN_0
   - AA_TERRITROIO
   - AA_TERRITORIOIN
-  - MCVL_SECTORACTIVIDAD
+  - D_MCVL_SECTORACTIVIDAD_0
+  - D_MCVL_CNAESECTOR_0
 
 propiedades_jerarquias:
   - id
