@@ -101,3 +101,33 @@ def strip_accents(text):
 
     return str(text)
 
+def crear_mapeo_por_defecto(descripcion):
+    preposiciones = ['A', 'DE', 'POR', 'PARA', 'EN']
+    if isinstance(descripcion, pd._libs.missing.NAType):
+        return None
+    descripcion = descripcion.upper().replace(" ", "_")
+    if len(descripcion) >= 15:
+        descripcion_reducida = []
+        for parte in descripcion.split("_"):
+            if parte not in preposiciones:
+                if len(parte) >= 4:
+                    descripcion_reducida.append(parte[:4])
+                else:
+                    descripcion_reducida.append(parte)
+        descripcion = '_'.join(descripcion_reducida)
+    descripcion = descripcion.replace('%', 'PCT')
+    descripcion = descripcion.replace('€', 'EUR')
+    descripcion = descripcion.replace('(', '')
+    descripcion = descripcion.replace(')', '')
+    descripcion = descripcion.replace('>=', 'GE')
+    descripcion = descripcion.replace('>', 'GT')
+    descripcion = descripcion.replace('<=', 'LT')
+    descripcion = descripcion.replace('<', 'LE')
+    descripcion = descripcion.replace('/', '')
+    descripcion = descripcion.replace('"', '')
+    descripcion = descripcion.replace(':', '')
+    descripcion = descripcion.replace(',', '')
+    descripcion = descripcion.replace('+', 'MAS')
+    descripcion = descripcion.replace('.', '')
+    return strip_accents(descripcion)
+

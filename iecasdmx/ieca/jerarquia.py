@@ -107,6 +107,7 @@ class Jerarquia:
 
         datos = self.datos.__deepcopy__()
         datos.columns = columnas
+
         self.datos_sdmx = mapear_id_por_dimension(datos[columnas_sdmx], 'D_' + self.nombre + '_0',
                                                   self.configuracion_global[
                                                       'directorio_mapas_dimensiones']) if self.nombre in \

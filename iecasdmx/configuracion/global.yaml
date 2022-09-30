@@ -70,7 +70,7 @@ dimensiones_a_mapear:
   - AA_TERRITROIO
   - AA_TERRITORIOIN
   - D_MCVL_SECTORACTIVIDAD_0
-  - D_MCVL_CNAESECTOR_0
+
 
 propiedades_jerarquias:
   - id

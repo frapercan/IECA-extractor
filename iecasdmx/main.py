@@ -184,5 +184,5 @@ if __name__ == "__main__":
                     except:
                         print('está publicado')
 
-            controller.logout()
+        # controller.logout()
 

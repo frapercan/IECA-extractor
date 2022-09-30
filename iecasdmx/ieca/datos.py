@@ -5,11 +5,13 @@ import pandas as pd
 
 import logging
 import numpy as np
+from iecasdmx.funciones import crear_mapeo_por_defecto
 
 from iecasdmx.funciones import strip_accents
 
 fmt = '[%(asctime)-15s] [%(levelname)s] %(name)s: %(message)s'
 logging.basicConfig(format=fmt, level=logging.INFO, stream=sys.stdout)
+
 
 
 class Datos:
@@ -95,19 +97,23 @@ class Datos:
             lambda x: x['val'] if x['val'] != "" else x['format'], na_action='ignore')
 
         dimension_temporal = self.configuracion_global['dimensiones_temporales']
+        # Parece que ellos no utilizan de forma interna el formato fecha de sql.
         if dimension_temporal in df.columns:
             df[dimension_temporal] = transformar_formato_tiempo_segun_periodicidad(df[dimension_temporal],
                                                                                    self.periodicidad)
+        df_mapeado = df.copy()
         # Parche IECA ya que están indexando por cod en lugar de id.
         for jerarquia in self.jerarquias:
             columna = jerarquia.metadatos['alias']
 
             if columna != dimension_temporal:
-                df[columna] = df.merge(jerarquia.datos, how='left', left_on=columna, right_on='COD')['ID'].values
-
+                df_mapeado[columna] = df.merge(jerarquia.datos, how='left', left_on=columna, right_on='COD')['ID'].values
+                disconexos = df_mapeado[columna].isna()
+                if len(df_mapeado[ disconexos]):
+                    df_mapeado[columna][disconexos] =df[columna][ disconexos].map(lambda x: crear_mapeo_por_defecto(x), na_action='ignore')
 
         self.logger.info('Datos Transformados a DataFrame Correctamente')
-        return df
+        return df_mapeado
 
     def desacoplar_datos_por_medidas(self):
         """El formato tabular proporcionado por la API tiene una dimension para cada medida, nuestro modelado
@@ -196,7 +202,7 @@ class Datos:
             os.makedirs(directorio_mapas)
 
         for columna_alias, columna_id in zip(columnas_jerarquia_alias, columnas_jerarquia_id):
-            self.logger.info('Dimension: %s', columna_alias)
+            self.logger.info('Mapa de Dimension : %s', columna_alias)
             fichero_mapa_dimension = os.path.join(directorio_mapas, columna_id)
             if columna_id in self.configuracion_global['dimensiones_a_mapear']:
 
@@ -205,13 +211,13 @@ class Datos:
 
                 else:
                     df_mapa = pd.DataFrame(columns=columnas_plantilla, dtype='string')
-
                 uniques = np.full([len(self.datos_por_observacion[columna_id].unique()), len(columnas_plantilla)], None)
                 uniques[:, 0] = self.datos_por_observacion[columna_id].unique()
 
                 df_auxiliar = pd.DataFrame(uniques, columns=columnas_plantilla, dtype='string')
 
                 df_mapa = pd.concat([df_mapa, df_auxiliar]).drop_duplicates('SOURCE', keep='first')
+
 
                 if columna_id != 'INDICATOR':
                     jerarquia_codigos = pd.read_csv(
@@ -297,6 +303,9 @@ class Datos:
             valor = dic[columna]
             self.datos_por_observacion = self.datos_por_observacion[self.datos_por_observacion[columna] != valor]
 
+    def mostrar_df(self):
+        # print('mostrando df',self.datos.to_string())
+        pass
 
 def transformar_formato_tiempo_segun_periodicidad(serie, periodicidad):
     """Transforma la dimension temporal de un cuadro de datos para que se adecue al formato de tiempo utilizado
@@ -327,32 +336,4 @@ def insertar_freq(df, periodicidad):
     return df
 
 
-def crear_mapeo_por_defecto(descripcion):
-    preposiciones = ['A', 'DE', 'POR', 'PARA', 'EN']
-    if isinstance(descripcion, pd._libs.missing.NAType):
-        return None
-    descripcion = descripcion.upper().replace(" ", "_")
-    if len(descripcion) >= 15:
-        descripcion_reducida = []
-        for parte in descripcion.split("_"):
-            if parte not in preposiciones:
-                if len(parte) >= 4:
-                    descripcion_reducida.append(parte[:4])
-                else:
-                    descripcion_reducida.append(parte)
-        descripcion = '_'.join(descripcion_reducida)
-    descripcion = descripcion.replace('%', 'PCT')
-    descripcion = descripcion.replace('€', 'EUR')
-    descripcion = descripcion.replace('(', '')
-    descripcion = descripcion.replace(')', '')
-    descripcion = descripcion.replace('>=', 'GE')
-    descripcion = descripcion.replace('>', 'GT')
-    descripcion = descripcion.replace('<=', 'LT')
-    descripcion = descripcion.replace('<', 'LE')
-    descripcion = descripcion.replace('/', '')
-    descripcion = descripcion.replace('"', '')
-    descripcion = descripcion.replace(':', '')
-    descripcion = descripcion.replace(',', '')
-    descripcion = descripcion.replace('+', 'MAS')
-    descripcion = descripcion.replace('.', '')
-    return strip_accents(descripcion)
+
