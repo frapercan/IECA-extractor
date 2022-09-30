@@ -179,7 +179,7 @@ class Datos:
         for columna in columnas_a_mapear:
             self.logger.info('Mapeando: %s', columna)
             directorio_mapa = os.path.join(self.configuracion_global['directorio_mapas_dimensiones'], columna)
-            mapa = pd.read_csv(directorio_mapa, dtype='string')
+            mapa = pd.read_csv(directorio_mapa, dtype='string',keep_default_na=False)
             self.datos_por_observacion[columna] = \
                 self.datos_por_observacion.merge(mapa, how='left', left_on=columna, right_on='SOURCE')['TARGET'].values
 
@@ -201,7 +201,7 @@ class Datos:
             if columna_id in self.configuracion_global['dimensiones_a_mapear']:
 
                 if os.path.isfile(fichero_mapa_dimension):
-                    df_mapa = pd.read_csv(fichero_mapa_dimension, dtype='string')
+                    df_mapa = pd.read_csv(fichero_mapa_dimension, dtype='string',keep_default_na=False)
 
                 else:
                     df_mapa = pd.DataFrame(columns=columnas_plantilla, dtype='string')
@@ -216,7 +216,7 @@ class Datos:
                 if columna_id != 'INDICATOR':
                     jerarquia_codigos = pd.read_csv(
                         os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad, 'original',
-                                     columna_alias + '.csv'), sep=';',
+                                     columna_alias + '.csv'), sep=';',keep_default_na=False,
                         dtype='string')
 
                     df_mapa['COD'][df_mapa['COD'].isna()] = \
