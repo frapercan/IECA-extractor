@@ -10,6 +10,7 @@ import logging
 
 import yaml
 
+
 from iecasdmx.funciones import mapear_id_por_dimension
 
 fmt = '[%(asctime)-15s] [%(levelname)s] %(name)s: %(message)s'
@@ -115,7 +116,8 @@ class Jerarquia:
                                                                                               'dimensiones_a_mapear'] else \
             datos[columnas_sdmx]
         Z = pd.Series({'ID': '_Z', 'NAME': 'No aplica', 'DESCRIPTION': 'No aplica', 'PARENTCODE': None, 'ORDER': None})
-
+        #Cambiamos label por description
+        self.datos_sdmx[['NAME','DESCRIPTION']] = self.datos_sdmx[['DESCRIPTION','NAME']]
         self.datos_sdmx = pd.concat([self.datos_sdmx, Z.to_frame().T], ignore_index=True)
 
         datos.to_csv(f'{os.path.join(directorio_original, self.id_jerarquia)}.csv', sep=';', index=False)

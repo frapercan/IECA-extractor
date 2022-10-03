@@ -13,5 +13,4 @@ ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
 515805;12;(12) Interrupción laboral sin prestación;Interrupción laboral sin prestación;518713;0
 515806;13;(13) Agotó la prestación;Agotó la prestación;518714;0
 518716;021;(021) Sin este tipo de emprendimientos;Sin este tipo de emprendimientos;518715;1
-516589;;(NA) Sin este tipo de emprendimientos;Sin este tipo de emprendimientos;518716;0
-_Z;No aplica;No aplica;No aplica;;
+516589;NA;(NA) Sin este tipo de emprendimientos;Sin este tipo de emprendimientos;518716;0

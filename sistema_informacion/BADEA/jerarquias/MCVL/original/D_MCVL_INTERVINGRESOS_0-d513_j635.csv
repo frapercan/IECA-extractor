@@ -5,5 +5,4 @@ ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
 55204;2;(2) De 10.001 a 20.000€;De 10.001 a 20.000€;55207;2
 55205;3;(3) De 20.001 a 30.000€;De 20.001 a 30.000€;55207;3
 55206;4;(4) Más de 30.000€;Más de 30.000€;55207;4
-55208;;(NA) No consta;No consta;55207;5
-_Z;No aplica;No aplica;No aplica;;
+55208;NA;(NA) No consta;No consta;55207;5

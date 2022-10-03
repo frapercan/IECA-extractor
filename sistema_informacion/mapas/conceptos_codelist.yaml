@@ -106,11 +106,11 @@ AA_TIPOCOTIZACA:
 AA_TIPODEHOGAR:
   codelist:
     agency: ESC01
-    id: CL_TIPODEHOGAR
+    id: CL_TIPOHOGAR
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: TIPODEHOGAR
+    concepto: TIPOHOGAR
     id: CS_TRABAJO
     version: '1.0'
   descripcion:
@@ -237,6 +237,36 @@ CNO11:
     es: "Ocupaci\xC3\xB3n"
   nombre:
     es: CNO11
+  tipo: dimension
+COTIZANTE:
+  codelist:
+    agency: ESC01
+    id: CL_COTIZANTE
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: COTIZANTE
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Cotizante
+  nombre:
+    es: COTIZANTE
+  tipo: dimension
+DIASCOTIZANO:
+  codelist:
+    agency: ESC01
+    id: CL_DIASCOTIZANO
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: DIASCOTIZANO
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: "D\xEDas cotizados en el a\xF1o"
+  nombre:
+    es: DIASCOTIZANO
   tipo: dimension
 DISCIPLINA:
   codelist:
@@ -433,6 +463,21 @@ ESTUDIOS:
   nombre:
     es: ESTUDIOS
   tipo: dimension
+INTERVINGRESOS:
+  codelist:
+    agency: ESC01
+    id: CL_INTERVINGRESOS
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: INTERVINGRESOS
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Intervalo de ingresos
+  nombre:
+    es: INTERVINGRESOS
+  tipo: dimension
 MCVLS_VARIABLE:
   codelist:
     agency: ESC01
@@ -451,62 +496,62 @@ MCVLS_VARIABLE:
 MCVL_CNAESECTOR:
   codelist:
     agency: ESC01
-    id: CL_MCVL_CNAESECTOR
+    id: CL_CNAE09
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: MCVL_CNAESECTOR
+    concepto: CNAE09
     id: CS_TRABAJO
     version: '1.0'
   descripcion:
-    es: Sector de actividad
+    es: Actividad
   nombre:
-    es: MCVL_CNAESECTOR
+    es: CNAE09
   tipo: dimension
 MCVL_COTIZANTE:
   codelist:
     agency: ESC01
-    id: CL_MCVL_COTIZANTE
+    id: CL_COTIZANTE
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: MCVL_COTIZANTE
+    concepto: COTIZANTE
     id: CS_TRABAJO
     version: '1.0'
   descripcion:
     es: Cotizante
   nombre:
-    es: MCVL_COTIZANTE
+    es: COTIZANTE
   tipo: dimension
 MCVL_DIASCOTIZANO:
   codelist:
     agency: ESC01
-    id: CL_MCVL_DIASCOTIZANO
+    id: CL_DIASCOTIZANO
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: MCVL_DIASCOTIZANO
+    concepto: DIASCOTIZANO
     id: CS_TRABAJO
     version: '1.0'
   descripcion:
     es: "D\xEDas cotizados en el a\xF1o"
   nombre:
-    es: MCVL_DIASCOTIZANO
+    es: DIASCOTIZANO
   tipo: dimension
 MCVL_INTERVINGRESOS:
   codelist:
     agency: ESC01
-    id: CL_MCVL_INTERVINGRESOS
+    id: CL_INTERVINGRESOS
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: MCVL_INTERVINGRESOS
+    concepto: INTERVINGRESOS
     id: CS_TRABAJO
     version: '1.0'
   descripcion:
     es: Intervalo de ingresos
   nombre:
-    es: MCVL_INTERVINGRESOS
+    es: INTERVINGRESOS
   tipo: dimension
 MCVL_MONEDAD:
   codelist:
@@ -541,17 +586,17 @@ MCVL_MONSALARIO:
 MCVL_PENSIONISTA:
   codelist:
     agency: ESC01
-    id: CL_MCVL_PENSIONISTA
+    id: CL_PENSIONISTA
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: MCVL_PENSIONISTA
+    concepto: PENSIONISTA
     id: CS_TRABAJO
     version: '1.0'
   descripcion:
     es: Pensionista
   nombre:
-    es: MCVL_PENSIONISTA
+    es: PENSIONISTA
   tipo: dimension
 MCVL_SECTORACTIVIDAD:
   codelist:
@@ -571,77 +616,77 @@ MCVL_SECTORACTIVIDAD:
 MCVL_TIPOCOTIZACION:
   codelist:
     agency: ESC01
-    id: CL_MCVL_TIPOCOTIZACION
+    id: CL_TIPOCOTIZACION
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: MCVL_TIPOCOTIZACION
+    concepto: TIPOCOTIZACION
     id: CS_TRABAJO
     version: '1.0'
   descripcion:
     es: "Tipo de cotizaci\xF3n"
   nombre:
-    es: MCVL_TIPOCOTIZACION
+    es: TIPOCOTIZACION
   tipo: dimension
 MCVL_TIPOHOGAR:
   codelist:
     agency: ESC01
-    id: CL_MCVL_TIPOHOGAR
+    id: CL_TIPOHOGAR
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: MCVL_TIPOHOGAR
+    concepto: TIPOHOGAR
     id: CS_TRABAJO
     version: '1.0'
   descripcion:
     es: Tipo de hogar
   nombre:
-    es: MCVL_TIPOHOGAR
+    es: TIPOHOGAR
   tipo: dimension
 MCVL_TIPOPENSION:
   codelist:
     agency: ESC01
-    id: CL_MCVL_TIPOPENSION
+    id: CL_TIPOPENSION
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: MCVL_TIPOPENSION
+    concepto: TIPOPENSION
     id: CS_TRABAJO
     version: '1.0'
   descripcion:
     es: "Tipo de pensi\xF3n"
   nombre:
-    es: MCVL_TIPOPENSION
+    es: TIPOPENSION
   tipo: dimension
 MCVL_TIPOPRESTACION:
   codelist:
     agency: ESC01
-    id: CL_MCVL_TIPOPRESTACION
+    id: CL_TIPOPRESTACION
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: MCVL_TIPOPRESTACION
+    concepto: TIPOPRESTACION
     id: CS_TRABAJO
     version: '1.0'
   descripcion:
     es: "Tipos de prestaci\xF3n"
   nombre:
-    es: MCVL_TIPOPRESTACION
+    es: TIPOPRESTACION
   tipo: dimension
 MCVL_TIPRELACIONSS:
   codelist:
     agency: ESC01
-    id: CL_MCVL_TIPRELACIONSS
+    id: CL_TIPRELACIONSS
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: MCVL_TIPRELACIONSS
+    concepto: TIPRELACIONSS
     id: CS_TRABAJO
     version: '1.0'
   descripcion:
     es: "Tipo de relaci\xF3n con la seguridad social"
   nombre:
-    es: MCVL_TIPRELACIONSS
+    es: TIPRELACIONSS
   tipo: dimension
 MES:
   codelist:
@@ -747,6 +792,21 @@ NIVEL:
     es: Nivel
   nombre:
     es: NIVEL
+  tipo: dimension
+PENSIONISTA:
+  codelist:
+    agency: ESC01
+    id: CL_PENSIONISTA
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: PENSIONISTA
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Pensionista
+  nombre:
+    es: PENSIONISTA
   tipo: dimension
 PUB_PRIV:
   codelist:
@@ -883,20 +943,50 @@ TIPOCOTIZACA:
   nombre:
     es: TIPOCOTIZACA
   tipo: dimension
-TIPODEHOGAR:
+TIPOCOTIZACION:
   codelist:
     agency: ESC01
-    id: CL_TIPODEHOGAR
+    id: CL_TIPOCOTIZACION
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: TIPODEHOGAR
+    concepto: TIPOCOTIZACION
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: "Tipo de cotizaci\xF3n"
+  nombre:
+    es: TIPOCOTIZACION
+  tipo: dimension
+TIPODEHOGAR:
+  codelist:
+    agency: ESC01
+    id: CL_TIPOHOGAR
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPOHOGAR
     id: CS_TRABAJO
     version: '1.0'
   descripcion:
     es: Tipo de hogar
   nombre:
     es: TIPODEHOGAR
+  tipo: dimension
+TIPOHOGAR:
+  codelist:
+    agency: ESC01
+    id: CL_TIPOHOGAR
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPOHOGAR
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: Tipo de hogar
+  nombre:
+    es: TIPOHOGAR
   tipo: dimension
 TIPOMOVIMIEN:
   codelist:
@@ -912,6 +1002,36 @@ TIPOMOVIMIEN:
     es: Tipo de movimiento
   nombre:
     es: TIPOMOVIMIEN
+  tipo: dimension
+TIPOPENSION:
+  codelist:
+    agency: ESC01
+    id: CL_TIPOPENSION
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPOPENSION
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: "Tipo de pensi\xF3n"
+  nombre:
+    es: TIPOPENSION
+  tipo: dimension
+TIPOPRESTACION:
+  codelist:
+    agency: ESC01
+    id: CL_TIPOPRESTACION
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPOPRESTACION
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: "Tipos de prestaci\xF3n"
+  nombre:
+    es: TIPOPRESTACION
   tipo: dimension
 TIPOULTIEMPR:
   codelist:
@@ -972,6 +1092,21 @@ TIPO_PERSONAL:
     es: Tipo de personal
   nombre:
     es: TIPO_PERSONAL
+  tipo: dimension
+TIPRELACIONSS:
+  codelist:
+    agency: ESC01
+    id: CL_TIPRELACIONSS
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TIPRELACIONSS
+    id: CS_TRABAJO
+    version: '1.0'
+  descripcion:
+    es: "Tipo de relaci\xF3n con la seguridad social"
+  nombre:
+    es: TIPRELACIONSS
   tipo: dimension
 VARIABLE:
   codelist:

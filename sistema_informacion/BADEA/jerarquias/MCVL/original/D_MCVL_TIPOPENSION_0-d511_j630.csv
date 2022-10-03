@@ -10,5 +10,4 @@ ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
 55188;4;(4) Orfandad y a favor de familiares;Orfandad y a favor de familiares;55189;4
 55190;5;(5) Jubilación y viudedad;Jubilación y viudedad;55192;5
 55191;6;(6) Otras combinaciones de dos o más tipos de prestación;Otras combinaciones de dos o más tipos de prestación;55192;6
-55195;;(NA) No pensionista;No pensionista;55194;7
-_Z;No aplica;No aplica;No aplica;;
+55195;NA;(NA) No pensionista;No pensionista;55194;7

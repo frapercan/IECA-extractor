@@ -13,5 +13,4 @@ ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
 273732;5;(5) Servicios públicos;Servicios públicos;273725;1
 273733;4;(4) Comercio y hostelería;Comercio y hostelería;273726;1
 273734;6;(6) Otros;Otros;273726;2
-273735;;(NA) No consta;No consta;273727;1
-_Z;No aplica;No aplica;No aplica;;
+273735;NA;(NA) No consta;No consta;273727;1

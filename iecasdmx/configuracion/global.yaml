@@ -9,8 +9,8 @@ fichero_traducciones: sistema_informacion/traducciones.yaml
 directorio_datos_SDMX: sistema_informacion/SDMX/datos
 
 
-direccion_API_SDMX: http://192.168.1.123
-url_base: http://192.168.1.123/sdmx_172/ws/NODE_API/
+direccion_API_SDMX: http://localhost
+url_base: http://localhost/sdmx_172/ws/NODE_API/
 
 volcado_mdm: True
 reset_ddb: True
@@ -124,6 +124,16 @@ mapeo_columnas:
   MCVL_MONEDAD: MONEDAD
   MCVL_MONSALARIO: MONSALARIO
   MCVLS_VARIABLE: VARIABLE
+  MCVL_TIPRELACIONSS: TIPRELACIONSS
+  MCVL_TIPOCOTIZACION: TIPOCOTIZACION
+  MCVL_COTIZANTE: COTIZANTE
+  MCVL_DIASCOTIZANO: DIASCOTIZANO
+  MCVL_CNAESECTOR: CNAE09
+  MCVL_TIPOPRESTACION: TIPOPRESTACION
+  MCVL_TIPOPENSION: TIPOPENSION
+  MCVL_PENSIONISTA: PENSIONISTA
+  MCVL_INTERVINGRESOS: INTERVINGRESOS
+  MCVL_TIPOHOGAR: TIPODEHOGAR
 
 medidas_reemplazando_obs_status:
   - estado Apoyo gubernamental IyD agricola

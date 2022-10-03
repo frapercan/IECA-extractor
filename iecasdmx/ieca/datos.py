@@ -204,47 +204,37 @@ class Datos:
         for columna_alias, columna_id in zip(columnas_jerarquia_alias, columnas_jerarquia_id):
             self.logger.info('Mapa de Dimension : %s', columna_alias)
             fichero_mapa_dimension = os.path.join(directorio_mapas, columna_id)
-            if columna_id in self.configuracion_global['dimensiones_a_mapear']:
 
-                if os.path.isfile(fichero_mapa_dimension):
-                    df_mapa = pd.read_csv(fichero_mapa_dimension, dtype='string',keep_default_na=False)
-
-                else:
-                    df_mapa = pd.DataFrame(columns=columnas_plantilla, dtype='string')
-                uniques = np.full([len(self.datos_por_observacion[columna_id].unique()), len(columnas_plantilla)], None)
-                uniques[:, 0] = self.datos_por_observacion[columna_id].unique()
-
-                df_auxiliar = pd.DataFrame(uniques, columns=columnas_plantilla, dtype='string')
-
-                df_mapa = pd.concat([df_mapa, df_auxiliar]).drop_duplicates('SOURCE', keep='first')
-
-
-                if columna_id != 'INDICATOR':
-                    jerarquia_codigos = pd.read_csv(
-                        os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad, 'original',
-                                     columna_alias + '.csv'), sep=';',keep_default_na=False,
-                        dtype='string')
-
-                    df_mapa['COD'][df_mapa['COD'].isna()] = \
-                        df_mapa[df_mapa['COD'].isna()].merge(jerarquia_codigos, how='left', left_on='SOURCE',
-                                                             right_on='ID')['COD_y']
-                    df_mapa['NAME'][df_mapa['NAME'].isna()] = \
-                        df_mapa[df_mapa['NAME'].isna()].merge(jerarquia_codigos, how='left', left_on='SOURCE',
-                                                              right_on='ID')['NAME_y']
-                df_mapa.reset_index(drop=True, inplace=True)
-                mapeos_incompletos_indices = df_mapa[df_mapa['TARGET'].isna()].index
-
-                if mapeos_incompletos_indices.any():
-                    self.logger.warning("Nuevos términos añadidos al mapa: %s",
-                                        list(df_mapa['SOURCE'].values[mapeos_incompletos_indices]))
-                    for indice in mapeos_incompletos_indices:
-                        df_mapa['TARGET'][indice] = crear_mapeo_por_defecto(df_mapa['SOURCE'][indice])
-
-                else:
-                    self.logger.info("Todos los elementos son mapeables")
-
-                df_mapa.to_csv(fichero_mapa_dimension,
-                               index=False)
+            if os.path.isfile(fichero_mapa_dimension):
+                df_mapa = pd.read_csv(fichero_mapa_dimension, dtype='string',keep_default_na=False)
+            else:
+                df_mapa = pd.DataFrame(columns=columnas_plantilla, dtype='string')
+            uniques = np.full([len(self.datos_por_observacion[columna_id].unique()), len(columnas_plantilla)], None)
+            uniques[:, 0] = self.datos_por_observacion[columna_id].unique()
+            df_auxiliar = pd.DataFrame(uniques, columns=columnas_plantilla, dtype='string')
+            df_mapa = pd.concat([df_mapa, df_auxiliar]).drop_duplicates('SOURCE', keep='first')
+            if columna_id != 'INDICATOR':
+                jerarquia_codigos = pd.read_csv(
+                    os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad, 'original',
+                                 columna_alias + '.csv'), sep=';',keep_default_na=False,
+                    dtype='string')
+                df_mapa['COD'][df_mapa['COD'].isna()] = \
+                    df_mapa[df_mapa['COD'].isna()].merge(jerarquia_codigos, how='left', left_on='SOURCE',
+                                                         right_on='ID')['COD_y']
+                df_mapa['NAME'][df_mapa['NAME'].isna()] = \
+                    df_mapa[df_mapa['NAME'].isna()].merge(jerarquia_codigos, how='left', left_on='SOURCE',
+                                                          right_on='ID')['NAME_y']
+            df_mapa.reset_index(drop=True, inplace=True)
+            mapeos_incompletos_indices = df_mapa[df_mapa['TARGET'].isna()].index
+            if mapeos_incompletos_indices.any():
+                self.logger.warning("Nuevos términos añadidos al mapa: %s",
+                                    list(df_mapa['SOURCE'].values[mapeos_incompletos_indices]))
+                for indice in mapeos_incompletos_indices:
+                    df_mapa['TARGET'][indice] = crear_mapeo_por_defecto(df_mapa['SOURCE'][indice])
+            else:
+                self.logger.info("Todos los elementos son mapeables")
+            df_mapa.to_csv(fichero_mapa_dimension,
+                           index=False)
 
     def extender_con_disjuntos(self, dimensiones):
         """Accion que añade las columnas al dataframe para que todas las dimensiones SDMX de la actividad sean

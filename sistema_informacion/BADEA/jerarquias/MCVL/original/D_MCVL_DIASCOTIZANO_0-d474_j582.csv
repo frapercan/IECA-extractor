@@ -5,5 +5,4 @@ ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
 53686;2;(2) De 31 a 90 días;De 31 a 90 días;53689;2
 53687;3;(3) De 91 a 360 días;De 91 a 360 días;53689;3
 53688;4;(4) Más de 360 días;Más de 360 días;53689;4
-53690;;(NA) No consta;No consta;53689;5
-_Z;No aplica;No aplica;No aplica;;
+53690;NA;(NA) No consta;No consta;53689;5

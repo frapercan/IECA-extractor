@@ -14,5 +14,4 @@ ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
 273757;7;(7) Dos adultos con niños. Edad del más jóven 5-15 año;Dos adultos con niños. Edad del más jóven 5-15 año;273749;7
 273758;8;(8) Tres o más adultos solos                           ;Tres o más adultos solos                           ;273750;8
 273759;9;(9) Tres o más adultos, con niños (menores de 16);Tres o más adultos, con niños (menores de 16);273750;9
-273862;;(NA) No consta;No consta;273861;1
-_Z;No aplica;No aplica;No aplica;;
+273862;NA;(NA) No consta;No consta;273861;1

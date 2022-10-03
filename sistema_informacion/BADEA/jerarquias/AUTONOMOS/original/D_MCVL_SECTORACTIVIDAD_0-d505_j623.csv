@@ -7,5 +7,4 @@ ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
 55155;4;(4) Comercio y hostelería;Comercio y hostelería;55158;4
 55156;5;(5) Servicios públicos;Servicios públicos;55158;5
 55157;6;(6) Otros;Otros;55158;6
-55159;;(NA) No consta;No consta;55158;7
-_Z;No aplica;No aplica;No aplica;;
+55159;NA;(NA) No consta;No consta;55158;7
