@@ -154,10 +154,10 @@ ANOCELEBRMATRIM:
     id: CL_TEMPORAL
     version: '1.0'
   concept_scheme:
-    agency: ESC01
+    agency: SDMX
     concepto: TIME_PERIOD
     id: CROSS_DOMAIN_CONCEPTS
-    version: '1.0'
+    version: '2.0'
   descripcion:
     es: "A\xF1os"
   nombre:
@@ -406,17 +406,17 @@ EPA_TIPACTIVIDADHOGAR:
 EPD_TAMANOEMPRESA:
   codelist:
     agency: ESC01
-    id: CL_EPD_TAMANOEMPRESA
+    id: CL_TAMANOEMPRESA
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: EPD_TAMANOEMPRESA
-    id: CS_BUSINESS_STAT
+    concepto: TAMANOEMPRESA
+    id: CS_EMPRESAS
     version: '1.0'
   descripcion:
     es: "Tama\xF1o de la empresa"
   nombre:
-    es: EPD_TAMANOEMPRESA
+    es: TAMANOEMPRESA
   tipo: dimension
 ESTRATO_ASALARIADOS:
   codelist:
@@ -426,7 +426,7 @@ ESTRATO_ASALARIADOS:
   concept_scheme:
     agency: ESC01
     concepto: ESTRATO_ASALARIADOS
-    id: CS_BUSINESS_STAT
+    id: CS_EMPRESAS
     version: '1.0'
   descripcion:
     es: "Tama\xF1o de la empresa"
@@ -709,10 +709,10 @@ MONEDAD:
     id: CL_MONEDAD
     version: '1.0'
   concept_scheme:
-    agency: ESC01
+    agency: SDMX
     concepto: AGE
     id: CROSS_DOMAIN_CONCEPTS
-    version: '1.0'
+    version: '2.0'
   descripcion:
     es: Edad
   nombre:
@@ -882,6 +882,21 @@ SITPREVULTEM:
     es: "Situaci\xF3n previa al inicio del \xFAltimo emprendimiento"
   nombre:
     es: SITPREVULTEM
+  tipo: dimension
+TAMANOEMPRESA:
+  codelist:
+    agency: ESC01
+    id: CL_TAMANOEMPRESA
+    version: '1.0'
+  concept_scheme:
+    agency: ESC01
+    concepto: TAMANOEMPRESA
+    id: CS_EMPRESAS
+    version: '1.0'
+  descripcion:
+    es: "Tama\xF1o de la empresa"
+  nombre:
+    es: TAMANOEMPRESA
   tipo: dimension
 TEMPORAL:
   codelist:

@@ -17,8 +17,8 @@ actividades:
   #  - APARTAMENTOS_TURISTICOS
   #  - ECTA
   #  - EEE
-#  - EPA
-#  - AUTONOMOS
+  - EPA
+  - AUTONOMOS
   - SALARIOS
   - MCVL
   - EMPRESASIMD
