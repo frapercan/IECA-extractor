@@ -556,17 +556,17 @@ MCVL_INTERVINGRESOS:
 MCVL_MONEDAD:
   codelist:
     agency: ESC01
-    id: CL_MONEDAD
+    id: CL_EDAD
     version: '1.0'
   concept_scheme:
-    agency: ESC01
+    agency: SDMX
     concepto: AGE
     id: CROSS_DOMAIN_CONCEPTS
-    version: '1.0'
+    version: '2.0'
   descripcion:
     es: Edad
   nombre:
-    es: MONEDAD
+    es: EDAD
   tipo: dimension
 MCVL_MONSALARIO:
   codelist:
