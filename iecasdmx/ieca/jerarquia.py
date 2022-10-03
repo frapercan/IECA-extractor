@@ -9,7 +9,7 @@ import numpy as np
 import logging
 
 import yaml
-
+from ftfy import fix_encoding
 
 from iecasdmx.funciones import mapear_id_por_dimension
 
@@ -164,7 +164,7 @@ class Jerarquia:
                                                                                                  'concepto': self.nombre},
                                                          'codelist': {'agency': 'ESC01', 'id': 'CL_' + self.nombre,
                                                                       'version': '1.0'},
-                                                         'nombre': {'es': self.metadatos['des'].decode('utf-8')},
+                                                         'nombre': {'es': fix_encoding(self.metadatos['des'])},
                                                          'descripcion': {'es': self.metadatos['des']}}
             file.close()
             with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'w', encoding='utf-8') as file:

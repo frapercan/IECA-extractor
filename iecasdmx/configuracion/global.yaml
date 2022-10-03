@@ -134,6 +134,8 @@ mapeo_columnas:
   MCVL_PENSIONISTA: PENSIONISTA
   MCVL_INTERVINGRESOS: INTERVINGRESOS
   MCVL_TIPOHOGAR: TIPODEHOGAR
+  EPD_TAMANOEMPRESA: TAMANOEMPRESA
+
 
 medidas_reemplazando_obs_status:
   - estado Apoyo gubernamental IyD agricola
