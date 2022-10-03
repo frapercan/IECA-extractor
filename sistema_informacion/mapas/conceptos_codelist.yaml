@@ -111,7 +111,7 @@ AA_TIPODEHOGAR:
   concept_scheme:
     agency: ESC01
     concepto: TIPOHOGAR
-    id: CS_TRABAJO
+    id: CS_VIVIENDA
     version: '1.0'
   descripcion:
     es: Tipo de hogar
@@ -154,12 +154,12 @@ ANOCELEBRMATRIM:
     id: CL_TEMPORAL
     version: '1.0'
   concept_scheme:
-    agency: SDMX
-    concepto: TIME_PERIOD
-    id: CROSS_DOMAIN_CONCEPTS
-    version: '2.0'
+    agency: ESTAT
+    concepto: YMA
+    id: CS_DEMOGRAPHY
+    version: '1.2'
   descripcion:
-    es: "A\xF1os"
+    es: "A\xF1o celebraci\xF3n del matrimonio"
   nombre:
     es: ANOCELEBRMATRIM
   tipo: dimension
@@ -189,7 +189,7 @@ CLASEINACTIV:
     id: CS_TRABAJO
     version: '1.0'
   descripcion:
-    es: "Situaci\xC3\xB3n de inactividad 1"
+    es: "Situaci\xC3\xB3n de inactividad"
   nombre:
     es: CLASEINACTIV
   tipo: dimension
@@ -201,7 +201,7 @@ CNAE09:
   concept_scheme:
     agency: ESC01
     concepto: CNAE09
-    id: CS_TRABAJO
+    id: CS_ESTADISTICAS_SECTORIALES
     version: '1.0'
   descripcion:
     es: Actividad
@@ -216,7 +216,7 @@ CNED2014:
   concept_scheme:
     agency: ESC01
     concepto: CNED2014
-    id: CS_TRABAJO
+    id: CS_EDUCACION
     version: '1.0'
   descripcion:
     es: "Nivel de formaci\xC3\xB3n"
@@ -276,7 +276,7 @@ DISCIPLINA:
   concept_scheme:
     agency: ESC01
     concepto: DISCIPLINA
-    id: CS_EMPRESAS
+    id: CS_EDUCACION
     version: '1.0'
   descripcion:
     es: "Disciplina cient\xEDfica"
@@ -324,9 +324,9 @@ EPA_CLASEINACTIV:
     id: CS_TRABAJO
     version: '1.0'
   descripcion:
-    es: "Situaci\xC3\xB3n de inactividad 1"
+    es: "Situaci\xF3n de inactividad"
   nombre:
-    es: CLASEINACTIV
+    es: "Situaci\xF3n de inactividad"
   tipo: dimension
 EPA_ESTRUCHOGAR:
   codelist:
@@ -336,7 +336,7 @@ EPA_ESTRUCHOGAR:
   concept_scheme:
     agency: ESC01
     concepto: ESTRUCHOGAR
-    id: CS_TRABAJO
+    id: CS_VIVIENDA
     version: '1.0'
   descripcion:
     es: Estructura del hogar
@@ -349,10 +349,10 @@ EPA_NACIONALIDAD:
     id: CL_NACIONALIDAD
     version: '1.0'
   concept_scheme:
-    agency: ESC01
-    concepto: NACIONALIDAD
-    id: CS_TRABAJO
-    version: '1.0'
+    agency: ESTAT
+    concepto: COC
+    id: CS_DEMOGRAPHY
+    version: '1.2'
   descripcion:
     es: Nacionalidad
   nombre:
@@ -396,7 +396,7 @@ EPA_TIPACTIVIDADHOGAR:
   concept_scheme:
     agency: ESC01
     concepto: TIPACTIVIDADHOGAR
-    id: CS_TRABAJO
+    id: CS_VIVIENDA
     version: '1.0'
   descripcion:
     es: "Tipolog\xC3\xADa de la actividad del hogar"
@@ -411,7 +411,7 @@ EPD_TAMANOEMPRESA:
   concept_scheme:
     agency: ESC01
     concepto: TAMANOEMPRESA
-    id: CS_EMPRESAS
+    id: CS_TRABAJO
     version: '1.0'
   descripcion:
     es: "Tama\xF1o de la empresa"
@@ -426,7 +426,7 @@ ESTRATO_ASALARIADOS:
   concept_scheme:
     agency: ESC01
     concepto: ESTRATO_ASALARIADOS
-    id: CS_EMPRESAS
+    id: CS_TRABAJO
     version: '1.0'
   descripcion:
     es: "Tama\xF1o de la empresa"
@@ -441,7 +441,7 @@ ESTRUCHOGAR:
   concept_scheme:
     agency: ESC01
     concepto: ESTRUCHOGAR
-    id: CS_TRABAJO
+    id: CS_VIVIENDA
     version: '1.0'
   descripcion:
     es: Estructura del hogar
@@ -456,7 +456,7 @@ ESTUDIOS:
   concept_scheme:
     agency: ESC01
     concepto: ESTUDIOS
-    id: CS_EMPRESAS
+    id: CS_EDUCACION
     version: '1.0'
   descripcion:
     es: Estudios
@@ -471,7 +471,7 @@ INTERVINGRESOS:
   concept_scheme:
     agency: ESC01
     concepto: INTERVINGRESOS
-    id: CS_TRABAJO
+    id: CS_INGRESOS_CONSUMO
     version: '1.0'
   descripcion:
     es: Intervalo de ingresos
@@ -546,7 +546,7 @@ MCVL_INTERVINGRESOS:
   concept_scheme:
     agency: ESC01
     concepto: INTERVINGRESOS
-    id: CS_TRABAJO
+    id: CS_INGRESOS_CONSUMO
     version: '1.0'
   descripcion:
     es: Intervalo de ingresos
@@ -571,12 +571,12 @@ MCVL_MONEDAD:
 MCVL_MONSALARIO:
   codelist:
     agency: ESC01
-    id: CL_MONSALARIO
+    id: CL_SALARIO
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: MONSALARIO
-    id: CS_TRABAJO
+    concepto: SALARIO
+    id: CS_INGRESOS_CONSUMO
     version: '1.0'
   descripcion:
     es: Salario
@@ -606,7 +606,7 @@ MCVL_SECTORACTIVIDAD:
   concept_scheme:
     agency: ESC01
     concepto: SECTORACTIVIDAD
-    id: CS_TRABAJO
+    id: CS_ESTADISTICAS_SECTORIALES
     version: '1.0'
   descripcion:
     es: Sector de actividad
@@ -636,7 +636,7 @@ MCVL_TIPOHOGAR:
   concept_scheme:
     agency: ESC01
     concepto: TIPOHOGAR
-    id: CS_TRABAJO
+    id: CS_VIVIENDA
     version: '1.0'
   descripcion:
     es: Tipo de hogar
@@ -696,7 +696,7 @@ MES:
   concept_scheme:
     agency: ESC01
     concepto: MES
-    id: CS_TRABAJO
+    id: CS_FECHAS
     version: '1.0'
   descripcion:
     es: Mes
@@ -706,7 +706,7 @@ MES:
 MONEDAD:
   codelist:
     agency: ESC01
-    id: CL_MONEDAD
+    id: CL_EDAD
     version: '1.0'
   concept_scheme:
     agency: SDMX
@@ -721,12 +721,12 @@ MONEDAD:
 MONSALARIO:
   codelist:
     agency: ESC01
-    id: CL_MONSALARIO
+    id: CL_SALARIO
     version: '1.0'
   concept_scheme:
     agency: ESC01
-    concepto: MONSALARIO
-    id: CS_TRABAJO
+    concepto: SALARIO
+    id: CS_INGRESOS_CONSUMO
     version: '1.0'
   descripcion:
     es: Salario
@@ -754,10 +754,10 @@ NACIONALIDAD:
     id: CL_NACIONALIDAD
     version: '1.0'
   concept_scheme:
-    agency: ESC01
-    concepto: NACIONALIDAD
-    id: CS_TRABAJO
-    version: '1.0'
+    agency: ESTAT
+    concepto: COC
+    id: CS_DEMOGRAPHY
+    version: '1.2'
   descripcion:
     es: Nacionalidad
   nombre:
@@ -771,7 +771,7 @@ NAT_GASTO:
   concept_scheme:
     agency: ESC01
     concepto: NAT_GASTO
-    id: CS_EMPRESAS
+    id: CS_INGRESOS_CONSUMO
     version: '1.0'
   descripcion:
     es: Naturaleza del gasto
@@ -816,7 +816,7 @@ PUB_PRIV:
   concept_scheme:
     agency: ESC01
     concepto: PUB_PRIV
-    id: CS_EMPRESAS
+    id: CS_TRABAJO
     version: '1.0'
   descripcion:
     es: PUBLICA/PRIVADA
@@ -846,7 +846,7 @@ SECTORACTIVIDAD:
   concept_scheme:
     agency: ESC01
     concepto: SECTORACTIVIDAD
-    id: CS_TRABAJO
+    id: CS_ESTADISTICAS_SECTORIALES
     version: '1.0'
   descripcion:
     es: Sector de actividad
@@ -891,7 +891,7 @@ TAMANOEMPRESA:
   concept_scheme:
     agency: ESC01
     concepto: TAMANOEMPRESA
-    id: CS_EMPRESAS
+    id: CS_TRABAJO
     version: '1.0'
   descripcion:
     es: "Tama\xF1o de la empresa"
@@ -936,7 +936,7 @@ TIPACTIVIDADHOGAR:
   concept_scheme:
     agency: ESC01
     concepto: TIPACTIVIDADHOGAR
-    id: CS_TRABAJO
+    id: CS_VIVIENDA
     version: '1.0'
   descripcion:
     es: "Tipolog\xC3\xADa de la actividad del hogar"
@@ -981,7 +981,7 @@ TIPODEHOGAR:
   concept_scheme:
     agency: ESC01
     concepto: TIPOHOGAR
-    id: CS_TRABAJO
+    id: CS_VIVIENDA
     version: '1.0'
   descripcion:
     es: Tipo de hogar
@@ -996,7 +996,7 @@ TIPOHOGAR:
   concept_scheme:
     agency: ESC01
     concepto: TIPOHOGAR
-    id: CS_TRABAJO
+    id: CS_VIVIENDA
     version: '1.0'
   descripcion:
     es: Tipo de hogar
@@ -1071,7 +1071,7 @@ TIPO_EMPRESA:
   concept_scheme:
     agency: ESC01
     concepto: TIPO_EMPRESA
-    id: CS_EMPRESAS
+    id: CS_TRABAJO
     version: '1.0'
   descripcion:
     es: Tipo de empresa
@@ -1086,7 +1086,7 @@ TIPO_ESTAB:
   concept_scheme:
     agency: ESC01
     concepto: TIPO_ESTAB
-    id: CS_EMPRESAS
+    id: CS_TRABAJO
     version: '1.0'
   descripcion:
     es: Tipo de establecimiento
@@ -1101,7 +1101,7 @@ TIPO_PERSONAL:
   concept_scheme:
     agency: ESC01
     concepto: TIPO_PERSONAL
-    id: CS_EMPRESAS
+    id: CS_TRABAJO
     version: '1.0'
   descripcion:
     es: Tipo de personal
