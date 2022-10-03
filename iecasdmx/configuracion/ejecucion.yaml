@@ -17,12 +17,12 @@ actividades:
   #  - APARTAMENTOS_TURISTICOS
   #  - ECTA
   #  - EEE
-#  - EPA
-#  - AUTONOMOS
-#  - SALARIOS
+  - EPA
+  - AUTONOMOS
+  - SALARIOS
   - MCVL
-#  - EMPRESASIMD
-#  - USO_TIC
+  - EMPRESASIMD
+  - USO_TIC
 
 
 
