@@ -80,7 +80,7 @@ class Jerarquia:
 
         jerarquia_df = pd.DataFrame(datos_jerarquia, columns=[propiedad.upper() for propiedad in propiedades_jerarquia],
                                     dtype='string')
-
+        jerarquia_df = jerarquia_df.replace(to_replace='null', value='')
         jerarquia_df.drop_duplicates('COD', keep='first', inplace=True)
         self.logger.info('Jerarquia transformada')
 
@@ -107,6 +107,7 @@ class Jerarquia:
 
         datos = self.datos.__deepcopy__()
         datos.columns = columnas
+
         self.datos_sdmx = mapear_id_por_dimension(datos[columnas_sdmx], 'D_' + self.nombre + '_0',
                                                   self.configuracion_global[
                                                       'directorio_mapas_dimensiones']) if self.nombre in \
@@ -135,7 +136,7 @@ class Jerarquia:
         try:
             self.logger.info('Buscando el CSV de la jerarquia en local')
             with open(directorio_csv, 'r', encoding='utf-8') as csv_file:
-                datos = pd.read_csv(csv_file, sep=';', dtype='string')
+                datos = pd.read_csv(csv_file, sep=';', dtype='string', keep_default_na=False)
                 self.logger.info('CSV leido correctamente')
         except Exception as e:
             self.logger.warning('No se ha encontrado el fichero %s', directorio_csv)
@@ -161,8 +162,8 @@ class Jerarquia:
                                                                                                  'concepto': self.nombre},
                                                          'codelist': {'agency': 'ESC01', 'id': 'CL_' + self.nombre,
                                                                       'version': '1.0'},
-                                                         'nombre': {'es': self.nombre},
+                                                         'nombre': {'es': self.metadatos['des'].decode('utf-8')},
                                                          'descripcion': {'es': self.metadatos['des']}}
             file.close()
-            with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'w') as file:
-                yaml.dump(mapa_conceptos_codelists, file)
+            with open(self.configuracion_global['directorio_mapa_conceptos_codelists'], 'w', encoding='utf-8') as file:
+                yaml.dump(mapa_conceptos_codelists, file,encoding='utf-8')

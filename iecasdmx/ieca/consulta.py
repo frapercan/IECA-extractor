@@ -44,12 +44,14 @@ class Consulta:
         datos (:class:`iecasdmx.datos.Datos`): Datos proporcionados en la consulta.
     """
 
-    def __init__(self, id_consulta, configuracion_global, configuracion_actividad, actividad):
+    def __init__(self, id_consulta, configuracion_global, configuracion_actividad,mapa_conceptos_codelist, actividad):
         self.url_consulta = id_consulta
         self.id_consulta = id_consulta
 
         self.configuracion_global = configuracion_global
         self.configuracion_actividad = configuracion_actividad
+        self.mapa_conceptos_codelist = mapa_conceptos_codelist
+
         self.actividad = actividad
 
         self.logger = logging.getLogger(f'{self.__class__.__name__} [{self.id_consulta}]')
@@ -65,7 +67,7 @@ class Consulta:
             Jerarquia(jerarquia, self.configuracion_global, self.actividad, self.configuracion_actividad['categoria'])
             for jerarquia in
             jerarquias_sin_procesar]
-        self.datos = Datos(self.id_consulta, self.configuracion_global, self.actividad,
+        self.datos = Datos(self.id_consulta, self.configuracion_global,self.mapa_conceptos_codelist, self.actividad,
                            self.metadatos['periodicity'],
                            datos_sin_procesar,
                            self.jerarquias, self.medidas)

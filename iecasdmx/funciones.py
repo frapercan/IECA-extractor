@@ -62,7 +62,14 @@ def aglutinar_jerarquias_desde_consultas_por_dimension(jerarquias, dimension):
 
 def mapear_id_por_dimension(df, dimension, directorio_mapas_dimensiones):
     directorio_mapa = os.path.join(directorio_mapas_dimensiones, dimension)
-    df_mapa = pd.read_csv(directorio_mapa, sep=',', dtype='string')
+
+    if not os.path.exists(directorio_mapa):
+        df_mapa = pd.DataFrame(columns=["SOURCE","COD","NAME","TARGET"])
+        df_mapa.to_csv(directorio_mapa,index=False)
+
+
+
+    df_mapa = pd.read_csv(directorio_mapa, sep=',', dtype='string', keep_default_na=False)
     df.loc[:, 'ID'] = \
         df.merge(df_mapa, how='left', left_on='ID', right_on='SOURCE')['TARGET'].values
     df.loc[:, 'PARENTCODE'] = \
@@ -93,4 +100,34 @@ def strip_accents(text):
            .decode("utf-8")
 
     return str(text)
+
+def crear_mapeo_por_defecto(descripcion):
+    preposiciones = ['A', 'DE', 'POR', 'PARA', 'EN']
+    if isinstance(descripcion, pd._libs.missing.NAType):
+        return None
+    descripcion = descripcion.upper().replace(" ", "_")
+    if len(descripcion) >= 15:
+        descripcion_reducida = []
+        for parte in descripcion.split("_"):
+            if parte not in preposiciones:
+                if len(parte) >= 4:
+                    descripcion_reducida.append(parte[:4])
+                else:
+                    descripcion_reducida.append(parte)
+        descripcion = '_'.join(descripcion_reducida)
+    descripcion = descripcion.replace('%', 'PCT')
+    descripcion = descripcion.replace('€', 'EUR')
+    descripcion = descripcion.replace('(', '')
+    descripcion = descripcion.replace(')', '')
+    descripcion = descripcion.replace('>=', 'GE')
+    descripcion = descripcion.replace('>', 'GT')
+    descripcion = descripcion.replace('<=', 'LT')
+    descripcion = descripcion.replace('<', 'LE')
+    descripcion = descripcion.replace('/', '')
+    descripcion = descripcion.replace('"', '')
+    descripcion = descripcion.replace(':', '')
+    descripcion = descripcion.replace(',', '')
+    descripcion = descripcion.replace('+', 'MAS')
+    descripcion = descripcion.replace('.', '')
+    return strip_accents(descripcion)
 

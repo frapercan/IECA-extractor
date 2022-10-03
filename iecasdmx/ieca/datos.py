@@ -5,11 +5,13 @@ import pandas as pd
 
 import logging
 import numpy as np
+from iecasdmx.funciones import crear_mapeo_por_defecto
 
 from iecasdmx.funciones import strip_accents
 
 fmt = '[%(asctime)-15s] [%(levelname)s] %(name)s: %(message)s'
 logging.basicConfig(format=fmt, level=logging.INFO, stream=sys.stdout)
+
 
 
 class Datos:
@@ -36,11 +38,14 @@ class Datos:
 
     """
 
-    def __init__(self, id_consulta, configuracion_global, actividad, periodicidad, datos, jerarquias,
+    def __init__(self, id_consulta, configuracion_global,mapa_conceptos_codelist, actividad, periodicidad, datos, jerarquias,
                  medidas):
         self.id_consulta = id_consulta
         self.configuracion_global = configuracion_global
+        self.mapa_conceptos_codelist = mapa_conceptos_codelist
+
         self.actividad = actividad
+
         self.periodicidad = periodicidad
         self.jerarquias = jerarquias
         self.medidas = medidas
@@ -84,35 +89,31 @@ class Datos:
         except Exception as e:
             self.logger.error('Consulta sin datos - %s', self.id_consulta)
             raise e
-        if 'D_TIPO_EMPRESA_0' in df.columns:
-            print(df['D_TIPO_EMPRESA_0'])
         df.columns = columnas
-        print(df.columns)
-        print(columnas_medida)
-        print(columnas_jerarquia)
-        df[columnas_jerarquia] = df[columnas_jerarquia].applymap(lambda x: x['cod'][-1])
 
-        print(df[columnas_medida])
-        print(len(columnas_medida),df[columnas_medida].shape)
+        df[columnas_jerarquia] = df[columnas_jerarquia].applymap(lambda x: x['cod'][-1], na_action='ignore')
+        
         df[columnas_medida] = df[columnas_medida].applymap(
-            lambda x: x['val'] if x['val'] != "" else x['format'])
+            lambda x: x['val'] if x['val'] != "" else x['format'], na_action='ignore')
 
         dimension_temporal = self.configuracion_global['dimensiones_temporales']
+        # Parece que ellos no utilizan de forma interna el formato fecha de sql.
         if dimension_temporal in df.columns:
             df[dimension_temporal] = transformar_formato_tiempo_segun_periodicidad(df[dimension_temporal],
                                                                                    self.periodicidad)
-
+        df_mapeado = df.copy()
         # Parche IECA ya que están indexando por cod en lugar de id.
         for jerarquia in self.jerarquias:
             columna = jerarquia.metadatos['alias']
 
             if columna != dimension_temporal:
-                df[columna] = df.merge(jerarquia.datos, how='left', left_on=columna, right_on='COD')['ID'].values
+                df_mapeado[columna] = df.merge(jerarquia.datos, how='left', left_on=columna, right_on='COD')['ID'].values
+                disconexos = df_mapeado[columna].isna()
+                if len(df_mapeado[ disconexos]):
+                    df_mapeado[columna][disconexos] =df[columna][ disconexos].map(lambda x: crear_mapeo_por_defecto(x), na_action='ignore')
 
         self.logger.info('Datos Transformados a DataFrame Correctamente')
-        if 'D_TIPO_EMPRESA_0' in df.columns:
-            print(df['D_TIPO_EMPRESA_0'])
-        return df
+        return df_mapeado
 
     def desacoplar_datos_por_medidas(self):
         """El formato tabular proporcionado por la API tiene una dimension para cada medida, nuestro modelado
@@ -184,7 +185,7 @@ class Datos:
         for columna in columnas_a_mapear:
             self.logger.info('Mapeando: %s', columna)
             directorio_mapa = os.path.join(self.configuracion_global['directorio_mapas_dimensiones'], columna)
-            mapa = pd.read_csv(directorio_mapa, dtype='string')
+            mapa = pd.read_csv(directorio_mapa, dtype='string',keep_default_na=False)
             self.datos_por_observacion[columna] = \
                 self.datos_por_observacion.merge(mapa, how='left', left_on=columna, right_on='SOURCE')['TARGET'].values
 
@@ -201,16 +202,15 @@ class Datos:
             os.makedirs(directorio_mapas)
 
         for columna_alias, columna_id in zip(columnas_jerarquia_alias, columnas_jerarquia_id):
-            self.logger.info('Dimension: %s', columna_alias)
+            self.logger.info('Mapa de Dimension : %s', columna_alias)
             fichero_mapa_dimension = os.path.join(directorio_mapas, columna_id)
             if columna_id in self.configuracion_global['dimensiones_a_mapear']:
 
                 if os.path.isfile(fichero_mapa_dimension):
-                    df_mapa = pd.read_csv(fichero_mapa_dimension, dtype='string')
+                    df_mapa = pd.read_csv(fichero_mapa_dimension, dtype='string',keep_default_na=False)
 
                 else:
                     df_mapa = pd.DataFrame(columns=columnas_plantilla, dtype='string')
-
                 uniques = np.full([len(self.datos_por_observacion[columna_id].unique()), len(columnas_plantilla)], None)
                 uniques[:, 0] = self.datos_por_observacion[columna_id].unique()
 
@@ -218,10 +218,11 @@ class Datos:
 
                 df_mapa = pd.concat([df_mapa, df_auxiliar]).drop_duplicates('SOURCE', keep='first')
 
+
                 if columna_id != 'INDICATOR':
                     jerarquia_codigos = pd.read_csv(
                         os.path.join(self.configuracion_global['directorio_jerarquias'], self.actividad, 'original',
-                                     columna_alias + '.csv'), sep=';',
+                                     columna_alias + '.csv'), sep=';',keep_default_na=False,
                         dtype='string')
 
                     df_mapa['COD'][df_mapa['COD'].isna()] = \
@@ -282,9 +283,10 @@ class Datos:
          """
         mapeo_columnas = self.configuracion_global['mapeo_columnas']
         columnas = self.datos_por_observacion.columns
-        # columnas = [mapeo_columnas[columna] if columna in mapeo_columnas.keys() else columna for columna in columnas]
+        
         columnas = [columna[2:] if columna[:2] == 'D_' else columna for columna in columnas ]
         columnas = [columna[:-2] if columna[-2:] == '_0' else columna for columna in columnas ]
+        columnas = [mapeo_columnas[columna] if columna in mapeo_columnas.keys() else columna for columna in columnas]
 
         self.datos_por_observacion.columns = columnas
 
@@ -301,6 +303,9 @@ class Datos:
             valor = dic[columna]
             self.datos_por_observacion = self.datos_por_observacion[self.datos_por_observacion[columna] != valor]
 
+    def mostrar_df(self):
+        # print('mostrando df',self.datos.to_string())
+        pass
 
 def transformar_formato_tiempo_segun_periodicidad(serie, periodicidad):
     """Transforma la dimension temporal de un cuadro de datos para que se adecue al formato de tiempo utilizado
@@ -331,32 +336,4 @@ def insertar_freq(df, periodicidad):
     return df
 
 
-def crear_mapeo_por_defecto(descripcion):
-    preposiciones = ['A', 'DE', 'POR', 'PARA','EN']
-    if isinstance(descripcion,pd._libs.missing.NAType):
-        return None
-    descripcion = descripcion.upper().replace(" ", "_")
-    if len(descripcion) >= 15:
-        descripcion_reducida = []
-        for parte in descripcion.split("_"):
-            if parte not in preposiciones:
-                if len(parte) >= 4:
-                    descripcion_reducida.append(parte[:4])
-                else:
-                    descripcion_reducida.append(parte)
-        descripcion = '_'.join(descripcion_reducida)
-    descripcion = descripcion.replace('%','PCT')
-    descripcion = descripcion.replace('€','EUR')
-    descripcion = descripcion.replace('(','')
-    descripcion = descripcion.replace(')','')
-    descripcion = descripcion.replace('>=','GE')
-    descripcion = descripcion.replace('>','GT')
-    descripcion = descripcion.replace('<=','LT')
-    descripcion = descripcion.replace('<','LE')
-    descripcion = descripcion.replace('/','')
-    descripcion = descripcion.replace('"','')
-    descripcion = descripcion.replace(':','')
-    descripcion = descripcion.replace(',','')
-    descripcion = descripcion.replace('+','MAS')
-    descripcion = descripcion.replace('.','')
-    return strip_accents(descripcion)
+

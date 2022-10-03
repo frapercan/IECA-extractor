@@ -1,0 +1,6 @@
+ID;COD;NAME;DESCRIPTION;PARENTCODE;ORDER
+7207;Total;(Total) Tipo de movimiento;Tipo de movimiento;;0
+515925;00;(00) TOTAL;TOTAL;;1
+515926;A;(A) Alta;Alta;515925;1
+515927;B;(B) Baja;Baja;515925;2
+_Z;No aplica;No aplica;No aplica;;

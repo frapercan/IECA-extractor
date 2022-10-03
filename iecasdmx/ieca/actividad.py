@@ -32,9 +32,11 @@ class Actividad:
          correspondientes.
     """
 
-    def __init__(self, configuracion_global, configuracion_actividad, plantilla_configuracion_actividad, actividad):
+    def __init__(self, configuracion_global, configuracion_actividad, plantilla_configuracion_actividad,
+                 mapa_conceptos_codelist, actividad):
         self.configuracion_global = configuracion_global
         self.configuracion_actividad = {**plantilla_configuracion_actividad, **configuracion_actividad}
+        self.mapa_conceptos_codelist = mapa_conceptos_codelist
 
         self.actividad = actividad
 
@@ -52,7 +54,7 @@ class Actividad:
         for consulta in self.configuracion_actividad['consultas']:
             try:
                 consulta = Consulta(consulta, self.configuracion_global, self.configuracion_actividad,
-                                    self.actividad)
+                                    self.mapa_conceptos_codelist, self.actividad)
 
                 self.consultas[consulta.id_consulta] = consulta
             except Exception as e:
@@ -88,7 +90,9 @@ class Actividad:
             os.makedirs(directorio)
 
         self.logger.info('Creando fichero de configuración de la actividad')
-        self.configuracion = {'NOMBRE_DSD': 'DSD_' + self.actividad,'categoria':self.configuracion_actividad['categoria'], 'grupos_consultas': {}, 'variables': []}
+        self.configuracion = {'NOMBRE_DSD': 'DSD_' + self.actividad,
+                              'categoria': self.configuracion_actividad['categoria'], 'grupos_consultas': {},
+                              'variables': []}
         for id_consulta, consulta in self.consultas.items():
             if consulta.metadatos['title'] not in self.configuracion['grupos_consultas']:
                 self.configuracion['grupos_consultas'][consulta.metadatos['title']] = {
@@ -111,7 +115,8 @@ class Actividad:
 
             for consulta in informacion_grupo['consultas']:
                 self.consultas[consulta].datos.extender_con_disjuntos(self.configuracion['variables'])
-                self.consultas[consulta].datos.datos_por_observacion_extension_disjuntos.to_csv(os.path.join(directorio,consulta+'.csv',),sep=';',index=False)
+                self.consultas[consulta].datos.datos_por_observacion_extension_disjuntos.to_csv(
+                    os.path.join(directorio, consulta + '.csv', ), sep=';', index=False)
             columnas_grupo = [self.consultas[consulta].datos.datos_por_observacion.columns for consulta in
                               informacion_grupo['consultas']]
             self.comprobar_dimensiones_grupo_actividad(columnas_grupo, grupo)
