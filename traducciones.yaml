@@ -208,9 +208,13 @@
   es: "(0) Menos de 1 a\xF1o"
 (0) Menos de primaria:
   en: (0) Less than primary
+"(0) Ning\xFAn episodio de cotizaci\xF3n":
+  en: (0) No listing episode
 "(0) Ning\xFAn hijo menor":
   en: (0) No minor children
   es: "(0) Ning\xFAn hijo menor"
+(0) No pensionista:
+  en: (0) No pensioner
 (0) Ocupaciones militares:
   en: (0) Military occupations
 (00) Ambos sexos:
@@ -365,6 +369,8 @@
 (01) Hombres:
   en: (01) Men
   es: (01) Hombres
+(01) Nacionalidad:
+  en: (01) Nationality
 (01) Unipersonales:
   en: (01) Single Person
 "(010) Andaluc\xEDa":
@@ -372,6 +378,8 @@
   es: "(010) Andaluc\xEDa"
 (010) Estudiante:
   en: (010) Student
+(0100) Total:
+  en: (0100) Total
 "(010014) De 10 a 14 a\xF1os":
   en: (010014) From 10 to 14 years old
   es: "(010014) De 10 a 14 a\xF1os"
@@ -383,6 +391,8 @@
 (0101) Albania:
   en: (0101) Albania
   es: (0101) Albania
+"(0101) Espa\xF1ola":
+  en: (0101) English
 (0101) Inactivos sin ingresos:
   en: (0101) Inactive without income
 (0101) Ocupados:
@@ -399,6 +409,8 @@
 (0102) Austria:
   en: (0102) Austria
   es: (0102) Austria
+(0102) Extranjera:
+  en: (0102) Foreign
 (0102) Inactivos con prestaciones por desempleo:
   en: (0102) Inactive with unemployment benefits
 (0102) Parados:
@@ -686,6 +698,8 @@
   en: (02) Employed households
 (02) Inactivos:
   en: (02) Inactive
+(02) Provincia de nacimiento:
+  en: (02) Province of birth
 "(02) Resto de Espa\xF1a":
   en: (02) Rest of Spain
   es: "(02) Resto de Espa\xF1a"
@@ -698,6 +712,8 @@
   es: (020) Resto de CCAA
 "(020) Sin n\xFAcleo":
   en: (020) No core
+(0200) Total:
+  en: (0200) Total
 "(020024) De 20 a 24 a\xF1os":
   en: (020024) From 20 to 24 years old
 (0201) 1 estrella de plata:
@@ -705,6 +721,8 @@
   es: (0201) 1 estrella de plata
 (0201) Activos potenciales:
   en: (0201) Potential assets
+"(0201) Nacidos en Andaluc\xEDa":
+  en: (0201) Born in Andalusia
 (0201) Ocupados sin parados:
   en: (0201) Employed without unemployed
 "(0201) Percibiendo una pensi\xF3n de jubilaci\xF3n":
@@ -720,12 +738,18 @@
   en: (0202) Inactive3
 (0202) Incapacitado permanente:
   en: (0202) Permanently disabled
+"(0202) Nacidos en el resto Espa\xF1a":
+  en: (0202) Born in the rest of Spain
 (0202) Ocupados y parados:
   en: (0202) Employed and unemployed
 (020201) Inactivos3:
   en: (020201) Inactive3
+"(0203) Nacidos fuera de Espa\xF1a":
+  en: (0203) Born outside Spain
 "(0203) Percibiendo pensi\xF3n distinta a jubilaci\xF3n":
   en: (0203) Receiving a pension other than a retirement pension
+(0204) No consta:
+  en: (0204) Does not appear
 (021) 021. Silvicultura y otras actividades forestales:
   en: (021) 021. Forestry and other forestry activities
 (0210) 0210. Silvicultura y otras actividades forestales:
@@ -790,8 +814,12 @@
 (03) Principado de Asturias:
   en: (03) Principality of Asturias
   es: (03) Principado de Asturias
+"(03) Tama\xF1o del municipio":
+  en: (03) Size of municipality
 (030) Labores del hogar:
   en: (030) Housework
+(0300) Total:
+  en: (0300) Total
 "(030034) De 30 a 34 a\xF1os":
   en: (030034) From 30 to 34 years old
   es: "(030034) De 30 a 34 a\xF1os"
@@ -805,6 +833,8 @@
   es: "(0301) Canad\xE1"
 "(0301) Hijo menor de 3 a\xF1os":
   en: (0301) Child under 3 years old
+(0301) Municipios de menos de 40 mil habitantes:
+  en: (0301) Municipalities with less than 40 thousand inhabitants
 (0301) Parados sin ocupados, con prestaciones por desempleo:
   en: (0301) Unemployed not in employment, with unemployment benefits
 (0302) Estados Unidos:
@@ -812,10 +842,14 @@
   es: (0302) Estados Unidos
 "(0302) Hijo 3-5 a\xF1os":
   en: (0302) Child 3-5 years
+(0302) Municipio entre 40 y 100 mil habitantes:
+  en: (0302) Municipality between 40 and 100 thousand inhabitants
 (0302) Parados sin ocupados, con prestaciones y pensiones:
   en: (0302) Unemployed not in employment, with benefits and pensions
 "(0303) Hijo 6-15 a\xF1os":
   en: (0303) Child 6-15 years
+"(0303) Municipio con m\xE1s de 100 mil habitantes":
+  en: (0303) Municipality with more than 100 thousand inhabitants
 "(0303) M\xE9xico":
   en: (0303) Mexico
   es: "(0303) M\xE9xico"
@@ -874,6 +908,8 @@
   es: "(04) Almer\xEDa"
 (04) Grupo 4. Viviendas, agua, electricidad gas y otros combustibles:
   en: (04) Group 4. Housing, water, electricity, gas and other fuels
+(04) Hijos:
+  en: (04) Hijos
 (04) Islas Baleares/Illes Balears:
   en: (04) Islas Baleares/Illes Balears
   es: (04) Islas Baleares/Illes Balears
@@ -881,6 +917,8 @@
   en: (04) Childless couple
 "(040) Realiz\xF3 trabajos sin remuneraci\xF3n, otras":
   en: (040) Performed unpaid labour, other
+(0400) Total:
+  en: (0400) Total
 (04001) Abla:
   en: (04001) Abla
 (04002) Abrucena:
@@ -906,6 +944,8 @@
   en: (0401) With woman under 50 years old
 "(0401) Realiz\xF3 trabajos sin remuneraci\xF3n":
   en: (0401) Performed work without remuneration
+(0401) Sin hijos fiscales:
+  en: (0401) No tax children
 (04010) Alhabia:
   en: (04010) Alhabia
 "(04011) Alhama de Almer\xEDa":
@@ -926,6 +966,8 @@
   en: "(04018) Armu\xF1a de Almanzora"
 (04019) Bacares:
   en: (04019) Bacares
+"(0402) Con hijos fiscales menores de 3 a\xF1os":
+  en: (0402) With tax children under 3 years of age
 (0402) Otras:
   en: (0402) Other
 "(0402) Sin mujer menor de 50 a\xF1os":
@@ -950,6 +992,8 @@
   en: (04028) Bentaric
 (04029) Berja:
   en: (04029) Berja
+"(0403) Con hijos fiscales mayores de 3 a\xF1os":
+  en: (0403) With tax children over 3 years of age
 "(04030) Canj\xE1yar":
   en: "(04030) Canj\xE1yar"
 (04031) Cantoria:
@@ -1148,6 +1192,8 @@
 "(04NC) Municipio de Almer\xEDa sin especificar":
   en: "(04NC) Municipality of Almer\xEDa unspecified"
   es: "(04NC) Municipio de Almer\xEDa sin especificar"
+(04NC) No consta:
+  en: (04NC) Does not appear
 (05) 05. Carne de porcino:
   en: (05) 05. Pigmeat
 "(05) 05. Extracci\xF3n de antracita, hulla y lignito":
@@ -1165,17 +1211,25 @@
     of the household
 (05) Pareja sin hijos + otros:
   en: (05) Couple without children + others
+"(05) Tipo de cotizaci\xF3n":
+  en: (05) Type of quotation
 "(05+) M\xE1s de 4 hijos":
   en: (05+) More than 4 children
   es: "(05+) M\xE1s de 4 hijos"
 (050) Pareja sin hijos + otros:
   en: (050) Couple without children + others
+(0500) Total:
+  en: (0500) Total
 "(050054) De 50 a 54 a\xF1os":
   en: (050054) From 50 to 54 years old
   es: "(050054) De 50 a 54 a\xF1os"
 (0501) Australia:
   en: (0501) Australia
   es: (0501) Australia
+"(0501) S\xF3lo episodios de ocupaci\xF3n en el a\xF1o":
+  en: (0501) Occupation episodes only in year
+"(0502) Episodios de ocupaci\xF3n y otros":
+  en: (0502) Occupation and other episodes
 "(051) 051. Extracci\xF3n de antracita y hulla":
   en: (051) 051. Extraction of anthracite and hard coal
 (051) Resto del mundo:
@@ -1215,15 +1269,25 @@
 (06) Mujeres:
   en: (06) Women
   es: (06) Mujeres
+"(06) N\xFAmero de episodios de cotizaci\xF3n en el a\xF1o":
+  en: (06) Number of contribution episodes in the year
 (06) Pareja con hijos:
   en: (06) Couple with children
+(0600) Total:
+  en: (0600) Total
 "(060064) De 60 a 64 a\xF1os":
   en: (060064) 60 to 64 years old
   es: "(060064) De 60 a 64 a\xF1os"
 "(0601) Hijo menor de 3 a\xF1os":
   en: (0601) Child under 3 years old
+"(0601) Un \xFAnico episodio en el a\xF1o":
+  en: (0601) A single episode in the year
+"(0602) Dos o tres episodios en el a\xF1o":
+  en: (0602) Two or three episodes in the year
 "(0602) Hijo 3-5 a\xF1os":
   en: (0602) Child 3-5 years
+"(0603) Cuatro o m\xE1s episodios en el a\xF1o":
+  en: (0603) Four or more episodes in the year
 "(0603) Hijo 6-15 a\xF1os":
   en: (0603) Child 6-15 years
 "(0604) Hijo 16-22 a\xF1os":
@@ -1271,17 +1335,29 @@
   es: (07) Castilla-La Mancha
 (07) Grupo 7. Transporte:
   en: (07) Group 7. Transport
+"(07) N\xFAmero de d\xEDas de cotizaci\xF3n en el a\xF1o":
+  en: (07) Number of contribution days in the year
 (07) Pareja con hijos y otros:
   en: (07) Couple with children and others
+(0700) Total:
+  en: (0700) Total
 "(070074) De 70 a 74 a\xF1os":
   en: (070074) 70 to 74 years old
   es: "(070074) De 70 a 74 a\xF1os"
 "(0701) Hijo menor de 3 a\xF1os y otros":
   en: (0701) Child under 3 years old and others
+(0701) Menos de 1 mes:
+  en: (0701) Less than 1 month
+(0702) Entre 1 y 3 meses:
+  en: (0702) Between 1 and 3 months
 "(0702) Hijo 3-5 a\xF1os y otros":
   en: (0702) Child 3-5 years and others
+(0703) Entre 3 y 12 meses:
+  en: (0703) Between 3 and 12 months
 "(0703) Hijo 6-15 a\xF1os y otros":
   en: (0703) Child 6-15 years and others
+"(0704) El a\xF1o completo":
+  en: (0704) The whole year
 "(0704) Hijo 16-22 a\xF1os y otros":
   en: (0704) Son 16-22 years old and others
 "(0705) Hijo 23 y m\xE1s a\xF1os y otros":
@@ -1321,9 +1397,19 @@
   es: "(08) Castilla y Le\xF3n"
 (08) Grupo 8. Comunicaciones:
   en: (08) Group 8. Communications
+"(08) N\xFAmero de episodios de ocupaci\xF3n en el a\xF1o":
+  en: (08) Number of occupancy episodes in year
+(0800) Total:
+  en: (0800) Total
 "(080084) De 80 a 84 a\xF1os":
   en: (080084) 80 to 84 years old
   es: "(080084) De 80 a 84 a\xF1os"
+"(0801) Un \xFAnico episodio en el a\xF1o":
+  en: (0801) A single episode in the year
+"(0802) Dos o tres episodios en el a\xF1o":
+  en: (0802) Two or three episodes in the year
+"(0803) Cuatro o m\xE1s episodios en el a\xF1o":
+  en: (0803) Four or more episodes in the year
 "(081) 081. Extracci\xF3n de piedra, arena y arcilla":
   en: (081) 081. Quarrying of stone, sand and clay
 "(0811) 0811. Extracci\xF3n de piedra ornamental y para la construcci\xF3n, piedra caliza, yeso, creta y pizarra":
@@ -1361,9 +1447,21 @@
   es: "(09) Catalu\xF1a/Catalunya"
 (09) Grupo 9. Ocio y cultura:
   en: (09) Group 9. Leisure and culture
+"(09) N\xFAmero de d\xEDas ocupado en el a\xF1o":
+  en: (09) Number of days occupied in the year
+(0900) Total:
+  en: (0900) Total
 "(090094) De 90 a 94 a\xF1os":
   en: (090094) 90 to 94 years old
   es: "(090094) De 90 a 94 a\xF1os"
+(0901) Menos de 1 mes:
+  en: (0901) Less than 1 month
+(0902) Entre 1 y 3 meses:
+  en: (0902) Between 1 and 3 months
+(0903) Entre 3 y 12 meses:
+  en: (0903) Between 3 and 12 months
+"(0904) El a\xF1o completo":
+  en: (0904) The whole year
 "(091) 091. Actividades de apoyo a la extracci\xF3n de petr\xF3leo y gas natural":
   en: (091) 091. Support activities for petroleum and natural gas extraction
 "(0910) 0910. Actividades de apoyo a la extracci\xF3n de petr\xF3leo y gas natural":
@@ -1389,6 +1487,8 @@
 (1) 1 hijo:
   en: (1) 1 hijo
   es: (1) 1 hijo
+(1) Agricultura:
+  en: (1) Agriculture
 "(1) Ambos c\xF3nyuges espa\xF1oles":
   en: (1) Both Spanish spouses
   es: "(1) Ambos c\xF3nyuges espa\xF1oles"
@@ -1405,17 +1505,35 @@
 (1) Hotel, apartahotel:
   en: (1) Hotel, apartahotel
   es: (1) Hotel, apartahotel
+(1) Incapacidad:
+  en: (1) Incapacity
+"(1) Menos de 10.000\u20AC":
+  en: "(1) Less than \u20AC10,000"
+"(1) Menos de 31 d\xEDas":
+  en: (1) Less than 31 days
 (1) Padre:
   en: (1) Padre
   es: (1) Padre
+(1) Pensionista:
+  en: (1) Pensioner
 "(1) Persona de 16 o m\xE1s a\xF1os":
   en: (1) Person aged 16 years or older
 (1) Soltero/a:
   en: (1) Solter
   es: (1) Soltero/a
+"(1) S\xF3lo cotizante":
+  en: (1) Contributor only
+"(1) S\xF3lo episodios de ocupaci\xF3n":
+  en: (1) Occupation episodes only
+"(1) S\xF3lo prestaci\xF3n por desempleo":
+  en: (1) Unemployment benefit only
+(1) Un adulto solo, edad 16-64:
+  en: (1) One adult alone, age 16-64
 "(1) Unidades locales en Andaluc\xEDa":
   en: (1) Local units in Andalusia
   es: "(1) Unidades locales en Andaluc\xEDa"
+"(1) Uno o m\xE1s episodio(s) de cotizaci\xF3n":
+  en: (1) One or more listing episode(s)
 (10) 10:
   en: (10) 10
   es: (10) 10
@@ -1426,6 +1544,8 @@
   en: (10) 10. Huevos
 "(10) 10. Industria de la alimentaci\xF3n":
   en: (10) 10. Food industry
+(10) Agricultura:
+  en: (10) Agriculture
 "(10) Ambos c\xF3nyuges espa\xF1oles":
   en: (10) Both Spanish spouses
   es: "(10) Ambos c\xF3nyuges espa\xF1oles"
@@ -1440,10 +1560,14 @@
 (10) Distinto sexo:
   en: (10) Distinct gender
   es: (10) Distinto sexo
+"(10) Duraci\xF3n del \xFAltimo episodio de ocupaci\xF3n":
+  en: (10) Duration of the last episode of occupation
 "(10) Educaci\xF3n primaria":
   en: (10) Primary education
 "(10) Grupo 10. Ense\xF1anza":
   en: (10) Group 10. Teaching
+"(10) Hogares con un \xFAnico adulto (16+)":
+  en: (10) Households with only one adult (16+)
 (10) Soltero/a:
   en: (10) Solter
   es: (10) Soltero/a
@@ -1453,9 +1577,21 @@
 "(100) De 100 a\xF1os":
   en: (100) From 100 years old
   es: "(100) De 100 a\xF1os"
+(1000) Total:
+  en: (1000) Total
 "(100000) De 100 y m\xE1s a\xF1os":
   en: (100000) 100 and over
   es: "(100000) De 100 y m\xE1s a\xF1os"
+(1001) Menos de 6 meses:
+  en: (1001) Less than 6 months
+"(1002) De 6 meses a 1 a\xF1o":
+  en: (1002) From 6 months to 1 year
+"(1003) De 1 a 5 a\xF1os":
+  en: (1003) 1 to 5 years
+"(1004) De 5 a 10 a\xF1os":
+  en: (1004) From 5 to 10 years
+"(1005) M\xE1s de 10 a\xF1os":
+  en: (1005) More than 10 years
 "(101) 101. Procesado y conservaci\xF3n de carne y elaboraci\xF3n de productos c\xE1rnicos":
   en: (101) 101. Meat processing, preserving and preserving of meat and production
     of meat products
@@ -1625,6 +1761,8 @@
 "(11) Ambos c\xF3nyuges espa\xF1oles":
   en: (11) Both Spanish spouses
   es: "(11) Ambos c\xF3nyuges espa\xF1oles"
+"(11) Antig\xFCedad en la empresa":
+  en: (11) Length of service
 "(11) C\xE1diz":
   en: (11) Cadiz
   es: "(11) C\xE1diz"
@@ -1646,6 +1784,8 @@
 (110) Francia:
   en: (110) France
   es: (110) Francia
+(1100) Total:
+  en: (1100) Total
 "(11001) Alcal\xE1 de los Gazules":
   en: "(11001) Alcal\xE1 de los Gazules"
 "(11002) Alcal\xE1 del Valle":
@@ -1666,6 +1806,8 @@
   en: (11009) Benaocaz
 "(1101) 1101. Destilaci\xF3n, rectificaci\xF3n y mezcla de bebidas alcoh\xF3licas":
   en: (1101) 1101. Distilling, rectifying and blending of alcoholic beverages
+(1101) Menos de 6 meses:
+  en: (1101) Less than 6 months
 (11010) Bornos:
   en: (11010) Bornos
 (11011) Bosque (El):
@@ -1688,6 +1830,8 @@
   en: (11019) Grazalema
 "(1102) 1102. Elaboraci\xF3n de vinos":
   en: (1102) 1102. Winemaking
+"(1102) De 6 meses a 1 a\xF1o":
+  en: (1102) From 6 months to 1 year
 (11020) Jerez de la Frontera:
   en: (11020) Jerez de la Frontera
 (11021) Jimena de la Frontera:
@@ -1710,6 +1854,8 @@
   en: (11029) Puerto Serrano
 "(1103) 1103. Elaboraci\xF3n de sidra y otras bebidas fermentadas a partir de frutas":
   en: (1103) 1103. Manufacture of cider and other fruit fermented beverages
+"(1103) De 1 a 5 a\xF1os":
+  en: (1103) 1 to 5 years
 (11030) Rota:
   en: (11030) Rota
 (11031) San Fernando:
@@ -1733,6 +1879,8 @@
 "(1104) 1104. Elaboraci\xF3n de otras bebidas no destiladas, procedentes de la fermentaci\xF3n":
   en: (1104) 1104. Manufacture of other non-distilled fermented beverages, fermented
     by fermentation
+"(1104) De 5 a 10 a\xF1os":
+  en: (1104) From 5 to 10 years old
 (11040) Villaluenga del Rosario:
   en: (11040) Villaluenga del Rosario
 "(11041) Villamart\xEDn":
@@ -1741,6 +1889,8 @@
   en: (11042) Zahara
 "(1105) 1105. Fabricaci\xF3n de cerveza":
   en: (1105) 1105. Manufacture of beer
+"(1105) M\xE1s de 10 a\xF1os":
+  en: (1105) Over 10 years
 "(1106) 1106. Fabricaci\xF3n de malta":
   en: (1106) 1106. Manufacture of malt
 "(110NC) No consta Fabricaci\xF3n de bebidas":
@@ -1822,6 +1972,8 @@
   en: (12) 12. Tobacco industry
 "(12) 12. Productos l\xE1cteos":
   en: (12) 12. Dairy products
+"(12) A\xF1os de experiencia laboral":
+  en: (12) Years of work experience
 "(12) De 12 a\xF1os":
   en: (12) From 12 years old
   es: "(12) De 12 a\xF1os"
@@ -1842,6 +1994,18 @@
   es: (120) Noruega
 (1200) 1200. Industria del tabaco:
   en: (1200) 1200. Tobacco industry
+(1200) Total:
+  en: (1200) Total
+"(1201) Menos de 1 a\xF1o":
+  en: (1201) Less than 1 year
+"(1202) De 1 a 5 a\xF1os":
+  en: (1202) 1 to 5 years
+"(1203) De 5 a 10 a\xF1os":
+  en: (1203) 5 to 10 years
+"(1204) De 10 a 15 a\xF1os":
+  en: (1204) From 10 to 15 years old
+"(1205) M\xE1s de 15 a\xF1os":
+  en: (1205) Over 15 years
 (120NC) No consta Industria del tabaco:
   en: (120NC) Not stated Tobacco industry
 "(121) De 121 a\xF1os":
@@ -1903,11 +2067,21 @@
 "(13) De 13 a\xF1os":
   en: (13) From 13 years old
   es: "(13) De 13 a\xF1os"
+(13) Experiencia de desempleo:
+  en: (13) Unemployment experience
 "(13) \xCDndice general - Sin alimentos, bebidas y tabaco":
   en: (13) General index - Excluding food, beverages and tobacco
 (130) Santa Sede:
   en: (130) Santa Sede
   es: (130) Santa Sede
+(1300) Total:
+  en: (1300) Total
+(1301) Nunca:
+  en: (1301) Never
+"(1302) S\xED, en los \xFAltimos 5 a\xF1os":
+  en: (1302) Yes, in the last 5 years
+"(1303) S\xED, hace m\xE1s de 5 a\xF1os":
+  en: (1303) Yes, more than 5 years ago
 "(131) 131. Preparaci\xF3n e hilado de fibras textiles":
   en: (131) 131. Preparation and spinning of textile fibres
 (131) Suecia:
@@ -1987,11 +2161,17 @@
 "(14) De 14 a\xF1os":
   en: (14) 14 years old
   es: "(14) De 14 a\xF1os"
+"(14) Experiencia de ocupaci\xF3n por cuenta propia":
+  en: (14) Self-employment experience
 "(14) Regi\xF3n de Murcia":
   en: (14) Region of Murcia
   es: "(14) Regi\xF3n de Murcia"
+"(14) Un \xFAnico tipo de prestaci\xF3n":
+  en: (14) A single type of benefit
 "(14) \xCDndice general - Sin alquiler de vivienda":
   en: (14) General index - No housing rental
+(1400) Total:
+  en: (1400) Total
 (14001) Adamuz:
   en: (14001) Adamuz
 (14002) Aguilar de la Frontera:
@@ -2010,6 +2190,8 @@
   en: "(14008) Belalc\xE1zar"
 (14009) Belmez:
   en: (14009) Belmez
+(1401) Nunca:
+  en: (1401) Never
 "(14010) Benamej\xED":
   en: "(14010) Benamej\xED"
 "(14011) Bl\xE1zquez (Los)":
@@ -2030,6 +2212,8 @@
   en: (14018) Carpio (El)
 "(14019) Castro del R\xEDo":
   en: "(14019) Castro del R\xEDo"
+"(1402) S\xED. En el \xFAltimo a\xF1o":
+  en: (1402) Yes. In the last year
 (14020) Conquista:
   en: (14020) Conquest
 "(14021) C\xF3rdoba (capital)":
@@ -2050,6 +2234,8 @@
   en: (14028) Fuente la Lancha
 (14029) Fuente Obejuna:
   en: (14029) Fuente Obejuna
+"(1403) S\xED. Hace entre 1 y 5 a\xF1os":
+  en: (1403) Yes. 1 to 5 years ago
 (14030) Fuente Palmera:
   en: (14030) Fuente Palmera
 "(14031) Fuente-T\xF3jar":
@@ -2070,6 +2256,8 @@
   en: (14038) Lucena
 (14039) Luque:
   en: (14039) Luque
+"(1404) S\xED. Hace m\xE1s de 5 a\xF1os":
+  en: (1404) Yes. More than 5 years ago
 "(14040) Montalb\xE1n de C\xF3rdoba":
   en: "(14040) Montalb\xE1n de C\xF3rdoba"
 (14041) Montemayor:
@@ -2223,8 +2411,19 @@
 "(15) De 15 a\xF1os":
   en: (15) 15 years old
   es: "(15) De 15 a\xF1os"
+(15) Densidad25:
+  en: (15) Density25
 "(15) \xCDndice general - Sin productos energ\xE9ticos":
   en: (15) General index - Without energy products
+(1500) Total:
+  en: (1500) Total
+(1501) Menos de 60%:
+  en: (1501) Less than 60%
+(1502) Entre 60% y 90%:
+  en: (1502) Between 60% and 90% (1502) Between 60% and 90% (1502) Between 60% and
+    90% (1502) Between 60% and 90%
+"(1503) M\xE1s de 90%":
+  en: (1503) More than 90% (1503) More than 90% (1503)
 "(1512) 1512. Fabricaci\xF3n de art\xEDculos de marroquiner\xEDa, viaje y de guarnicioner\xEDa y talabarter\xEDa":
   en: (1512) 1512. Manufacture of luggage, handbags, saddlery, harness and saddlery.
 "(152) 152. Fabricaci\xF3n de calzado":
@@ -2249,6 +2448,8 @@
   en: (15NC) Not stated Leather and footwear industry
 (15NC_5) No consta Industria del cuero y del calzado:
   en: (15NC_5) Not stated Leather and footwear industry
+"(15NP) Menores de 25 a\xF1os":
+  en: (15NP) Under 25
 (16) 16:
   en: (16) 16
   es: (16) 16
@@ -2260,11 +2461,23 @@
 "(16) De 16 a\xF1os":
   en: (16) 16 years old
   es: "(16) De 16 a\xF1os"
+"(16) Duraci\xF3n relativa del mayor episodio de ocupaci\xF3n de la vida laboral":
+  en: (16) Relative duration of the longest episode of employment in working life
 "(16) Pa\xEDs Vasco/Euskadi":
   en: (16) Basque Country/Euskadi
   es: "(16) Pa\xEDs Vasco/Euskadi"
 "(16) \xCDndice general - Sin alimentos no elaborados ni productos energ\xE9ticos":
   en: (16) General index - Without unprocessed food and energy products
+(1600) Total:
+  en: (1600) Total
+(1601) Menos 25% del tiempo ocupado:
+  en: (1601) Less 25% of time occupied
+(1602) Entre 25%-50% del tiempo ocupado:
+  en: (1602) Between 25%-50% of occupied time
+(1603) Entre 50%-75% del tiempo ocupado:
+  en: (1603) Between 50%-75% of occupied time
+"(1604) M\xE1s del 75% del tiempo ocupado":
+  en: (1604) More than 75% of the time occupied
 (161) 161. Aserrado y cepillado de la madera:
   en: (161) 161. Sawing and planing of wood
 (1610) 1610. Aserrado y cepillado de la madera:
@@ -2283,6 +2496,8 @@
     construction purposes.
 "(1624) 1624. Fabricaci\xF3n de envases y embalajes de madera":
   en: (1624) 1624. Manufacture of wooden packing and packaging
+"(1629) Menores de 30 a\xF1os":
+  en: (1629) Under 30 years old
 "(162NC) No consta Fabricaci\xF3n de productos de madera, corcho, cester\xEDa y esparter\xEDa":
   en: (162NC) Not stated Manufacture of products of wood, cork, straw and plaiting
     materials, wickerwork and plaiting materials, wickerwork and basketware
@@ -2302,8 +2517,22 @@
 (17) La Rioja:
   en: (17) La Rioja
   es: (17) La Rioja
+(17) Porcentaje de tiempo cotizado a tiempo parcial:
+  en: (17) Percentage of time contributed part-time
 "(17) \xCDndice general - Sin tabaco":
   en: (17) General index - No tobacco
+(1700) Total:
+  en: (1700) Total
+(1701) Sin experiencia a tiempo parcial:
+  en: (1701) No part-time experience
+(1702) Menos 25% del tiempo ocupado:
+  en: (1702) Less 25% of time occupied
+(1703) Entre 25%-50% del tiempo ocupado:
+  en: (1703) Between 25%-50% of occupied time
+(1704) Entre 50%-75% del tiempo ocupado:
+  en: (1704) Between 50%-75% of occupied time
+"(1705) M\xE1s del 75% del tiempo ocupado":
+  en: (1705) More than 75% of the time occupied
 "(171) 171. Fabricaci\xF3n de pasta papelera, papel y cart\xF3n":
   en: (171) 171. Manufacture of pulp, paper and paperboard
 "(1711) 1711. Fabricaci\xF3n de pasta papelera":
@@ -2350,6 +2579,10 @@
 (18) Granada:
   en: (18) Granada
   es: (18) Granada
+(18) Porcentaje de tiempo cotizado en desempleo:
+  en: (18) Percentage of time spent in unemployment insurance
+(1800) Total:
+  en: (1800) Total
 "(18001) Agr\xF3n":
   en: "(18001) Agr\xF3n"
 (18002) Alamedilla:
@@ -2368,6 +2601,8 @@
   en: (18008) Alcazar and Bargis
 (18009) Alcudia de Guadix:
   en: (18009) Alcudia de Guadix
+(1801) Sin experiencia en desempleo:
+  en: (1801) No unemployment experience
 (18010) Aldeire:
   en: (18010) Aldeire
 (18011) Alfacar:
@@ -2388,6 +2623,9 @@
   en: (18018) Alquife
 (18019) Ambroz:
   en: (18019) Ambroz
+(1802) Menos del 10%:
+  en: (1802) Less than 10% (1802) Less than 10% (1802) Less than 10% (1802) Less than
+    10%
 (18020) Arenas del Rey:
   en: (18020) Arenas del Rey
 (18021) Armilla:
@@ -2408,6 +2646,8 @@
   en: "(18028) Benal\xFAa de las Villas"
 (18029) Benamaurel:
   en: (18029) Benamaurel
+(1803) Entre el 10% y el 20%:
+  en: (1803) Between 10% and 20%.
 "(18030) B\xE9rchules":
   en: (18030) Berchules
 "(18031) B\xE9znar":
@@ -2428,6 +2668,9 @@
   en: "(18038) Campot\xE9jar"
 (18039) Caniles:
   en: (18039) Caniles
+"(1804) M\xE1s del 20%":
+  en: (1804) More than 20% (1804) More than 20% (1804) More than 20% (1804) More than
+    20% (1804)
 "(18040) C\xE1\xF1ar":
   en: "(18040) C\xE1\xF1ar"
 (18041) Caparacena:
@@ -2835,11 +3078,15 @@
 "(19) De 19 a\xF1os":
   en: (19) 19 years old
   es: "(19) De 19 a\xF1os"
+"(19) Regimen de cotizaci\xF3n":
+  en: (19) Contribution scheme
 "(19) \xCDndice general - Sin servicios (incluye alquiler de vivienda)":
   en: (19) General index - Unserviced (includes rental housing)
 (1900) 1900:
   en: (1900) 1900
   es: (1900) 1900
+(1900) Total:
+  en: (1900) Total
 (190002) 1900-Febrero:
   en: (190002) 1900-Febrero
 (190003) 1900-Marzo:
@@ -2865,6 +3112,8 @@
 (1901) 1901:
   en: (1901) 1901
   es: (1901) 1901
+"(1901) S\xF3lo r\xE9gimen general":
+  en: (1901) General scheme only
 (190101) 1901-Enero:
   en: (190101) 1901-Enero
 (190102) 1901-Febrero:
@@ -2892,6 +3141,8 @@
 (1902) 1902:
   en: (1902) 1902
   es: (1902) 1902
+"(1902) S\xF3lo r\xE9gimen de aut\xF3nomos":
+  en: (1902) Self-employed only
 (190201) 1902-Enero:
   en: (190201) 1902-Enero
 (190202) 1902-Febrero:
@@ -2919,6 +3170,8 @@
 (1903) 1903:
   en: (1903) 1903
   es: (1903) 1903
+"(1903) General y aut\xF3nomos":
+  en: (1903) General and autonomous
 (190301) 1903-Enero:
   en: (190301) 1903-Enero
 (190302) 1903-Febrero:
@@ -2946,6 +3199,8 @@
 (1904) 1904:
   en: (1904) 1904
   es: (1904) 1904
+"(1904) Otros reg\xEDmenes":
+  en: (1904) Other schemes
 (190401) 1904-Enero:
   en: (190401) 1904-Enero
 (190402) 1904-Febrero:
@@ -5560,9 +5815,13 @@
 (2) Casado/a:
   en: (2) Married
   es: (2) Casado/a
+"(2) De 10.001 a 20.000\u20AC":
+  en: (2) From 10.001 to 20.000
 "(2) De 2 a\xF1os":
   en: (2) 2 years old
   es: "(2) De 2 a\xF1os"
+"(2) De 31 a 90 d\xEDas":
+  en: (2) 31 to 90 days
 "(2) Empresas con sede social en Andaluc\xEDa":
   en: (2) Companies with registered office in Andalusia
   es: "(2) Empresas con sede social en Andaluc\xEDa"
@@ -5572,6 +5831,10 @@
 "(2) Hostal, pensi\xF3n":
   en: (2) Hostel, guesthouse
   es: "(2) Hostal, pensi\xF3n"
+(2) Industria:
+  en: (2) Industry
+"(2) Jubilaci\xF3n":
+  en: (2) Retirement
 (2) Madre:
   en: (2) Madre
   es: (2) Madre
@@ -5579,8 +5842,16 @@
   en: (2) Under 16 years of age
 "(2) Primera etapa de educaci\xF3n secundaria y similar":
   en: (2) Lower secondary and similar education
+"(2) S\xF3lo episodios de desempleo":
+  en: (2) Unemployment episodes only
+"(2) S\xF3lo pensionista":
+  en: (2) Pensioner only
+"(2) S\xF3lo subsidio por desempleo":
+  en: (2) Unemployment benefit only
 "(2) T\xE9cnicos y profesionales cient\xEDficos e intelectuales":
   en: (2) Scientific and intellectual technicians and professionals
+(2) Un adulto solo, edad 65+:
+  en: (2) One adult alone, age 65+
 "(2) c1 espa\xF1ol y c2 extranjero":
   en: (2) c1 Spanish and c2 foreign
   es: "(2) c1 espa\xF1ol y c2 extranjero"
@@ -5605,12 +5876,20 @@
   es: "(20) De 20 a\xF1os"
 (20) General sin servicios ni alquiler de vivienda:
   en: (20) General without services or rental housing
+(20) Hogares con dos adultos (16+):
+  en: (20) Households with two adults (16+)
+(20) Industria:
+  en: (20) Industria
+(20) Sector principal tvl:
+  en: (20) Main sector tvl
 "(20) Uno de los c\xF3nyuges extranjero":
   en: (20) One of the spouses is a foreigner.
   es: "(20) Uno de los c\xF3nyuges extranjero"
 (2000) 2000:
   en: (2000) 2000
   es: (2000) 2000
+(2000) Total:
+  en: (2000) Total
 (200001) 2000-Enero:
   en: (200001) 2000-Enero
 (200002) 2000-Febrero:
@@ -5638,6 +5917,8 @@
 (2001) 2001:
   en: (2001) 2001
   es: (2001) 2001
+(2001) Agricultura:
+  en: (2001) Agriculture
 (200101) 2001-Enero:
   en: (200101) 2001-Enero
 (200102) 2001-Febrero:
@@ -5665,6 +5946,8 @@
 (2002) 2002:
   en: (2002) 2002
   es: (2002) 2002
+(2002) Industria:
+  en: (2002) Industria
 (200201) 2002-Enero:
   en: (200201) 2002-Enero
 (200202) 2002-Febrero:
@@ -5692,6 +5975,8 @@
 (2003) 2003:
   en: (2003) 2003
   es: (2003) 2003
+"(2003) Construcci\xF3n":
+  en: (2003) Construction
 (200301) 2003-Enero:
   en: (200301) 2003-Enero
 (200302) 2003-Febrero:
@@ -5719,6 +6004,8 @@
 (2004) 2004:
   en: (2004) 2004
   es: (2004) 2004
+"(2004) Comercio y hosteler\xEDa":
+  en: (2004) Retail and hospitality
 (200401) 2004-Enero:
   en: (200401) 2004-Enero
 (200402) 2004-Febrero:
@@ -5746,6 +6033,8 @@
 (2005) 2005:
   en: (2005) 2005
   es: (2005) 2005
+"(2005) Servicios p\xFAblicos":
+  en: (2005) Public services
 (200501) 2005-Enero:
   en: (200501) 2005-Enero
 (200502) 2005-Febrero:
@@ -5773,6 +6062,8 @@
 (2006) 2006:
   en: (2006) 2006
   es: (2006) 2006
+(2006) Otros:
+  en: (2006) Others
 (200601) 2006-Enero:
   en: (200601) 2006-Enero
 (200602) 2006-Febrero:
@@ -5800,6 +6091,8 @@
 (2007) 2007:
   en: (2007) 2007
   es: (2007) 2007
+(2007) No consta:
+  en: (2007) No listing
 (200701) 2007-Enero:
   en: (200701) 2007-Enero
 (200702) 2007-Febrero:
@@ -7598,6 +7891,10 @@
 "(21) Primera etapa de educaci\xF3n secundaria sin t\xEDtulo de graduado en ESO y similar":
   en: (21) Lower secondary education without ESO or similar qualification (21) Lower
     secondary education without ESO or similar qualification
+(21) Totales:
+  en: (21) Totals
+(2100) Total:
+  en: (2100) Total
 "(21001) Al\xE1jar":
   en: (21001) Alaiar
 (21002) Aljaraque:
@@ -8762,14 +9059,30 @@
 (3) Ambos:
   en: (3) Both
   es: (3) Ambos
+"(3) Construcci\xF3n":
+  en: (3) Construction
+(3) Cotizante y pensionista:
+  en: (3) Contributor and pensioner
+"(3) De 20.001 a 30.000\u20AC":
+  en: "(3) From 20.001 to 30.000\u20AC."
 "(3) De 3 a\xF1os":
   en: (3) 3 years old
   es: "(3) De 3 a\xF1os"
+"(3) De 91 a 360 d\xEDas":
+  en: (3) From 91 to 360 days
 (3) Mujeres:
   en: (3) Women
   es: (3) Mujeres
+"(3) Prestaci\xF3n y subsidio por desempleo":
+  en: (3) Unemployment benefit and unemployment allowance
 "(3) Segunda etapa de educaci\xF3n secundaria y similar":
   en: (3) Upper secondary and similar education
+"(3) S\xF3lo episodios de otra situaci\xF3n (*)":
+  en: (3) Other status episodes only (*)
+"(3) Un adulto con ni\xF1os (menores de 16)":
+  en: (3) One adult with children (under 16)
+(3) Viudedad:
+  en: (3) Viudedad
 (3) Viudo/a:
   en: (3) Viudo/a
   es: (3) Viudo/a
@@ -8786,9 +9099,13 @@
 "(30) Ambos c\xF3nyuges extranjeros":
   en: (30) Both foreign spouses
   es: "(30) Ambos c\xF3nyuges extranjeros"
+"(30) Construcci\xF3n":
+  en: (30) Construction
 "(30) De 30 a\xF1os":
   en: (30) 30 years old
   es: "(30) De 30 a\xF1os"
+"(30) Hogares con tres o m\xE1s adultos (16+)":
+  en: (30) Households with three or more adults (16+)
 (30) Viudo/a:
   en: (30) Viudo/a
   es: (30) Viudo/a
@@ -8819,6 +9136,8 @@
   es: "(303) M\xE9xico"
 "(3030) 3030. Construcci\xF3n aeron\xE1utica y espacial y su maquinaria":
   en: (3030) 3030. Aircraft, spacecraft and related machinery
+"(3039) Entre 30 y 39 a\xF1os":
+  en: (3039) Between 30 and 39 years old
 "(303NC) No consta Construcci\xF3n aeron\xE1utica y espacial y su maquinaria":
   en: (303NC) Not stated Aircraft and spacecraft and machinery thereof
 "(304) 304. Fabricaci\xF3n de veh\xEDculos militares de combate":
@@ -9150,9 +9469,13 @@
 (4) Camping:
   en: (4) Camping
   es: (4) Camping
+"(4) Comercio y hosteler\xEDa":
+  en: (4) Retail and hospitality
 "(4) De 4 a\xF1os":
   en: (4) 4 years old
   es: "(4) De 4 a\xF1os"
+(4) Dos adultos solos, ambos de edad 16-64:
+  en: (4) Two single adults, both aged 16-64
 "(4) Educaci\xF3n postsecundaria no superior":
   en: (4) Post-secondary non-tertiary education
 (4) Empleados contables, administrativos y otros empleados de oficina:
@@ -9160,12 +9483,20 @@
 (4) Misma nacionalidad:
   en: (4) Same nationality
   es: (4) Misma nacionalidad
+"(4) M\xE1s de 30.000\u20AC":
+  en: "(4) More than \u20AC30,000"
+"(4) M\xE1s de 360 d\xEDas":
+  en: (4) More than 360 days
+(4) Orfandad y a favor de familiares:
+  en: (4) Orphan and in favour of relatives
 (4) Otros:
   en: (4) Others
   es: (4) Otros
 (4) Separado/a:
   en: (4) Separated
   es: (4) Separado/a
+(4) Varios tipos de episodios:
+  en: (4) Various types of episodes
 (40) 40:
   en: (40) 40
   es: (40) 40
@@ -9174,6 +9505,10 @@
 "(40) De 40 a\xF1os":
   en: (40) 40 years old
   es: "(40) De 40 a\xF1os"
+"(40) Servicios p\xFAblicos":
+  en: (40) Utilities
+"(4049) Entre 40 y 49 a\xF1os":
+  en: (4049) Between 40 and 49 years old
 (407) China:
   en: (407) China
   es: (407) China
@@ -10058,6 +10393,12 @@
 (5) Divorciado/a:
   en: (5) Divorced
   es: (5) Divorciado/a
+(5) Dos adultos solos, al menos uno de edad 65+:
+  en: (5) Two single adults, at least one of age 65+
+"(5) Jubilaci\xF3n y viudedad":
+  en: (5) Retirement and widowhood
+"(5) Servicios p\xFAblicos":
+  en: (5) Utilities
 "(5) Trabajadores de los servicios de restauraci\xF3n, personales, protecci\xF3n y vendedores":
   en: (5) Catering, personal, protection and sales workers
 (50) 50:
@@ -10070,6 +10411,8 @@
 "(50) De 50 a\xF1os":
   en: (50) 50 years old
   es: "(50) De 50 a\xF1os"
+(50) Otros:
+  en: (50) Others
 "(501) 501. Transporte mar\xEDtimo de pasajeros":
   en: (501) 501. Maritime passenger transport
 (501) Australia:
@@ -10101,6 +10444,8 @@
   en: (5051) CNAE 50 and 51. Maritime and inland waterway transport. Air transport
   es: "(5051) CNAE 50 y 51. Transporte mar\xEDtimo y por v\xEDas navegables interiores.\
     \ Transporte a\xE9reo"
+"(5059) Entre 50 y 59 a\xF1os":
+  en: (5059) Between 50 and 59 years old
 "(50NC) No consta Transporte mar\xEDtimo y por v\xEDas navegables interiores":
   en: (50NC) Not stated Maritime and inland waterways transport
 "(50NC_5) No consta Transporte mar\xEDtimo y por v\xEDas navegables interiores":
@@ -10274,6 +10619,8 @@
 "(56) De 56 a\xF1os":
   en: (56) 56 years old
   es: "(56) De 56 a\xF1os"
+"(56) Dos o m\xE1s tipos de prestaci\xF3n":
+  en: (56) Two or more types of benefit
 (561) 561. Restaurantes y puestos de comidas:
   en: (561) 561. Restaurants and food stalls
 (5610) 5610. Restaurantes y puestos de comidas:
@@ -10398,10 +10745,14 @@
 "(6) De 6 a\xF1os":
   en: (6) 6 years old
   es: "(6) De 6 a\xF1os"
+"(6) Dos adultos con ni\xF1os. Edad del m\xE1s j\xF3ven 0-4 a\xF1os":
+  en: (6) Two adults with children. Age of youngest 0-4 years
 ? "(6) Grados universitarios de 240 cr\xE9ditos ECTS, diplomados universitarios, t\xED\
   tulos propios universitarios de experto o especialista, y similares"
 : en: (6) University degrees of 240 ECTS credits, university diplomas, own university
     degrees of expert or specialist, and similar degrees.
+"(6) Otras combinaciones de dos o m\xE1s tipos de prestaci\xF3n":
+  en: (6) Other combinations of two or more types of benefits
 (6) Otros:
   en: (6) Others
   es: (6) Otros
@@ -10434,6 +10785,8 @@
   en: (6020) 6020. Television programming and broadcasting activities
 "(602NC) No consta Actividades de programaci\xF3n y emisi\xF3n de televisi\xF3n":
   en: (602NC) Not stated Television programming and broadcasting activities
+"(6099) 60 \xF3 m\xE1s a\xF1os":
+  en: (6099) 60 years and over
 "(60NC) No consta Actividades de programaci\xF3n y emisi\xF3n de radio y televisi\xF3n":
   en: (60NC) Not stated Radio and television programming and broadcasting activities
 "(60NC_5) No consta Actividades de programaci\xF3n y emisi\xF3n de radio y televisi\xF3n":
@@ -10760,6 +11113,8 @@
 "(7) De 7 a\xF1os":
   en: (7) 7 years old
   es: "(7) De 7 a\xF1os"
+"(7) Dos adultos con ni\xF1os. Edad del m\xE1s j\xF3ven 5-15 a\xF1o":
+  en: (7) Two adults with children. Age of youngest 5-15 years
 ? "(7) Grados universitarios de m\xE1s de 240 cr\xE9ditos ECTS, licenciados, m\xE1\
   steres y especialidades en Ciencias de la Salud por el sistema de residencia, y\
   \ similares"
@@ -11108,6 +11463,8 @@
   en: (8) Doctoral studies
 (8) Operadores de instalaciones y maquinaria, y montadores:
   en: (8) Plant and machinery operators and assemblers
+"(8) Tres o m\xE1s adultos solos":
+  en: (8) Three or more single adults
 (80) 80:
   en: (80) 80
   es: (80) 80
@@ -11459,6 +11816,8 @@
   es: "(9) De 9 a\xF1os"
 (9) Ocupaciones elementales:
   en: (9) Elementary occupations
+"(9) Tres o m\xE1s adultos, con ni\xF1os (menores de 16)":
+  en: (9) Three or more adults, with children (under 16)
 (90) 90:
   en: (90) 90
   es: (90) 90
@@ -11878,6 +12237,12 @@
     and the like
 (CM) Doctorado universitario:
   en: (CM) University doctorate
+(Country of) citizenship:
+  es: "(Pa\xEDs de) la ciudadan\xEDa"
+(Country of) citizenship of the man or similar categories:
+  es: "(Pa\xEDs de) ciudadan\xEDa del hombre o categor\xEDas similares"
+(Country of) citizenship of the woman or similar categories:
+  es: "(Pa\xEDs de) ciudadan\xEDa de la mujer o categor\xEDas similares"
 "(D) D. Suministro de energ\xEDa el\xE9ctrica, gas, vapor y aire acondicionado":
   en: (D) D. Electricity, gas, steam and air conditioning supply
 "(E) E. Suministro de agua, actividades de saneamiento, gesti\xF3n de residuos y descontaminaci\xF3n":
@@ -11885,6 +12250,8 @@
 (EA19) Zona Euro 19 (desde 2015):
   en: (EA19) Eurozone 19 (since 2015)
   es: (EA19) Zona Euro 19 (desde 2015)
+(EATC) Salario por unidad de tiempo (equivalente anual a tiempo completo):
+  en: (EATC) Time unit wage (annual full-time equivalent)
 "(F) F. Construcci\xF3n":
   en: (F) F. Construction
 (G) G. TOTAL SECTOR COMERCIO:
@@ -11929,6 +12296,14 @@
   es: (N) N. ACTIVIDADES ADMINISTRATIVAS Y SERVICIOS AUXILIARES
 (N) N. Actividades administrativas y servicios auxiliares:
   en: (N) N. Administrative and support service activities
+(NA) No consta:
+  en: (NA) Does not exist
+(NA) No pensionista:
+  en: (NA) No pensioner
+(NA0) No consta:
+  en: (NA0) Does not exist
+(NA0) No pensionista:
+  en: (NA0) No pensioner
 (NC) No consta:
   en: (NC) Not reported
   es: (NC) No consta
@@ -12459,19 +12834,41 @@
 (TI) TOTAL SECTOR INDUSTRIAL:
   en: (TI) TOTAL SECTOR INDUSTRIAL
   es: (TI) TOTAL SECTOR INDUSTRIAL
+(TOT) Salario bruto anual:
+  en: (TOT) Gross annual salary
 "(TOTAL) Andaluc\u0102\xADa (no usar, se va a eliminar, usar la 44)":
   en: "(TOTAL) Andaluc\u0102a (do not use, to be deleted, use 44)"
 (TOTAL) Anual:
   en: (TOTAL) Annual
+(TOTAL) Cotizante:
+  en: (TOTAL) Contributor
+"(TOTAL) D\xEDas cotizados en el a\xF1o":
+  en: (TOTAL) Contribution days in the year
+"(TOTAL) Espa\xF1a/Andaluc\xEDa/Provincias Andaluc\xEDa":
+  en: (TOTAL) Spain/Andalusia/Provinces Andalusia
+(TOTAL) Intervalo de ingresos (MCVL):
+  en: (TOTAL) Income Range (MCVL)
 (TOTAL) Nacionalidad EPA (Esp/Ext):
   en: (TOTAL) Nationality LFS (Esp/Ext)
 "(TOTAL) Ocupaci\xF3n (Nivel 1)":
   en: (TOTAL) Occupation (Level 1)
+(TOTAL) Pensionista:
+  en: (TOTAL) Pensioner
+"(TOTAL) Tipo de cotizaci\xF3n":
+  en: (TOTAL) Type of contribution
+"(TOTAL) Tipo de pensi\xF3n (MCVL)":
+  en: (TOTAL) Type of pension (MCVL)
+"(TOTAL) Tipo de relaci\xF3n con la seguridad social":
+  en: (TOTAL) Type of social security relationship
+"(TOTAL) Tipos de prestaci\xF3n":
+  en: (TOTAL) Types of benefits
 (TS) TOTAL SECTOR SERVICIOS:
   en: (TS) TOTAL SERVICES SECTOR
   es: (TS) TOTAL SECTOR SERVICIOS
 (Total) CNAE 11 grupos EPA:
   en: (Total) CNAE 11 LFS groups
+(Total) Edad (MCVL Salarios):
+  en: (Total) Age (MCVL Wages)
 (Total) Estructura del hogar:
   en: (Total) Household structure
 (Total) Nivel:
@@ -12480,10 +12877,18 @@
   en: (Total) Level of education CNED2014 (Foreigners)
 "(Total) Relaci\xF3n con la actividad":
   en: (Total) Relationship to activity
+(Total) Salario:
+  en: (Total) Salary
+(Total) Sector de actividad-CNAE:
+  en: (Total) Sector of activity-CNAE
 "(Total) Situaci\xF3n de inactividad 1":
   en: (Total) Inactive status 1
+(Total) Tipo de hogar (MCVL):
+  en: (Total) Household type (MCVL)
 "(Total) Tipolog\u0102\xADa de la actividad del hogar":
   en: (Total) Typology of household activity
+(Total) Variable:
+  en: (Total) Variable
 (U) U. Actividades de organizaciones y organismos extraterritoriales:
   en: (U) U. Activities of extraterritorial organisations and bodies
 "(U+1) Hace m\xE1s de 1 a\xF1o desde su \xFAltimo empleo":
@@ -19018,6 +19423,8 @@
   en: 592. Sound recording and music publishing activities
 "5920. Actividades de grabaci\xF3n de sonido y edici\xF3n musical":
   en: 5920. Sound recording and music publishing activities
+"60 \xF3 m\xE1s a\xF1os":
+  en: 60 or more years
 "60. Actividades de programaci\xF3n y emisi\xF3n de radio y televisi\xF3n":
   en: 60. Radio and television programming and broadcasting activities
 "601. Actividades de radiodifusi\xF3n":
@@ -19610,8 +20017,20 @@ Abla:
   en: Abla
 Abrucena:
   en: Abrucena
+? Abstract concept denoting an element in the SDMX model having specific characteristics
+  which are inherited by other elements.
+: es: "Concepto abstracto que denota un elemento del modelo SDMX con caracter\xED\
+    sticas espec\xEDficas que son heredadas por otros elementos."
+Accounting conventions:
+  es: Convenciones contables
+Accuracy:
+  es: "Precisi\xF3n"
+Accuracy - overall:
+  es: "Precisi\xF3n - en general"
 Acequias:
   en: Acequias
+Action type:
+  es: "Tipo de acci\xF3n"
 Actividad:
   en: Activity
 Actividades administrativas y servicios auxiliares":
@@ -19628,12 +20047,39 @@ Activos potenciales:
   en: Potential assets
 Adamuz:
   en: Adamuz
+Addressable subdivision of an organisation.:
+  es: "Subdivisi\xF3n direccionable de una organizaci\xF3n."
+Adequacy of statistics to be reliably combined in different ways and for various uses.:
+  es: "Adecuaci\xF3n de las estad\xEDsticas para ser combinadas de forma fiable de\
+    \ diferentes maneras y para diversos usos."
+Adjustment:
+  es: Ajuste
 Adra:
   en: Adra
+Age:
+  es: Edad
+Age at death of the infant:
+  es: "Edad en el momento de la muerte del beb\xE9"
+Age for life table:
+  es: Tabla de edad para la vida
+Age of first-time marrying person:
+  es: Edad de la persona que se casa por primera vez
+Age of the bride or similar categories:
+  es: "Edad de la novia o categor\xEDas similares"
+Age of the father:
+  es: Edad del padre
+Age of the groom or similar categories:
+  es: "Edad del novio o categor\xEDas similares"
+Age of the mother:
+  es: Edad de la madre
+Agency scheme:
+  es: Plan de la Agencia
 Agricultura:
   en: Agricultura
 "Agricultura, ganader\xEDa, silvicultura y pesca":
   en: Agriculture, livestock, forestry and fisheries
+Agriculture, forestry, fisheries:
+  es: Agricultura, silvicultura y pesca
 "Agr\xF3n":
   en: Agron
 Aguadulce:
@@ -19752,6 +20198,8 @@ Alimentos y bebidas:
   en: Food and beverages
 Aljaraque:
   en: Aljaraque
+Allowable value or format for component or concept when reported.:
+  es: Valor o formato permitido para el componente o concepto cuando se informa.
 "Almad\xE9n de la Plata":
   en: "Almad\xE9n de la Plata"
 Almargen:
@@ -19800,14 +20248,33 @@ Ambos sexos:
   en: Both sexes
 Ambroz:
   en: Ambroz
+? "An observation is characterised as \"provisional\" when the source agency \u2013\
+  \ while it bases its calculations on its standard production methodology \u2013\
+  \ considers that the data, almost certainly, are expected to be revised."
+: es: "Una observaci\xF3n se caracteriza como \"provisional\" cuando la agencia fuente\
+    \ -aunque basa sus c\xE1lculos en su metodolog\xEDa de producci\xF3n est\xE1ndar-\
+    \ considera que los datos, casi con toda seguridad, se revisar\xE1n."
+? An observation is marked as revised when previously transmitted data are changed
+  to inform the users that there has been a change. An additional comment (e.g. through
+  the COMMENT_OBS attribute) may provide information on the change.
+: es: "Una observaci\xF3n se marca como revisada cuando se modifican los datos previamente\
+    \ transmitidos para informar a los usuarios de que se ha producido un cambio.\
+    \ Un comentario adicional (por ejemplo, a trav\xE9s del atributo COMMENT_OBS)\
+    \ puede proporcionar informaci\xF3n sobre el cambio."
 Analfabetos:
   en: Illiterate
 "And\xFAjar":
   en: "And\xFAjar"
+Annotable artefact:
+  es: Artefacto anotable
+Annotation:
+  es: "Anotaci\xF3n"
 Antas:
   en: Antas
 Antequera:
   en: Antequera
+"Antig\xFCedad en la empresa":
+  en: Seniority in the company
 Anual:
   en: Annual
 Aracena:
@@ -19824,6 +20291,9 @@ Arcos de la Frontera:
   en: Arcos de la Frontera
 Ardales:
   en: Ardales
+Area of technical responsibility of the contact, such as "methodology", "database management" or "dissemination".:
+  es: "\xC1rea de responsabilidad t\xE9cnica del contacto, como \"metodolog\xEDa\"\
+    , \"gesti\xF3n de bases de datos\" o \"difusi\xF3n\"."
 Arenas:
   en: Arenas
 Arenas del Rey:
@@ -19840,22 +20310,49 @@ Aroche:
   en: Aroche
 Arquillos:
   en: Rings
+Arrangement or division of objects into groups based on characteristics which the objects have in common.:
+  es: "Ordenaci\xF3n o divisi\xF3n de objetos en grupos basados en las caracter\xED\
+    sticas que los objetos tienen en com\xFAn."
+Arrangement within which the information provider supplies data or metadata.:
+  es: "Disposici\xF3n dentro de la cual el proveedor de informaci\xF3n suministra\
+    \ datos o metadatos."
+Arrangements or procedures for data sharing and coordination between data producing agencies.:
+  es: "Acuerdos o procedimientos para el intercambio de datos y la coordinaci\xF3\
+    n entre los organismos productores de datos."
 Arriate:
   en: Arriate
 Arroyo del Ojanco:
   en: Arroyo del Ojanco
 "Arroyomolinos de Le\xF3n":
   en: "Arroyomolinos de Le\xF3n"
+Artefact:
+  es: Artefact
 ? "Artesanos y trabajadores cualificados de las industrias manufactureras y la construcci\xF3\
   n (excepto operadores de instalaciones y maquinaria)"
 : en: Craftsmen and skilled workers in manufacturing industries and construction (except
     plant and machinery operators)
+Asalariados (Personas):
+  en: Employees (Persons)
+? Assessment of accuracy, linked to a certain data set or domain, which is summarising
+  the various components into one single measure.
+: es: "Evaluaci\xF3n de la precisi\xF3n, vinculada a un determinado conjunto de datos\
+    \ o dominio, que resume los distintos componentes en una \xFAnica medida."
+Asymmetry for mirror flows statistics - coefficient:
+  es: "Asimetr\xEDa para las estad\xEDsticas de los flujos espejo - coeficiente"
 Atajate:
   en: Contact
 Atarfe:
   en: Atarfe
+Attachment level:
+  es: Nivel de apego
+Attribute:
+  es: Atributo
+Attribute relationship:
+  es: "Relaci\xF3n de atributos"
 Austria:
   en: Austria
+"Aut\xF3nomos en Andaluc\xEDa":
+  en: Self-employed in Andalusia
 Ayamonte:
   en: Ayamonte
 "Aznalc\xE1zar":
@@ -19864,6 +20361,8 @@ Ayamonte:
   en: "Aznalc\xF3llar"
 "A\xF1ora":
   en: Miss
+"A\xF1os de experiencia laboral":
+  en: Years of work experience
 B. Industrias extractivas:
   en: B. Extractive industries
 Bacares:
@@ -19880,10 +20379,16 @@ Baeza:
   en: "Bail\xE9n"
 Balanegra:
   en: Balanegra
+Banking, insurance, financial statistics:
+  es: "Banca, seguros, estad\xEDsticas financieras"
 Barbate de Franco:
   en: Barbate de Franco
 Barrios (Los):
   en: Barrios (Los)
+Base period:
+  es: Periodo base
+Base weight:
+  es: Peso base
 Bayacas:
   en: Bayacas
 Bayarque:
@@ -19908,6 +20413,9 @@ Bedmar:
   en: "Bedmar y Garc\xEDez"
 "Beg\xEDjar":
   en: "Beg\xEDjar"
+Behaviour to be undertaken by a system processing the information contained in a SDMX message.:
+  es: "Comportamiento que debe adoptar un sistema que procese la informaci\xF3n contenida\
+    \ en un mensaje SDMX."
 Beires:
   en: Beires
 "Belalc\xE1zar":
@@ -19994,6 +20502,9 @@ Bornos:
   en: Bornos
 Bosque (El):
   en: Bosque (El)
+Breakdown of spending by institutional sectors between major expenditure functions.:
+  es: Desglose del gasto por sectores institucionales entre las principales funciones
+    de gasto.
 Brenes:
   en: Brenes
 "Bubi\xF3n":
@@ -20008,6 +20519,8 @@ Burguillos:
   en: Burguillos
 Busca primer empleo:
   en: Looking for a first job
+Business statistics:
+  es: "Estad\xEDsticas empresariales"
 "Busqu\xEDstar":
   en: "Busqu\xEDstar"
 "B\xE9dar":
@@ -20156,6 +20669,10 @@ Castro de Filabres:
   en: "Castro del R\xEDo"
 "Catalu\xF1a/Catalunya":
   en: Catalonia/Catalonia
+Category:
+  es: "Categor\xEDa"
+Category scheme:
+  es: "Esquema de la categor\xEDa"
 Cazalilla:
   en: Cazalilla
 Cazalla de la Sierra:
@@ -20172,6 +20689,8 @@ Cazorla:
   en: "Ca\xF1ete la Real"
 Cenes de la Vega:
   en: Cenes de la Vega
+Central and discoverable repository for SDMX structural metadata.:
+  es: Repositorio central y localizable para los metadatos estructurales de SDMX.
 "Cerro de And\xE9valo (El)":
   en: "Cerro de And\xE9valo (El)"
 Certificados de las escuelas oficiales de idiomas de nivel avanzado y similares:
@@ -20182,6 +20701,18 @@ Certificados de profesionalidad de nivel 2 y similares:
   en: Level 2 and similar certificates of professional competence
 Ceuta:
   en: Ceuta
+Change in a value of a statistic released to the public.:
+  es: "Cambio en el valor de una estad\xEDstica difundida al p\xFAblico."
+? Characteristic of a unit being observed that may assume more than one of a set of
+  values to which a numerical measure or a category from a classification can be assigned
+  (e.g. income, age, weight, etc. and "occupation", "industry", "disease" etc.).
+: es: "Caracter\xEDstica de una unidad observada que puede asumir m\xE1s de uno de\
+    \ un conjunto de valores a los que se puede asignar una medida num\xE9rica o una\
+    \ categor\xEDa de una clasificaci\xF3n (por ejemplo, ingresos, edad, peso, etc.\
+    \ y \"ocupaci\xF3n\", \"industria\", \"enfermedad\", etc.)."
+Characteristics and components of the raw statistical data used for compiling statistical aggregates.:
+  es: "Caracter\xEDsticas y componentes de los datos estad\xEDsticos brutos utilizados\
+    \ para la elaboraci\xF3n de agregados estad\xEDsticos."
 Charches:
   en: Charches
 Chauchina:
@@ -20212,34 +20743,182 @@ Churriana:
   en: Churriana
 Cijuela:
   en: Cijuela
+Circularity status:
+  es: Estado de la circularidad
+Civil status:
+  es: Estado civil
+? Classification structure arranged in levels of detail from the broadest to the most
+  detailed level. Each level of the classification is defined in terms of the categories
+  at the next lower level of the classification.
+: es: "Estructura de clasificaci\xF3n organizada en niveles de detalle, desde el m\xE1\
+    s amplio hasta el m\xE1s detallado. Cada nivel de la clasificaci\xF3n se define\
+    \ en funci\xF3n de las categor\xEDas del nivel inmediatamente inferior de la clasificaci\xF3\
+    n."
+Classification system:
+  es: "Sistema de clasificaci\xF3n"
+? "Clause in an agreement (e.g. legal act, gentlemen\u2019s agreement) stating that\
+  \ some provisions in the agreement are not to be implemented by designated parties;\
+  \ these derogations may affect the observation or cause a missing value. In general,\
+  \ derogations are limited in time."
+: es: "Cl\xE1usula de un acuerdo (por ejemplo, un acto jur\xEDdico, un acuerdo entre\
+    \ caballeros) que establece que algunas disposiciones del acuerdo no deben ser\
+    \ aplicadas por las partes designadas; estas derogaciones pueden afectar a la\
+    \ observaci\xF3n o provocar un valor perdido. En general, las derogaciones est\xE1\
+    n limitadas en el tiempo."
+Closeness of computations or estimates to the unknown exact or true values that the statistics were intended to measure.:
+  es: "La proximidad de los c\xE1lculos o estimaciones a los valores exactos o verdaderos\
+    \ desconocidos que las estad\xEDsticas pretend\xEDan medir."
+Code:
+  es: "C\xF3digo"
+Code list:
+  es: "Lista de c\xF3digos"
+Code reference that is part of a hierarchy.:
+  es: "Referencia de c\xF3digo que forma parte de una jerarqu\xEDa."
+Coding format:
+  es: "Formato de codificaci\xF3n"
 Cogollos de Guadix:
   en: Cogollos de Guadix
 Cogollos de la Vega:
   en: Cogollos de la Vega
+Coherence:
+  es: Coherencia
+Coherence - National Accounts:
+  es: Coherencia - Cuentas nacionales
+Coherence - cross domain:
+  es: Coherencia - dominio cruzado
+Coherence - internal:
+  es: Coherencia - interna
+Coherence - sub-annual and annual statistics:
+  es: "Coherencia: estad\xEDsticas subanuales y anuales"
 "Coj\xE1yar":
   en: "Coj\xE1yar"
+Collection of metadata concepts, structure and usage when used to collect or disseminate reference metadata.:
+  es: "Recopilaci\xF3n de conceptos de metadatos, estructura y uso cuando se utilizan\
+    \ para recopilar o difundir metadatos de referencia."
+Collection of organisation units.:
+  es: "Colecci\xF3n de unidades de organizaci\xF3n."
 Colmenar:
   en: Colmenar
 Colomera:
   en: Colomera
 Comares:
   en: Comares
+Combination of actions that result in the production, distribution and consumption of goods or services.:
+  es: "Combinaci\xF3n de acciones que dan lugar a la producci\xF3n, distribuci\xF3\
+    n y consumo de bienes o servicios."
+"Comercio y hosteler\xEDa":
+  en: Trade and hospitality
+Comment:
+  es: "C\xF3mo"
+Comparability:
+  es: Comparabilidad
+Comparability - geographical:
+  es: "Comparabilidad - geogr\xE1fica"
+Comparability - over time:
+  es: Comparabilidad - a lo largo del tiempo
+Compiling agency:
+  es: Agencia compiladora
+Component:
+  es: Componente
+Component of a reporting taxonomy that gives structure to a report and links to data and metadata.:
+  es: "Componente de una taxonom\xEDa de informes que da estructura a un informe y\
+    \ enlaces a datos y metadatos."
 Comunidad Foral de Navarra:
   en: Autonomous Community of Navarre
 Comunidad Valenciana/Comunitat Valenciana:
   en: Comunidad Valenciana/Comunitat Valenciana
 Comunidad de Madrid:
   en: Community of Madrid
+"Con hijos fiscales mayores de 3 a\xF1os":
+  en: With tax children over 3 years of age
+"Con hijos fiscales menores de 3 a\xF1os":
+  en: With fiscal children under 3 years of age
 "Con mujer menor de 50 a\xF1os":
   en: With a woman under 50
+Concept:
+  es: Concepto
+Concept scheme:
+  es: Esquema conceptual
+Conceptual model for defining and describing the classes, attributes, and relationships of the SDMX standard.:
+  es: "Modelo conceptual para definir y describir las clases, los atributos y las\
+    \ relaciones del est\xE1ndar SDMX."
+Confidentiality:
+  es: Confidencialidad
+Confidentiality - data treatment:
+  es: Confidencialidad - tratamiento de datos
+Confidentiality - policy:
+  es: "Pol\xEDtica de confidencialidad"
+Confidentiality - redistribution authorisation policy:
+  es: "Confidencialidad - pol\xEDtica de autorizaci\xF3n de redistribuci\xF3n"
+Confidentiality - status:
+  es: Confidencialidad - estatus
+Confidentiality Status:
+  es: Estado de confidencialidad
 Conil de la Frontera:
   en: Conil de la Frontera
 Conquista:
   en: Conquest
+Consensual union status:
+  es: "Estado de la uni\xF3n consensuada"
 Constantina:
   en: Constantina
+Constraint:
+  es: "Restricci\xF3n"
 "Construcci\xF3n":
   en: Construction
+Construct capable of defining annotations:
+  es: Construcciones capaces de definir anotaciones
+Construct defining multi-lingual text for the same underlying concept.:
+  es: "Construir la definici\xF3n de un texto multiling\xFCe para el mismo concepto\
+    \ subyacente."
+Construct that contains structures capable of providing a maintenance agency to an object.:
+  es: "Construcci\xF3n que contiene estructuras capaces de proporcionar una agencia\
+    \ de mantenimiento a un objeto."
+Construct that contains structures capable of providing a name and a description to an object.:
+  es: "Construcci\xF3n que contiene estructuras capaces de proporcionar un nombre\
+    \ y una descripci\xF3n a un objeto."
+Construct that contains structures capable of providing a version to an object.:
+  es: "Construcci\xF3n que contiene estructuras capaces de proporcionar una versi\xF3\
+    n a un objeto."
+Construct that contains structures capable of providing identity to an object.:
+  es: "Construcci\xF3n que contiene estructuras capaces de proporcionar identidad\
+    \ a un objeto."
+Construct that contains user or organisation-specific metadata.:
+  es: "Construcci\xF3n que contiene metadatos espec\xEDficos del usuario o de la organizaci\xF3\
+    n."
+? Construct that enables a system to distinguish between one state of an object and
+  another where the contents of the object have changed.
+: es: "Construcci\xF3n que permite a un sistema distinguir entre un estado de un objeto\
+    \ y otro en el que el contenido del objeto ha cambiado."
+? Construct that indicates whether an object is available in the metadata source that
+  contains its identifier or whether the object itself is available elsewhere.
+: es: "Construcci\xF3n que indica si un objeto est\xE1 disponible en la fuente de\
+    \ metadatos que contiene su identificador o si el propio objeto est\xE1 disponible\
+    \ en otro lugar."
+? Construct that indicates whether the contained values of a container object is to
+  be included or excluded from the valid list of values.
+: es: "Construcci\xF3n que indica si los valores contenidos de un objeto contenedor\
+    \ deben ser incluidos o excluidos de la lista de valores v\xE1lidos."
+Contact:
+  es: Contact
+Contact email address:
+  es: "Direcci\xF3n de correo electr\xF3nico de contacto"
+Contact fax number:
+  es: "N\xFAmero de fax de contacto"
+Contact mail address:
+  es: "Direcci\xF3n de correo de contacto"
+Contact name:
+  es: Nombre de contacto
+Contact organisation:
+  es: "Organizaci\xF3n de contacto"
+Contact organisation unit:
+  es: "Unidad de organizaci\xF3n de contactos"
+Contact person function:
+  es: "Funci\xF3n de la persona de contacto"
+Contact phone number:
+  es: "N\xFAmero de tel\xE9fono de contacto"
+Content-Oriented Guidelines, COG:
+  es: Directrices orientadas al contenido, COG
 "Coria del R\xEDo":
   en: "Coria del R\xEDo"
 Coripe:
@@ -20248,6 +20927,8 @@ Coronil (El):
   en: Coronil (El)
 Corrales (Los):
   en: Corrales (Los)
+Correspondence between two or more objects.:
+  es: "Correspondencia entre dos o m\xE1s objetos."
 "Corteconcepci\xF3n":
   en: "Corteconcepci\xF3n"
 Cortegana:
@@ -20260,12 +20941,57 @@ Cortes de la Frontera:
   en: Cortes de la Frontera
 Cortes y Graena:
   en: Cortes and Graena
+Cost and burden:
+  es: Coste y carga
+Cost and burden - efficiency management:
+  es: "Costes y cargas - gesti\xF3n de la eficiencia"
+Cost and burden - resources:
+  es: Coste y carga - recursos
+Cost associated with the collection and production of a statistical product, as well as the burden imposed on respondents.:
+  es: "Coste asociado a la recogida y elaboraci\xF3n de un producto estad\xEDstico,\
+    \ as\xED como la carga impuesta a los encuestados."
+? Cost-benefit analysis, effectiveness of execution of medium term statistical programmes,
+  and ensuring efficient use of resources.
+: es: "An\xE1lisis coste-beneficio, eficacia de la ejecuci\xF3n de los programas estad\xED\
+    sticos a medio plazo y garant\xEDa de un uso eficiente de los recursos."
+Cotizante:
+  en: Contributor
+Cotizante y pensionista:
+  en: Contributor and pensioner
+Counterpart reference area:
+  es: "\xC1rea de referencia de la contraparte"
+Country of birth:
+  es: "Pa\xEDs de nacimiento"
+Country of birth of the man or similar categories:
+  es: "Pa\xEDs de nacimiento del hombre o categor\xEDas similares"
+Country of birth of the woman or similar categories:
+  es: "Pa\xEDs de nacimiento de la mujer o categor\xEDas similares"
+Country of next usual residence:
+  es: "Pa\xEDs de la pr\xF3xima residencia habitual"
+Country of previous usual residence:
+  es: "Pa\xEDs de residencia habitual anterior"
+Country or geographic area to which the measured statistical phenomenon relates.:
+  es: "Pa\xEDs o zona geogr\xE1fica a la que se refiere el fen\xF3meno estad\xEDstico\
+    \ medido."
+Coverage error:
+  es: Error de cobertura
 "Cozv\xEDjar":
   en: Cozvijar
 "Co\xEDn":
   en: "Co\xEDn"
 Croacia:
   en: Croacia
+? Cross product of values of dimensions, where either the cross product or the cross
+  product combined with a time value, identifies uniquely an observation.
+: es: "Producto cruzado de los valores de las dimensiones, donde el producto cruzado\
+    \ o el producto cruzado combinado con un valor de tiempo, identifica de forma\
+    \ \xFAnica una observaci\xF3n."
+Cross-domain code list, CDCL:
+  es: "Lista de c\xF3digos entre dominios, CDCL"
+Cross-domain concept, CDC:
+  es: Concepto transversal, CDC
+"Cuatro o m\xE1s episodios en el a\xF1o":
+  en: Four or more episodes in a year
 Cuervo (El):
   en: Cuervo (El)
 Cuevas Bajas:
@@ -20278,12 +21004,16 @@ Cuevas del Becerro:
   en: Cuevas del Becerro
 Cuevas del Campo:
   en: Cuevas del Campo
+Culture:
+  es: Cultura
 Cumbres Mayores:
   en: Cumbres Mayores
 Cumbres de Enmedio:
   en: Cumbres de Enmedio
 "Cumbres de San Bartolom\xE9":
   en: "Cumbres de San Bartolom\xE9"
+Currency:
+  es: Moneda
 "C\xE1diar":
   en: Shut up
 "C\xE1diz":
@@ -20320,12 +21050,105 @@ Cumbres de Enmedio:
   en: "C\xFAtar"
 "D. Suministro de energ\xEDa el\xE9ctrica, gas, vapor y aire acondicionado":
   en: D. Electricity, gas, steam and air-conditioning supply
+DSD agreed by a number of international organisations for use within their respective constituencies:
+  es: DSD acordada por una serie de organizaciones internacionales para su uso en
+    sus respectivas circunscripciones
+DSD developed for the specific needs of one organisation only.:
+  es: "DSD desarrollado para las necesidades espec\xEDficas de una sola organizaci\xF3\
+    n."
+DSD for global use:
+  es: DSD para uso global
 "Dal\xEDas":
   en: "Dal\xEDas"
 Darrical:
   en: Darrical
 Darro:
   en: Darro
+? Data collected on the basis of definitions or (alternative) collection methods under
+  development. Data not of guaranteed quality as normally expected from provider.
+: es: "Datos recogidos sobre la base de definiciones o m\xE9todos de recogida (alternativos)\
+    \ en desarrollo. Los datos no tienen la calidad garantizada que normalmente se\
+    \ espera del proveedor."
+Data collection method:
+  es: "M\xE9todo de recogida de datos"
+Data compilation:
+  es: "Recopilaci\xF3n de datos"
+Data consumer:
+  es: Consumidor de datos
+Data consumer scheme:
+  es: "R\xE9gimen de consumo de datos"
+? Data element that represents statistical data for a specified time, place, and other
+  characteristics, and is corrected for at least one dimension (usually size) to allow
+  for meaningful comparisons.
+: es: "Elemento de datos que representa datos estad\xEDsticos para un tiempo, lugar\
+    \ y otras caracter\xEDsticas espec\xEDficas, y que est\xE1 corregido para al menos\
+    \ una dimensi\xF3n (normalmente el tama\xF1o) para permitir comparaciones significativas."
+Data extraction date:
+  es: "Fecha de extracci\xF3n de datos"
+Data included in another category:
+  es: "Datos incluidos en otra categor\xEDa"
+Data or metadata message that is used for changing a part of the content of a data/metadata set.:
+  es: Mensaje de datos o metadatos que se utiliza para modificar una parte del contenido
+    de un conjunto de datos/metadatos.
+? Data or reference metadata reporting method that requires the provider to make the
+  information available at an accessible web location.
+: es: "M\xE9todo de notificaci\xF3n de datos o metadatos de referencia que requiere\
+    \ que el proveedor ponga la informaci\xF3n a disposici\xF3n en una ubicaci\xF3\
+    n web accesible."
+? Data or reference metadata reporting method that requires the provider to make the
+  information available by means of transfer such as email or other electronic method.
+: es: "M\xE9todo de notificaci\xF3n de datos o metadatos de referencia que requiere\
+    \ que el proveedor ponga la informaci\xF3n a disposici\xF3n por medios de transferencia\
+    \ como el correo electr\xF3nico u otro m\xE9todo electr\xF3nico."
+Data presentation - detailed description:
+  es: "Presentaci\xF3n de datos - descripci\xF3n detallada"
+Data presentation - summary description:
+  es: "Presentaci\xF3n de datos - descripci\xF3n resumida"
+Data provider:
+  es: Proveedor de datos
+Data provider scheme:
+  es: "R\xE9gimen de proveedores de datos"
+Data revision:
+  es: "Fecha de revisi\xF3n"
+Data revision - policy:
+  es: "Revisi\xF3n de datos - pol\xEDtica"
+Data revision - practice:
+  es: "Revisi\xF3n de datos - pr\xE1ctica"
+Data revision - studies:
+  es: "Revisi\xF3n de datos - estudios"
+Data set:
+  es: Conjunto de datos
+Data source:
+  es: Fuente de datos
+Data structure definition, DSD:
+  es: "Definici\xF3n de la estructura de datos, DSD"
+Data validation:
+  es: "Validaci\xF3n de datos"
+Dataflow:
+  es: Flujo de datos
+Date and time that the data are gathered from a data source.:
+  es: Fecha y hora en que se recogen los datos de una fuente de datos.
+Date of last update of the content of the metadata.:
+  es: "Fecha de la \xFAltima actualizaci\xF3n del contenido de los metadatos."
+? Date of the latest certification provided by the domain manager to confirm that
+  the metadata posted are still up-to-date, even if the content has not been amended.
+: es: "Fecha de la \xFAltima certificaci\xF3n proporcionada por el administrador del\
+    \ dominio para confirmar que los metadatos publicados siguen estando actualizados,\
+    \ aunque el contenido no haya sido modificado."
+Date of the latest dissemination of the metadata.:
+  es: "Fecha de la \xFAltima difusi\xF3n de los metadatos."
+Date on which the metadata element was created or modified.:
+  es: "Fecha de creaci\xF3n o modificaci\xF3n del elemento de metadatos."
+? Dates or periods during which the observations have been collected (such as middle,
+  average or end of period) for the target reference period.
+: es: Fechas o periodos durante los cuales se han recogido las observaciones (como
+    la mitad, la media o el final del periodo) para el periodo de referencia objetivo.
+"De 1 a 5 a\xF1os":
+  en: From 1 to 5 years
+"De 10 a 15 a\xF1os":
+  en: From 10 to 15 years old
+"De 10.001 a 20.000\u20AC":
+  en: From 10.001 to 20.000
 "De 100 a\xF1os":
   en: From 100 years old
 "De 100 y m\xE1s a\xF1os":
@@ -20372,6 +21195,8 @@ Darro:
   en: From 20 to 24 years old
 "De 20 a\xF1os":
   en: 20 years old
+"De 20.001 a 30.000\u20AC":
+  en: From 20.001 to 30.000
 "De 21 a\xF1os":
   en: 21 years old
 "De 22 a\xF1os":
@@ -20398,6 +21223,8 @@ Darro:
   en: From 30 to 34 years old
 "De 30 a\xF1os":
   en: From 30 years old
+"De 31 a 90 d\xEDas":
+  en: 31 to 90 days
 "De 31 a\xF1os":
   en: 31 years old
 "De 32 a\xF1os":
@@ -20442,6 +21269,8 @@ Darro:
   en: 48 years old
 "De 49 a\xF1os":
   en: 49 years old
+"De 5 a 10 a\xF1os":
+  en: From 5 to 10 years old
 "De 50 a 54 a\xF1os":
   en: From 50 to 54 years old
 "De 50 a\xF1os":
@@ -20468,6 +21297,8 @@ Darro:
   en: 58 years old
 "De 59 a\xF1os":
   en: 59 years old
+"De 6 meses a 1 a\xF1o":
+  en: 6 months to 1 year
 "De 60 a 64 a\xF1os":
   en: 60 to 64 years old
 "De 60 a\xF1os":
@@ -20546,6 +21377,8 @@ Darro:
   en: 90 to 94 years old
 "De 90 a\xF1os":
   en: 90 years old
+"De 91 a 360 d\xEDas":
+  en: From 91 to 360 days
 "De 91 a\xF1os":
   en: 91 years old
 "De 92 a\xF1os":
@@ -20566,34 +21399,130 @@ Darro:
   en: From 98 years old
 "De 99 a\xF1os":
   en: From 99 years old
+Decimals:
+  es: Decimales
+Definition differs:
+  es: "La definici\xF3n difiere"
+Definition of the price per unit, for goods and services flows and asset stocks.:
+  es: "Definici\xF3n del precio por unidad, para los flujos de bienes y servicios\
+    \ y las existencias de activos."
+"Degree of urbanization \u2013 DEGURBA":
+  es: "Grado de urbanizaci\xF3n - DEGURBA"
+Degree to which statistical information meets the real or perceived needs of clients.:
+  es: "Grado en que la informaci\xF3n estad\xEDstica responde a las necesidades reales\
+    \ o percibidas de los clientes."
 Dehesas Viejas:
   en: Dehesas Viejas
 Dehesas de Guadix:
   en: Dehesas de Guadix
 Deifontes:
   en: Deifontes
+Demographic and social statistics:
+  es: "Estad\xEDsticas demogr\xE1ficas y sociales"
+Demographic balance - DEMOBAL (list):
+  es: "Balance demogr\xE1fico - DEMOBAL (lista)"
+Densidad25:
+  en: Density25
+Dependent children:
+  es: Hijos dependientes
+Derogation:
+  es: "Excepci\xF3n"
 Desanimados:
   en: Discouraged
+Description of how the release calendar can be accessed.:
+  es: "Descripci\xF3n de c\xF3mo se puede acceder al calendario de publicaciones."
+Description of how well the disseminated statistics meet the expressed user needs.:
+  es: "Descripci\xF3n de la medida en que las estad\xEDsticas difundidas responden\
+    \ a las necesidades expresadas por los usuarios."
+Description of requirements with respect to the statistical output.:
+  es: "Descripci\xF3n de los requisitos con respecto a la producci\xF3n estad\xED\
+    stica."
+Description of the statistical domain under measure as well as the main variables provided.:
+  es: "Descripci\xF3n del \xE1mbito estad\xEDstico que se mide, as\xED como de las\
+    \ principales variables proporcionadas."
+? Descriptive information for a subdivision of categories into groups based on characteristics,
+  which the objects have in common.
+: es: "Informaci\xF3n descriptiva para una subdivisi\xF3n de categor\xEDas en grupos\
+    \ basados en caracter\xEDsticas que los objetos tienen en com\xFAn."
+? Descriptive information for an arrangement or division of objects into groups based
+  on characteristics which the objects have in common.
+: es: "Informaci\xF3n descriptiva de una ordenaci\xF3n o divisi\xF3n de objetos en\
+    \ grupos basada en las caracter\xEDsticas que los objetos tienen en com\xFAn."
+Descriptive text and references to methodological documents available.:
+  es: "Texto descriptivo y referencias a documentos metodol\xF3gicos disponibles."
+Descriptive text which can be attached to data or metadata.:
+  es: Texto descriptivo que puede adjuntarse a los datos o metadatos.
+"Desviaci\xF3n t\xEDpica (\u20AC)":
+  en: "Standard deviation (\u20AC)"
+Detailed description of the disseminated data.:
+  es: "Descripci\xF3n detallada de los datos difundidos."
 Diezma:
   en: Diezma
+? Difference or absolute difference of inbound and outbound flows between a pair of
+  countries divided by the average of these two values.
+: es: "Diferencia o diferencia absoluta de los flujos de entrada y salida entre un\
+    \ par de pa\xEDses dividida por la media de estos dos valores."
+Dimension:
+  es: "Dimensi\xF3n"
 Dinamarca:
   en: Denmark
 Diplomados universitarios y equivalentes:
   en: University graduates and equivalent
 Directores y gerentes:
   en: Directors and managers
+Dissemination format:
+  es: "Formato de difusi\xF3n"
+Dissemination format - microdata access:
+  es: "Formato de difusi\xF3n - acceso a los microdatos"
+Dissemination format - news release:
+  es: "Formato de difusi\xF3n - comunicado de prensa"
+Dissemination format - online database:
+  es: "Formato de difusi\xF3n - base de datos en l\xEDnea"
+Dissemination format - other formats:
+  es: "Formato de difusi\xF3n - otros formatos"
+Dissemination format - publications:
+  es: "Formato de difusi\xF3n - publicaciones"
 Doctorado universitario:
   en: University doctorate
+Documentation on methodology:
+  es: "Documentaci\xF3n sobre metodolog\xEDa"
+Documentation on methodology - advance notice:
+  es: "Documentaci\xF3n sobre metodolog\xEDa - aviso previo"
+Documentation on procedures applied for quality management and quality assessment.:
+  es: "Documentaci\xF3n sobre los procedimientos aplicados para la gesti\xF3n y la\
+    \ evaluaci\xF3n de la calidad."
 "Domingo P\xE9rez de Granada":
   en: "Domingo P\xE9rez de Granada"
 Dos Hermanas:
   en: Two Sisters
 Dos Torres:
   en: Dos Torres
+"Dos adultos con ni\xF1os. Edad del m\xE1s j\xF3ven 0-4 a\xF1os":
+  en: Two adults with children. Age of youngest 0-4 years
+"Dos adultos con ni\xF1os. Edad del m\xE1s j\xF3ven 5-15 a\xF1o":
+  en: Two adults with children. Age of youngest 5-15 years
+Dos adultos solos, al menos uno de edad 65+:
+  en: Two single adults, at least one of age 65+
+Dos adultos solos, ambos de edad 16-64:
+  en: Two single adults, both aged 16-64
+"Dos o m\xE1s tipos de prestaci\xF3n":
+  en: Two or more types of benefit
+"Dos o tres episodios en el a\xF1o":
+  en: Two or three episodes in a year
 "Do\xF1a Mar\xEDa Oca\xF1a":
   en: "Do\xF1a Mar\xEDa Oca\xF1a"
 "Do\xF1a Menc\xEDa":
   en: "Do\xF1a Menc\xEDa"
+"Duraci\xF3n del \xFAltimo episodio de ocupaci\xF3n":
+  en: Duration of the last episode of occupation
+"Duraci\xF3n relativa del mayor episodio de ocupaci\xF3n de la vida laboral":
+  en: Relative duration of the longest episode of working life occupation
+Duration of gestation:
+  es: "Duraci\xF3n de la gestaci\xF3n"
+Duration of the marriage:
+  es: "Duraci\xF3n del matrimonio"
+"D\xEDas cotizados en el a\xF1o":
+  en: Days contributed in the year
 "D\xEDlar":
   en: Handyman
 "D\xF3lar":
@@ -20602,6 +21531,9 @@ Dos Torres:
   en: Dudar
 "D\xFArcal":
   en: "D\xFArcal"
+E-mail address of the contact points for the data or metadata.:
+  es: "Direcci\xF3n de correo electr\xF3nico de los puntos de contacto para los datos\
+    \ o metadatos."
 "E. Suministro de agua, actividades de saneamiento, gesti\xF3n de residuos y descontaminaci\xF3n":
   en: E. Water supply, sanitation, waste management and decontamination activities
 ECOICOP:
@@ -20610,6 +21542,8 @@ ECOICOP:
   en: ECOICOP (2digits)
 EDAD:
   en: AGE
+EOC:
+  es: EOC
 EPA_CLASEINACTIV:
   en: EPA_INACTIV_CLASS
 EPA_ESTRUCHOGAR:
@@ -20622,22 +21556,63 @@ EPA_RELACTIVIDAD:
   en: EPA_RELATIVITY
 EPA_TIPACTIVIDADHOGAR:
   en: EPA_TIPACTIVIDADHOGAR
+Economic accounts:
+  es: "Cuentas econ\xF3micas"
+Economic activity:
+  es: "Actividad econ\xF3mica"
+Economic statistics:
+  es: "Estad\xEDsticas econ\xF3micas"
 Edad:
   en: Age
+Edad (MCVL Salarios):
+  en: Age (MCVL Wages)
 "Educaci\xF3n postsecundaria no superior":
   en: Post-secondary non-tertiary education
 "Educaci\xF3n primaria":
   en: Primary education
 "Educaci\xF3n superior":
   en: Higher education
+Education:
+  es: "Educaci\xF3n"
+Education level:
+  es: "Nivel de educaci\xF3n"
+Educational attainment (ISCED 2011):
+  es: Nivel educativo (CINE 2011)
+Educational attainment (ISCED 2011) of the father:
+  es: Nivel educativo (CINE 2011) del padre
+Educational attainment (ISCED 2011) of the mother:
+  es: Nivel educativo (CINE 2011) de la madre
 Ejido (El):
   en: Ejido (El)
+"El a\xF1o completo":
+  en: The whole year
+Elements providing assurances that statistics are produced on an impartial basis.:
+  es: "Elementos que garantizan que las estad\xEDsticas se elaboran de forma imparcial."
+? Elements providing assurances that the choices of sources and statistical techniques
+  as well as decisions about dissemination are informed solely by statistical considerations.
+: es: "Elementos que garantizan que la elecci\xF3n de las fuentes y las t\xE9cnicas\
+    \ estad\xEDsticas, as\xED como las decisiones sobre la difusi\xF3n, se basan \xFA\
+    nicamente en consideraciones estad\xEDsticas."
+? Elements providing assurances that the statistical entity is entitled to comment
+  on erroneous interpretation and misuse of statistics.
+: es: "Elementos que garantizan que la entidad estad\xEDstica tiene derecho a comentar\
+    \ la interpretaci\xF3n err\xF3nea y el mal uso de las estad\xEDsticas."
+Embargo time:
+  es: Embargo time
 Empleados contables, administrativos y otros empleados de oficina:
   en: Accountants, clerical and other office employees
+Employment status of the mother:
+  es: "Situaci\xF3n laboral de la madre"
 Encinas Reales:
   en: Encinas Reales
 Encinasola:
   en: Encinasola
+"Encuesta sobre el uso de TIC y comercio electr\xF3nico en las empresas":
+  en: Survey on the use of ICT and e-business in enterprises
+"Encuestas de Poblaci\xF3n Activa":
+  en: Labour Force Surveys
+Energy:
+  es: "Energ\xEDa"
 Enix:
   en: Enix
 "Ense\xF1anzas de doctorado":
@@ -20650,6 +21625,63 @@ Enix:
     sports education and equivalent.
 "Ense\xF1anzas profesionales de m\xFAsica y danza y similares":
   en: Professional music and dance education and similar
+Entity for which information is sought and for which statistics are ultimately compiled.:
+  es: "Entidad para la que se busca informaci\xF3n y para la que finalmente se elaboran\
+    \ las estad\xEDsticas."
+Entity that uses data.:
+  es: Entidad que utiliza datos.
+Entre 1 y 3 meses:
+  en: Between 1 and 3 months
+Entre 25%-50% del tiempo ocupado:
+  en: Between 25%-50% of the time occupied
+Entre 3 y 12 meses:
+  en: Between 3 and 12 months
+"Entre 30 y 39 a\xF1os":
+  en: Between 30 and 39 years old
+"Entre 40 y 49 a\xF1os":
+  en: Between 40 and 49 years old
+"Entre 50 y 59 a\xF1os":
+  en: Between 50 and 59 years old
+Entre 50%-75% del tiempo ocupado:
+  en: Between 50%-75% of time spent
+Entre 60% y 90%:
+  en: Between 60% and 90%.
+Entre el 10% y el 20%:
+  en: Between 10% and 20%.
+Entrepreneurship:
+  es: Iniciativa empresarial
+Environment:
+  es: Medio ambiente
+Environment and multi-domain statistics:
+  es: "Estad\xEDsticas de entorno y multidominio"
+"Episodios de ocupaci\xF3n y otros":
+  en: Occupation and other episodes
+? Error caused by a failure to cover adequately all components of the population being
+  studied, which results in differences between the target population and the sampling
+  frame.
+: es: "Error causado por la falta de cobertura adecuada de todos los componentes de\
+    \ la poblaci\xF3n estudiada, que da lugar a diferencias entre la poblaci\xF3n\
+    \ objetivo y el marco de muestreo."
+Error in final survey results arising from the faulty implementation of correctly planned implementation methods.:
+  es: "Error en los resultados finales de la encuesta derivado de la aplicaci\xF3\
+    n defectuosa de m\xE9todos de aplicaci\xF3n correctamente planificados."
+Error in reading, calculating or recording a numerical value.:
+  es: "Error al leer, calcular o registrar un valor num\xE9rico."
+Error in sample estimates which cannot be attributed to sampling fluctuations.:
+  es: Error en las estimaciones de la muestra que no puede atribuirse a las fluctuaciones
+    del muestreo.
+? Error that occurs due the use of methods, such as calibration, generalised regression
+  estimator, calculation based on full scope or constant scope, benchmarking, seasonal
+  adjustment and other models not included in other accuracy components, in order
+  to calculate statistics or indexes.
+: es: "Error que se produce por la utilizaci\xF3n de m\xE9todos, como el calibrado,\
+    \ el estimador de regresi\xF3n generalizada, el c\xE1lculo basado en el \xE1mbito\
+    \ completo o en el \xE1mbito constante, el benchmarking, el ajuste estacional\
+    \ y otros modelos no incluidos en otros componentes de precisi\xF3n, para calcular\
+    \ estad\xEDsticas o \xEDndices."
+Error that occurs when the survey fails to get a response to one, or possibly all, of the questions.:
+  es: Error que se produce cuando la encuesta no obtiene respuesta a una, o posiblemente
+    a todas, las preguntas.
 Escacena del Campo:
   en: Escacena del Campo
 "Esca\xF1uela":
@@ -20668,6 +21700,8 @@ Espartinas:
   en: Espartinas
 "Espa\xF1a":
   en: Spain
+"Espa\xF1a/Andaluc\xEDa/Provincias Andaluc\xEDa":
+  en: Spain/Andalusia/Provinces Andalusia
 "Espa\xF1ola":
   en: Spanish
 Especialidades en Ciencias de la Salud por el sistema de residencia y similares:
@@ -20680,10 +21714,14 @@ Espera:
   en: Wait
 Espiel:
   en: Espiel
+"Estad\xEDstica sobre actividades de I+D. Resultados de Andaluc\xEDa":
+  en: Statistics on R&D activities. Results for Andalusia
 Estepa:
   en: Steppe
 Estepona:
   en: Estepona
+Estimated value:
+  es: Valor estimado
 Estonia:
   en: Estonia
 Estructura del hogar:
@@ -20692,14 +21730,57 @@ Estudiante:
   en: Student
 Estudios primarios incompletos:
   en: Incomplete primary education
+Exact time at which the data can be made available to the public.:
+  es: "Momento exacto en el que los datos pueden ponerse a disposici\xF3n del p\xFA\
+    blico."
+Expenditure according to purpose:
+  es: "Gastos en funci\xF3n de la finalidad"
+Experiencia de desempleo:
+  en: Unemployment experience
+"Experiencia de ocupaci\xF3n por cuenta propia":
+  en: Self-employment experience
+Experimental value:
+  es: Valor experimental
+? Exponent in base 10 specified so that multiplying the observation numeric values
+  by 10^UNIT_MULT gives a value expressed in the unit of measure.
+: es: "Exponente en base 10 especificado para que al multiplicar los valores num\xE9\
+    ricos de observaci\xF3n por 10^UNIT_MULT se obtenga un valor expresado en la unidad\
+    \ de medida."
+Extent to which all statistics that are needed are available.:
+  es: "Grado de disponibilidad de todas las estad\xEDsticas necesarias."
+? Extent to which differences between statistics can be attributed to differences
+  between the true values of the statistical characteristics.
+: es: "Grado en que las diferencias entre las estad\xEDsticas pueden atribuirse a\
+    \ las diferencias entre los valores reales de las caracter\xEDsticas estad\xED\
+    sticas."
+Extent to which statistics are comparable between geographical areas.:
+  es: "Grado de comparabilidad de las estad\xEDsticas entre zonas geogr\xE1ficas."
+Extent to which statistics are comparable or reconcilable over time.:
+  es: "Grado de comparabilidad o conciliaci\xF3n de las estad\xEDsticas a lo largo\
+    \ del tiempo."
+Extent to which statistics are consistent within a given data set.:
+  es: "Grado de coherencia de las estad\xEDsticas en un conjunto de datos determinado."
+Extent to which statistics are reconcilable with National Accounts.:
+  es: "Grado de conciliaci\xF3n de las estad\xEDsticas con las Cuentas Nacionales."
+Extent to which statistics are reconcilable with those obtained through other data sources or statistical domains.:
+  es: "Grado de conciliaci\xF3n de las estad\xEDsticas con las obtenidas a trav\xE9\
+    s de otras fuentes de datos o \xE1mbitos estad\xEDsticos."
+Extent to which statistics of different frequencies are reconcilable.:
+  es: "Grado de conciliaci\xF3n de las estad\xEDsticas de diferentes frecuencias."
 Extranjera:
   en: Foreign
 Extremadura:
   en: Extremadura
 "F. Construcci\xF3n":
   en: F. Construction
+Facet:
+  es: Facet
 "Faraj\xE1n":
   en: "Faraj\xE1n"
+Fast-track change:
+  es: "Cambio por la v\xEDa r\xE1pida"
+Fax number of the contact points for the data or metadata.:
+  es: "N\xFAmero de fax de los puntos de contacto para los datos o metadatos."
 Felix:
   en: Felix
 "Fern\xE1n-N\xFA\xF1ez":
@@ -20718,8 +21799,13 @@ Finlandia:
   en: "Fond\xF3n"
 Fonelas:
   en: Fonelas
+Forecast value:
+  es: Valor previsto
 "Formaci\xF3n profesional b\xE1sica":
   en: Basic vocational training
+Format specification of a component's content when reported in a data or metadata set.:
+  es: "Especificaci\xF3n del formato del contenido de un componente cuando se informa\
+    \ en un conjunto de datos o metadatos."
 Fornes:
   en: Fornes
 Frailes:
@@ -20730,6 +21816,14 @@ Fregenite:
   en: Fregenite
 Freila:
   en: Freila
+Frequency:
+  es: Frecuencia
+Frequency of data collection:
+  es: Frecuencia de recogida de datos
+Frequency of dissemination:
+  es: "Frecuencia de difusi\xF3n"
+Frequency of observation:
+  es: "Frecuencia de observaci\xF3n"
 Frigiliana:
   en: Frigiliana
 Fuengirola:
@@ -20784,6 +21878,8 @@ Gelves:
   en: Gelves
 Genalguacil:
   en: Genalguacil
+Gender and special population groups:
+  es: "G\xE9nero y grupos de poblaci\xF3n especiales"
 General sin alimentos, bebidas, tabaco ni alquiler de vivienda:
   en: General without food, beverages, tobacco and housing rentals
 "General sin alimentos, bebidas, tabaco ni productos energ\xE9ticos":
@@ -20798,6 +21894,10 @@ General sin carburantes ni combustibles:
   en: General no fuels and no fuels
 General sin servicios ni alquiler de vivienda:
   en: General without services or rental housing
+"General y aut\xF3nomos":
+  en: General and self-employed
+Geographical area:
+  es: "Zona geogr\xE1fica"
 Gerena:
   en: Gerena
 "Gibrale\xF3n":
@@ -20806,12 +21906,18 @@ Gilena:
   en: Gilena
 Gines:
   en: Gines
+Global registry:
+  es: Registro mundial
+Globalisation:
+  es: "Globalizaci\xF3n"
 Gobernador:
   en: Governor
 Gor:
   en: Gor
 Gorafe:
   en: Gorafe
+Government finance, fiscal and public sector statistics:
+  es: "Estad\xEDsticas de finanzas p\xFAblicas, fiscales y del sector p\xFAblico"
 "Grados universitarios de 240 cr\xE9ditos ECTS y equivalentes":
   en: University degrees of 240 ECTS credits and equivalents
 ? "Grados universitarios de 240 cr\xE9ditos ECTS, diplomados universitarios, t\xED\
@@ -20841,6 +21947,10 @@ Grazalema:
   en: Grazalema
 Grecia:
   en: Greece
+Group key:
+  es: Clave de grupo
+Group key structure:
+  es: Estructura de la clave de grupo
 "Grupo 1. Alimentos y bebidas no alcoh\xF3licas":
   en: Group 1. Food and non-alcoholic beverages
 "Grupo 10. Ense\xF1anza":
@@ -20886,6 +21996,11 @@ Guaro:
   en: Guaro
 "Guarrom\xE1n":
   en: "Guarrom\xE1n"
+? Guidelines focusing on quality in general and dealing with quality of statistical
+  programmes, including measures for ensuring the efficient use of resources.
+: es: "Directrices centradas en la calidad en general y que tratan de la calidad de\
+    \ los programas estad\xEDsticos, incluidas las medidas para garantizar el uso\
+    \ eficiente de los recursos."
 Guijarrosa (La):
   en: Guijarrosa (La)
 Guijo (El):
@@ -20918,8 +22033,19 @@ H. Transporte y almacenamiento:
   en: More than 1 year since last job
 "Hace m\xE1s de tres a\xF1os desde su \xFAltimo empleo":
   en: It has been more than three years since his last job
+Health:
+  es: Salud
 Herrera:
   en: Herrera
+Hierarchical code:
+  es: "C\xF3digo jer\xE1rquico"
+Hierarchical code list:
+  es: "Lista de c\xF3digos jer\xE1rquicos"
+Hierarchy:
+  es: "Jerarqu\xEDa"
+Highest level of an educational programme the person has successfully completed.:
+  es: "Nivel m\xE1s alto de un programa educativo que la persona ha completado con\
+    \ \xE9xito."
 Higuera de Arjona:
   en: Higuera de Arjona
 Higuera de Calatrava:
@@ -20946,6 +22072,8 @@ Higuera de la Sierra:
   en: Child under 3 years old
 "Hijo menor de 3 a\xF1os y otros":
   en: Child under 3 years old and others
+Hijos:
+  en: Children
 Hinojales:
   en: Hinojales
 Hinojares:
@@ -20954,6 +22082,12 @@ Hinojos:
   en: Hinojosa
 Hinojosa del Duque:
   en: Hinojosa del Duque
+Hogares con dos adultos (16+):
+  en: Households with two adults (16+)
+"Hogares con tres o m\xE1s adultos (16+)":
+  en: Households with three or more adults (16+)
+"Hogares con un \xFAnico adulto (16+)":
+  en: Households with only one adult (16+)
 Hogares inactivos:
   en: Inactive households
 Hogares ocupados:
@@ -20966,6 +22100,8 @@ Hornachuelos:
   en: Hornachuelos
 Hornos:
   en: Ovens
+Hub (dissemination architecture):
+  es: "Hub (arquitectura de difusi\xF3n)"
 Huelma:
   en: Huelma
 Huelva:
@@ -20974,6 +22110,8 @@ Huelva (capital):
   en: Huelva (capital)
 Huesa:
   en: Huesa
+Human settlements and housing:
+  es: Asentamientos humanos y vivienda
 Humilladero:
   en: Humilladero
 "Hungr\xEDa":
@@ -21006,8 +22144,19 @@ IPC_RUBRICAS:
   en: IPC_RUBRICAS
 Ibros:
   en: Ibros
+Identifiable artefact:
+  es: Artefacto identificable
+Identifiable position to which codes in a scheme of codes are related.:
+  es: "Posici\xF3n identificable con la que se relacionan los c\xF3digos de un esquema\
+    \ de c\xF3digos."
 Igualeja:
   en: Equaleja
+Imputation:
+  es: "Imputaci\xF3n"
+Imputation rate:
+  es: "Tasa de imputaci\xF3n"
+Imputed value (CCSA definition):
+  es: "Valor imputado (definici\xF3n CCSA)"
 Inactivos:
   en: Inactive
 Inactivos con pensiones:
@@ -21020,8 +22169,26 @@ Inactivos sin ingresos:
   en: Inactive with no income
 Inactivos3:
   en: Inactive3
+Incapacidad:
+  en: Incapacity
 Incapacitado permanente:
   en: Permanently disabled
+Income and consumption:
+  es: Ingresos y consumo
+Incremental update:
+  es: "Actualizaci\xF3n incremental"
+Indication of the dependency of the presence of a data or metadata attribute when reported in a Data or Metadata Set.:
+  es: "Indicaci\xF3n de la dependencia de la presencia de un atributo de datos o metadatos\
+    \ cuando se informa en un conjunto de datos o metadatos."
+Indication that a person or application is to be notified when a predefined event occurs in an SDMX registry.:
+  es: "Indicaci\xF3n de que una persona o aplicaci\xF3n debe ser notificada cuando\
+    \ se produce un evento predefinido en un registro SDMX."
+Indicators related to the Millennium Development Goals:
+  es: Indicadores relacionados con los Objetivos de Desarrollo del Milenio
+? Individual or organisational contact points for the data or metadata, including
+  information on how to reach the contact points.
+: es: "Puntos de contacto individuales u organizativos para los datos o metadatos,\
+    \ incluyendo informaci\xF3n sobre c\xF3mo llegar a los puntos de contacto."
 Industria:
   en: Industria
 Industria manufacturera:
@@ -21030,8 +22197,41 @@ Industrial manufacturera:
   en: Industrial manufacturera
 "Informaci\xF3n y comunicaciones":
   en: Information and communications
+Information about data revision studies and analyses.:
+  es: "Informaci\xF3n sobre estudios y an\xE1lisis de revisi\xF3n de datos."
+Information about on-line databases in which the disseminated data can be accessed.:
+  es: "Informaci\xF3n sobre las bases de datos en l\xEDnea en las que se puede acceder\
+    \ a los datos difundidos."
+Information about the confidentiality status of the object to which this attribute is attached.:
+  es: "Informaci\xF3n sobre el estado de confidencialidad del objeto al que se adjunta\
+    \ este atributo."
+Information on the data revision practice.:
+  es: "Informaci\xF3n sobre la pr\xE1ctica de revisi\xF3n de datos."
+Information on the quality of a value or an unusual or missing value.:
+  es: "Informaci\xF3n sobre la calidad de un valor o un valor inusual o ausente."
+Information on whether micro-data are also disseminated.:
+  es: "Informaci\xF3n sobre si se difunden tambi\xE9n los microdatos."
+Information sent to a person or application as a result of an event in an SDMX registry.:
+  es: "Informaci\xF3n enviada a una persona o aplicaci\xF3n como resultado de un evento\
+    \ en un registro SDMX."
+Information society:
+  es: "Sociedad de la informaci\xF3n"
 "Instinci\xF3n":
   en: Instinction
+Institutional mandate:
+  es: Mandato institucional
+Institutional mandate - data sharing:
+  es: 'Mandato institucional: intercambio de datos'
+Institutional mandate - legal acts and other agreements:
+  es: "Mandato institucional - actos jur\xEDdicos y otros acuerdos"
+International string:
+  es: Cadena internacional
+International trade and balance of payments:
+  es: Comercio internacional y balanza de pagos
+Intervalo de ingresos:
+  en: Income range
+Intervalo de ingresos (MCVL):
+  en: Income range (MCVL)
 Irlanda:
   en: Irlanda
 Iruela (La):
@@ -21048,6 +22248,10 @@ Islas Baleares/Illes Balears:
   en: "Ist\xE1n"
 Italia:
   en: Italy
+Item non-response rate:
+  es: "Tasa de falta de respuesta al \xEDtem"
+Item scheme:
+  es: "Esquema del art\xEDculo"
 Izbor:
   en: Selection
 Iznalloz:
@@ -21060,6 +22264,9 @@ Iznatoraf:
   en: Iznajar
 "J. Informaci\xF3n y comunicaciones":
   en: J. Information and communications
+JSON format for the dissemination of SDMX-structured data and metadata on the web.:
+  es: "Formato JSON para la difusi\xF3n de datos y metadatos estructurados en SDMX\
+    \ en la web."
 Jabalquinto:
   en: Jabalquinto
 Jabugo:
@@ -21082,14 +22289,22 @@ Jimena de la Frontera:
   en: Jimena de la Frontera
 "Jimera de L\xEDbar":
   en: "Jimera de L\xEDbar"
+Job or position held by an individual who performs a set of tasks and duties.:
+  es: Trabajo o puesto que ocupa una persona que realiza un conjunto de tareas y funciones.
 "Jorair\xE1tar":
   en: "Jorair\xE1tar"
+"Jubilaci\xF3n":
+  en: Retirement
+"Jubilaci\xF3n y viudedad":
+  en: Retirement and widowhood
 "Jubilado, perceptor de pensi\xF3n distinta de jubilaci\xF3n, incapacitado permanente":
   en: Retired, receiving a pension other than a retirement pension, permanently disabled
 Jubrique:
   en: Jubilee
 Jun:
   en: Jun
+Justice and crime:
+  es: Justicia y delincuencia
 Juviles:
   en: Juveniles
 "J\xE1tar":
@@ -21110,6 +22325,19 @@ Laborcillas:
   en: Labour
 Labores del hogar:
   en: Housework
+Labour:
+  es: Trabajo
+Labour cost:
+  es: Coste de la mano de obra
+? Language independent set of letters, numbers or symbols that represent a concept
+  whose meaning is described in a natural language.
+: es: "Conjunto de letras, n\xFAmeros o s\xEDmbolos independientes del lenguaje que\
+    \ representan un concepto cuyo significado se describe en un lenguaje natural."
+? Language used by statisticians to express logical validation rules and transformations
+  on data, whether described as a dimensional table or as unit-record data.
+: es: "Lenguaje utilizado por los estad\xEDsticos para expresar reglas l\xF3gicas\
+    \ de validaci\xF3n y transformaciones sobre los datos, ya sean descritos como\
+    \ una tabla dimensional o como datos de registro unitario."
 "Lanjar\xF3n":
   en: "Lanjar\xF3n"
 Lanteira:
@@ -21122,26 +22350,65 @@ Laroya:
   en: Laroya
 Larva:
   en: Larva
+Latest monthly events - NOWCAST (list):
+  es: "\xDAltimos eventos mensuales - NOWCAST (lista)"
 Lebrija:
   en: Lebrija
 "Lecr\xEDn":
   en: "Lecr\xEDn"
+? Legal acts or other formal or informal agreements that assign responsibility as
+  well as the authority to an agency for the collection, processing, and dissemination
+  of statistics.
+: es: "Actos jur\xEDdicos u otros acuerdos formales o informales que asignan a un\
+    \ organismo la responsabilidad y la autoridad para la recogida, el tratamiento\
+    \ y la difusi\xF3n de las estad\xEDsticas."
+Legal marital status:
+  es: Estado civil legal
+Legal marital status of the mother:
+  es: Estado civil legal de la madre
+Legal union status:
+  es: "Estatus legal de la uni\xF3n"
+Legal, conjugal status of each individual in relation to the marriage laws or customs of the country.:
+  es: "Estado legal y conyugal de cada individuo en relaci\xF3n con las leyes o costumbres\
+    \ matrimoniales del pa\xEDs."
+? Legislative measures or other formal procedures which prevent unauthorised disclosure
+  of data that identify a person or economic entity either directly or indirectly.
+: es: "Medidas legislativas u otros procedimientos formales que impiden la divulgaci\xF3\
+    n no autorizada de datos que identifican a una persona o entidad econ\xF3mica\
+    \ directa o indirectamente."
+Length of time between data availability and the event or phenomenon they describe:
+  es: "Tiempo transcurrido entre la disponibilidad de los datos y el acontecimiento\
+    \ o fen\xF3meno que describen"
+Length of time that an entity has lived or existed.:
+  es: "Duraci\xF3n de la vida o de la existencia de una entidad."
 "Lenteg\xED":
   en: "Lenteg\xED"
 Lepe:
   en: Lepe
 Letonia:
   en: Latvia
+Level:
+  es: Nivel
 Licenciados y equivalentes:
   en: Graduates and equivalents
+Life table (list):
+  es: Tabla de vida (lista)
 Linares:
   en: Linares
 Linares de la Sierra:
   en: Linares de la Sierra
 Lituania:
   en: Lithuania
+Live birth order (biological):
+  es: "Orden de nacimiento vivo (biol\xF3gico)"
+Living conditions, poverty, and cross-cutting social issues:
+  es: Condiciones de vida, pobreza y cuestiones sociales transversales
 Lobras:
   en: Lobras
+Local DSD:
+  es: DSD local
+Location or service from where data or metadata can be obtained.:
+  es: Lugar o servicio del que se pueden obtener datos o metadatos.
 Loja:
   en: Loja
 Lopera:
@@ -21150,6 +22417,8 @@ Lora de Estepa:
   en: Lora de Estepa
 "Lora del R\xEDo":
   en: "Lora del R\xEDo"
+Low reliability:
+  es: Baja fiabilidad
 "Lubr\xEDn":
   en: "Lubr\xEDn"
 Lucainena de las Torres:
@@ -21186,8 +22455,33 @@ Macael:
   en: Macael
 Macharaviaya:
   en: Macharaviaya
+Macroeconomic statistics:
+  es: "Estad\xEDsticas macroecon\xF3micas"
 "Madro\xF1o (El)":
   en: "Madro\xF1o (El)"
+? Main characteristics of the data set described in an easily understandable manner,
+  referring to the data and indicators disseminated.
+: es: "Principales caracter\xEDsticas del conjunto de datos descritas de forma f\xE1\
+    cilmente comprensible, referidas a los datos e indicadores difundidos."
+Main economic or other sectors covered by the statistics.:
+  es: "Principales sectores econ\xF3micos o de otro tipo cubiertos por las estad\xED\
+    sticas."
+Maintainable artefact:
+  es: Artefacto mantenible
+? Maintainable collection of Structure Maps that link components together in a source/target
+  relationship where there is a semantic equivalence between the source and the target
+  components.
+: es: "Colecci\xF3n actualizable de mapas de estructura que enlazan componentes en\
+    \ una relaci\xF3n origen/destino en la que existe una equivalencia sem\xE1ntica\
+    \ entre los componentes origen y destino."
+Maintained collection of data consumers.:
+  es: "Se ha mantenido la recopilaci\xF3n de datos de los consumidores."
+Maintained collection of data providers.:
+  es: "Se ha mantenido la recopilaci\xF3n de datos de los proveedores."
+Maintained collection of maintenance agencies.:
+  es: "Mantenimiento de la colecci\xF3n de agencias de mantenimiento."
+Maintenance agency:
+  es: Agencia de mantenimiento
 Mairena:
   en: Mairena
 Mairena del Alcor:
@@ -21204,6 +22498,8 @@ Manilva:
   en: Manilva
 Manzanilla:
   en: Camomile
+Map:
+  es: Mapa
 Maracena:
   en: Maracena
 Marbella:
@@ -21224,6 +22520,10 @@ Martos:
   en: "Mart\xEDn de la Jara"
 "Mar\xEDa":
   en: Maria
+Measure:
+  es: Medida
+Measurement error:
+  es: "Error de medici\xF3n"
 Mecina-Alfahar:
   en: Mecina-Alfahar
 "Mecina-Bombar\xF3n":
@@ -21232,26 +22532,102 @@ Mecina-Fondales:
   en: Mecina-Fondales
 Mecina-Tedel:
   en: Mecina-Tedel
+Media by which statistical data and metadata are disseminated.:
+  es: "Medios por los que se difunden los datos y metadatos estad\xEDsticos."
 Medina Sidonia:
   en: Medina Sidonia
 "Meleg\xEDs":
   en: "Meleg\xEDs"
 Melilla:
   en: Melilla
+Member selection:
+  es: "Selecci\xF3n de miembros"
+Member value:
+  es: Valor del miembro
 "Meng\xEDbar":
   en: Mengibar
 "Menor de 16 a\xF1os":
   en: Under 16 years of age
+"Menores de 25 a\xF1os":
+  en: Under 25s
+"Menores de 30 a\xF1os":
+  en: Under 30s
+Menos 25% del tiempo ocupado:
+  en: Less 25% of the time occupied
+"Menos de 1 a\xF1o":
+  en: Less than 1 year
+Menos de 1 mes:
+  en: Less than 1 month
+"Menos de 10.000\u20AC":
+  en: "Less than \u20AC10,000"
+"Menos de 31 d\xEDas":
+  en: Less than 31 days
+Menos de 6 meses:
+  en: Less than 6 months
+Menos de 60%:
+  en: Less than 60
 Menos de primaria:
   en: Less than primary
+Menos del 10%:
+  en: Less than 10% of the total
+Metadata completeness:
+  es: Metadata completeness
+Metadata describing the contents and the quality of the statistical data.:
+  es: "Metadatos que describen el contenido y la calidad de los datos estad\xEDsticos."
+Metadata key set:
+  es: Conjunto de claves de metadatos
+Metadata key value:
+  es: Valor de la clave de los metadatos
+Metadata repository:
+  es: Metadata repository
+Metadata set:
+  es: Conjunto de metadatos
+Metadata structure definition, MSD:
+  es: "Definici\xF3n de la estructura de los metadatos, MSD"
+Metadata that identify and describe data and reference metadata.:
+  es: Metadatos que identifican y describen datos y metadatos de referencia.
+Metadata update:
+  es: "Actualizaci\xF3n de metadatos"
+Metadata update - last certified:
+  es: "Actualizaci\xF3n de metadatos - \xFAltimo certificado"
+Metadata update - last posted:
+  es: "Actualizaci\xF3n de los metadatos - \xFAltima publicaci\xF3n"
+Metadata update - last update:
+  es: "Actualizaci\xF3n de metadatos - \xFAltima actualizaci\xF3n"
+Metadataflow:
+  es: Metadataflow
+Method applied for gathering data for official statistics.:
+  es: "M\xE9todo aplicado para la recogida de datos para las estad\xEDsticas oficiales."
+? Method of registering, querying, and disseminating data or reference metadata by
+  means of a central, service-based platform (the hub).
+: es: "M\xE9todo de registro, consulta y difusi\xF3n de datos o metadatos de referencia\
+    \ mediante una plataforma central basada en servicios (el hub)."
+Migration circularity:
+  es: "Circulaci\xF3n de la migraci\xF3n"
+Migration status:
+  es: "Situaci\xF3n migratoria"
 Mijas:
   en: Mijas
 Minas de Riotinto:
   en: Riotinto Mines
+Mining, manufacturing, construction:
+  es: "Miner\xEDa, fabricaci\xF3n, construcci\xF3n"
+Missing value:
+  es: Valor perdido
+Missing value; data cannot exist:
+  es: Valor ausente; los datos no pueden existir
+Missing value; data exist but were not collected:
+  es: Valor ausente; los datos existen pero no se recogieron
+Missing value; holiday or weekend:
+  es: Valor ausente; vacaciones o fin de semana
+Missing value; suppressed:
+  es: Valor perdido; suprimido
 Moclinejo:
   en: Moclinejo
 "Mocl\xEDn":
   en: Moclin
+Model assumption error:
+  es: "Error de suposici\xF3n del modelo"
 Moguer:
   en: Moguer
 Mojonera (La):
@@ -21270,6 +22646,8 @@ Monda:
   en: Monda
 "Mond\xFAjar":
   en: "Mond\xFAjar"
+Monetary denomination of the object being measured.:
+  es: "Denominaci\xF3n monetaria del objeto medido."
 Monoparental:
   en: Single-parent
 "Montalb\xE1n de C\xF3rdoba":
@@ -21286,6 +22664,8 @@ Montellano:
   en: Montellano
 Montemayor:
   en: Montemayor
+Month of occurrence:
+  es: Mes de ocurrencia
 Montilla:
   en: Montilla
 Montillana:
@@ -21308,8 +22688,14 @@ Moriles:
   en: "Mor\xF3n de la Frontera"
 Motril:
   en: Motril
+Muestra Continua de Vidas Laborales:
+  en: Continuous Sample of Working Lives
 Mujeres:
   en: Women
+Multi-domain statistics and indicators:
+  es: "Estad\xEDsticas e indicadores multidominio"
+"Municipio con m\xE1s de 100 mil habitantes":
+  en: Municipality with more than 100 thousand inhabitants
 "Municipio de Almer\xEDa sin especificar":
   en: "Municipality of Almer\xEDa unspecified"
 "Municipio de C\xE1diz sin especificar":
@@ -21326,6 +22712,10 @@ Municipio de Huelva sin especificar:
   en: Municipality of Malaga unspecified
 Municipio de Sevilla sin especificar:
   en: Municipality of Seville unspecified
+Municipio entre 40 y 100 mil habitantes:
+  en: Municipality between 40 and 100 thousand inhabitants
+Municipios de menos de 40 mil habitantes:
+  en: Municipalities with less than 40 thousand inhabitants
 Murchas:
   en: Murchas
 Murtas:
@@ -21334,6 +22724,20 @@ Murtas:
   en: Malaga
 "M\xE1laga (capital)":
   en: Malaga (capital)
+"M\xE1s de 10 a\xF1os":
+  en: More than 10 years
+"M\xE1s de 15 a\xF1os":
+  en: More than 15 years
+"M\xE1s de 30.000\u20AC":
+  en: "More than \u20AC30,000"
+"M\xE1s de 360 d\xEDas":
+  en: More than 360 days
+"M\xE1s de 90%":
+  en: More than 90
+"M\xE1s del 20%":
+  en: More than 20% of
+"M\xE1s del 75% del tiempo ocupado":
+  en: More than 75% of the time occupied
 "M\xE1steres oficiales universitarios y equivalentes":
   en: Official university master's degrees and equivalent
 "M\xE1steres, especialidades en Ciencias de la Salud por el sistema de residencia y similares":
@@ -21341,12 +22745,22 @@ Murtas:
     and the like
 N. Actividades administrativas y servicios auxiliares:
   en: N. Administrative and support service activities
+"Nacidos en Andaluc\xEDa":
+  en: Born in Andalusia
+"Nacidos en el resto Espa\xF1a":
+  en: Born in the rest of Spain
+"Nacidos fuera de Espa\xF1a":
+  en: Born outside Spain
 Nacimiento:
   en: Birth
 Nacionalidad:
   en: Nationality
 Nacionalidad EPA (Esp/Ext):
   en: Nationality EPA (Esp/Ext)
+Name of the contact points for the data or metadata.:
+  es: Nombre de los puntos de contacto para los datos o metadatos.
+Nameable artefact:
+  es: Artefacto nominativo
 Narila:
   en: Narila
 Nava (La):
@@ -21367,6 +22781,8 @@ Niebla:
   en: Fog
 "Nig\xFCelas":
   en: "Nig\xFCelas"
+"Ning\xFAn episodio de cotizaci\xF3n":
+  en: No listing episodes
 Nivel:
   en: Level
 "Nivel de formaci\xF3n":
@@ -22067,6 +23483,8 @@ No consta Transporte interurbano de pasajeros por ferrocarril:
   en: Not stated Sale, maintenance and repair of motorbikes, their parts and accessories
 No ha trabajado antes:
   en: Has not worked before
+No pensionista:
+  en: No pensioner
 No procede:
   en: Not applicable
 No refiere estado de inactividad:
@@ -22075,18 +23493,115 @@ No sabe:
   en: Doesn't know
 Noalejo:
   en: Noalejo
+Non-response error:
+  es: Error de falta de respuesta
+Non-sampling error:
+  es: Error de muestreo
+Normal:
+  es: Normal
 Noruega:
   en: Norway
+Not significant:
+  es: No es significativo
+Notification:
+  es: "Notificaci\xF3n"
 Nueva Carteya:
   en: Nueva Carteya
+Number of consultations of data tables within a statistical domain for a given time period.:
+  es: "N\xFAmero de consultas de tablas de datos dentro de un \xE1mbito estad\xED\
+    stico para un periodo de tiempo determinado."
+Number of data table consultations:
+  es: "N\xFAmero de consultas de tablas de datos"
+? Number of days (or weeks or months) from the last day of the reference period to
+  the day of publication of complete and final results.
+: es: "N\xFAmero de d\xEDas (o semanas o meses) desde el \xFAltimo d\xEDa del periodo\
+    \ de referencia hasta el d\xEDa de la publicaci\xF3n de los resultados completos\
+    \ y definitivos."
+Number of days (or weeks or months) from the last day of the reference period to the day of publication of first results.:
+  es: "N\xFAmero de d\xEDas (o semanas o meses) desde el \xFAltimo d\xEDa del periodo\
+    \ de referencia hasta el d\xEDa de la publicaci\xF3n de los primeros resultados."
+Number of decimals:
+  es: "N\xFAmero de decimales"
+Number of digits of an observation to the right of a decimal point.:
+  es: "N\xFAmero de d\xEDgitos de una observaci\xF3n a la derecha de un punto decimal."
+Number of metadata consultations:
+  es: "N\xFAmero de consultas de metadatos"
+Number of metadata file consultations within a statistical domain for a given time period.:
+  es: "N\xFAmero de consultas de archivos de metadatos dentro de un dominio estad\xED\
+    stico para un periodo de tiempo determinado."
+Nunca:
+  en: Never
 "N\xEDjar":
   en: Nijar
 "N\xEDvar":
   en: "N\xEDvar"
+"N\xFAmero de d\xEDas de cotizaci\xF3n en el a\xF1o":
+  en: Number of contribution days in the year
+"N\xFAmero de d\xEDas ocupado en el a\xF1o":
+  en: Number of days occupied in the year
+"N\xFAmero de episodios de cotizaci\xF3n en el a\xF1o":
+  en: Number of contribution episodes in the year
+"N\xFAmero de episodios de ocupaci\xF3n en el a\xF1o":
+  en: Number of occupancy episodes in the year
 Obejo:
   en: Obejo
+Observation as received from the respondent without further evaluation of data quality.:
+  es: "Observaci\xF3n recibida del encuestado sin evaluaci\xF3n adicional de la calidad\
+    \ de los datos."
+Observation comment:
+  es: "Observaci\xF3n de c\xF3mo"
+? Observation imputed by international organisations to replace or fill gaps in national
+  data series, in line with the recommendations of the United Nations Committee for
+  the Coordination of Statistical Activities (CCSA).
+: es: "Observaci\xF3n imputada por organizaciones internacionales para sustituir o\
+    \ llenar las lagunas de las series de datos nacionales, de acuerdo con las recomendaciones\
+    \ del Comit\xE9 de Coordinaci\xF3n de Actividades Estad\xEDsticas de las Naciones\
+    \ Unidas (CCSA)."
+? Observation obtained through an estimation methodology (e.g. to produce back-casts)
+  or based on the use of a limited amount of data or ad hoc sampling and through additional
+  calculations (e.g. to produce a value at an early stage of the production stage
+  while not all data are available). It may also be used in case of experimental data
+  (e.g. in the context of a pilot ahead of a full scale production process) or in
+  case of data of (anticipated/assessed) low quality. If needed, additional information
+  can be provided through free text using the COMMENT_OBS attribute at the observation
+  level or at a higher level .
+: es: "Observaci\xF3n obtenida a trav\xE9s de una metodolog\xEDa de estimaci\xF3n\
+    \ (por ejemplo, para producir back-casts) o basada en el uso de una cantidad limitada\
+    \ de datos o un muestreo ad hoc y a trav\xE9s de c\xE1lculos adicionales (por\
+    \ ejemplo, para producir un valor en una fase temprana de la etapa de producci\xF3\
+    n mientras no se dispone de todos los datos). Tambi\xE9n puede utilizarse en caso\
+    \ de datos experimentales (por ejemplo, en el contexto de un piloto previo a un\
+    \ proceso de producci\xF3n a gran escala) o en caso de datos de baja calidad (prevista/evaluada).\
+    \ Si es necesario, se puede proporcionar informaci\xF3n adicional mediante texto\
+    \ libre utilizando el atributo COMMENT_OBS en el nivel de observaci\xF3n o en\
+    \ un nivel superior ."
+Observation pre-break value:
+  es: "Valor de observaci\xF3n antes de la ruptura"
+Observation status:
+  es: "Estado de observaci\xF3n"
+Observation status 1:
+  es: "Estado de observaci\xF3n 1"
+Observation status 2:
+  es: "Estado de observaci\xF3n 2"
+Observation status 3:
+  es: "Estado de observaci\xF3n 3"
+Observation status 4:
+  es: "Estado de observaci\xF3n 4"
+Observation value:
+  es: "Valor de observaci\xF3n"
+Observation, at a time series break period, that was calculated using the old methodology.:
+  es: "Observaci\xF3n, en un per\xEDodo de interrupci\xF3n de la serie temporal, que\
+    \ se calcul\xF3 utilizando la antigua metodolog\xEDa."
+? Observations are characterised as such when different content exists or a different
+  methodology has been applied to this observation as compared with the preceding
+  one (the one given for the previous period).
+: es: "Las observaciones se caracterizan como tales cuando existe un contenido diferente\
+    \ o se ha aplicado una metodolog\xEDa diferente a esta observaci\xF3n en comparaci\xF3\
+    n con la anterior (la del periodo anterior)."
 "Oca\xF1a":
   en: "Oca\xF1a"
+Occupation:
+  es: "Ocupaci\xF3n"
 Ocupaciones elementales:
   en: Elementary occupations
 Ocupaciones militares:
@@ -22121,20 +23636,62 @@ Olvera:
   en: "Ol\xEDas"
 Operadores de instalaciones y maquinaria, y montadores:
   en: Plant and machinery operators and assemblers
+Operations performed on data to derive new information according to a given set of rules.:
+  es: "Operaciones realizadas sobre los datos para obtener nueva informaci\xF3n seg\xFA\
+    n un conjunto de reglas determinado."
 Orce:
   en: Orce
 Orcera:
   en: Orcera
+Orfandad y a favor de familiares:
+  en: Orphans and relatives
+Organisation collecting and/or elaborating the data being reported.:
+  es: "Organizaci\xF3n que recoge y/o elabora los datos que se comunican."
+Organisation of the contact point(s) for the data or metadata.:
+  es: "Organizaci\xF3n del punto o puntos de contacto para los datos o metadatos."
+Organisation or individual that reports or disseminates data or reference metadata.:
+  es: "Organizaci\xF3n o persona que informa o difunde datos o metadatos de referencia."
+Organisation or other expert body responsible for the operational maintenance of commonly used metadata artefacts.:
+  es: "Organizaci\xF3n u otro organismo experto responsable del mantenimiento operativo\
+    \ de los artefactos de metadatos de uso com\xFAn."
+Organisation that supplies the data for a given instance of the statistics.:
+  es: "Organizaci\xF3n que suministra los datos para una instancia determinada de\
+    \ las estad\xEDsticas."
+Organisation unit scheme:
+  es: "Esquema de la unidad de organizaci\xF3n"
+? Organised collection of codes that may be part of many parent/child relationships
+  with other codes in the scheme, as defined by one or more hierarchies of the scheme.
+: es: "Colecci\xF3n organizada de c\xF3digos que pueden formar parte de muchas relaciones\
+    \ padre/hijo con otros c\xF3digos del esquema, seg\xFAn lo definido por una o\
+    \ m\xE1s jerarqu\xEDas del esquema."
+Organised collection of data defined by a Data Structure Definition (DSD).:
+  es: "Colecci\xF3n organizada de datos definida por una definici\xF3n de estructura\
+    \ de datos (DSD)."
+Organised collection of reference metadata.:
+  es: "Colecci\xF3n organizada de metadatos de referencia."
 Oria:
   en: Oria
 Osuna:
   en: Osuna
 Otras:
   en: Other
+"Otras combinaciones de dos o m\xE1s tipos de prestaci\xF3n":
+  en: Other combinations of two or more types of benefits
+Otros:
+  en: Other
+"Otros reg\xEDmenes":
+  en: Other schemes
 Otros servicios:
   en: Other services
 "Ot\xEDvar":
   en: "Ot\xEDvar"
+Over-coverage rate:
+  es: Tasa de sobrecobertura
+Overall evaluation of data quality, based on standard quality criteria.:
+  es: "Evaluaci\xF3n global de la calidad de los datos, basada en criterios de calidad\
+    \ est\xE1ndar."
+Ownership group:
+  es: Grupo de propietarios
 "P. Educaci\xF3n":
   en: P. Education
 Padul:
@@ -22183,6 +23740,14 @@ Pareja sin hijos:
   en: Childless couple
 Pareja sin hijos + otros:
   en: Couple without children + others
+Parity:
+  es: Paridad
+? Part of the difference between a population value and an estimate thereof, derived
+  from a random sample, which is due to the fact that only a subset of the population
+  is enumerated.
+: es: "Parte de la diferencia entre un valor poblacional y una estimaci\xF3n del mismo,\
+    \ derivada de una muestra aleatoria, que se debe al hecho de que s\xF3lo se enumera\
+    \ un subconjunto de la poblaci\xF3n."
 Partaloa:
   en: Partaloa
 Paterna de Rivera:
@@ -22215,12 +23780,17 @@ Pegalajar:
   en: Pegalajar
 Peligros:
   en: Peligros
+Pensionista:
+  en: Pensioner
 "Percibiendo pensi\xF3n distinta a jubilaci\xF3n":
   en: Receiving a pension other than a retirement pension
 "Percibiendo una pensi\xF3n de jubilaci\xF3n":
   en: Receiving a retirement pension
 Periana:
   en: Periana
+Period of time used as the base of an index number, or to which a constant series refers.:
+  es: "Periodo de tiempo utilizado como base de un n\xFAmero \xEDndice, o al que se\
+    \ refiere una serie constante."
 "Persona de 16 o m\xE1s a\xF1os":
   en: Person aged 16 or over
 Peza (La):
@@ -22247,6 +23817,12 @@ Pitres:
   en: Pits
 Pizarra:
   en: Slate
+? Place where logically organised statistical metadata are stored that allows for
+  querying, editing and managing of metadata.
+: es: "Lugar donde se almacenan los metadatos estad\xEDsticos organizados de forma\
+    \ l\xF3gica y que permite la consulta, edici\xF3n y gesti\xF3n de los metadatos."
+Plurality:
+  es: Pluralidad
 "Poblaci\xF3n":
   en: Population
 "Poblaci\xF3n contada aparte":
@@ -22255,6 +23831,26 @@ Pizarra:
   en: Separately counted population not working
 "Poblaci\xF3n contada aparte que trabaja":
   en: Population counted separately as working
+? Policy aimed at ensuring the transparency of disseminated data, whereby preliminary
+  data are compiled that are later revised.
+: es: "Pol\xEDtica destinada a garantizar la transparencia de los datos difundidos,\
+    \ mediante la cual se recopilan datos preliminares que posteriormente se revisan."
+? Policy for release of the data to users, scope of dissemination (e.g. to the public,
+  to selected users), how users are informed that the data are being released, and
+  whether the policy determines the dissemination of statistical data to all users.
+: es: "Pol\xEDtica de divulgaci\xF3n de los datos a los usuarios, alcance de la divulgaci\xF3\
+    n (por ejemplo, al p\xFAblico, a usuarios seleccionados), c\xF3mo se informa a\
+    \ los usuarios de que se est\xE1n divulgando los datos y si la pol\xEDtica determina\
+    \ la divulgaci\xF3n de los datos estad\xEDsticos a todos los usuarios."
+? Policy on notifying the public of changes in methodology, indicating whether the
+  public is notified before a methodological change affects disseminated data and,
+  if so, how long before.
+: es: "Pol\xEDtica de notificaci\xF3n al p\xFAblico de los cambios de metodolog\xED\
+    a, indicando si se notifica al p\xFAblico antes de que un cambio metodol\xF3gico\
+    \ afecte a los datos difundidos y, en caso afirmativo, con cu\xE1nto tiempo de\
+    \ antelaci\xF3n."
+Political and other community activities:
+  es: "Actividades pol\xEDticas y otras actividades comunitarias"
 Polonia:
   en: Poland
 Polopos:
@@ -22263,20 +23859,54 @@ Polopos:
   en: Policar
 Pontones:
   en: Pontoons
+Population and migration:
+  es: "Poblaci\xF3n y migraci\xF3n"
+Porcentaje de tiempo cotizado a tiempo parcial:
+  en: Percentage of time spent in part-time employment
+Porcentaje de tiempo cotizado en desempleo:
+  en: Percentage of time spent in unemployment
 Porcuna:
   en: Porcuna
 Portugal:
   en: Portugal
 Posadas:
   en: Posadas
+Postal address of the contact points for the data or metadata.:
+  es: "Direcci\xF3n postal de los puntos de contacto para los datos o metadatos."
 "Pozo Alc\xF3n":
   en: "Pozo Alc\xF3n"
 Pozoblanco:
   en: Pozoblanco
+? Practical procedures, standards and other aspects used when compiling data from
+  diverse sources under a common methodological framework.
+: es: "Procedimientos pr\xE1cticos, normas y otros aspectos utilizados a la hora de\
+    \ recopilar datos de diversas fuentes bajo un marco metodol\xF3gico com\xFAn."
+Practices for creating interoperable elements in the SDMX model using the SDMX Technical Specifications.:
+  es: "Pr\xE1cticas para crear elementos interoperables en el modelo SDMX utilizando\
+    \ las especificaciones t\xE9cnicas de SDMX."
 Prado del Rey:
   en: Prado del Rey
+Pre-break observation value:
+  es: "Valor de observaci\xF3n antes de la ruptura"
+Predefined set of terms from which some statistical coded concepts take their values.:
+  es: "Conjunto predefinido de t\xE9rminos de los que toman sus valores algunos conceptos\
+    \ estad\xEDsticos codificados."
+"Prestaci\xF3n y subsidio por desempleo":
+  en: Unemployment benefits and allowances
+Previous legal marital status of the bride:
+  es: Estado civil legal anterior de la novia
+Previous legal marital status of the groom:
+  es: Estado civil legal anterior del novio
+Price adjustment:
+  es: Ajuste de precios
+Prices:
+  es: Precios
 "Priego de C\xF3rdoba":
   en: "Priego de C\xF3rdoba"
+Primary measure:
+  es: Medida primaria
+"Primer cuartil (\u20AC)":
+  en: "First quartile (\u20AC)"
 "Primera etapa de educaci\xF3n secundaria con t\xEDtulo de graduado en ESO y equivalentes":
   en: Lower secondary education with ESO graduation diploma and equivalents
 "Primera etapa de educaci\xF3n secundaria e inferior":
@@ -22291,8 +23921,58 @@ Prado del Rey:
   en: Lower secondary education and similar, with vocational orientation
 Principado de Asturias:
   en: Principality of Asturias
+Procedure followed to update at short notice an SDMX artefact, e.g. a code list.:
+  es: "Procedimiento seguido para actualizar a corto plazo un artefacto SDMX, por\
+    \ ejemplo, una lista de c\xF3digos."
+Procedure for entering a value for a specific data item where the response is missing or unusable.:
+  es: "Procedimiento para introducir un valor para un elemento de datos espec\xED\
+    fico cuando la respuesta falta o es inutilizable."
+Process of monitoring the results of data compilation and ensuring the quality of the statistical results.:
+  es: "Proceso de seguimiento de los resultados de la recopilaci\xF3n de datos y de\
+    \ garant\xEDa de la calidad de los resultados estad\xEDsticos."
+Process to determine the validity of data and reference metadata using structural metadata.:
+  es: Proceso para determinar la validez de los datos y los metadatos de referencia
+    utilizando metadatos estructurales.
+Processing error:
+  es: Error de procesamiento
+Professionalism:
+  es: Profesionalidad
+Professionalism - code of conduct:
+  es: "Profesionalidad - c\xF3digo de conducta"
+Professionalism - impartiality:
+  es: Profesionalidad - imparcialidad
+Professionalism - methodology:
+  es: "Profesionalidad - metodolog\xEDa"
+Professionalism - statistical commentary:
+  es: "Profesionalidad - comentario estad\xEDstico"
+Property of an attribute defining the object to which data or metadata are linked.:
+  es: Propiedad de un atributo que define el objeto al que se vinculan los datos o
+    metadatos.
+Property of data indicating whether they are subject to dissemination restrictions.:
+  es: "Propiedad de los datos que indica si est\xE1n sujetos a restricciones de difusi\xF3\
+    n."
+Proportion of common units:
+  es: "Proporci\xF3n de unidades comunes"
+Proportion of units accessible via the frame that do not belong to the target population (are out-of-scope).:
+  es: "Proporci\xF3n de unidades accesibles a trav\xE9s del marco que no pertenecen\
+    \ a la poblaci\xF3n objetivo (est\xE1n fuera del alcance)."
+? Proportion of units covered by both the survey and the administrative sources in
+  relation to the total number of units in the survey.
+: es: "Proporci\xF3n de unidades cubiertas tanto por la encuesta como por las fuentes\
+    \ administrativas en relaci\xF3n con el n\xFAmero total de unidades de la encuesta."
+Provincia de nacimiento:
+  en: Province of birth
 Provincia sin especificar:
   en: Province not specified
+Provision agreement:
+  es: "Acuerdo de provisi\xF3n"
+Provisional value:
+  es: Valor provisional
+? Provisions for assuring the qualifications of staff and allowing staff to perform
+  their functions without intervention motivated by non-statistical objectives.
+: es: "Disposiciones para garantizar la cualificaci\xF3n del personal y permitir que\
+    \ \xE9ste desempe\xF1e sus funciones sin intervenci\xF3n motivada por objetivos\
+    \ no estad\xEDsticos."
 Pruna:
   en: Pruna
 Puebla:
@@ -22327,22 +24007,38 @@ Pulianas:
   en: Pulianas
 Pulianillas:
   en: Pulianillas
+Pull (reporting method):
+  es: "Pull (m\xE9todo de informaci\xF3n)"
 "Pulp\xED":
   en: "Pulp\xED"
+Punctuality:
+  es: Puntualidad
 "Punta Umbr\xEDa":
   en: Punta Umbria
 Purchena:
   en: Purchena
 Purchil:
   en: Purchil
+Purpose of travel:
+  es: Objetivo del viaje
 Purullena:
   en: Purullena
+Push (reporting method):
+  es: "Push (m\xE9todo de informaci\xF3n)"
 "P\xED\xF1ar":
   en: "P\xED\xF1ar"
 "P\xF3rtugos":
   en: "P\xF3rtugos"
 Q. Actividades sanitarias y de servicios sociales:
   en: Q. Health and social work activities
+Quality management:
+  es: "Gesti\xF3n de la calidad"
+Quality management - quality assessment:
+  es: "Gesti\xF3n de la calidad - evaluaci\xF3n de la calidad"
+Quality management - quality assurance:
+  es: "Gesti\xF3n de la calidad - garant\xEDa de calidad"
+Quality management - quality documentation:
+  es: "Gesti\xF3n de la calidad - documentaci\xF3n de la calidad"
 Quesada:
   en: Quesada
 "Qu\xE9ntar":
@@ -22351,22 +24047,103 @@ Quesada:
   en: R. Artistic, recreational and entertainment activities
 Rambla (La):
   en: Rambla (La)
+? Ratio between the in-scope (eligible) units which have not responded to a particular
+  item and the in-scope units that are required to respond to that particular item.
+: es: "Relaci\xF3n entre las unidades incluidas en el \xE1mbito de aplicaci\xF3n (elegibles)\
+    \ que no han respondido a un elemento concreto y las unidades incluidas en el\
+    \ \xE1mbito de aplicaci\xF3n que deben responder a ese elemento concreto."
+? Ratio of the number of data cells provided to the number of data cells required
+  or relevant. The ratio is computed for a chosen dataset and a given period.
+: es: "Relaci\xF3n entre el n\xFAmero de celdas de datos proporcionadas y el n\xFA\
+    mero de celdas de datos necesarias o pertinentes. La relaci\xF3n se calcula para\
+    \ un conjunto de datos elegido y un periodo determinado."
+Ratio of the number of metadata elements provided to the total number of metadata elements applicable.:
+  es: "Relaci\xF3n entre el n\xFAmero de elementos de metadatos proporcionados y el\
+    \ n\xFAmero total de elementos de metadatos aplicables."
+Ratio of the number of replaced values to the total number of values for a given variable.:
+  es: "Relaci\xF3n entre el n\xFAmero de valores sustituidos y el n\xFAmero total\
+    \ de valores de una variable determinada."
+? Ratio of the number of units with no information or not usable information to the
+  total number of in-scope (eligible) units.
+: es: "Relaci\xF3n entre el n\xFAmero de unidades sin informaci\xF3n o con informaci\xF3\
+    n no utilizable y el n\xFAmero total de unidades incluidas en el \xE1mbito de\
+    \ aplicaci\xF3n (elegibles)."
 Real de la Jara (El):
   en: Real de la Jara (El)
 "Realiz\xF3 trabajos sin remuneraci\xF3n":
   en: Performed unpaid work
 "Realiz\xF3 trabajos sin remuneraci\xF3n, otras":
   en: Performed unpaid work, other
+Reference metadata:
+  es: Metadatos de referencia
+Reference metadata element specifying the period of time for which data are provided.:
+  es: "Elemento de metadatos de referencia que especifica el per\xEDodo de tiempo\
+    \ para el que se proporcionan los datos."
+Reference period:
+  es: "Per\xEDodo de referencia"
+References to the most important other data dissemination done.:
+  es: "Referencias a los dem\xE1s datos m\xE1s importantes difundidos."
+"Regimen de cotizaci\xF3n":
+  en: Contribution regime
+Region of destination:
+  es: "Regi\xF3n de destino"
+Region of origin:
+  es: "Regi\xF3n de origen"
+Regional and small area statistics:
+  es: "Estad\xEDsticas regionales y de \xE1reas peque\xF1as"
 "Regi\xF3n de Murcia":
   en: Region of Murcia
+Regular or ad-hoc press releases linked to the data.:
+  es: "Comunicados de prensa peri\xF3dicos o ad hoc relacionados con los datos."
+Regular or ad-hoc publications in which the data are made available to the public.:
+  es: "Publicaciones peri\xF3dicas o ad hoc en las que los datos se ponen a disposici\xF3\
+    n del p\xFAblico."
 Reino Unido:
   en: United Kingdom
 "Relaci\xF3n con la actividad":
   en: Relationship with the activity
+Release policy:
+  es: "Pol\xEDtica de liberaci\xF3n"
+Release policy - release calendar:
+  es: "Pol\xEDtica de liberaci\xF3n - calendario de liberaci\xF3n"
+Release policy - release calendar access:
+  es: "Pol\xEDtica de liberaci\xF3n - acceso al calendario de liberaci\xF3n"
+Release policy - transparency:
+  es: "Pol\xEDtica de divulgaci\xF3n - transparencia"
+Release policy - user access:
+  es: "Pol\xEDtica de liberaci\xF3n - acceso de los usuarios"
+Relevance:
+  es: Relevancia
+Relevance - completeness:
+  es: Pertinencia - integridad
+Relevance - data completeness rate:
+  es: "Pertinencia - \xEDndice de integridad de los datos"
+Relevance - data completeness rate (for data producers):
+  es: "Pertinencia - \xEDndice de integridad de los datos (para los productores de\
+    \ datos)"
+Relevance - data completeness rate (for data users):
+  es: "Pertinencia - \xEDndice de integridad de los datos (para los usuarios de los\
+    \ datos)"
+Relevance - user needs:
+  es: Pertinencia - necesidades del usuario
+Relevance - user satisfaction:
+  es: "Pertinencia: satisfacci\xF3n del usuario"
 "Reparaci\xF3n de veh\xEDculos de motor y motocicletas":
   en: Repair of motor vehicles and motorbikes
 "Reparaci\xF3n de veh\xEDculos de motor y motocicletas\"":
   en: Repair of motor vehicles and motorbikes".
+Reporting agency:
+  es: Agencia de informes
+Reporting category:
+  es: "Categor\xEDa de informes"
+Reporting taxonomy:
+  es: "Taxonom\xEDa de los informes"
+? Repository for structural metadata and registered data sources whose interfaces
+  and behaviour comply with the SDMX technical standards.
+: es: "Repositorio de metadatos estructurales y fuentes de datos registradas cuyas\
+    \ interfaces y comportamiento se ajustan a las normas t\xE9cnicas de SDMX."
+Representation:
+  es: "Representaci\xF3n"
 "Rep\xFAblica Checa":
   en: Czech Republic
 "Resto de Espa\xF1a":
@@ -22377,6 +24154,8 @@ Resto de ocupados:
   en: Other employed persons
 "Rest\xE1bal":
   en: "Rest\xE1bal"
+Revised value:
+  es: Valor revisado
 Rinconada (La):
   en: Rinconada (La)
 Riogordo:
@@ -22401,8 +24180,17 @@ Rubio (El):
   en: Rubio (El)
 Rubite:
   en: Rubite
+? Rules applied for treating the data set to ensure that private information from
+  individual units cannot be accessed and to prevent unauthorised disclosure.
+: es: "Normas aplicadas al tratamiento del conjunto de datos para garantizar que no\
+    \ se pueda acceder a la informaci\xF3n privada de las unidades individuales y\
+    \ evitar su divulgaci\xF3n no autorizada."
+Rules for disseminating statistical data to interested parties.:
+  es: "Normas de difusi\xF3n de los datos estad\xEDsticos a las partes interesadas."
 "Ruman\xEDa":
   en: Romania
+Rural or urban area:
+  es: Zona rural o urbana
 Rus:
   en: Rus
 Rute:
@@ -22415,6 +24203,32 @@ Rute:
   en: Headings
 S. Otros servicios:
   en: S. Other services
+SDMX Information Model, SDMX-IM:
+  es: "Modelo de informaci\xF3n SDMX, SDMX-IM"
+SDMX Registry:
+  es: Registro SDMX
+SDMX Technical Specification:
+  es: "Especificaciones t\xE9cnicas de SDMX"
+? SDMX code list meeting at least one of the criteria below:1) Potential application
+  across all statistical domains; 2) Code list maintained by the SDMX Statistical
+  Working Group (SWG) on its initiative; 3) Code list recommended as CDCL by the SDMX
+  SWG although they are in principle maintained by third organisations.
+: es: "Lista de c\xF3digos SDMX que cumple al menos uno de los siguientes criterios:1)\
+    \ Aplicaci\xF3n potencial en todos los \xE1mbitos estad\xEDsticos; 2) Lista de\
+    \ c\xF3digos mantenida por el Grupo de Trabajo Estad\xEDstico (SWG) de SDMX por\
+    \ iniciativa propia; 3) Lista de c\xF3digos recomendada como CDCL por el SWG de\
+    \ SDMX aunque en principio sea mantenida por terceras organizaciones."
+SDMX registry interface (in the context of registry):
+  es: Interfaz de registro SDMX (en el contexto del registro)
+SDMX-EDI:
+  es: SDMX-EDI
+SDMX-JSON:
+  es: SDMX-JSON
+SDMX-ML:
+  es: SDMX-ML
+SDMX-ML specification of the allowable constructs that an SDMX registry must consume or output in its response.:
+  es: "Especificaci\xF3n SDMX-ML de las construcciones permitidas que un registro\
+    \ SDMX debe consumir o emitir en su respuesta."
 SEXO:
   en: SEX
 Sabiote:
@@ -22423,12 +24237,24 @@ Salar:
   en: Salar
 Salares:
   en: Salares
+Salario:
+  en: Salary
+Salario bruto anual:
+  en: Gross annual salary
+"Salario medio (\u20AC)":
+  en: "Average salary (\u20AC)"
+Salario por unidad de tiempo (equivalente anual a tiempo completo):
+  en: Salary per unit of time (annual full-time equivalent)
+"Salarios en Andaluc\xEDa":
+  en: Wages in Andalusia
 Saleres:
   en: Saleres
 "Salobre\xF1a":
   en: Salobrena
 Salteras:
   en: Salteras
+Sampling error:
+  es: Error de muestreo
 "San Bartolom\xE9 de la Torre":
   en: "San Bartolom\xE9 de la Torre"
 San Fernando:
@@ -22491,6 +24317,31 @@ Saucejo (El):
   en: Saucejo (El)
 Sayalonga:
   en: Sayalonga
+Schedule of statistical release dates.:
+  es: "Calendario de fechas de publicaci\xF3n de estad\xEDsticas."
+? Scheme which defines the composition structure of a data report where each component
+  can be described by an independent Dataflow Definition or Metadataflow Definition.
+: es: "Esquema que define la estructura de composici\xF3n de un informe de datos en\
+    \ el que cada componente puede describirse mediante una definici\xF3n de flujo\
+    \ de datos o una definici\xF3n de metadatos independiente."
+Science, technology and innovation:
+  es: "Ciencia, tecnolog\xEDa e innovaci\xF3n"
+Seasonal adjustment:
+  es: Ajuste estacional
+Secondary area, as opposed to reference area, to which the measured data are in relation.:
+  es: "Zona secundaria, en contraposici\xF3n a la zona de referencia, con la que se\
+    \ relacionan los datos medidos."
+Secondary recipient(s) to whom the sender allows the primary recipient to forward restricted data.:
+  es: "Destinatario(s) secundario(s) al que el remitente permite que el destinatario\
+    \ primario env\xEDe datos restringidos."
+Sector coverage:
+  es: Cobertura del sector
+Sector de actividad-CNAE:
+  en: Sector of activity-CNAE
+Sector principal tvl:
+  en: Main sector tvl
+Sectoral statistics:
+  es: "Estad\xEDsticas sectoriales"
 Sedella:
   en: Sedella
 "Segunda etapa de educaci\xF3n secundaria y educaci\xF3n postsecundaria no superior":
@@ -22505,6 +24356,8 @@ Sedella:
 "Segunda etapa de educaci\xF3n secundaria, con orientaci\xF3n profesional (y continuidad en la educaci\xF3n superior)":
   en: Second stage of secondary education, with vocational orientation (and continuation
     in higher education)
+"Segundo cuartil (\u20AC)":
+  en: "Second quartile (\u20AC)"
 Segura de la Sierra:
   en: Segura de la Sierra
 Seguridad Social obligatoria":
@@ -22515,22 +24368,79 @@ Seguridad social obligatoria:
   en: Senes
 Serbia:
   en: Serbia
+Series key:
+  es: Clave de la serie
 Serrato:
   en: Tightened
 Servicios:
   en: Services
 Servicios - Sin alquiler de vivienda:
   en: Services - No rental housing
+"Servicios p\xFAblicos":
+  en: Public services
 "Ser\xF3n":
   en: "Ser\xF3n"
+Set of concepts that are used in a data structure definition or metadata structure definition.:
+  es: "Conjunto de conceptos que se utilizan en la definici\xF3n de una estructura\
+    \ de datos o de una estructura de metadatos."
+Set of key values that comprise a partial key.:
+  es: Conjunto de valores de la clave que componen una clave parcial.
+Set of metadata concepts that define a partial key derived from the dimension descriptor in a Data Structure Definition.:
+  es: "Conjunto de conceptos de metadatos que definen una clave parcial derivada del\
+    \ descriptor de dimensi\xF3n en una definici\xF3n de estructura de datos."
+Set of metadata keys.:
+  es: Conjunto de claves de metadatos.
+? Set of organisations which collegially endorse the responsibility for the governance
+  of an SDMX Data Structure Definition and its related artefacts.
+: es: "Conjunto de organizaciones que avalan colegiadamente la responsabilidad de\
+    \ la gobernanza de una Definici\xF3n de Estructura de Datos SDMX y sus artefactos\
+    \ relacionados."
+Set of permissible values for one component of a data or metadata structure.:
+  es: Conjunto de valores permitidos para un componente de una estructura de datos
+    o metadatos.
+? Set of procedures employed to modify statistical data to enable it to conform to
+  national or international standards or to address data quality differences when
+  compiling specific data sets.
+: es: "Conjunto de procedimientos empleados para modificar los datos estad\xEDsticos\
+    \ con el fin de que se ajusten a las normas nacionales o internacionales o para\
+    \ resolver las diferencias de calidad de los datos al compilar conjuntos de datos\
+    \ espec\xEDficos."
+? Set of rules or other formal set of instructions assigning responsibility as well
+  as the authority to an organisation for the collection, processing, and dissemination
+  of statistics.
+: es: "Conjunto de normas u otro tipo de instrucciones formales que asignan la responsabilidad\
+    \ y la autoridad a una organizaci\xF3n para la recogida, el tratamiento y la difusi\xF3\
+    n de estad\xEDsticas."
+? Set of standards enabling interoperable implementations within and between systems
+  concerned with the exchange, reporting and dissemination of statistical data and
+  related metadata.
+: es: "Conjunto de normas que permiten la aplicaci\xF3n interoperable dentro de los\
+    \ sistemas relacionados con el intercambio, la notificaci\xF3n y la difusi\xF3\
+    n de datos estad\xEDsticos y los metadatos correspondientes, as\xED como entre\
+    \ ellos."
+? Set of structural metadata associated to a data set, which includes information
+  about how concepts are associated with the measures, dimensions, and attributes
+  of a data cube, along with information about the representation of data and related
+  descriptive metadata.
+: es: "Conjunto de metadatos estructurales asociados a un conjunto de datos, que incluye\
+    \ informaci\xF3n sobre c\xF3mo se asocian los conceptos con las medidas, dimensiones\
+    \ y atributos de un cubo de datos, junto con informaci\xF3n sobre la representaci\xF3\
+    n de los datos y los metadatos descriptivos relacionados."
+Set of time series whose keys differ only in the value taken by the frequency dimension.:
+  es: "Conjunto de series temporales cuyas claves difieren \xFAnicamente en el valor\
+    \ que toma la dimensi\xF3n de la frecuencia."
 Setenil de las Bodegas:
   en: Setenil de las Bodegas
 Sevilla:
   en: Seville
 Sevilla (capital):
   en: Seville (capital)
+Sex:
+  es: Sexo
 Sexo:
   en: Sex
+Sibling group:
+  es: Grupo de hermanos
 Sierra de Yeguas:
   en: Sierra de Yeguas
 Sierro:
@@ -22539,12 +24449,22 @@ Siles:
   en: Siles
 Sin clasificar:
   en: Unclassified
+Sin experiencia a tiempo parcial:
+  en: No part-time experience
+Sin experiencia en desempleo:
+  en: No unemployment experience
+Sin hijos fiscales:
+  en: No fiscal children
 "Sin mujer menor de 50 a\xF1os":
   en: No woman under 50
 "Sin n\xFAcleo":
   en: Core-less
+Single value of the set of values for a member selection.:
+  es: "Valor \xFAnico del conjunto de valores de una selecci\xF3n de miembros."
 "Situaci\xF3n de inactividad 1":
   en: Inactive status 1
+Social protection:
+  es: "Protecci\xF3n social"
 Solera:
   en: Solera
 "Somont\xEDn":
@@ -22557,6 +24477,99 @@ Sorihuela del Guadalimar:
   en: Sorihuela del Guadalimar
 "Sorvil\xE1n":
   en: "Sorvil\xE1n"
+Source data type:
+  es: Tipo de datos de origen
+Special circumstances (e.g. strike) affecting the observation or causing a missing value.:
+  es: "Circunstancias especiales (por ejemplo, una huelga) que afecten a la observaci\xF3\
+    n o provoquen un valor perdido."
+? Specification of a subset of the possible content of data or metadata that can be
+  derived from the code lists used in a data or metadata structure.
+: es: "Especificaci\xF3n de un subconjunto del posible contenido de datos o metadatos\
+    \ que puede derivarse de las listas de c\xF3digos utilizadas en una estructura\
+    \ de datos o metadatos."
+? Specification of the allowed content of a metadata set in terms of attributes for
+  which content is to be provided and to which type of object the metadata pertain.
+: es: "Especificaci\xF3n del contenido permitido de un conjunto de metadatos en t\xE9\
+    rminos de atributos para los que se debe proporcionar contenido y a qu\xE9 tipo\
+    \ de objeto pertenecen los metadatos."
+Specification of the representation for the codes in a code list.:
+  es: "Especificaci\xF3n de la representaci\xF3n de los c\xF3digos en una lista de\
+    \ c\xF3digos."
+Specification of the type of artefact to which a data attribute can be attached in a data set.:
+  es: "Especificaci\xF3n del tipo de artefacto al que se puede adjuntar un atributo\
+    \ de datos en un conjunto de datos."
+Staff, facilities, computing resources, and financing to undertake statistical production.:
+  es: "Personal, instalaciones, recursos inform\xE1ticos y financiaci\xF3n para llevar\
+    \ a cabo la producci\xF3n estad\xEDstica."
+? Standard concept, covering structural and reference metadata, which should be used
+  in several statistical domains wherever possible to enhance possibilities of the
+  exchange of data and metadata between organisations.
+: es: "Concepto est\xE1ndar, que abarca los metadatos estructurales y de referencia,\
+    \ que deber\xEDa utilizarse en varios \xE1mbitos estad\xEDsticos siempre que sea\
+    \ posible para mejorar las posibilidades de intercambio de datos y metadatos entre\
+    \ organizaciones."
+Standard, skill and ability suitable for producing statistics of good quality.:
+  es: "Nivel, destreza y habilidad adecuados para producir estad\xEDsticas de buena\
+    \ calidad."
+State of being male or female.:
+  es: Estado de ser hombre o mujer.
+Statement describing whether and how the release policy is disseminated to the public.:
+  es: "Declaraci\xF3n que describa si la pol\xEDtica de divulgaci\xF3n se difunde\
+    \ al p\xFAblico y c\xF3mo."
+? Statistical activity that has common characteristics with respect to concepts and
+  methodologies for data collection, manipulation and transformation.
+: es: "Actividad estad\xEDstica que tiene caracter\xEDsticas comunes en cuanto a conceptos\
+    \ y metodolog\xEDas de recogida, manipulaci\xF3n y transformaci\xF3n de datos."
+Statistical concept for which data are provided in a data set.:
+  es: "Concepto estad\xEDstico para el que se proporcionan datos en un conjunto de\
+    \ datos."
+Statistical concept providing qualitative information about a specific statistical object.:
+  es: "Concepto estad\xEDstico que proporciona informaci\xF3n cualitativa sobre un\
+    \ objeto estad\xEDstico espec\xEDfico."
+? Statistical concept used in combination with other statistical concepts to identify
+  a statistical series or individual observations.
+: es: "Concepto estad\xEDstico utilizado en combinaci\xF3n con otros conceptos estad\xED\
+    sticos para identificar una serie estad\xEDstica u observaciones individuales."
+Statistical concepts and definitions:
+  es: "Conceptos y definiciones estad\xEDsticas"
+Statistical data and metadata exchange, SDMX:
+  es: "Intercambio de datos y metadatos estad\xEDsticos, SDMX"
+Statistical indicator:
+  es: "Indicador estad\xEDstico"
+Statistical population:
+  es: "Poblaci\xF3n estad\xEDstica"
+Statistical subject-matter domain:
+  es: "Dominio estad\xEDstico de la materia"
+Statistical technique used to remove the effects of price influences operating on a data series.:
+  es: "T\xE9cnica estad\xEDstica utilizada para eliminar los efectos de las influencias\
+    \ de los precios que operan en una serie de datos."
+Statistical technique used to remove the effects of seasonal and calendar influences operating on a data series.:
+  es: "T\xE9cnica estad\xEDstica utilizada para eliminar los efectos de las influencias\
+    \ estacionales y de calendario que operan en una serie de datos."
+Statistical unit:
+  es: "Unidad estad\xEDstica"
+Statistical variable:
+  es: "Variable estad\xEDstica"
+Strike and other special events:
+  es: Huelga y otros eventos especiales
+Structural artefact used to define the structure of a data or metadata set.:
+  es: Artefacto estructural utilizado para definir la estructura de un conjunto de
+    datos o metadatos.
+Structural metadata:
+  es: Structural metadata
+Structural metadata concept that classifies structural metadata objects.:
+  es: Concepto de metadatos estructurales que clasifica los objetos de metadatos estructurales.
+Structural validation:
+  es: "Validaci\xF3n estructural"
+Structure set:
+  es: Conjunto de estructuras
+? Structure which describes, categorises and constrains the allowable content of a
+  data set that providers will supply for different reference periods.
+: es: "Estructura que describe, categoriza y limita el contenido admisible de un conjunto\
+    \ de datos que los proveedores suministrar\xE1n para diferentes per\xEDodos de\
+    \ referencia."
+Subscription:
+  es: "Suscripci\xF3n"
 Suecia:
   en: Sweden
 "Sufl\xED":
@@ -22565,6 +24578,43 @@ Suiza:
   en: Switzerland
 "Suministro de energ\xEDa el\xE9ctrica, gas, vapor y aire acondicionado":
   en: Electricity, gas, steam and air-conditioning supply
+Surface area:
+  es: Superficie
+Sustainable development:
+  es: Desarrollo sostenible
+Systems and frameworks in place within an organisation to manage the quality of statistical products and processes.:
+  es: "Sistemas y marcos establecidos en una organizaci\xF3n para gestionar la calidad\
+    \ de los productos y procesos estad\xEDsticos."
+"S\xED, en los \xFAltimos 5 a\xF1os":
+  en: Yes, in the last 5 years
+"S\xED, hace m\xE1s de 5 a\xF1os":
+  en: Yes, more than 5 years ago
+"S\xED. En el \xFAltimo a\xF1o":
+  en: Yes. In the last year
+"S\xED. Hace entre 1 y 5 a\xF1os":
+  en: Yes. 1-5 years ago
+"S\xED. Hace m\xE1s de 5 a\xF1os":
+  en: Yes, more than 5 years ago
+"S\xF3lo cotizante":
+  en: Contributor only
+"S\xF3lo episodios de desempleo":
+  en: Unemployment episodes only
+"S\xF3lo episodios de ocupaci\xF3n":
+  en: Occupation episodes only
+"S\xF3lo episodios de ocupaci\xF3n en el a\xF1o":
+  en: Only episodes of occupation in the year
+"S\xF3lo episodios de otra situaci\xF3n (*)":
+  en: Other situation episodes only (*)
+"S\xF3lo pensionista":
+  en: Pensioner only
+"S\xF3lo prestaci\xF3n por desempleo":
+  en: Unemployment benefit only
+"S\xF3lo r\xE9gimen de aut\xF3nomos":
+  en: Self-employed only
+"S\xF3lo r\xE9gimen general":
+  en: General scheme only
+"S\xF3lo subsidio por desempleo":
+  en: Unemployment benefit only
 TEMPORAL:
   en: TEMPORARY
 TOTAL:
@@ -22577,18 +24627,124 @@ Taha (La):
   en: Taha (La)
 Tahal:
   en: Tahal
+"Tama\xF1o del municipio":
+  en: Size of the municipality
 Tarifa:
   en: Tarifa
 Teba:
   en: Teba
+Technical format for the representation of time.:
+  es: "Formato t\xE9cnico para la representaci\xF3n del tiempo."
+? Technical standard and content-oriented guidelines for the exchange and sharing
+  of statistical information between organisations.
+: es: "Norma t\xE9cnica y directrices orientadas al contenido para el intercambio\
+    \ y la puesta en com\xFAn de informaci\xF3n estad\xEDstica entre organizaciones."
+Telephone number of the contact points for the data or metadata.:
+  es: "N\xFAmero de tel\xE9fono de los puntos de contacto para los datos o metadatos."
+"Tercer cuartil (\u20AC)":
+  en: "Third quartile (\u20AC)"
 Terque:
   en: Terque
 Territorio:
   en: Territory
+Textual label used as identification of a statistical object.:
+  es: "Etiqueta textual utilizada como identificaci\xF3n de un objeto estad\xEDstico."
+? 'This code is to be used when no breakdown is made between the reasons why data
+  are missing. Data can be missing due to many reasons: data cannot exist, data exist
+  but are not collected (e.g. because they are below a certain threshold or subject
+  to a derogation clause), data are unreliable, etc.'
+: es: "Este c\xF3digo debe utilizarse cuando no se desglosan las razones por las que\
+    \ faltan datos. Los datos pueden faltar por muchas razones: los datos no pueden\
+    \ existir, los datos existen pero no se recogen (por ejemplo, porque est\xE1n\
+    \ por debajo de un determinado umbral o est\xE1n sujetos a una cl\xE1usula de\
+    \ excepci\xF3n), los datos no son fiables, etc."
+? "This code is used when data for a given category are missing and are included in\
+  \ another category, sub-total or total. Generally where code \u201CK\u201D is used\
+  \ there should be a corresponding code \"W - Includes data from another category\"\
+  \ assigned to the over-covered category. Implementers and data reporters should\
+  \ use the COMMENT_OBS observation-level attribute to specify under which category\
+  \ the data are included."
+: es: "Este c\xF3digo se utiliza cuando faltan datos de una categor\xEDa determinada\
+    \ y se incluyen en otra categor\xEDa, subtotal o total. Generalmente, cuando se\
+    \ utiliza el c\xF3digo \"K\" debe haber un c\xF3digo correspondiente \"W - Incluye\
+    \ datos de otra categor\xEDa\" asignado a la categor\xEDa cubierta en exceso.\
+    \ Los implementadores y los informadores de datos deber\xE1n utilizar el atributo\
+    \ de nivel de observaci\xF3n COMMENT_OBS para especificar bajo qu\xE9 categor\xED\
+    a se incluyen los datos."
+This indicates existing observations, but for which the user should also be aware of the low quality assigned.:
+  es: "Esto indica las observaciones existentes, pero para las que el usuario tambi\xE9\
+    n debe ser consciente de la baja calidad asignada."
+Time between the end of a reference period and actual receipt of the data by the compiling agency.:
+  es: "Tiempo transcurrido entre el final de un periodo de referencia y la recepci\xF3\
+    n real de los datos por parte del organismo compilador."
+Time coverage:
+  es: Cobertura de tiempo
+Time format:
+  es: Formato de la hora
+Time interval at which observations occur over a given time period.:
+  es: Intervalo de tiempo en el que se producen las observaciones en un periodo de
+    tiempo determinado.
+Time interval at which the source data are collected.:
+  es: Intervalo de tiempo en el que se recogen los datos de origen.
+Time interval at which the statistics are disseminated over a given time period.:
+  es: "Intervalo de tiempo en el que se difunden las estad\xEDsticas en un periodo\
+    \ de tiempo determinado."
+Time lag - final results:
+  es: Tiempo de espera - resultados finales
+Time lag - first results:
+  es: Tiempo de espera - primeros resultados
+Time lag between the actual delivery of the data and the target date when it should have been delivered.:
+  es: "Desfase entre la entrega real de los datos y la fecha prevista en la que deber\xED\
+    an haberse entregado."
+Time period - collection:
+  es: Periodo de tiempo - recogida
+Time series break:
+  es: Ruptura de la serie temporal
+Time transformation:
+  es: "Transformaci\xF3n del tiempo"
+Time use:
+  es: Uso del tiempo
+Time-related operation performed on a time series, solely involving observations of that time series.:
+  es: "Operaci\xF3n relacionada con el tiempo que se realiza sobre una serie temporal\
+    \ y que implica \xFAnicamente observaciones de dicha serie."
+Timeliness:
+  es: Puntualidad
+Timeliness - source data:
+  es: Puntualidad - datos de origen
+Timespan or point in time to which the measured observation is intended to refer.:
+  es: "Lapso de tiempo o punto en el tiempo al que se pretende referir la observaci\xF3\
+    n medida."
+Timespan or point in time to which the observation actually refers.:
+  es: "Periodo de tiempo o punto en el tiempo al que se refiere realmente la observaci\xF3\
+    n."
+"Tipo de cotizaci\xF3n":
+  en: Type of quotation
+Tipo de hogar:
+  en: Household type
+Tipo de hogar (MCVL):
+  en: Household type (MCVL)
+"Tipo de pensi\xF3n":
+  en: Type of pension
+"Tipo de pensi\xF3n (MCVL)":
+  en: Pension rate (MCVL)
+"Tipo de relaci\xF3n con la seguridad social":
+  en: Type of social security relationship
 "Tipolog\xEDa de la actividad del hogar":
   en: Typology of household activity
 "Tipolog\u0102\xADa de la actividad del hogar":
   en: Typology of household activity
+"Tipos de prestaci\xF3n":
+  en: Types of benefits
+Title:
+  es: "T\xEDtulo"
+? To be used as default value if no value is provided or when no special coded qualification
+  is assumed. Usually, it can be assumed that the source agency assigns sufficient
+  confidence to the provided observation and/or the value is not expected to be drama
+: es: "Se utilizar\xE1 como valor por defecto si no se proporciona ning\xFAn valor\
+    \ o cuando no se asuma ninguna calificaci\xF3n codificada especial. Normalmente,\
+    \ se puede suponer que el organismo de origen asigna suficiente confianza a la\
+    \ observaci\xF3n proporcionada y/o que no se espera que el valor sea dram\xE1\
+    tico"
 Tocina:
   en: Bacon
 Tolox:
@@ -22623,16 +24779,31 @@ Torrox:
   en: Torrox
 "Torvizc\xF3n":
   en: "Torvizc\xF3n"
+Total:
+  en: Total
+Total membership or population or "universe" of a defined class of people, objects or events.:
+  es: "La pertenencia o poblaci\xF3n total o \"universo\" de una clase definida de\
+    \ personas, objetos o eventos."
+Totales:
+  en: Totals
 "Total\xE1n":
   en: "Total\xE1n"
+Tourism:
+  es: Turismo
 "Trabajadores cualificados en el sector agr\xEDcola, ganadero, forestal y pesquero":
   en: Skilled workers in the agriculture, livestock, forestry and fisheries sector
 "Trabajadores de los servicios de restauraci\xF3n, personales, protecci\xF3n y vendedores":
   en: Catering, personal services, protection and sales workers
+Transport:
+  es: Transporte
 Trebujena:
   en: Trebujena
 Tres Villas (Las):
   en: Tres Villas (Las)
+"Tres o m\xE1s adultos solos":
+  en: Three or more adults alone
+"Tres o m\xE1s adultos, con ni\xF1os (menores de 16)":
+  en: Three or more adults, with children (under 16)
 "Trev\xE9lez":
   en: "Trev\xE9lez"
 Trigueros:
@@ -22664,6 +24835,9 @@ Turrillas:
     or more
 U. Actividades de organizaciones y organismos extraterritoriales:
   en: U. Activities of extraterritorial organisations and bodies
+UN/EDIFACT format for exchange of SDMX-structured data and metadata for time series.:
+  es: Formato UN/EDIFACT para el intercambio de datos y metadatos estructurados en
+    SDMX para series temporales.
 Ubrique:
   en: Ubric
 "Ug\xEDjar":
@@ -22672,14 +24846,66 @@ Uleila del Campo:
   en: Uleila del Campo
 Umbrete:
   en: Umbrete
+"Un adulto con ni\xF1os (menores de 16)":
+  en: One adult with children (under 16)
+Un adulto solo, edad 16-64:
+  en: Single adult, age 16-64
+Un adulto solo, edad 65+:
+  en: Single adult, age 65+
+"Un \xFAnico episodio en el a\xF1o":
+  en: A single episode in the year
+"Un \xFAnico tipo de prestaci\xF3n":
+  en: A single type of benefit
 Unipersonales:
   en: Unipersonal
+Unit:
+  es: Unidad
+Unit in which the data values are expressed.:
+  es: Unidad en la que se expresan los valores de los datos.
+Unit multiplier:
+  es: Multiplicador de unidades
+Unit non-response rate:
+  es: Tasa de no respuesta de la unidad
+Unit of measure:
+  es: Unidad de medida
+Unit of thought created by a unique combination of characteristics.:
+  es: "Unidad de pensamiento creada por una combinaci\xF3n \xFAnica de caracter\xED\
+    sticas."
 "Uni\xF3n Europea 27 (desde 2020)":
   en: European Union 27 (from 2020)
 "Uni\xF3n Europea 28 (2013-2020)":
   en: European Union 28 (2013-2020)
+"Uno o m\xE1s episodio(s) de cotizaci\xF3n":
+  en: One or more listing episode(s)
+Unvalidated value:
+  es: Valor no validado
 "Urr\xE1cal":
   en: "Urr\xE1cal"
+Usage status:
+  es: Estado de uso
+Used in some daily data flows.:
+  es: Se utiliza en algunos flujos de datos diarios.
+? Used to denote empty cells resulting from the impossibility to collect a statistical
+  value (e.g. a particular education level or type of institution may be not applicable
+  to a given country's education system).
+: es: "Se utiliza para denotar las celdas vac\xEDas resultantes de la imposibilidad\
+    \ de recoger un valor estad\xEDstico (por ejemplo, un nivel de educaci\xF3n o\
+    \ un tipo de instituci\xF3n concretos pueden no ser aplicables al sistema educativo\
+    \ de un pa\xEDs determinado)."
+Used to indicate a value which is not a "real" zero (e.g. a result of 0.0004 rounded to zero).:
+  es: Se utiliza para indicar un valor que no es un cero "real" (por ejemplo, un resultado
+    de 0,0004 redondeado a cero).
+? Used to indicate slight deviations from the established methodology (footnote-type
+  information); these divergences do not imply a break in time series.
+: es: "Se utiliza para indicar ligeras desviaciones de la metodolog\xEDa establecida\
+    \ (informaci\xF3n de tipo nota a pie de p\xE1gina); estas divergencias no implican\
+    \ una ruptura de la serie temporal."
+Used, for example, when data are suppressed due to statistical confidentiality considerations.:
+  es: "Se utiliza, por ejemplo, cuando se suprimen datos por consideraciones de confidencialidad\
+    \ estad\xEDstica."
+Used, for example, when some data are not reported/disseminated because they are below a certain threshold.:
+  es: "Se utiliza, por ejemplo, cuando algunos datos no se comunican/difunden porque\
+    \ est\xE1n por debajo de un determinado umbral."
 Utrera:
   en: Utrera
 Valdelarco:
@@ -22692,6 +24918,8 @@ Valencina del Alcor:
   en: Valencina del Alcor
 Valenzuela:
   en: Valenzuela
+Validation and transformation language, VTL:
+  es: "Lenguaje de validaci\xF3n y transformaci\xF3n, VTL"
 Valle (El):
   en: Valley (El)
 "Valle de Abdalaj\xEDs":
@@ -22700,8 +24928,25 @@ Valle (El):
   en: "Zalab\xED Valley"
 Valsequillo:
   en: Valsequillo
+Valuation:
+  es: "Valoraci\xF3n"
+? Value deemed to assess the magnitude which a quantity will assume at some future
+  point of time (as distinct from "estimated value" which attempts to assess the magnitude
+  of an already existent quantity).
+: es: "Valor que se considera para evaluar la magnitud que asumir\xE1 una cantidad\
+    \ en alg\xFAn momento futuro (a diferencia del \"valor estimado\" que intenta\
+    \ evaluar la magnitud de una cantidad ya existente)."
+Value in a metadata set of an identifier component defined in a metadata structure definition.:
+  es: "Valor en un conjunto de metadatos de un componente identificador definido en\
+    \ una definici\xF3n de estructura de metadatos."
+Value of a particular variable.:
+  es: Valor de una variable concreta.
 Valverde del Camino:
   en: Valverde del Camino
+Variable:
+  en: Variable
+Varios tipos de episodios:
+  en: Various types of episodes
 Vegas del Genil:
   en: Vegas del Genil
 Vejer de la Frontera:
@@ -22714,6 +24959,10 @@ Ventas de Zafarraya:
   en: Ventas de Zafarraya
 Vera:
   en: Vera
+Version:
+  es: "Versi\xF3n"
+Versionable artefact:
+  es: Artefacto versionable
 Viator:
   en: Viator
 Victoria (La):
@@ -22798,6 +25047,8 @@ Viso (El):
   en: Total (El)
 Viso del Alcor (El):
   en: Viso del Alcor (El)
+Viudedad:
+  en: Viudedad
 "Vi\xF1uela":
   en: "Vi\xF1uela"
 "V\xE1lor":
@@ -22814,6 +25065,25 @@ Viso del Alcor (El):
   en: "V\xEDcar"
 "V\xEDznar":
   en: "V\xEDznar"
+Weight at birth:
+  es: Peso al nacer
+? Weights of a weighting system for an index number computed according to the information
+  relating to the base period instead, for example, of the current period.
+: es: "Ponderaciones de un sistema de ponderaci\xF3n para un n\xFAmero de \xEDndice\
+    \ calculado seg\xFAn la informaci\xF3n relativa al periodo base en lugar, por\
+    \ ejemplo, del periodo actual."
+XML format for the exchange of SDMX-structured data and metadata.:
+  es: Formato XML para el intercambio de datos y metadatos estructurados en SDMX.
+Year of birth:
+  es: "A\xF1o de nacimiento"
+Year of birth of first-time marrying persons:
+  es: "A\xF1o de nacimiento de las personas que se casan por primera vez"
+Year of birth of the mother:
+  es: "A\xF1o de nacimiento de la madre"
+Year of marriage or similar categories:
+  es: "A\xF1o de matrimonio o categor\xEDas similares"
+Yearbooks and similar compendia:
+  es: Anuarios y compendios similares
 Yegen:
   en: Yegen
 Yunquera:
@@ -22868,6 +25138,10 @@ Zurgena:
   en: manufacture of trailers and semi-trailers".
 "ingenier\xEDa mec\xE1nica por cuenta de terceros\"":
   en: mechanical engineering on behalf of third parties".
+isExternalReference:
+  es: isExternalReference
+isIncluded:
+  es: isIncluded
 metalurgia de polvos":
   en: powder metallurgy".
 portales web":
