@@ -1,0 +1,57 @@
+SOURCE,COD,NAME,TARGET
+7109,B,(B) Industrias extractivas y del petróleo,7109
+217302,C1,"(C1) Alimentación, bebidas y tabaco",217302
+217304,C2,"(C2) Textil, confección, cuero y calzado",217304
+217305,C3,"(C3) Madera, papel, y artes gráficas",217305
+217306,C4,(C4) Química (incluida la farmacia),217306
+217307,C5,(C5) Caucho y plásticos,217307
+217308,C6,(C6) Productos minerales no metálicos diversos,217308
+217309,C7,(C7) Metalurgia y Manufacturas metálicas,217309
+217310,C8,"(C8) Productos informáticos, electrónicos y ópticos",217310
+217311,C9,(C9) Material y equipo eléctrico,217311
+217312,C10,(C10) Otra maquinaria y equipo,217312
+217313,C11,(C11) Vehículo de motor,217313
+217314,C12,(C12) Otro material de transporte,217314
+217315,C13,(C13) Muebles,217315
+217316,C14,(C14) Otras actividades de fabricación,217316
+7605,C,(C) Reparación e instalación de maquinaria y equipo,7605
+7627,D,(D) Energía y agua,7627
+7661,E,"(E) Saneamiento, gestión de residuos y descontaminación",7661
+7859,G,(G) Comercio,7859
+7958,H,(H) Transporte y almacenamiento,7958
+7888,I,(I) Hostelería,7888
+8031,J,(J) Información y comunicaciones,8031
+8080,K,(K) Actividades financieras y de seguros,8080
+8165,M,"(M) Actividades inmobiliarias, profesionales, científicas y técnicas",8165
+8255,N,(N) Actividades administrativas y servicios auxiliares,8255
+8345,Q,(Q) Actividades sanitarias y de servicios sociales,8345
+8385,R,"(R) Actividades artísticas, recreativas y de entretenimiento",8385
+8426,S,(S) Otros servicios,8426
+6949,00,(00) TOTAL,6949
+7058,S20,(S20) Total Industria (CNAE 10-39),7058
+838683,19_23,(19_23) Coquerías y refino de petróleo; productos farmacéuticos; caucho y plásticos; productos minerales no metálicos (CNAE 19-23),838683
+838684,24_25,(24_25) Metalurgia y fabricación de productos metálicos (CNAE 24-25),838684
+838685,26_33,"(26_33) Productos informáticos, electrónicos y ópticos; material y equipo eléctrico; maquinaria y equipo mecánico; vehículos a motor; material de transporte; muebles, industria manufacturera; reparación de maquinaria y equipo (CNAE 26-33)",838685
+7714,F,(F) Total Construcción (CNAE 41-43),7714
+7716,S41,"(S41) Total Servicios (CNAE 45-82, excluídas CNAE 56:servicios de comidas y bebidas y financieras)",7716
+8094,L,(L) Actividades inmobiliarias (CNAE 68),8094
+7663,S30,(S30) Total Construcción (CNAE 41-43),7663
+6981,S10,"(S10) Agricultura, ganadería, silvicultura y pesca",6981
+277249,S21,(S21) Industria manufacturera,277249
+7889,S42,(S42) Información y comunicaciones,7889
+277250,S46,(S46) Actividades financieras y de seguros,277250
+277251,S47,(S47) Actividades inmobiliarias,277251
+8032,S43,"(S43) Actividades profesionales, científicas y técnicas; Actividades administrativas y servicios auxiliares",8032
+8256,S44,(S44) Administración Pública y defensa; Seguridad social obligatoria; Educación; Actividades sanitarias y de servicios; Actividades de organizaciones y organismos extraterritoriales,8256
+8346,S45,"(S45) Actividades artísticas, recreativas y de entretenimiento; Otros servicios; Actividades de los hogares como empleadores de personal doméstico y como productores de bienes y servicios para uso propio",8346
+7056,A,"(A) A. Agricultura, ganadería, silvicultura y pesca",7056
+8275,O,(O) O. Administración pública y defensa; Seguridad Social obligatoria,8275
+8303,P,(P) P. Educación,8303
+8442,T,(T) T. Actividades de los hogares como empleadores de personal doméstico; Actividades de los hogares como productores de bienes y servicios para uso propio,8442
+8449,U,(U) U. Actividades de organizaciones y organismos extraterritoriales,8449
+8456,U+1_1,(U+1_1) Hace más de 1 año desde su último empleo,8456
+6950,BPE_1,(BPE_1) Busca primer empleo,6950
+6980,S1,(S1) Agricultura,6980
+7057,S2,(S2) Industria,7057
+7662,S3,(S3) Construcción,7662
+7715,S4,(S4) Servicios,7715

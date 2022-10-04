@@ -1,15 +1,14 @@
 NOMBRE_DSD: DSD_CONTPROV
-categoria: SIN DEFINIR
 grupos_consultas:
   Contabilidad Provincial Anual de Andalucía. Revisión estadística 2019:
-    id: '1'
     consultas:
     - '32118'
+    id: '1'
 variables:
-- TERRITORIO
+- REF_AREA
 - SECC_CNAE09
-- ESTADO_DATO
-- TEMPORAL
+- OBS_STATUS
+- TIME_PERIOD
 - MACROMAG_CPA
 - INDICATOR
 - OBS_VALUE

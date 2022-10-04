@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Bienvenido a la documentación de IECA-extractor!
+Bienvenido a la documentación de IECA2SDMX!
 ==========================================================
 
 .. toctree::
@@ -13,16 +13,16 @@ Bienvenido a la documentación de IECA-extractor!
 
 Modulos
 =======
-.. automodule:: src.ieca.actividad
+.. automodule:: iecasdmx.actividad
    :members:
 
-.. automodule:: src.ieca.consulta
+.. automodule:: iecasdmx.consulta
    :members:
 
-.. automodule:: src.ieca.jerarquia
+.. automodule:: iecasdmx.jerarquia
    :members:
 
-.. automodule:: src.ieca.datos
+.. automodule:: iecasdmx.datos
    :members:
 
 

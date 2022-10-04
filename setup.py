@@ -15,8 +15,8 @@ def read(filename):
 
 
 setup(
-    name="IECA-extractor",
-    version="1.2.0",
+    name="iecaextractor",
+    version="0.3.0",
     url="https://github.com/frapercan/IECA-extractor",
     license='MIT',
 
@@ -37,6 +37,6 @@ setup(
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.8',
     ],
 )

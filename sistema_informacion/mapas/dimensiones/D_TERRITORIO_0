@@ -1,7 +1,6 @@
 SOURCE,COD,NAME,TARGET
 3676,00,(00) TOTAL,3676
 3143,C01,(C01) Andalucía,ES61
-P1_C01,C01,(C01) Andalucía,ES61
 2352,04,(04) Almería,ES611
 2402,11,(11) Cádiz,ES612
 2482,14,(14) Córdoba,ES613
@@ -899,35 +898,35 @@ _Z,No aplica,No aplica,_Z
 273834,UE27NRU,(UE27NRU) Unión Europea 27 (desde 2020),273834
 273823,UE28,(UE28) Unión Europea 28 (2013-2020),273823
 273840,EA19,(EA19) Zona Euro 19 (desde 2015),273840
-3347,103,(103) Bélgica,BE
-3348,104,(104) Bulgaria,BG
-3369,143,(143) República Checa,CZ
-3350,107,(107) Dinamarca,DK
-3363,126,(126) Alemania,DE
-3367,141,(141) Estonia,EE
-3355,113,(113) Irlanda,IE
-3353,111,(111) Grecia,EL
-3352,110,(110) Francia,FR
-3371,146,(146) Croacia,HR
-3356,115,(115) Italia,IT
-3349,106,(106) Chipre,CY
-3366,136,(136) Letonia,LV
-3368,142,(142) Lituania,LT
-3357,117,(117) Luxemburgo,LU
-3354,112,(112) Hungría,HU
-3358,118,(118) Malta,MT
-3359,121,(121) Países Bajos,NL
-3346,102,(102) Austria,AT
-3360,122,(122) Polonia,PL
-3361,123,(123) Portugal,PT
-3364,128,(128) Rumanía,RO
-3372,147,(147) Eslovenia,SI
-3370,144,(144) Eslovaquia,SK
-3351,109,(109) Finlandia,FI
-3365,131,(131) Suecia,SE
-3362,125,(125) Reino Unido,UK
-3379,114,(114) Islandia,IS
-3382,120,(120) Noruega,NO
-3386,132,(132) Suiza,CH
-3397,157,(157) Serbia,RS
-3574,436,(436) Turquía,TR
+3347,103,(103) Bélgica,3347
+3348,104,(104) Bulgaria,3348
+3369,143,(143) República Checa,3369
+3350,107,(107) Dinamarca,3350
+3363,126,(126) Alemania,3363
+3367,141,(141) Estonia,3367
+3355,113,(113) Irlanda,3355
+3353,111,(111) Grecia,3353
+3352,110,(110) Francia,3352
+3371,146,(146) Croacia,3371
+3356,115,(115) Italia,3356
+3349,106,(106) Chipre,3349
+3366,136,(136) Letonia,3366
+3368,142,(142) Lituania,3368
+3357,117,(117) Luxemburgo,3357
+3354,112,(112) Hungría,3354
+3358,118,(118) Malta,3358
+3359,121,(121) Países Bajos,3359
+3346,102,(102) Austria,3346
+3360,122,(122) Polonia,3360
+3361,123,(123) Portugal,3361
+3364,128,(128) Rumanía,3364
+3372,147,(147) Eslovenia,3372
+3370,144,(144) Eslovaquia,3370
+3351,109,(109) Finlandia,3351
+3365,131,(131) Suecia,3365
+3362,125,(125) Reino Unido,3362
+3379,114,(114) Islandia,3379
+3382,120,(120) Noruega,3382
+3386,132,(132) Suiza,3386
+3397,157,(157) Serbia,3397
+3574,436,(436) Turquía,3574

@@ -1,11 +1,12 @@
-﻿# Extracción y procesamiento de datos del Instituto de Estadística y Cartografía Andaluz
+﻿# Conversión de datos del Instituto de Estadística y Cartografía Andaluz a SDMX
 
-[![PyPI version](https://badge.fury.io/py/IECA-extractor.svg)](https://badge.fury.io/py/IECA-extractor)
-[![codecov](https://codecov.io/gh/frapercan/IECA-extractor/branch/main/graph/badge.svg?token=GbJ3V9jEa7)](https://codecov.io/gh/frapercan/IECA-extractor)
+[![PyPI version](https://badge.fury.io/py/iecasdmx.svg)](https://badge.fury.io/py/iecasdmx)
+[![codecov](https://codecov.io/gh/frapercan/IECA2SDMX/branch/develop/graph/badge.svg?token=GbJ3V9jEa7)](https://codecov.io/gh/frapercan/IECA2SDMX)
 [![Python Tox](https://github.com/frapercan/IECA2SDMX/actions/workflows/tox.yml/badge.svg)](https://github.com/frapercan/IECA2SDMX/actions/workflows/tox.yml)
-[![Documentation Status](https://readthedocs.org/projects/ieca-extractor/badge/?version=latest)](https://ieca-extractor.readthedocs.io/es/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/ieca2sdmx/badge/?version=latest)](https://ieca2sdmx.readthedocs.io/en/latest/?badge=latest)
 
-Herramienta interna de extracción de datos desde la [API del IECA](https://www.juntadeandalucia.es/institutodeestadisticaycartografia/badea/apidoc) hacia un sistema de información formado por ficheros en formato tabular, para su posterior uso con las [herramientas SDMX del Instituto Nacional de Estadística Italiano (ISTAT Toolkit)](https://sdmxistattoolkit.github.io/).
+Herramienta interna de transformación de datos desde la [API del IECA](https://www.juntadeandalucia.es/institutodeestadisticaycartografia/badea/apidoc) hacia el estandar SDMX, 
+haciendo uso de las [herramientas SDMX del Instituto Nacional de Estadística Italiano (ISTAT Toolkit)](https://sdmxistattoolkit.github.io/).
 
 ![indexa](imagenes/indexa-logo.png)
 ![ieca](imagenes/ieca-logo.png)
@@ -21,11 +22,11 @@ En un entorno con Python instalado, intsalar los requisitos de dependencias.
 Con el directorio de trabajo en la raiz del proyecto ejecutar el fichero main.py
 
     IECA2SDMX
-    └── src
+    └── iecasdmx
         └── main.py                    # Fichero de ejecución
 
 ## Documentación
-[IECA-extractor](https://ieca-extractor.readthedocs.io/en/latest/)
+[IECA2SDMX](https://ieca2sdmx.readthedocs.io/en/latest/)
 
 
 # Información para desarrolladores del repositorio

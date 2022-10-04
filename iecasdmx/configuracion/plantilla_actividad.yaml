@@ -1,0 +1,18 @@
+acciones_jerarquia:
+  guardar_datos: True
+  añadir_mapa_concepto_codelist: True
+acciones_datos:
+  guardar_datos#1: original
+  extender_mapa_nuevos_terminos: True
+  mapear_valores: True
+  sumar_datos_duplicados: False
+  mapear_columnas: True
+  borrar_filas:
+    - OBS_VALUE: ''
+    - OBS_VALUE: '-'
+    - OBS_VALUE: '*'
+
+  guardar_datos#2: procesados
+  mostrar_df: False
+acciones_actividad_completa:
+  agrupar_consultas_SDMX: True

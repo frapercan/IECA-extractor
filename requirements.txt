@@ -1,5 +1,5 @@
 setuptools
 requests
-pandas
+pandas==1.4.4
 pyyaml
 deepl
