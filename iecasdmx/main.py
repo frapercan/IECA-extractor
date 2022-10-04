@@ -43,9 +43,12 @@ if __name__ == "__main__":
             if configuracion_global['reset_ddb']:
                 controller.delete_all('ESC01', 'IECA_CAT_EN_ES', '1.0')
 
+        if configuracion_global['translate']:
+            controller.category_schemes.data['ESC01']['IECA_CAT_EN_ES']['1.0'].translate()
+
         for nombre_actividad in configuracion_ejecucion['actividades']:
             actividad = Actividad(configuracion_global, configuracion_actividades[nombre_actividad],
-                                  configuracion_plantilla_actividad,mapa_conceptos_codelist, nombre_actividad)
+                                  configuracion_plantilla_actividad, mapa_conceptos_codelist, nombre_actividad)
             actividad.generar_consultas()
             actividad.ejecutar()
 
@@ -67,7 +70,7 @@ if __name__ == "__main__":
                         id_concept_scheme = informacion['concept_scheme']['id']
                         version_concept_scheme = informacion['concept_scheme']['version']
                         nombre_concept_scheme_str = id_concept_scheme.replace('CS_', '')[
-                                                       0].upper() + id_concept_scheme.replace('CS_', '')[1:].lower()
+                                                        0].upper() + id_concept_scheme.replace('CS_', '')[1:].lower()
                         nombre_concept_scheme = {'es': nombre_concept_scheme_str}
 
                         concepto = informacion['concept_scheme']['concepto']
@@ -95,7 +98,8 @@ if __name__ == "__main__":
                     # codelist_medidas.init_codes()
                     for consulta in actividad.consultas.values():
                         for medida in consulta.medidas:
-                            id_medida = mapa_indicadores[mapa_indicadores['SOURCE'] == medida['des']]['TARGET'].values[0]
+                            id_medida = mapa_indicadores[mapa_indicadores['SOURCE'] == medida['des']]['TARGET'].values[
+                                0]
                             if id_medida not in codelist_medidas.codes['id']:
                                 codelist_medidas.add_code(id_medida, None, medida['des'], None)
                         # codelist_medidas.put()
@@ -103,7 +107,9 @@ if __name__ == "__main__":
                 controller.codelists.put_all_codelists()
                 controller.concept_schemes.put_all_data()
                 controller.codelists.put_all_data()
-                ## DSD CREACION
+                controller.concept_schemes.translate_all_concept_schemes()
+                controller.codelists.translate_all_codelists()
+                # ## DSD CREACION
                 id_dsd = 'DSD_' + nombre_actividad
                 agencia_dsd = 'ESC01'
                 version_dsd = '1.0'
@@ -172,7 +178,7 @@ if __name__ == "__main__":
                             consulta.datos.datos_por_observacion_extension_disjuntos)
 
                     id_df = f'DF_{nombre_actividad}_{consulta.id_consulta}'
-                    nombre_df = {'es': consulta.metadatos['title']+': '+consulta.metadatos['subtitle']}
+                    nombre_df = {'es': consulta.metadatos['title'] + ': ' + consulta.metadatos['subtitle']}
 
                     variables_df = ['ID_' + variable if variable != 'OBS_VALUE' else variable for variable in mapa] + [
                         'ID_OBS_STATUS']
@@ -185,4 +191,3 @@ if __name__ == "__main__":
                         print('está publicado')
 
         controller.logout()
-
