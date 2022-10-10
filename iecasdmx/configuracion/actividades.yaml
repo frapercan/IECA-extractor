@@ -250,6 +250,8 @@ INDICADORES:
     MULTIDOMAIN_STAT_INDIC
   subcategoria:
     Indicadores
+  informe_metadatos:
+    REPORT_ODS_IDA
 
 EOH:
   consultas:
@@ -275,6 +277,8 @@ CAMPINGS:
     TOURISM
   subcategoria:
     Encuesta de Ocupación en Campings
+  informe_metadatos:
+    REPORT_EOC
 TURISMO_RURAL:
   consultas:
     - 67785
@@ -287,7 +291,8 @@ TURISMO_RURAL:
     TOURISM
   subcategoria:
     Encuesta de ocupación de alojamientos de turismo rural
-  alta: True
+  informe_metadatos:
+    REPORT_EOATR
 APARTAMENTOS_TURISTICOS:
   consultas:
     - 67910
@@ -300,7 +305,8 @@ APARTAMENTOS_TURISTICOS:
     TOURISM
   subcategoria:
     Encuesta de ocupación en apartamentos turísticos
-  alta: True
+  informe_metadatos:
+    REPORT_EOAT
 
 ECTA:
   consultas:
@@ -318,7 +324,8 @@ ECTA:
   subcategoria:
     Encuesta de Coyuntura Turística
   informe_metadatos:
-    nombre_del_json_del_reporte_cuando_se_exporta
+    REPORT_ECTA
+
 
 EEE:
   consultas:
@@ -327,8 +334,8 @@ EEE:
     SECTORAL_STAT
   subcategoria:
     Estadística Estructural de Empresas
-  alta: True
-
+  informe_metadatos:
+    REPORT_EEE
 EPA:
   consultas:
     - 11883?D_TEMPORAL_0=2014,2033,2052,2071,2090,2109,2128,2147,2166,2185,2204,2239,55498,55517,55536,180156,180175&posord=f[D_TEMPORAL_0],f[D_SEXO_0],f[D_EDAD_0],c[D_EPA_RELACTIVIDAD_0],c[Measures],p[D_EPA_NIVEL_0],p[D_TERRITORIO_0]
