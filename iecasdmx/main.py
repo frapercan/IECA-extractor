@@ -105,10 +105,12 @@ if __name__ == "__main__":
                             if id_medida not in codelist_medidas.codes['id']:
                                 codelist_medidas.add_code(id_medida, None, medida['des'], None)
                         # codelist_medidas.put()
+                        
                 controller.concept_schemes.put_all_concept_schemes()
                 controller.codelists.put_all_codelists()
                 controller.concept_schemes.put_all_data()
                 controller.codelists.put_all_data()
+                
                 # ## DSD CREACION
                 id_dsd = 'DSD_' + nombre_actividad
                 agencia_dsd = 'ESC01'
@@ -185,7 +187,7 @@ if __name__ == "__main__":
                     variables_df = ['ID_' + variable if variable != 'OBS_VALUE' else variable for variable in mapa]
                     if 'ID_OBS_STATUS' not in variables_df:
                         variables_df += ['ID_OBS_STATUS']
-
+                        
                     controller.dataflows.put(id_df, agencia, '1.0', nombre_df, None, variables_df, id_cubo, dsd,
                                              category_scheme, nombre_actividad)
                     controller.dataflows.data = controller.dataflows.get(False)
