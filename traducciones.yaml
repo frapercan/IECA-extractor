@@ -11079,8 +11079,12 @@ II. Tumores:
   \ trastornos que afectan al mecanismo de la inmunidad"
 : en: III. Diseases of the blood and haematopoietic organs and certain disorders affecting
     the mechanism of immunity
+'IPC: Indice general y grupos ECOICOP. Base 2016':
+  en: 'CPI: General index and ECOICOP groups. Base 2016'
 'IPC: Indice general y grupos ECOICOP. Base 2016: ':
   en: 'CPI: General index and ECOICOP groups. Base 2016:'
+"IPC: \xCDndices de grupos especiales. Base 2016":
+  en: 'CPI: Special group indices. Base 2016'
 "IPC: \xCDndices de grupos especiales. Base 2016: ":
   en: 'CPI: Special group indices. Base 2016:'
 "IV. Enfermedades endocrinas, nutricionales y metab\xF3licas":

@@ -182,7 +182,9 @@ if __name__ == "__main__":
                             consulta.datos.datos_por_observacion_extension_disjuntos)
 
                     id_df = f'DF_{nombre_actividad}_{consulta.id_consulta}'
-                    nombre_df = {'es': consulta.metadatos['title'] + ': ' + consulta.metadatos['subtitle']}
+                    nombre_df = {'es': consulta.metadatos['title']}
+                    if consulta.metadatos['subtitle']:
+                        nombre_df += ': ' + consulta.metadatos['subtitle']
 
                     variables_df = ['ID_' + variable if variable != 'OBS_VALUE' else variable for variable in mapa]
                     if 'ID_OBS_STATUS' not in variables_df:
@@ -195,5 +197,15 @@ if __name__ == "__main__":
                         controller.dataflows.data[agencia][id_df]['1.0'].publish()
                     except:
                         print('está publicado')
+
+                id_mdf = f'MDF_{nombre_actividad}'
+                controller.metadataflows.put(agencia,id_mdf,'1.0',nombre_df,None)
+                for consulta in actividad.consultas.values():
+                    id_mds = f'MDF_{nombre_actividad}_{consulta.id_consulta}'
+                    nombre_mds = {'es': consulta.metadatos['title']}
+                    if consulta.metadatos['subtitle']:
+                        nombre_mds += ': ' + consulta.metadatos['subtitle']
+                    categoria = category_scheme.get_category_hierarchy(actividad.actividad)
+                    controller.metadatasets.put(agencia,id_mds,nombre_mds,id_mdf,'1.0','IECA_CAT_EN_ES',categoria,'1.0')
 
         controller.logout()

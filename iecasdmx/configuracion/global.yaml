@@ -43,7 +43,10 @@ dimension_temporal:
   - TEMPORAL
   - FREQ
 
-
+msd:
+  id: 'MSD_IECA'
+  agency: ESC01
+  version: '1.0'
 
 
 propiedades_jerarquias:
