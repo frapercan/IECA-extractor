@@ -105,12 +105,12 @@ if __name__ == "__main__":
                             if id_medida not in codelist_medidas.codes['id']:
                                 codelist_medidas.add_code(id_medida, None, medida['des'], None)
                         # codelist_medidas.put()
-                        
+
                 controller.concept_schemes.put_all_concept_schemes()
                 controller.codelists.put_all_codelists()
                 controller.concept_schemes.put_all_data()
                 controller.codelists.put_all_data()
-                
+
                 # ## DSD CREACION
                 id_dsd = 'DSD_' + nombre_actividad
                 agencia_dsd = 'ESC01'
@@ -171,7 +171,8 @@ if __name__ == "__main__":
                     mapa = copy.deepcopy(actividad.configuracion['variables'])
                     mapa = ['TIME_PERIOD' if variable == 'TEMPORAL' else variable for variable in mapa]
 
-                    mapping_id = controller.mappings.put(variables, id_cubo, nombre_actividad + '_' + consulta.id_consulta)
+                    mapping_id = controller.mappings.put(variables, id_cubo,
+                                                         nombre_actividad + '_' + consulta.id_consulta)
 
                     try:
                         mapping = controller.mappings.data[id_cubo].load_cube(
@@ -189,7 +190,7 @@ if __name__ == "__main__":
                     variables_df = ['ID_' + variable if variable != 'OBS_VALUE' else variable for variable in mapa]
                     if 'ID_OBS_STATUS' not in variables_df:
                         variables_df += ['ID_OBS_STATUS']
-                        
+
                     controller.dataflows.put(id_df, agencia, '1.0', nombre_df, None, variables_df, id_cubo, dsd,
                                              category_scheme, nombre_actividad)
                     controller.dataflows.data = controller.dataflows.get(False)
@@ -198,14 +199,16 @@ if __name__ == "__main__":
                     except:
                         print('está publicado')
 
-                id_mdf = f'MDF_{nombre_actividad}'
-                controller.metadataflows.put(agencia,id_mdf,'1.0',nombre_df,None)
                 for consulta in actividad.consultas.values():
+                    id_mdf = f'MDF_{nombre_actividad}_{consulta.id_consulta}'
+                    controller.metadataflows.put(agencia, id_mdf, '1.0', nombre_df, None)
+
                     id_mds = f'MDF_{nombre_actividad}_{consulta.id_consulta}'
                     nombre_mds = {'es': consulta.metadatos['title']}
                     if consulta.metadatos['subtitle']:
                         nombre_mds += ': ' + consulta.metadatos['subtitle']
                     categoria = category_scheme.get_category_hierarchy(actividad.actividad)
-                    controller.metadatasets.put(agencia,id_mds,nombre_mds,id_mdf,'1.0','IECA_CAT_EN_ES',categoria,'1.0')
+                    controller.metadatasets.put(agencia, id_mds, nombre_mds, id_mdf, '1.0', 'IECA_CAT_EN_ES', categoria,
+                                                '1.0')
 
         controller.logout()
