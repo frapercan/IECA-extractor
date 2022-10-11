@@ -210,5 +210,8 @@ if __name__ == "__main__":
                     categoria = category_scheme.get_category_hierarchy(actividad.actividad)
                     controller.metadatasets.put(agencia, id_mds, nombre_mds, id_mdf, '1.0', 'IECA_CAT_EN_ES', categoria,
                                                 '1.0')
-
+                    controller.metadatasets.data[id_mds].put(os.path.join(configuracion_global['directorio_reportes_metadatos'],
+                             actividad.configuracion_actividad['informe_metadatos'] + '.json'))
+                    controller.metadatasets.data[id_mds].init_data()
+                    controller.metadatasets.data[id_mds].publish_all()
         controller.logout()
