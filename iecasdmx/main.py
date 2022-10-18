@@ -1,11 +1,8 @@
 import copy
 import os
-import sys
-import time
 
 import pandas as pd
 import yaml
-from mdmpyclient.codelist.codelist import Codelist
 
 from iecasdmx.ieca.actividad import Actividad
 from mdmpyclient.mdm import MDM
@@ -185,7 +182,7 @@ if __name__ == "__main__":
                     id_df = f'DF_{nombre_actividad}_{consulta.id_consulta}'
                     nombre_df = {'es': consulta.metadatos['title']}
                     if consulta.metadatos['subtitle']:
-                        nombre_df += ': ' + consulta.metadatos['subtitle']
+                        nombre_df = {'es': consulta.metadatos['title']+': ' + consulta.metadatos['subtitle']}
 
                     variables_df = ['ID_' + variable if variable != 'OBS_VALUE' else variable for variable in mapa]
                     if 'ID_OBS_STATUS' not in variables_df:
@@ -206,7 +203,7 @@ if __name__ == "__main__":
                     id_mds = f'MDF_{nombre_actividad}_{consulta.id_consulta}'
                     nombre_mds = {'es': consulta.metadatos['title']}
                     if consulta.metadatos['subtitle']:
-                        nombre_mds += ': ' + consulta.metadatos['subtitle']
+                        nombre_mds = {'es': consulta.metadatos['title'] + ': ' + consulta.metadatos['subtitle']}
                     categoria = category_scheme.get_category_hierarchy(actividad.actividad)
                     controller.metadatasets.put(agencia, id_mds, nombre_mds, id_mdf, '1.0', 'IECA_CAT_EN_ES', categoria,
                                                 '1.0')
