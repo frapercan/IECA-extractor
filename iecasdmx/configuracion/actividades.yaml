@@ -7,6 +7,9 @@ IPC:
     ECO_ACCOUNTS
   subcategoria:
     Indice de Precio al Consumo
+  informe_metadatos:
+    REPORT_IPC
+
 
 DSN:
   consultas:
@@ -21,6 +24,8 @@ DSN:
   categoria: POP_MIGRATION
   subcategoria:
     Divorcios,Separaciones y nulidades
+  informe_metadatos:
+    REPORT_DSN
 
 PADRON:
   consultas:
@@ -75,6 +80,8 @@ PADRON:
     generar_fichero_configuracion_actividad: True
     extender_con_disjuntos: True
     agrupar_consultas_SDMX: True
+  informe_metadatos:
+    REPORT_PADRON
 
 MNP:
   consultas:
@@ -112,6 +119,8 @@ MNP:
     generar_fichero_configuracion_actividad: True
     extender_con_disjuntos: True
     agrupar_consultas_SDMX: True
+  informe_metadatos:
+    REPORT_MNP
 
 DIRECTORIO:
   consultas:
@@ -149,6 +158,8 @@ DIRECTORIO:
     generar_fichero_configuracion_actividad: True
     extender_con_disjuntos: True
     agrupar_consultas_SDMX: True
+  informe_metadatos:
+    REPORT_DIRECTORIO
 
 SOCMER:
   consultas:
@@ -177,6 +188,8 @@ SOCMER:
     generar_fichero_configuracion_actividad: True
     extender_con_disjuntos: True
     agrupar_consultas_SDMX: True
+  informe_metadatos:
+    REPORT_SOCMER
 
 CONTPROV:
   consultas:
@@ -185,6 +198,8 @@ CONTPROV:
     ECO_ACCOUNTS
   subcategoria:
     Sociedades Mercantiles de Andalucía
+  informe_metadatos:
+    REPORT_CONTPROV
 
 PENSIONES:
   consultas:
@@ -196,6 +211,9 @@ PENSIONES:
     SOCIAL_PROTECT
   subcategoria:
     Pensiones contributivas de la Seguridad Social de los residentes en Andalucía
+  informe_metadatos:
+    REPORT_PENSIONES
+
 DEFCAU:
   consultas:
     - 65723
@@ -214,6 +232,8 @@ DEFCAU:
     HEALTH
   subcategoria:
     Defunciones por causas de Andalucía
+  informe_metadatos:
+    REPORT_DEFCAU
 
 CRA:
   consultas:
@@ -228,6 +248,8 @@ CRA:
     LABOUR
   subcategoria:
     Contabilidad Regional Anual de Andalucía
+  informe_metadatos:
+    REPORT_CRA
 EPD:
   consultas:
     - 66383
@@ -242,6 +264,8 @@ EPD:
     LABOUR
   subcategoria:
     Empleo de las personas con discapacidad
+  informe_metadatos:
+    REPORT_EPD
 
 INDICADORES:
   consultas:
@@ -251,7 +275,7 @@ INDICADORES:
   subcategoria:
     Indicadores
   informe_metadatos:
-    REPORT_ODS_IDA
+    REPORT_INDICADORES
 
 EOH:
   consultas:
@@ -264,6 +288,8 @@ EOH:
     TOURISM
   subcategoria:
     Encuesta de Ocupación Hotelera
+  informe_metadatos:
+    REPORT_EOH
 
 CAMPINGS:
   consultas:
