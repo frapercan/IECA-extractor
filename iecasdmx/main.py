@@ -6,7 +6,11 @@ import yaml
 
 from iecasdmx.ieca.actividad import Actividad
 from mdmpyclient.mdm import MDM
+from mdmpyclient.ckan.organizations import Organizations
+from mdmpyclient.ckan.resource import Resource
+from mdmpyclient.ckan.dataset import Datasets
 import deepl
+from ckanapi import RemoteCKAN
 
 import logging
 
@@ -33,6 +37,11 @@ if __name__ == "__main__":
         traductor = deepl.Translator('92766a66-fa2a-b1c6-d7dd-ec0750322229:fx')
 
         agencia = configuracion_global['nodeId']
+
+        ckan = RemoteCKAN(configuracion_global['url_ckan'], configuracion_global['api_ckan'])
+        datasets = Datasets(ckan)
+        orgs = Organizations(ckan)
+        resources = Resource(ckan)
 
         if configuracion_global['volcado_mdm']:
             controller = MDM(configuracion_global, traductor, True)
@@ -182,7 +191,7 @@ if __name__ == "__main__":
                     id_df = f'DF_{nombre_actividad}_{consulta.id_consulta}'
                     nombre_df = {'es': consulta.metadatos['title']}
                     if consulta.metadatos['subtitle']:
-                        nombre_df = {'es': consulta.metadatos['title']+': ' + consulta.metadatos['subtitle']}
+                        nombre_df = {'es': consulta.metadatos['title'] + ': ' + consulta.metadatos['subtitle']}
 
                     variables_df = ['ID_' + variable if variable != 'OBS_VALUE' else variable for variable in mapa]
                     if 'ID_OBS_STATUS' not in variables_df:
@@ -196,19 +205,27 @@ if __name__ == "__main__":
                     except:
                         print('está publicado')
 
-                for consulta in actividad.consultas.values():
-                    id_mdf = f'MDF_{nombre_actividad}_{consulta.id_consulta}'
-                    controller.metadataflows.put(agencia, id_mdf, '1.0', nombre_df, None)
+                    datasets.create(controller.dataflows.data[agencia][id_df]['1.0'].code.lower(),
+                                    controller.dataflows.data[agencia][id_df]['1.0'].names['es'],
+                                    orgs.orgs[nombre_actividad.lower()])
+                    resources.create(consulta.datos.datos_por_observacion_extension_disjuntos,
+                                     controller.dataflows.data[agencia][id_df]['1.0'].code, 'csv',
+                                     controller.dataflows.data[agencia][id_df]['1.0'].code.lower())
 
-                    id_mds = f'MDF_{nombre_actividad}_{consulta.id_consulta}'
-                    nombre_mds = {'es': consulta.metadatos['title']}
-                    if consulta.metadatos['subtitle']:
-                        nombre_mds = {'es': consulta.metadatos['title'] + ': ' + consulta.metadatos['subtitle']}
-                    categoria = category_scheme.get_category_hierarchy(actividad.actividad)
-                    controller.metadatasets.put(agencia, id_mds, nombre_mds, id_mdf, '1.0', 'IECA_CAT_EN_ES', categoria,
-                                                '1.0')
-                    controller.metadatasets.data[id_mds].put(os.path.join(configuracion_global['directorio_reportes_metadatos'],
-                             actividad.configuracion_actividad['informe_metadatos'] + '.json'))
-                    controller.metadatasets.data[id_mds].init_data()
-                    controller.metadatasets.data[id_mds].publish_all()
+                # for consulta in actividad.consultas.values():
+                #     id_mdf = f'MDF_{nombre_actividad}_{consulta.id_consulta}'
+                #     controller.metadataflows.put(agencia, id_mdf, '1.0', nombre_df, None)
+                #
+                #     id_mds = f'MDF_{nombre_actividad}_{consulta.id_consulta}'
+                #     nombre_mds = {'es': consulta.metadatos['title']}
+                #     if consulta.metadatos['subtitle']:
+                #         nombre_mds = {'es': consulta.metadatos['title'] + ': ' + consulta.metadatos['subtitle']}
+                #     categoria = category_scheme.get_category_hierarchy(actividad.actividad)
+                #     controller.metadatasets.put(agencia, id_mds, nombre_mds, id_mdf, '1.0', 'IECA_CAT_EN_ES', categoria,
+                #                                 '1.0')
+                #     controller.metadatasets.data[id_mds].put(
+                #         os.path.join(configuracion_global['directorio_reportes_metadatos'],
+                #                      actividad.configuracion_actividad['informe_metadatos'] + '.json'))
+                #     controller.metadatasets.data[id_mds].init_data()
+                #     controller.metadatasets.data[id_mds].publish_all()
         controller.logout()
