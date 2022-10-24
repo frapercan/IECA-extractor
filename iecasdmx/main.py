@@ -1,14 +1,13 @@
 import copy
 import os
+import time
 
 import pandas as pd
 import yaml
 
 from iecasdmx.ieca.actividad import Actividad
 from mdmpyclient.mdm import MDM
-from mdmpyclient.ckan.organizations import Organizations
-from mdmpyclient.ckan.resource import Resource
-from mdmpyclient.ckan.dataset import Datasets
+from mdmpyclient.ckan.ckan import Ckan
 import deepl
 from ckanapi import RemoteCKAN
 
@@ -38,13 +37,9 @@ if __name__ == "__main__":
 
         agencia = configuracion_global['nodeId']
 
-
-        ckan = RemoteCKAN(configuracion_global['url_ckan'], configuracion_global['api_ckan'])
-        datasets = Datasets(ckan)
-        orgs = Organizations(ckan)
-        resources = Resource(ckan)
+        ckan = Ckan(configuracion_global)
         if configuracion_global['reset_ckan']:
-            datasets.remove_all_datasets()
+            ckan.datasets.remove_all_datasets()
 
         if configuracion_global['volcado_mdm']:
             controller = MDM(configuracion_global, traductor, True)
@@ -208,14 +203,6 @@ if __name__ == "__main__":
                     except:
                         print('está publicado')
 
-                    datasets.create(controller.dataflows.data[agencia][id_df]['1.0'].code.lower(),
-                                    controller.dataflows.data[agencia][id_df]['1.0'].names['es'],
-                                    orgs.orgs[nombre_actividad.lower()])
-                    resources.create(consulta.datos.datos_por_observacion_extension_disjuntos,
-                                     controller.dataflows.data[agencia][id_df]['1.0'].code, 'csv',
-                                     controller.dataflows.data[agencia][id_df]['1.0'].code.lower())
-
-                for consulta in actividad.consultas.values():
                     id_mdf = f'MDF_{nombre_actividad}_{consulta.id_consulta}'
                     controller.metadataflows.put(agencia, id_mdf, '1.0', nombre_df, None)
 
@@ -231,9 +218,15 @@ if __name__ == "__main__":
                                      actividad.configuracion_actividad['informe_metadatos'] + '.json'))
                     controller.metadatasets.data[id_mds].init_data()
                     controller.metadatasets.data[id_mds].publish_all()
-
                     controller.metadatasets.data[id_mds].download_all_reports()
-                    id_dataset = f'DF_{nombre_actividad}_{consulta.id_consulta}'
-                    controller.metadatasets.data[id_mds].reports.apply(
-                        lambda x: resources.create_from_file(f'{configuracion_global["directorio_metadatos_html"]}/{x.code}.html', x.code, 'html', id_dataset.lower()), axis=1)
+                    if configuracion_global['volcado_ckan']:
+                        id_dataset = f'DF_{nombre_actividad}_{consulta.id_consulta}'
+                        name_dataset = controller.dataflows.data[agencia][id_df]['1.0'].names['es']
+                        ckan.datasets.create(id_dataset.lower(), name_dataset, ckan.orgs.orgs[nombre_actividad.lower()])
+                        ckan.resources.create(consulta.datos.datos_por_observacion_extension_disjuntos,
+                                              id_dataset, 'csv', id_dataset.lower())
+                        controller.metadatasets.data[id_mds].reports.apply(
+                            lambda x: ckan.resources.create_from_file(
+                                f'{configuracion_global["directorio_metadatos_html"]}/{x.code}.html', x.code, 'html',
+                                id_dataset.lower()), axis=1)
         controller.logout()
