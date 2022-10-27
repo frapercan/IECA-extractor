@@ -36,8 +36,8 @@ if __name__ == "__main__":
         traductor = deepl.Translator('92766a66-fa2a-b1c6-d7dd-ec0750322229:fx')
 
         agencia = configuracion_global['nodeId']
-
-        ckan = Ckan(configuracion_global)
+        if configuracion_global['volcado_ckan']:
+            ckan = Ckan(configuracion_global)
         if configuracion_global['reset_ckan']:
             ckan.datasets.remove_all_datasets()
 
@@ -218,7 +218,7 @@ if __name__ == "__main__":
                                      actividad.configuracion_actividad['informe_metadatos'] + '.json'))
                     controller.metadatasets.data[id_mds].init_data()
                     controller.metadatasets.data[id_mds].publish_all()
-                    controller.metadatasets.data[id_mds].download_all_reports()
+                    #controller.metadatasets.data[id_mds].download_all_reports()
                     if configuracion_global['volcado_ckan']:
                         id_dataset = f'DF_{nombre_actividad}_{consulta.id_consulta}'
                         name_dataset = controller.dataflows.data[agencia][id_df]['1.0'].names['es']
