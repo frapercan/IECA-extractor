@@ -386,6 +386,8 @@ EPA:
     LABOUR
   subcategoria:
     Encuestas de Población Activa
+  informe_metadatos:
+    REPORT_EPA
 
 AUTONOMOS:
   consultas:
@@ -404,6 +406,8 @@ AUTONOMOS:
     LABOUR
   subcategoria:
     Autónomos en Andalucía
+  informe_metadatos:
+    REPORT_AA
 
 SALARIOS:
   consultas:
@@ -420,6 +424,8 @@ SALARIOS:
     LABOUR
   subcategoria:
     Salarios en Andalucía
+  informe_metadatos:
+    REPORT_SA
 
 MCVL:
   consultas:
@@ -437,6 +443,8 @@ MCVL:
     LABOUR
   subcategoria:
     Muestra Continua de Vidas Laborales
+  informe_metadatos:
+    REPORT_MCVL
 
 EMPRESASIMD:
   consultas:
@@ -453,6 +461,8 @@ EMPRESASIMD:
     BUSINESS_STAT
   subcategoria:
     Estadística sobre actividades de I+D. Resultados de Andalucía
+  informe_metadatos:
+    REPORT_AID
 
 USO_TIC:
   consultas:
@@ -474,3 +484,5 @@ USO_TIC:
     BUSINESS_STAT
   subcategoria:
     Encuesta sobre el uso de TIC y comercio electrónico en las empresas
+  informe_metadatos:
+    REPORT_ETCE
